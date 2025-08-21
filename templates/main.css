@@ -1,4 +1,4 @@
-/*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
+/* normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 html {
     line-height: 1.15;
     -ms-text-size-adjust: 100%;
@@ -6,7 +6,6 @@ html {
 }
 
 body {
-    background-color: #254222;
     margin: 0;
 }
 
@@ -3834,13 +3833,19 @@ body.navIsOpen .siteHeader__navToggleIcon>span:last-child {
 }
 
 .pkp_structure_footer_wrapper {
-    background: #ece2b1
+    width: 100%;
+    background: #254222;
+    color: #ece2b1;
+    width: 100%;
+    height: auto
 }
 
 .pkp_structure_footer {
-    display: grid;
-    justify-items: center;
-    text-align: center
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .pkp_footer_content {
@@ -3849,7 +3854,17 @@ body.navIsOpen .siteHeader__navToggleIcon>span:last-child {
 }
 
 .pkp_brand_footer {
-    padding: 2.143rem
+    display: grid;
+    align-items: center;
+}
+
+.pkp_footer_content p{
+    transition: all 0.4s;
+
+}
+
+.pkp_footer_content p:hover {
+    transform: translateY(-5px);
 }
 
 .pkp_brand_footer:before,.pkp_brand_footer:after {
@@ -3865,6 +3880,31 @@ body.navIsOpen .siteHeader__navToggleIcon>span:last-child {
     float: right;
     display: block;
     max-width: 150px
+}
+
+.pkp_footer_links{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.links_icon {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+}
+
+.links_icon a{
+    font-size: 1.5em;
+    color: white;
+    transition: all 0.5s;
+}
+
+.links_icon a:hover{
+    color: #7fd32c;
+    transform: scale(1.1);
 }
 
 body[dir="rtl"] {
@@ -4028,7 +4068,9 @@ body[dir="rtl"] .obj_issue_toc .galleys_links li {
     transition: all 0.1s linear;
 }
 
-
+.has_sidebar {
+    top: 30px;
+}
 
 .custom-header {
     position: fixed;
@@ -4037,20 +4079,20 @@ body[dir="rtl"] .obj_issue_toc .galleys_links li {
     background: linear-gradient(90deg, #254222 60%, #99cc66 100%);
     box-shadow: 0 2px 8px rgba(37,66,34,0.08);
     transition: box-shadow 0.3s, background 0.3s, height 0.3s;
-    height: 90px;
+    height: 120px;
     display: flex;
     align-items: center;
 }
 .custom-header.scrolled {
     background: linear-gradient(90deg, #254222 80%, #cae4c5 100%);
     box-shadow: 0 4px 16px rgba(37,66,34,0.18);
-    height: 70px;
+    height: 88px;
 }
 .custom-header-wrapper {
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center
 }
 .custom-header-logo {
     display: flex;
@@ -4058,24 +4100,23 @@ body[dir="rtl"] .obj_issue_toc .galleys_links li {
     height: 100%;
     background: #ece2b1;
     padding: 0 30px;
-    border-radius: 0 0 30px 0;
+    border-radius: 0 30px 0 30px;
 }
 .custom-header-logo .pkp_site_name .is_img img {
     max-height: 60px;
     min-width: 120px;
     border-radius: 10px;
-    padding: 4px 12px;
 }
 .custom-nav {
     display: flex;
     align-items: center;
-    margin-left: 40px;
+    gap: 10px;
     background: transparent;
 }
 .custom-nav-list {
     display: flex;
     align-items: center;
-    gap: 32px;
+    gap: 12px;
     margin: 0;
     padding: 0;
 }
