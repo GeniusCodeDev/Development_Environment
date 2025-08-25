@@ -99,59 +99,58 @@
               class="pkp_navigation_primary pkp_nav_list custom-nav-list"
             >
               <li>
-                <a href="https://revistas.usfx.bo/index.php/rae/issue/current"
-                  >Número Actual</a
-                >
-              </li>
-              <li>
-                <a href="https://revistas.usfx.bo/index.php/rae/issue/archive"
-                  >Archivos</a
-                >
-              </li>
-              <li>
-                <a href="https://revistas.usfx.bo/index.php/rae/noticias"
-                  >Convocatorias</a
-                >
-              </li>
-              <li>
-                <a href="https://revistas.usfx.bo/index.php/rae/about"
-                  >Acerca de la Revista</a
-                >
+                <a href="#">Revista</a>
                 <ul>
                   <li>
-                    <a href="https://revistas.usfx.bo/index.php/rae/srev"
-                      >Sobre la revista</a
-                    >
-                  </li>
-                  <li>
-                    <a href="https://revistas.usfx.bo/index.php/rae/pe"
-                      >Políticas editoriales</a
-                    >
-                  </li>
-                  <li>
-                    <a href="https://revistas.usfx.bo/index.php/rae/ped"
-                      >Proceso editorial</a
-                    >
-                  </li>
-                  <li>
-                    <a href="https://revistas.usfx.bo/index.php/rae/ne"
-                      >Normas éticas</a
-                    >
-                  </li>
-                  <li>
-                    <a href="https://revistas.usfx.bo/index.php/rae/eqe"
-                      >Equipo editorial</a
+                    <a
+                      href="https://revistas.usfx.bo/index.php/rae/issue/current"
+                      >Número Actual</a
                     >
                   </li>
                   <li>
                     <a
-                      href="https://revistas.usfx.bo/index.php/rae/about/submissions"
-                      >Envíos</a
+                      href="https://revistas.usfx.bo/index.php/rae/issue/archive"
+                      >Archivos</a
+                    >
+                  </li>
+                  <li>
+                    <a href="https://revistas.usfx.bo/index.php/rae/noticias"
+                      >Convocatorias</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">Información</a>
+                <ul>
+                  <li>
+                    <a href="https://revistas.usfx.bo/index.php/rae/srev"
+                      >Sobre la Revista</a
+                    >
+                  </li>
+                  <li>
+                    <a href="https://revistas.usfx.bo/index.php/rae/pe"
+                      >Politicas Editoriales</a
+                    >
+                  </li>
+                  <li>
+                    <a href="https://revistas.usfx.bo/index.php/rae/ped"
+                      >Proceso Editorial</a
+                    >
+                  </li>
+                  <li>
+                    <a href="https://revistas.usfx.bo/index.php/rae/ne"
+                      >Normas Eticas</a
+                    >
+                  </li>
+                  <li>
+                    <a href="https://revistas.usfx.bo/index.php/rae/eqe"
+                      >Equipo Editorial</a
                     >
                   </li>
                   <li>
                     <a href="https://revistas.usfx.bo/index.php/rae/dp"
-                      >Declaración de privacidad</a
+                      >privacidad</a
                     >
                   </li>
                   <li>
@@ -163,23 +162,32 @@
                 </ul>
               </li>
               <li>
-                <a href="https://revistas.usfx.bo/index.php/rae/ins"
-                  >Instrucciones</a
-                >
+                <a href="#">Autores</a>
                 <ul>
                   <li>
+                    <a href="https://revistas.usfx.bo/index.php/rae/ins"
+                      >Guia General</a
+                    >
+                  </li>
+                  <li>
                     <a href="https://revistas.usfx.bo/index.php/rae/iau"
-                      >Instrucciones para los autores</a
+                      >Instrucciones para Autores</a
                     >
                   </li>
                   <li>
                     <a href="https://revistas.usfx.bo/index.php/rae/irev"
-                      >Instrucciones para revisores</a
+                      >Instrucciones para Revisores</a
                     >
                   </li>
                   <li>
                     <a href="https://revistas.usfx.bo/index.php/rae/ppu"
-                      >Plantillas de publicaciones de la revista</a
+                      >Plantillas</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://revistas.usfx.bo/index.php/rae/about/submissions"
+                      >Envios</a
                     >
                   </li>
                 </ul>
@@ -207,6 +215,7 @@
               class="pkp_search pkp_search_desktop"
             >
               <span class="fa fa-search" aria-hidden="true"></span>Buscar
+              articulos
             </a>
           </div>
         </div>
@@ -652,6 +661,17 @@
 
       <div class="pkp_structure_footer_wrapper" role="contentinfo">
         <div class="pkp_structure_footer">
+          <div class="pkp_brand_footer" role="complementary">
+            <a
+              href="https://revistas.usfx.bo/index.php/rae/about/aboutThisPublishingSystem"
+            >
+              <img
+                class="img_logo_IASA"
+                alt="Más información acerca del sistema de publicación, de la plataforma y del flujo de trabajo de OJS/PKP."
+                src="./IMAGES/logo-IASA.png"
+              />
+            </a>
+          </div>
           <div class="pkp_footer_links">
             <h2>Síguenos</h2>
             <div class="links_icon">
@@ -739,6 +759,27 @@
         } else {
           header.classList.remove("scrolled");
         }
+      });
+
+      // Responsive nav toggle
+      document.addEventListener("DOMContentLoaded", function () {
+        const navToggle = document.querySelector(".pkp_site_nav_toggle");
+        const navMenu = document.querySelector(".custom-nav");
+        navToggle.addEventListener("click", function () {
+          const isOpen = navMenu.classList.toggle("custom-nav--open");
+          navToggle.setAttribute("aria-expanded", isOpen);
+        });
+        // Opcional: cerrar menú al hacer clic fuera
+        document.addEventListener("click", function (e) {
+          if (
+            !navMenu.contains(e.target) &&
+            !navToggle.contains(e.target) &&
+            navMenu.classList.contains("custom-nav--open")
+          ) {
+            navMenu.classList.remove("custom-nav--open");
+            navToggle.setAttribute("aria-expanded", "false");
+          }
+        });
       });
     </script>
   </body>
