@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>
-      Dinámica geomorfológica del río El Bañado - Revista Agro-Ecológica
+      Propagación de especies nativas para la restauración ecológica
     </title>
     <style>
       * {
@@ -15,118 +15,83 @@
       }
 
       body {
-        background-color: #f5f5f5;
+        background-color: #f8f9fa;
         color: #333;
         line-height: 1.6;
-        padding: 20px;
-      }
-
-      .container {
         max-width: 1000px;
         margin: 0 auto;
-        background-color: white;
-        padding: 30px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        border-radius: 5px;
+        padding: 20px;
       }
 
       header {
         text-align: center;
         margin-bottom: 30px;
-        border-bottom: 2px solid #2c7d32;
+        border-bottom: 2px solid #2e7d32;
         padding-bottom: 20px;
       }
 
       .journal-title {
-        font-size: 1.4em;
-        color: #2c7d32;
+        font-size: 18px;
+        font-weight: bold;
+        color: #2e7d32;
         margin-bottom: 5px;
       }
 
       .doi {
-        font-size: 0.9em;
+        font-size: 14px;
         color: #666;
-        margin-bottom: 20px;
+        margin-bottom: 15px;
       }
 
       h1 {
-        font-size: 1.8em;
-        color: #2c7d32;
+        font-size: 24px;
+        color: #2e7d32;
         margin: 20px 0;
         text-align: center;
       }
 
       h2 {
-        font-size: 1.5em;
-        color: #2c7d32;
+        font-size: 20px;
+        color: #2e7d32;
         margin: 25px 0 15px 0;
-        border-bottom: 1px solid #ddd;
         padding-bottom: 5px;
-      }
-
-      h3 {
-        font-size: 1.2em;
-        color: #444;
-        margin: 20px 0 10px 0;
+        border-bottom: 1px solid #ccc;
       }
 
       .authors {
-        margin: 20px 0;
-      }
-
-      .author {
-        margin-bottom: 5px;
-      }
-
-      .corresponding-author {
-        font-weight: bold;
-      }
-
-      .affiliation {
-        font-size: 0.9em;
-        color: #666;
-        margin-bottom: 5px;
-        font-style: italic;
-      }
-
-      .dates {
-        font-size: 0.9em;
-        color: #666;
         margin: 15px 0;
         text-align: center;
       }
 
+      .author-affiliation {
+        font-size: 14px;
+        color: #555;
+        margin-bottom: 5px;
+      }
+
+      .dates {
+        font-size: 14px;
+        text-align: center;
+        margin-bottom: 20px;
+        color: #666;
+      }
+
       .abstract,
       .keywords {
-        background-color: #f9f9f9;
-        padding: 15px;
-        border-left: 4px solid #2c7d32;
-        margin: 20px 0;
-      }
-
-      .abstract-title,
-      .keywords-title {
-        font-weight: bold;
-        margin-bottom: 10px;
-        color: #2c7d32;
-      }
-
-      .keywords-list {
-        list-style-type: none;
-      }
-
-      .keywords-list li {
-        display: inline-block;
         background-color: #e8f5e9;
-        padding: 5px 10px;
-        margin: 5px 5px 5px 0;
-        border-radius: 3px;
-        font-size: 0.9em;
+        padding: 15px;
+        border-radius: 5px;
+        margin-bottom: 20px;
       }
 
-      p {
-        margin-bottom: 15px;
-        text-align: justify;
+      .abstract h3,
+      .keywords h3 {
+        color: #2e7d32;
+        margin-bottom: 10px;
+      }
+
+      .content-section {
+        margin-bottom: 30px;
       }
 
       table {
@@ -139,16 +104,16 @@
       td {
         border: 1px solid #ddd;
         padding: 8px;
-        text-align: left;
+        text-align: center;
       }
 
       th {
-        background-color: #f2f2f2;
+        background-color: #e8f5e9;
       }
 
       .figure {
-        margin: 25px 0;
         text-align: center;
+        margin: 20px 0;
       }
 
       .figure img {
@@ -157,793 +122,1310 @@
         border: 1px solid #ddd;
       }
 
-      .figure-caption {
-        font-size: 0.9em;
-        color: #666;
-        margin-top: 8px;
+      .caption {
         font-style: italic;
+        margin-top: 10px;
+        font-size: 14px;
       }
 
       .references {
-        margin-top: 30px;
+        margin-top: 40px;
       }
 
-      .reference {
-        margin-bottom: 10px;
+      .references h2 {
+        margin-bottom: 20px;
+      }
+
+      .reference-item {
+        margin-bottom: 15px;
         padding-left: 20px;
         text-indent: -20px;
-        font-size: 0.9em;
-      }
-
-      .acknowledgements {
-        background-color: #f9f9f9;
-        padding: 15px;
-        margin: 20px 0;
-        border-left: 4px solid #2c7d32;
+        font-size: 14px;
       }
 
       footer {
         text-align: center;
-        margin-top: 30px;
+        margin-top: 40px;
         padding-top: 20px;
         border-top: 1px solid #ddd;
         color: #666;
-        font-size: 0.9em;
+        font-size: 14px;
+      }
+
+      .treatment-table {
+        width: 80%;
+        margin: 20px auto;
+      }
+
+      .treatment-table th {
+        background-color: #4caf50;
+        color: white;
+      }
+
+      .treatment-table tr:nth-child(even) {
+        background-color: #f2f2f2;
       }
 
       @media (max-width: 768px) {
-        .container {
+        body {
           padding: 15px;
         }
 
         h1 {
-          font-size: 1.5em;
+          font-size: 20px;
         }
 
         h2 {
-          font-size: 1.3em;
+          font-size: 18px;
+        }
+
+        table {
+          font-size: 14px;
+        }
+
+        .treatment-table {
+          width: 100%;
         }
       }
     </style>
   </head>
   <body>
-    <div class="container">
-      <header>
-        <div class="journal-title">
-          AGRO-ECOLÓGICA 4(1): 3-12, agosto 2025. ISSN 2313-2906
-        </div>
-        <div class="doi">
-          https://revistas.usfx.bo/index.php/rae/ DOI:10.56469/rae.v4i1.1791
-        </div>
-      </header>
+    <header>
+      <div class="journal-title">
+        AGRO-ECOLÓGICA 4(1): 13-22, agosto 2025. ISSN 2313-2906
+      </div>
+      <div class="doi">https://revistas.usfx.bo/index.php/rae/</div>
+      <div class="doi">DOI:10.56469/rae.v4i1.1580</div>
 
       <h1>
-        Dinámica geomorfológica del río El Bañado y su influencia en la
-        formación de la laguna San Juan de Candúa, Monteagudo (Chuquisaca,
-        Bolivia)
+        Propagación de especies nativas para la restauración ecológica en la
+        microcuenca Escaleras, Chuquisaca, Bolivia
       </h1>
       <h2>
-        Geomorphological dynamics of the El Bañado River and its influence on
-        the formation of the San Juan de Candúa lagoon, Monteagudo (Chuquisaca,
-        Bolivia)
+        Three and a Half Decades of Cover and Land Use Change in a Protected
+        Area in Southern Bolivia
       </h2>
 
       <div class="authors">
-        <div class="author corresponding-author">
-          Cespedes-Llave Ariel Angel¹*, Andrea Bolanos-Angulo² & Natalio
-          Roque-Marca³
+        <div class="author">Manuel H. Jiménez Huamán¹</div>
+        <div class="author">Jorge R. Alurralde Saavedra¹</div>
+        <div class="author">Josué Bejarano Chumacero¹</div>
+        <div class="author">Julio C. Ramírez Balcera¹</div>
+        <div class="author">Ceferino Peca Huallpa²</div>
+        <div class="author-affiliation">
+          *Autor de Correspondencia: jimenez.manuel@usfx.bo
         </div>
-        <div class="affiliation">
-          *Autor de Correspondencia: cespedes.ariel@usfx.bo
+        <div class="author-affiliation">
+          ¹ Instituto de Agroecología y Seguridad Alimentaria (IASA) de la
+          Facultad de Ciencias Agrarias – Universidad Mayor Real y Pontificia de
+          San Francisco Xavier de Chuquisaca.
         </div>
-        <div class="affiliation">
-          ¹ Instituto Experimental de Biología "Luis Adam Briançon", Facultad de
-          Ciencias de Bioquímica, Química Farmacéutica y Bioquímica, Universidad
-          San Francisco Xavier de Chuquisaca, Bolivia.
-        </div>
-        <div class="affiliation">² Sociedad de Ingenieros de Bolivia.</div>
-        <div class="affiliation">
-          ³ Asociación Boliviana para la Investigación y Conservación de
-          Ecosistemas Andino-Amazónicos (Conservación Amazónica - ACEAA):
-          Cobija, Pando, Bolivia.
+        <div class="author-affiliation">
+          ² Carrera de Ingeniería en Desarrollo Rural de la Facultad de Ciencias
+          Agrícolas y Pecuarias - Universidad Autónoma Tomas Frias.
         </div>
       </div>
 
       <div class="dates">
-        <p>Recibido: 28/05/2025 Aceptado para publicación: 22/06/2025</p>
+        Recibido: 08/12/2024 | Aceptado para publicación: 15/05/2025
       </div>
+    </header>
 
-      <div class="abstract">
-        <div class="abstract-title">Resumen</div>
-        <p>
-          El estudio analiza los cambios geomorfológicos del sistema fluvial del
-          río El Bañado y su relación con la formación y cambios de la laguna
-          San Juan de Candúa, ubicado en el municipio de Monteagudo (Bolivia:
-          Chuquisaca) durante los últimos 45 años. Para ello, se emplearon
-          imágenes satelitales de alta resolución (KH-9 HEXAGON, SPOT y Airbus),
-          cartas cartográficas 1:50 000 del Instituto Geográfico Militar y
-          mediciones batimétricas in situ del lago. El análisis multitemporal
-          revela que el río presentaba un curso sinuoso (1978), pero entre 1980
-          a 1987 comenzó un proceso de rectificación, probablemente debido a
-          procesos naturales como erosión y sedimentación, así como por
-          actividades antrópicas como la expansión urbana y obras viales. Estos
-          cambios geomorfológicos habrían favorecido la formación de la laguna
-          San Juan, visible desde 1991, producto de inundaciones recurrentes y
-          alteraciones del cauce fluvial. Desde el 2002, se observan
-          fluctuaciones significativas en el espejo de agua, alcanzando un
-          máximo de 8 000 m² (2002), asociado a lluvias intensas y eventos de
-          inundación, seguido de una disminución posiblemente vinculada a
-          sequías, colmatación y presión antrópica. Sin embargo, muestra signos
-          de eutrofización avanzada, similar a otras lagunas regionales
-          afectadas por las actividades antropogénicas y el cambio climático.
-          Estos resultados subrayan la importancia de monitorear la dinámica
-          fluvial y lacustre para una adecuada gestión de los recursos hídricos,
-          especialmente en contextos donde las actividades humanas interactúan
-          fuertemente con sistemas naturales.
-        </p>
-        <div class="keywords">
-          <div class="keywords-title">Palabras clave:</div>
-          <ul class="keywords-list">
-            <li>Dinámica morfológica fluvial</li>
-            <li>lago pequeño y palustre</li>
-          </ul>
-        </div>
-      </div>
+    <section class="abstract">
+      <h3>Resumen</h3>
+      <p>
+        El uso de especies nativas constituye una estrategia prometedora para
+        restauración de ecosistemas degradados. El objetivo del estudio fue,
+        evaluar el comportamiento de propagación en vivero de cinco especies
+        nativas utilizando plántulas provenientes de la regeneración natural en
+        la Microcuenca Escaleras, municipio de Villa Serrano, Departamento de
+        Chuquisaca. Los sitios y especies seleccionadas para recolección de
+        plántulas fueron: estadio sucesional I, _Baccharis dracunculifolia_
+        (t'ola); estadio sucesional II, _Baccharis latifolia_ (ch'illka);
+        estadio sucesional III, _Dodonaea viscosa_ (ch'akatea); estadio
+        sucesional IV, Podocarpus parlatorei (pino de monte) y estadio
+        sucesional V, _Cedrela lilloi_ (cedro). El diseño experimental utilizado
+        fue bloques al azar (D.B.A), con cuatro repeticiones (bloques) y cinco
+        tratamientos (especies). Las variables evaluadas fueron: porcentaje de
+        prendimiento, altura de la plántula, número de hojas, diámetro de tallo
+        y volumen radicular. _Baccharis latifolia_ (ch'illka), obtuvo el 100% de
+        prendimiento, seguido de _Dodonaea viscosa_ (ch'akatea) y _Cedrela
+        lilloi_ (cedro) 96%, luego _Baccharis dracunculifolia_ (t'ola) con 95% y
+        _Podocarpus parlatorei_ (pino de monte) 90%. Así mismo, _Baccharis
+        latifolia_ (ch'illka) obtuvo la mejor respuesta en altura de planta (17
+        cm), diámetro de tallo (3 mm) y volumen de raíz (0.69 cm³), seguido por
+        _Baccharis dracunculifolia_ (t'ola). En el desarrollo de las plántulas
+        en vivero se identificaron tres grupos, el primero compuesto por
+        _Baccharis latifolia_ (ch'illka) y _Baccharis dracunculifolia_ (t'ola)
+        con crecimiento acelerado; el segundo _Dodonaea viscosa_ (ch'akatea) y
+        el tercero formado por _Cedrela lilloi_ (cedro) y _Podocarpus
+        parlatorei_ (pino de monte) con crecimiento lento, propios de estadios
+        sucesionales tardíos. Los resultados de este estudio sugieren que el
+        método de propagación mediante rescate de plántulas de regeneración
+        natural es viable y eficiente especialmente en términos de tiempo.
+      </p>
+    </section>
 
-      <div class="abstract">
-        <div class="abstract-title">Abstract</div>
-        <p>
-          The study analyzes the geomorphological changes in the fluvial system
-          of the El Bañado River system and its relations with the formation and
-          transformation of the San Juan de Candúa lagoon, located in the
-          municipality of Monteagudo (Chuquisaca, Bolivia), over the past 45
-          years. High-resolution satellite images (KH-9 HEXAGON, SPOT, and
-          Airbus), was used. And, 1:50 000 scale topographic map and in situ
-          bathymetric measurement of the lagoon were used for this purpose. The
-          multitemporal analysis reveals that the river followed a sinuous
-          course in 1978, but between 1980 and 1987 it began a straighten,
-          likely due to natural processes such as erosion and sedimentation, as
-          well as anthropogenic activities including expansion and road
-          construction. These geomorphological changes likely influenced the
-          formation of San Juan lake, first visible in 1991, as a result of
-          recurrent flooding and alterations to the river channel. Since 2002,
-          significant fluctuations in the water surface area have been observed,
-          peaking of 8,000 m² in 2020, likely associated with heavy rainfall and
-          flood events, followed by a decline in subsequent years, possibly due
-          to droughts, sedimentation, or human pressure. However, the lagoon
-          currently shows signs of advanced eutrophication, similar to other
-          regional lagoons affected by anthropogenic activities and climate
-          change. These findings highlight the importance of monitoring fluvial
-          and lacustrine dynamics for the effective management of water
-          resources, particularly in contexts where human activities strongly
-          interact with natural systems.
-        </p>
+    <section class="keywords">
+      <h3>Palabras clave:</h3>
+      <p>
+        Estadio sucesional, germinación, plántulas, regeneración natural y suelo
+        degradado.
+      </p>
+    </section>
 
-        <div class="keywords">
-          <div class="keywords-title">Keywords:</div>
-          <ul class="keywords-list">
-            <li>Fluvial morphological dynamics</li>
-            <li>marsh system and small-lake</li>
-          </ul>
-        </div>
-      </div>
+    <section class="abstract">
+      <h3>Abstract</h3>
+      <p>
+        The use of native species constitutes a promising strategy for the
+        restoration of degraded ecosystems. The objective of the study was to
+        evaluate the propagation behavior in a nursery of five native species
+        using seedlings from natural regeneration in the Escaleras Microbasin,
+        Villa Serrano municipality, Chuquisaca Department. The sites and species
+        selected for seedling collection were: successional stage I, _Baccharis
+        dracunculifolia_ (t'ola); successional stage II, _Baccharis latifolia_
+        (ch'illka); successional stage III, _Dodonaea viscosa_ (ch'akatea);
+        successional stage IV, _Podocarpus parlatorei_ (mountain pine); and
+        successional stage V, _Cedrela lilloi_ (cedar). The experimental design
+        was randomized blocks (RBD), with four replications (blocks) and five
+        treatments (species). The variables evaluated were: percentage of
+        engraftment, seedling height, number of leaves, stem diameter and root
+        volume. _Baccharis latifolia_ (ch'illka) obtained 100% take root,
+        followed by _Dodonaea viscosa_ (ch'akatea) and _Cedrela lilloi_ (cedar)
+        96%, then _Baccharis dracunculifolia_ (t'ola) with 95% and _Podocarpus
+        parlatorei_ (mountain pine) 90%. Likewise, _Baccharis latifolia_
+        (ch'illka) obtained the best response in plant height (17 cm), stem
+        diameter (3 mm) and root volume (0.69 cm³), followed by _Baccharis
+        dracunculifolia_ (t'ola). In the development of the plants at the
+        nursery level, three groups were observed, the first made up of
+        _Baccharis latifolia_ (ch'illka) and _Baccharis dracunculifolia_ (t'ola)
+        with accelerated growth, typical of pioneer species; the second
+        _Dodonaea viscosa_ (ch'akatea) and the third _Cedrela lilloi_ (cedar)
+        and _Podocarpus parlatorei_ (mountain pine) with slow growth, typical of
+        late successional stages. The results of this study indicate that the
+        propagation method by rescuing naturally regenerated seedlings is viable
+        and time-efficient.
+      </p>
+    </section>
+
+    <section class="keywords">
+      <h3>Keywords:</h3>
+      <p>
+        Successful stage, germination, seedlings, natural regeneration and
+        degraded soil.
+      </p>
+    </section>
+
+    <section class="content-section">
       <h2>Introducción</h2>
       <p>
-        Los lagos de origen fluvial en regiones montañosas constituyen sistemas
-        naturales dinámicos, moldeados por la interacción de procesos
-        geomorfológicos, climáticos e hidrológicos (Tandon & Sinha 2007). Estas
-        formaciones pueden adoptar características tanto lacustres como
-        palustres, en función de factores como la actividad tectónica, la
-        dinámica glaciar, los patrones de sedimentación y las fluctuaciones
-        hidrológicas, a menudo modificadas por la intervención humana. Dichos
-        procesos generan ecosistemas únicos, dotados de un elevado valor
-        ecológico, geológico y socioeconómico, ya que sustentan la biodiversidad
-        regional y proveen servicios ecosistémicos clave. El estudio de estos
-        mecanismos resulta fundamental para garantizar una gestión sostenible de
-        los recursos hídricos y la conservación de estos entornos frágiles
-        (Chaoyong et al. 2024).
+        En los Valles interandinos, la pérdida de la cobertura vegetal ha
+        generado un impacto negativo, como la erosión del suelo, la disminución
+        de la fertilidad de la tierra y la pérdida de la capacidad de infiltrar
+        agua, repercutiendo en la disminución del caudal de vertientes naturales
+        y manantiales, lo que se traduce en la degradación generalizada del
+        ecosistema (Condori et al. 2022). La restauración ecológica es un
+        proceso que ayuda a la restitución de los componentes vivos que eran
+        parte de un ecosistema antes de ser dañado (Acero-Nitola & Cortés-Pérez
+        2014). La restauración mediante estrategias de revegetación y
+        agroforestería dinámica integrando especies nativas, no solo favorece la
+        recuperación y protección de manantiales y zonas de recarga hídrica,
+        sino que también facilita la recuperación productiva de áreas agrícolas
+        degradadas, contribuyendo al equilibrio ecológico y funcionalidad de los
+        agroecosistemas (Jiménez et al. 2015).
       </p>
 
       <p>
-        El empleo de herramientas de teledetección (imágenes satelitales y
-        sensores de alta resolución) ha revolucionado el estudio de estas
-        formaciones al proporcionar registros multitemporales de alta precisión
-        (Bishop et al. 2012). Técnicas como el análisis de datos
-        multiespectrales han permitido caracterizar procesos geomorfológicos en
-        sistemas lacustres y fluviales (Mertes et al. 1995; Paulino et al.
-        2023). Mientras que la integración de imágenes satelitales, mapas
-        históricos, fotografías aéreas, topografía y estudios de campo ha
-        mejorado la comprensión de la evolución planimétrica y la morfodinámica
-        en múltiples escalas espaciotemporales (Boothroyd et al. 2021).
+        En los procesos de restauración ecológica es fundamental comprender la
+        dinámica de sucesión natural, entendiendo a esta como al cambio
+        progresivo de la vegetación que se produce en el tiempo, hacia la
+        formación de un bosque maduro (Crouzeilles et al. 2017). En este proceso
+        se forman diferentes estadios sucesionales, en las primeras etapas
+        dominan plantas herbáceas y arbustos pioneros de ciclo corto, destinados
+        a generar condiciones para la vegetación de las sucesiones posteriores
+        (Ramírez 2023). Muchas especies nativas locales de los primeros estadios
+        sucesionales, son consideradas de poco valor comercial, pero de gran
+        valor ecológico por su potencial para prosperar en lugares perturbados y
+        cumplen un papel muy importante en los ecosistemas al proveer recursos
+        alimenticios para integrar a la fauna al proceso de restauración
+        (Lalouceur et al. 2023). Cuando se incluyen especies de alto valor
+        ecológico en los programas de restauración y conservación de
+        ecosistemas, la efectividad ecológica es mayor y los procesos de
+        recuperación de áreas degradadas se pueden acelerar (Ramírez 2023,
+        Alvarado-García et al. 2018).
       </p>
 
       <p>
-        Entre las aplicaciones fluviales destacan: la cuantificación de la
-        erosión de canales laterales (Salo et al. 1986, Puhakka et al. 1992); el
-        mapeo geomorfológico y balance de sedimentos (Lattuvesse et al. 2009);
-        evolución de la forma de terreno (Dewan et al. 2017); cambios
-        morfohidrodinámicos inducidos por represas(Kong et al. 2020). En
-        ambientes lacustres, tecnologías como radar de apertura sintética (SAR)
-        y sensores MODIS han facilitado el monitoreo de superficies acuáticas,
-        con avances recientes en segmentación de imágenes para detectar cuerpos
-        hídricos en áreas remotas (Hou et al. 2019, Ling et al. 2020, Chen et
-        al. 2022, Shen et al. 2022, Wang et al. 2022). Estos métodos han
-        documentado la variabilidad espacio-temporal de lagos, como el
-        emblemático caso de la cuenca del lago Poopó en Bolivia, cuyos cambios
-        drásticos reflejan su vulnerabilidad ante perturbaciones naturales y
-        antrópicas (Torres-Batllo 2020).
+        La propagación de plantas nativas ha sido ampliamente reconocida como
+        una práctica fundamental en el ámbito de restauración de ecosistemas,
+        dado que la calidad de la semilla botánica o del material vegetativo
+        utilizado condiciona el resto del proceso productivo (Vargas-Figueroa &
+        Torres-González 2018). Muchas especies de plantas nativas presentan
+        características y problemas particulares en su propagación, por lo que
+        se hace necesario aplicar tratamientos especializados para la obtención
+        de plantines (Leakey 2017).
       </p>
 
       <p>
-        La Laguna San Juan de Candua, ubicada en Chuquisaca (Bolivia) y
-        vinculada al río El Bañado, representa un sistema lacustre de interés
-        por su evolución no evaluada en décadas recientes. Su estudio mediante
-        un enfoque de morfología fluvial, es crucial para entender su rol como
-        humedal regional. Estos ecosistemas no solo albergan biodiversidad
-        única, sino que regulan ciclos hidrológicos y nutrientes, como evidencia
-        estudios previos (Moss 2012, Schallenberg et al. 2013, Heino et al.
-        2021). El objetivo de este estudio es describir los cambios de la forma
-        del sistema fluvial del río El Bañado durante los últimos 45 años, y
-        como este influyó en la formación de la laguna San Juan de Candua.
-      </p>
-
-      <h2>Materiales y Métodos</h2>
-
-      <h3>Área de estudio</h3>
-      <p>
-        La laguna San Juan de Candua está ubicada en el Cantón los Sauces del
-        municipio de Monteagudo, perteneciente al departamento de Chuquisaca
-        (Bolivia), en las coordenadas geográficas 19°48'18.69" latitud sur
-        63°59'26.24" de longitud oeste, a una altitud de 1134 m sobre el nivel
-        del mar. Esta laguna se encuentra entre los ríos El Bañado y el río
-        Yangullo (este), adyacente a la Ruta Nacional 6 (Padilla-Monteagudo), y
-        muy próximo al centro urbano Candúa (aproximadamente 4.46 km) (Figura
-        1).
+        El trasplante de plántulas de regeneración natural a vivero para la
+        propagación de plantas nativas, se muestra como alternativa viable (Reis
+        et al 2024) debido a diversos factores: la fenología reproductiva de las
+        plantas nativas ya sea de fructificación o floración varía entre
+        especies, entre años y entre localidades, esto se debe a las
+        particularidades ecológicas y biológicas que tiene cada microhábitat,
+        condicionando la disponibilidad de semillas (Luna-Nieves 2017). Las
+        plántulas están compuestas por tejidos jóvenes frágiles, susceptibles al
+        ataque de plagas, depredadores, condiciones climáticas adversas y
+        actividades antrópicas como la ganadería; estos factores constituyen
+        procesos que condicionan la supervivencia de las plántulas en su medio
+        natural (Paredes 2023). Por otro lado, existen evidencias de que el
+        ataque de plagas, el pastoreo libre y la marcada estacionalidad de las
+        lluvias han sido causa natural y el principal factor determinante que
+        influyó significativamente en la mortalidad de las plántulas (Toro
+        Marríquez 2019).
       </p>
 
       <p>
-        Las características hidroclimáticas de sistema fluvial está definida por
-        precipitaciones con una media anual de 994.7 mm y una temperatura
-        promedio anual de 20.2°C (SENAMHI, 2023). El sistema fluvial forma parte
-        de la cuenca baja del río Parapetí (Nivel 4) (VRHyR, 2010; Zambrano et
-        al., 2011). El río el Bañado, es uno de los principales cauces del
-        cantón los Sauces, tiene su origen en el río Heredia, otros ríos
-        tributarios que aportan en las nacientes son los ríos Yaconal, Pozuelos
-        y Corpocillos, además, durante las épocas de crecida, puede alcanzar
-        caudales de entre 100 y 400 m3/s (ZONISIG 2000).
+        En ese sentido, la propagación de especies nativas a nivel de vivero por
+        rescate de plántulas de regeneración natural, es una práctica que da
+        ventaja para la restauración, al partir de plantines que en su primera
+        etapa de desarrollo se han minimizado los factores de riesgo (ataque de
+        plagas, depredadores, condiciones climáticas adversas y pisoteo por
+        ganadería), a las que si estarían supeditadas las plántulas producto de
+        la siembra directa de semillas en las áreas de restauración, además
+        permite el aprovechamiento del excedente de plántulas que se producen en
+        inmediaciones de las plantas madres en su estado natural. Por otro lado,
+        se puede evitar gastos adicionales a los viveros forestales en la compra
+        de semillas, sustratos e insumos, este sistema de producción forestal es
+        más económico.
       </p>
+
+      <p>
+        El objetivo de este estudio fue realizar la propagación de cinco
+        especies nativas, obtenidas a partir de la regeneración natural en
+        estadios sucesionales del bosque nativo, para la restauración ecológica
+        en la Microcuenca Escaleras, municipio de Villa Serrano, Departamento de
+        Chuquisaca, Bolivia.
+      </p>
+    </section>
+
+    <section class="content-section">
+      <h2>Materiales y métodos</h2>
+
+      <h3>Ubicación y descripción del área de estudio</h3>
+      <p>
+        El estudio se realizó en la comunidad de Escaleras del municipio de
+        Villa Serrano del departamento de Chuquisaca (Figura 1). Se encuentra
+        entre 2106 a 3096 msnm. La temperatura promedio anual es de 16.9°C y la
+        precipitación oscila entre los 600 a 650 mm año (Navarro & Wanderley
+        2011a).
+      </p>
+
+      <p>
+        La vegetación nativa del área de estudio según Navarro & Wanderley
+        (2011b) corresponde a los bosques altimontanos pluviestacionales
+        Boliviano-Tucumanos. En la zona se encuentran bosques húmedos montanos
+        dominados por pino de monte (Podocarpus parlatorei), cedro (Cedrela
+        lilloi), saluninto (Myrcianthes pseudomato), arrayan (Blepharocalyx
+        salicifolius), aliso (Alnus acuminata), laurel (Cinnamonum porphyrium),
+        y quewifias (Polylepis hieronymi). En cambio, en los bosques de la zona
+        media y baja (quebradas), encontramos entre especies de: tipa (Tipuana
+        tipu), ceibo (Erythrina falcata) y guaranguay (Tecoma stans) (Navarro &
+        Wanderley 2011b).
+      </p>
+
+      <p>
+        Los principales cultivos en la Cuenca Escaleras varían de una comunidad
+        a otra, debido a factores climáticos, calidad del suelo y la diversidad
+        de pisos ecológicos. Los cultivos más relevantes son: papa (Solanum
+        tuberosum), maíz (Zea mays) y trigo (Triticum aestivum); en menor medida
+        se encuentran haba (Vicia faba), arveja (Pisum sativum), ají (Capsicum
+        baccatum), mani (Arachis hypogaea) y hortalizas de hoja. También se
+        cultivan frutales como durazno (Prunus persica) y manzana (Malus
+        domestica).
+      </p>
+
       <div class="figure">
         <img
-          src="https://github.com/AdanCR1/VOLUMEN4_AGRO-ECOLOGIA/blob/5fd37b97147e203831a4072a555594253438b8aa/articulo3/IMAGES/Imagen9.pngraw=true"
-          alt="Figura 1. Ubicación de la laguna San Juan de Candua"
+          src="https://github.com/AdanCR1/VOLUMEN4_AGRO-ECOLOGIA/blob/5fd37b97147e203831a4072a555594253438b8aa/articulo3/IMAGES/Imagen9.png?raw=true"
+          alt="Figura 1. Ubicación de la microcuenca Escaleras, Municipio de Villa Serrano y distribución de áreas de muestreo."
         />
-        <div class="figure-caption">
-          Figura 1. a) Ubicación de la laguna San Juan de Candua en el municipio
-          de Monteagudo. b) Fotografía del área de la laguna (Foto: Claribel
-          Villarruel)
+        <div class="caption">
+          Figura 1. Ubicación de la microcuenca Escaleras, Municipio de Villa
+          Serrano y distribución de áreas de muestreo.
         </div>
       </div>
 
-      <h3>Métodos</h3>
+      <h3>Ubicación de los sitios de recolección de plántulas</h3>
       <p>
-        En este estudio analizó la dinámica morfológica del sistema fluvial del
-        río El Bañado que dio origen a la laguna San Juan de Candúa. Para ello,
-        se realizó un análisis multitemporal de los cambios en la morfología
-        sistema fluvial, utilizando imágenes satelitales históricas y de libre
-        acceso. Además, se utilizó mapas cartográficos del Instituto Geográfico
-        Militar (IGM), en particular la hoja 6834-IV H731 a escala 1:50 000,
-        publicada en 1980 (IGM 2021). Las imágenes utilizadas incluyen
-        fotografías satelitales desclasificadas KH-9 HEXAGON de 1978 (USGS 1995)
-        y escenas SPOT adquiridas por el Programa Spot de Patrimonio Mundial
-        (CNES 2023). Estas imágenes permitieron visualizar y analizar para
-        visualizar los cambios morfológicos en el tramo del río El Bañado
-        durante el período comprendido entre 1987 al 2013 (Tabla 1).
+        La clasificación de los estadios sucesionales se realizó siguiendo lo
+        propuesto por Jiménez (2024), quien, a partir de encuestas realizadas a
+        agricultores, indica que los bosques altoandinos requieren un período de
+        descanso de aproximadamente 40 años para que un área intervenida por
+        actividades agropecuarias pueda transformarse nuevamente en bosque. En
+        este marco, se identificaron cinco series de vegetación descritas por
+        Antezana & Navarro (2002), Navarro & Maldonado (2002), las cuales
+        corresponden a categorías de sucesión según la edad de recuperación de
+        la vegetación con especies características de estas.
       </p>
 
       <p>
-        Complementariamente para el 2013 al 2025, se usaron imágenes Maxar
-        Technologies y Airbus disponibles en Google Earth Pro Ver 7.3.6. Se
-        aplicó el índice de sinuosidad a la morfología fluvial digitalizada en
-        base a las imágenes previamente descritas, para cuantificar patrones de
-        canales mediante relaciones entre longitud del canal y longitud del
-        valle (Schumm 1963). Para el análisis hiposmétrico del cambio del río El
-        Bañado, se utilizó imágenes radar del 2010, de ALOPS PALSAR
-        (AP_24973_FBD_F6780_RT1) con 12.5 metros de resolución.
-      </p>
-
-      <p>
-        En noviembre del 2024 se realizó medidas in situ usando una regla y
-        cinta métrica, para obtener las métricas de batimetría del lago
-        (profundidad), longitud, ancho, perímetro y de área. Se calculó el
-        volumen de agua almacenada usando el método del prisma trapezoidal, que
-        integra las profundidades a lo largo del perfil. Por otra se obtuvieron
-        métricas de variación de la morfología y el área usando imágenes
-        satelitales de WorldView y GeoEye, proporcionadas por Maxar Technologies
-        y disponibles en Google Earth Pro (Tabla 1), para el período 2002-2013 y
-        también las imágenes disponibles de CNES y Airbus para los períodos 2016
-        al 2023 (Google 2018).
-      </p>
-
-      <p>
-        Todos los geo-procesos realizados sobre de las imágenes satelitales,
-        incluyendo la ortorectificación de las imágenes SPOT, georreferenciación
-        de imágenes descargadas de Google Earth Pro, el cálculo de área y la
-        obtención del perfil longitudinal, se llevaron a cabo utilizando el
-        programa QGIS 3.34.7 (QGIS 2020) y complementado con plugins como
-        ProfileTool (Jurgiel et al., 2025).
-      </p>
-
-      <p>
-        Para el análisis de los cambios en la superficie de la laguna se
-        aplicaron estadísticas univariadas, mientras que la sinuosidad, perfil
-        longitudinal y batimetría fueron evaluados mediante análisis bivariado
-        representados con gráficos de dispersión. El perfil longitudinal se
-        construyó a partir de los datos de elevación, considerando la dinámica
-        de cambio a lo largo de un tramo de aproximadamente 9 km del curso del
-        río El Bañado, en los diferentes años analizados. Además, se analizó la
-        relación temporal del índice de sinuosidad, aplicando una correlación de
-        Pearson y un modelo de regresión polinomial grado 2, previa comprobación
-        de la normalidad de los datos con la prueba de Shapiro-Wilk, con un
-        nivel de confianza al 95%. Todos estos análisis fueron realizados con el
-        programa R 4.4.2 (R Core Team, 2021).
+        La numeración de los estadios sucesionales I a IV no representa una
+        secuencia cronológica de recuperación de la vegetación. Por ejemplo, la
+        serie con Dodonaea viscosa fue sectorizada en un estadio sucesional
+        intermedio debido a su desarrollo y permanencia en años en el sitio
+        evaluado en el proceso de recuperación, no en función de un orden
+        secuencial de regeneración. La recolección de plántulas se efectuó en
+        parcelas temporales ubicadas en cada estadio sucesional, cuya ubicación
+        se detalla en la Tabla 1.
       </p>
 
       <table>
         <caption>
-          Tabla 1. Imágenes utilizadas para los análisis de cambio según la
-          fecha y la fuente, para el río el Bañado y la laguna San Juan.
+          Tabla 1. Lugares de recolección de plántulas según los estadios
+          sucesionales de regeneración en bosque nativo
         </caption>
-        <thead>
-          <tr>
-            <th>Fecha</th>
-            <th>Río</th>
-            <th>Laguna</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>1978-08-03</td>
-            <td>KH-9 GONA Mission 1214-4 ID: D3C1214-401095A036</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>1987-03-14</td>
-            <td>SPOT1 ID: 1 678-389 87-03-14 14:34:36 2 X</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>1991-08-06</td>
-            <td>SPOT 2 ID: 2 679-390 90-08-06 14:20:36 1 P</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>1996-06-14</td>
-            <td>SPOT 3 ID: 3 678-389 96-06-14 14:42:07 2 P</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>2000-08-01</td>
-            <td>SPOT 4 ID: 4 679-390 00-08-01 14:39:57 1 I</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>2002-08</td>
-            <td></td>
-            <td>Maxar Technologies</td>
-          </tr>
-          <tr>
-            <td>2007-04</td>
-            <td></td>
-            <td>Maxar Technologies Google Earth Pro</td>
-          </tr>
-          <tr>
-            <td>2008-11-28</td>
-            <td>SPOT 5 ID: 5 679-390 08/11/28 14:18:58 2 J</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>2011-09</td>
-            <td></td>
-            <td>Maxar Technologies</td>
-          </tr>
-          <tr>
-            <td>2013-10</td>
-            <td>SPOT 5 ID: 5 678-389 13/05/29 14:12:31 2 S</td>
-            <td>Airbus: Google Earth Pro</td>
-          </tr>
-          <tr>
-            <td>2016-12</td>
-            <td></td>
-            <td>Airbus: Google Earth Pro</td>
-          </tr>
-          <tr>
-            <td>2020-01</td>
-            <td></td>
-            <td>Airbus: Google Earth Pro</td>
-          </tr>
-          <tr>
-            <td>2022-11</td>
-            <td></td>
-            <td>Airbus: Google Earth Pro</td>
-          </tr>
-          <tr>
-            <td>2023-05</td>
-            <td></td>
-            <td>Airbus: Google Earth Pro</td>
-          </tr>
-        </tbody>
+        <tr>
+          <th>Estadio sucesional</th>
+          <th>Serie de vegetación/ Especie recolectada</th>
+          <th>Nombre común</th>
+          <th>Localidad</th>
+          <th>Altitud (msnm)</th>
+          <th>Ubicación</th>
+        </tr>
+        <tr>
+          <td>Estadio sucesional I (ESI): 1 a 10 años</td>
+          <td>Baccharis dracunculifolia</td>
+          <td>T'ola</td>
+          <td>Viskachani</td>
+          <td>2178</td>
+          <td>S: 0358042, W: 7885752</td>
+        </tr>
+        <tr>
+          <td>Estadio sucesional II (ESII): 11 a 20 años</td>
+          <td>Baccharis latifolia</td>
+          <td>Ch'illka</td>
+          <td>Viskachani</td>
+          <td>3592</td>
+          <td>S: 0355979, W: 7884766</td>
+        </tr>
+        <tr>
+          <td>Estadio sucesional III (ESIII): 21 a 30 años</td>
+          <td>Dodonaea viscosa</td>
+          <td>Ch'akatea</td>
+          <td>Chillkiwar</td>
+          <td>2293</td>
+          <td>S: 0356532, W: 7886107</td>
+        </tr>
+        <tr>
+          <td>Estadio sucesional IV (ESIV): bosque de 31 a 40 años</td>
+          <td>Podocarpus parlatorei</td>
+          <td>Pino de monte</td>
+          <td>Zarzo Pampa</td>
+          <td>2443</td>
+          <td>S: 0355819, W: 7888148</td>
+        </tr>
       </table>
 
+      <h3>Recolección de plántulas del bosque nativo</h3>
+      <p>
+        Las plántulas se recolectaron en el mes de marzo y corresponden a
+        semillas dispersadas en el periodo invernal anterior (mayo – junio). La
+        recolección se llevó a cabo en las primeras horas de la mañana,
+        considerando su uniformidad en tamaño y diámetro. Las plántulas fueron
+        almacenadas en recipientes de plástico y, con el fin de evitar daños a
+        las raíces por la exposición solar, se cubrieron con tierra.
+        Posteriormente, se trasladaron al sitio destinado para su plantación en
+        las últimas horas de la tarde del mismo día.
+      </p>
+
+      <h3>Preparación, embolsado y desinfección del sustrato</h3>
+      <p>
+        Las proporciones en volumen que se emplearon para preparar el sustrato
+        fueron 67% de tierra negra del lugar (tres carretillas), 22% de arena
+        lavada de río (una carretilla) y 11% de materia orgánica descompuesta
+        (media carretilla). Estos componentes fueron cernidos y mezclados
+        previamente hasta obtener una mezcla homogénea. Para el embolsado, se
+        emplearon bolsas de polietileno de dimensiones 18 x 25 cm. La cantidad
+        de sustrato utilizado fue de 1.77 m³ en 980 bolsas.
+      </p>
+
+      <p>
+        Para la desinfección del sustrato se empleó formol (CH2O) diluido en
+        agua según las indicaciones especificadas en el envase del producto (100
+        cm³ de formol por cada 10 litros de agua).
+      </p>
+
+      <h3>Establecimiento del diseño experimental</h3>
+      <p>
+        El ensayo de campo, se llevó a cabo utilizando un diseño de Bloques al
+        Azar (Figura 2), con cuatro repeticiones (bloque) y cinco tratamientos
+        (especies), en total se obtuvieron 20 unidades experimentales de 0.75
+        por 0.75 m., para un total de 49 plántulas (bolsas) totalizando 980
+        bolsas. Los tratamientos corresponden a la especie de la serie de
+        vegetación de cada estadio sucesional: T1: ESI, _Baccharis
+        dracunculifolia_ (t'ola); T2: ESII, _Baccharis latifolia_ (ch'illka);
+        T3: ESIII, _Dodonaea viscosa_ (ch'akatea); T4: ESIV, _Podocarpus
+        parlatorei_ (pino de monte); y T5: ESV, _Cedrela lilloi_ (cedro).
+      </p>
+
+      <div class="figure">
+        <img
+          src="https://github.com/AdanCR1/VOLUMEN4_AGRO-ECOLOGIA/blob/5fd37b97147e203831a4072a555594253438b8aa/articulo3/IMAGES/Imagen10.png?raw=true"
+          alt="Figura 2. a) croquis del experimento en campo, b) representación de la unidad experimental (←plántulas evaluables por el efecto de borde)."
+        />
+        <div class="caption">
+          Figura 2. a) croquis del experimento en campo, b) representación de la
+          unidad experimental (←plántulas evaluables por el efecto de borde).
+        </div>
+      </div>
+
+      <h3>Registro de datos</h3>
+      <p>
+        Los datos registrados correspondieron sólo a 25 plántulas evaluables de
+        cada unidad experimental, referido al porcentaje de prendimiento, altura
+        de planta, número de hojas, diámetro del tallo y volumen de raíz. El
+        porcentaje de prendimiento se registró a los 7, 14, 21, 28 y 90 días
+        después del trasplante, contando el número de plántulas prendidas de
+        cada unidad experimental. Las plántulas a nivel de vivero se evaluaron
+        según Mostacedo & Fredericksen (2000), la altura de planta, número de
+        hojas y diámetro de tallo. se registró a los 3, 30, 60 y 90 días después
+        del trasplante. El volumen de raíz se midió a través del método de
+        desplazamiento de agua (Cabanzo-Atilano et al. 2020, Chave 2006) y se
+        registró antes del trasplante y 90 días después de éste, para esto sólo
+        se eligió una planta al azar de cada unidad experimental.
+      </p>
+
+      <h3>Análisis de los datos</h3>
+      <p>
+        Los datos se analizaron mediante el software R versión 4.5.0 (R Core
+        Team 2025), con el entorno de desarrollo RStudio versión 2024.12.1
+        (RStudio Team 2025). Para la comparación entre especies, los datos de
+        altura de planta, número de hojas y diámetro de tallo se analizaron
+        mediante la prueba de Kruskal-Wallis y Wilcoxon, por no cumplir con los
+        supuestos de normalidad. Para el volumen de raíz se usó un modelo de
+        Anova de bloques al azar y la prueba de Tukey. Para comparar la
+        evaluación al momento del trasplante con la evaluación a los 90 días, se
+        utilizó la prueba de Friedman para altura de planta, número de hojas y
+        diámetro de tallo por la no normalidad de los datos; para el volumen de
+        raíz se utilizó Anova de medidas repetidas (ANOVA RM). Para validar los
+        supuestos de normalidad se usó Shapiro-Wilk.
+      </p>
+    </section>
+
+    <section class="content-section">
       <h2>Resultados</h2>
 
+      <h3>Porcentaje de prendimiento</h3>
+      <p>
+        La especie del estadio sucesional dos (ESII) _Baccharis latifolia_
+        (ch'illka) presentó un 100% de prendimiento. Le siguieron _Dodonaea
+        viscosa_ (ch'akatea: ESIII) con un 96% de prendimiento. Luego
+        continuaron _Cedrela lilloi_ (cedro; ESV) que registró un 96% y
+        _Baccharis dracunculifolia_ (tóla; ESI) con un 95%. La especie con el
+        menor porcentaje fue _Podocarpus parlatorei_ (pino de monte; ESIV) con
+        un 90% (Figura 3). La mortalidad se registró a partir de los siete días
+        posteriores al trasplante. Sin embargo, hasta los 28 días la única
+        especie que mantuvo 100% supervivencia fue el _Baccharis latifolia_
+        (ch'illka; ESII).
+      </p>
+
+      <div class="figure">
+        <img
+          src="https://github.com/AdanCR1/VOLUMEN4_AGRO-ECOLOGIA/blob/5fd37b97147e203831a4072a555594253438b8aa/articulo3/IMAGES/Imagen11.png?raw=true"
+          alt="Figura 3. Prendimiento de plántulas de la regeneración natural en vivero."
+        />
+        <div class="caption">
+          Figura 3. Prendimiento de plántulas de la regeneración natural en
+          vivero.
+        </div>
+      </div>
+
+      <h3>Crecimiento en altura de planta</h3>
+      <p>
+        Las especies del estadio sucesional uno (ESI) _B. dracunculifolia_
+        (t'ola) y del estado sucesional dos (ESII) _B. latifolia_ (ch'illka)
+        mostraron un crecimiento en altura significativamente mayor en
+        comparación con las especies de los otros estadios sucesionales _D.
+        viscosa_ (ch'akatea; ESIII), _P. parlatorei_ (pino de monte; ESIV) y _C.
+        lilloi_ (cedro; ESV) que reportaron menor crecimiento (Figura 4a).
+      </p>
+
+      <p>
+        La prueba no paramétrica de Kruskal-Wallis evidenció diferencias
+        altamente significativas en la altura de planta a los 90 días
+        posteriores al trasplante (p<0.001, α =0.05). La prueba post hoc de
+        Wilcoxon con ajuste para comparaciones múltiples reveló que no hubo
+        diferencia significativa (p = 0.17, α =0.05) entre la altura de planta
+        de _B. latifolia_ y _B. dracunculifolia_, sin embargo, estas especies
+        tuvieron alturas superiores altamente significativas (p<0.001, α =0.05)
+        en relación a _C. lilloi_, _D. viscosa_ y _P. parlatorei_. Por otro
+        lado, la misma prueba reporta diferencias altamente significativas al
+        comparar la altura de planta de _C. lilloi_ con _D. viscosa_ (p<0.001, α
+        =0.05) y _P. parlatorei_ (p<0.001, α =0.05). Finalmente, no se detectó
+        diferencia significativa entre _P. parlatorei_ y _D. viscosa_ (p = 0.17,
+        α =0.05), sugiriendo que ambas presentan alturas similares (Tabla 2).
+      </p>
+
+      <p>
+        A los 90 días, se identificaron tres grupos con base a la altura de las
+        plantas. El primer grupo conformado por _B. latifolia_ (ch'illka; ESII)
+        y _B. dracunculifolia_ (t'ola; ESI)) con medianas de 17 y 16 cm
+        respectivamente. El segundo grupo conformado por _C. lilloi_ (cedro;
+        ESV) con una mediana de 8 cm. El tercer grupo incluyo a _P. parlatorei_
+        (pino de monte; ESIV) con 7 cm y _D. viscosa_ (ch'akatea; ESIII) con
+        6.25 cm de altura de planta (Figura 4b).
+      </p>
+
+      <p>
+        La formación de estos grupos estuvo influenciada por la edad de los
+        estadios sucesionales. Es decir, que las especies pertenecientes a los
+        primeros estadios crecieron más rápido en relación a los de mayor edad.
+      </p>
+
+      <table>
+        <caption>
+          Tabla 2. Comparación entre especies mediante Test de Wilcoxon para
+          altura de planta, número de hojas, diámetro de tallo; prueba de Tukey
+          para volumen de raíz (p<0.05), a los 90 días después del trasplante
+          (a, b, c, d; letras iguales no hay diferencias significativas, letras
+          diferentes muestran diferencias significativas).
+        </caption>
+        <tr>
+          <th rowspan="2">Especie</th>
+          <th colspan="2">Test de Wilcoxon (mediana)</th>
+          <th colspan="2">Prueba de Tukey (media)</th>
+        </tr>
+        <tr>
+          <th>Altura de planta (cm)</th>
+          <th>Grupos</th>
+          <th>Volumen de raíz (cm³)</th>
+          <th>Grupos</th>
+        </tr>
+        <tr>
+          <td>B. dracunculifolia</td>
+          <td>16</td>
+          <td>a</td>
+          <td>1,12</td>
+          <td>a</td>
+        </tr>
+        <tr>
+          <td>B. latifolia</td>
+          <td>17</td>
+          <td>a</td>
+          <td>1,3</td>
+          <td>a</td>
+        </tr>
+        <tr>
+          <td>C. lilloi</td>
+          <td>8</td>
+          <td>b</td>
+          <td>0,78</td>
+          <td>ab</td>
+        </tr>
+        <tr>
+          <td>P. parlatorei</td>
+          <td>7</td>
+          <td>cd</td>
+          <td>0,3</td>
+          <td>b</td>
+        </tr>
+        <tr>
+          <td>D. viscosa</td>
+          <td>6,25</td>
+          <td>d</td>
+          <td>0,34</td>
+          <td>b</td>
+        </tr>
+      </table>
+
+      <div class="figure">
+        <img
+          src="https://github.com/AdanCR1/VOLUMEN4_AGRO-ECOLOGIA/blob/5fd37b97147e203831a4072a555594253438b8aa/articulo3/IMAGES/Imagen12.png?raw=true"
+          alt="Figura 4. a) crecimiento en altura de planta de cinco especies nativas en vivero, b) comparación de altura de planta entre especies a los 90 después del trasplante."
+        />
+        <div class="caption">
+          Figura 4. a) crecimiento en altura de planta de cinco especies nativas
+          en vivero, b) comparación de altura de planta entre especies a los 90
+          después del trasplante.
+        </div>
+      </div>
+
+      <h3>Crecimiento en número de hojas</h3>
+      <p>
+        Las especies del ESI _B. dracunculifolia_ (t'ola), ESII _B. latifolia_
+        (ch'illka) y ESIII _D. viscosa_ (ch'akatea) experimentaron una pérdida
+        de hojas hasta los 30 días después del trasplante. Posteriormente se
+        registró la aparición de nuevas hojas que resultó en el incremento del
+        número total de estas (Figura 5a). Las especies del ESIV _P. parlatorei_
+        (pino de monte) y ESV _C. lilloi_ (cedro) no presentaron pérdida de
+        hojas, pero registraron un incremento a un ritmo más lento. A los 90
+        días después del trasplante, la prueba de Kruskal-Wallis encontró
+        diferencias altamente significativas (p<0.001, α =0.05) entre especies
+        en el número de hojas por planta. Por otro lado, la prueba post hoc de
+        Wilcoxon reveló que no hubo diferencia significativa (p = 0.17, α =0.05)
+        entre número de hojas por planta de _B. dracunculifolia_ y _P.
+        parlatorei_; sin embargo, estas dos especies tuvieron un incremento
+        altamente significativo (p<0.001, α =0.05) en relación a las especies
+        _B. latifolia_, _C. lilloi_ y _D. viscosa_. Así mismo, el incremento del
+        número de hojas de _B. latifolia_ en relación a _C. lilloi_ y _D.
+        viscosa_ es altamente significativo (p<0.001, α=0.05); comportamiento
+        similar se produce (p<0.001, α =0.05) a favor del _C. lilloi_ en
+        relación a _D. viscosa_ (Tabla 2).
+      </p>
+
+      <p>
+        En este caso a los 90 días también se evidencia un primer grupo
+        conformado por el ESI _B. dracunculifolia_ (t'ola) y ESIV _P.
+        parlatorei_ (pino de monte) con medianas de 22 y 22.5 hojas por planta
+        respectivamente. El segundo grupo con 11 hojas por planta para el ESII
+        _B. latifolia_ (ch'illka). Finalmente, el tercer grupo lo conforman el
+        ESV _C. lilloi_ (cedro) y el ESIII _D. viscosa_ (ch'akatea) con 5 y 4
+        hojas respectivamente. En este caso la conformación de los grupos a
+        diferencia de la altura de planta, probablemente estuvo influenciada por
+        el tamaño de las hojas, es decir que las especies de hojas más pequeñas
+        incrementaron mayor número de hojas (Figura 5b).
+      </p>
+
+      <div class="figure">
+        <img
+          src="https://github.com/AdanCR1/VOLUMEN4_AGRO-ECOLOGIA/blob/5fd37b97147e203831a4072a555594253438b8aa/articulo3/IMAGES/Imagen13.png?raw=true"
+          alt="Figura 5. a) incremento en número de hojas de cinco especies en vivero, b) comparación de número de hojas entre especies a los 90 días después del trasplante."
+        />
+        <div class="caption">
+          Figura 5. a) incremento en número de hojas de cinco especies en
+          vivero, b) comparación de número de hojas entre especies a los 90 días
+          después del trasplante.
+        </div>
+      </div>
+
+      <h3>Crecimiento en diámetro de tallo</h3>
+      <p>
+        En lo que corresponde al diámetro del tallo de las plántulas, a partir
+        de los 30 días las especies del estrato sucesional uno (ESI) _B.
+        dracunculifolia_ (t'ola) y del estrato sucesional dos (ESII) _B.
+        latifolia_ (ch'illka) experimentaron un incremento acelerado. En
+        contraste las otras tres especies mostraron un incremento lento (Figura
+        6a). La prueba de Kruskal-Wallis detecto diferencias altamente
+        significativas (p<0.001, α =0.05) entre especies en el diámetro de
+        tallo, a los 90 días de edad después del trasplante.
+      </p>
+
+      <p>
+        La prueba post hoc de Wilcoxon reveló que _B. latifolia_ presentó un
+        incremento del diámetro del tallo significativamente superior (p<0.001,
+        α =0.05) en comparación a las otras cuatro especies. Por otro lado, el
+        incremento en el diámetro de tallo de _B. dracunculifolia_ fue altamente
+        significativo (p<0.001, α =0.05) en relación a _D. viscosa_, _C. lilloi_
+        y _P. parlatorei_. Así mismo, el incremento de diámetro de tallo de _D.
+        viscosa_ fue significativo (p=0.024, α=0.05) en comparación a _P.
+        parlatorei_, pero no presentó diferencias significativas con _C. lilloi_
+        (p= 0.172, α=0.05). Finalmente, en el incremento del diámetro de tallo
+        de _C. lilloi_ con relación a _P. parlatorei_ no tuvo diferencias
+        significativas (p= 0.264, α=0.05; Tabla 2).
+      </p>
+
+      <p>
+        En cuanto al diámetro del tallo también se identificaron tres grupos. El
+        primer grupo estuvo conformado por _B. latifolia_ (ch'illka; ESII), con
+        mediana de 3 mm. El segundo grupo correspondió a _B. dracunculifolia_
+        (t'ola; ESI) con 2 mm, y el tercer grupo incluyó a _D. viscosa_
+        (ch'akatea; ESIII), _C. lilloi_ (cedro; ESV) y _P. parlatorei_ (pino de
+        monte; ESIV) con medianas de 1.54 mm, 1.45 mm y 1,43 mm de diámetro
+        respectivamente (Figura 6b).
+      </p>
+
+      <p>
+        Como en el caso del crecimiento en altura, la conformación de los grupos
+        en términos de diámetro del tallo estuvo influenciada por la edad de los
+        estadios sucesionales. Las especies pertenecientes a los estadios
+        sucesionales con menor número de años, crecieron más rápido en relación
+        a los de mayor edad.
+      </p>
+
+      <div class="figure">
+        <img
+          src="https://github.com/AdanCR1/VOLUMEN4_AGRO-ECOLOGIA/blob/5fd37b97147e203831a4072a555594253438b8aa/articulo3/IMAGES/Imagen14.png?raw=true"
+          alt="Figura 6. a) crecimiento en diámetro de tallo de cinco especies en vivero, b) comparación del diámetro de tallo entre especies a los 90 días después del trasplante."
+        />
+        <div class="caption">
+          Figura 6. a) crecimiento en diámetro de tallo de cinco especies en
+          vivero, b) comparación del diámetro de tallo entre especies a los 90
+          días después del trasplante.
+        </div>
+      </div>
+
+      <h3>Crecimiento en volumen radicular</h3>
+      <p>
+        En relación al volumen radicular, tanto en la evaluación inicial como a
+        los 90 días después del trasplante (volumen final), la prueba de ANOVA
+        reportó diferencias altamente significativas entre especies (p<0.001, α
+        =0.05). El mayor incremento de volumen corresponde a _B. latifolia_ con
+        1.3 cm³, seguido por _B. dracunculifolia_ (1.12 cm³), _C. lilloi_ (0.78
+        cm³), _D. viscosa_ (0.34 cm³) y finalmente _P. parlatorei_ con 0.3 cm³
+        (Tabla 2).
+      </p>
+
+      <p>
+        La prueba de Tukey en la comparación de especies mostró los mismos
+        resultados en el volumen inicial, como a los 90 días después del
+        trasplante. Las especies _B. latifolia_, _B. dracunculifolia_ y _C.
+        lilloi_, no tuvieron diferencias estadísticas en el volumen de raíz;
+        pero si las dos primeras fueron estadísticamente mayor que _D. viscosa_
+        y _P. parlatorei_. Por otro lado las especies _C. lilloi_, _D. viscosa_
+        y _P. parlatorei_, no tuvieron diferencias estadísticas en el volumen de
+        raíz (Figura 7, Tabla 2).
+      </p>
+
+      <div class="figure">
+        <img
+          src=""
+          alt="Figura 7. Comparación del crecimiento de volumen radicular entre especies al inicio y 90 días después del trasplante."
+        />
+        <div class="caption">
+          Figura 7. Comparación del crecimiento de volumen radicular entre
+          especies al inicio y 90 días después del trasplante.
+        </div>
+      </div>
+
       <h3>
-        Origen de la laguna San Juan a través de la dinámica de cambio del río
-        el Bañado
+        Comparación del crecimiento desde la plantación a los 90 días
+        posteriores al trasplante
       </h3>
       <p>
-        En 1978, la fotografía satelital KH-9 HEXAGON muestra el curso natural
-        del río El Bañado con un trazo serpenteante característico. En
-        contraste, el mapa cartográfico de 1980 refleja una interpretación que
-        incluye posibles modificaciones debido a procesos naturales, como
-        erosión y sedimentación, o actividades humanas (Figura 2a). En ambas
-        fuentes, el tramo del río que emerge del Cañón de Heredia, pasando por
-        la comunidad de San Miguel, forma una horquilla cercana a la carretera
-        RN6 (Figura 2b). Este detalle evidencia la interacción entre el río y su
-        entorno, así como la influencia potencial de la infraestructura vial en
-        su trayectoria.
+        El crecimiento en altura de planta de las cinco especies (_B.
+        dracunculifolia_, _B. latifolia_, _C. lilloi_, _P. parlatorei_ y _D.
+        viscosa_) durante los 90 días después del trasplante (dpt) en vivero fue
+        altamente significativo. En relación al incremento del número de hojas,
+        solo fue altamente significativo para _B. dracunculifolia_, _B.
+        latifolia_, _C. lilloi_, y _P. parlatorei_. Por otro lado _D. viscosa_
+        no mostró un incremento significativo en el número de hojas, lo cual se
+        atribuye a la pérdida de hojas debido al estrés de trasplante,
+        recuperando solo aquellas que había perdido durante el periodo de
+        observación. Para el diámetro de tallo el comportamiento fue similar que
+        altura de planta, con incrementos altamente significativos para las
+        cinco especies. En volumen radicular, el incremento fue significativo
+        solo para _B. latifolia_ y _P. parlatorei_, esto probablemente
+        influenciado por el reducido número de datos que se registró para esta
+        variable, considerando que se quería evitar mayor sacrificio de
+        plantines (Tabla 3).
       </p>
 
-      <div class="figure">
-        <img
-          src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNjAwIDQwMCI+PHJlY3Qgd2lkdGg9IjYwMCIgaGVpZ2h0PSI0MDAiIGZpbGw9IiNlOGY1ZTkiLz48dGV4dCB4PSIzMDAiIHk9IjIwMCIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjE4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMmM3ZDMyIj5GaWd1cmEgMi4gUmVjb3JyaWRvIGRlbCByw61vIEVsIEJhw7FhZG88L3RleHQ+PC9zdmc+"
-          alt="Figura 2. Recorrido del río El Bañado"
-        />
-        <div class="figure-caption">
-          Figura 2. Recorrido del río El Bañado (a), en 1978 imagen obtenida de
-          fotografías satelitales KH-9 HEXAGON y en 1980 mapa cartográfico del
-          IGM de la hoja 6834-IV H731 (b) de que muestra el trazo del río. La
-          flecha amarilla representa la dirección de flujo del río.
-        </div>
-      </div>
+      <table>
+        <caption>
+          Tabla 3. Crecimiento de las plántulas durante la etapa de vivero (dpt:
+          días después del trasplante)
+        </caption>
+        <tr>
+          <th>Variables evaluadas (p<0.05)</th>
+          <th>B. dracunculifolia</th>
+          <th>B. latifolia</th>
+          <th>C. lilloi</th>
+          <th>D. viscosa</th>
+          <th>P. parlatorei</th>
+        </tr>
+        <tr>
+          <td>Altura de planta a 3 dpt (mediana cm)</td>
+          <td>7</td>
+          <td>7</td>
+          <td>4</td>
+          <td>3,25</td>
+          <td>3,75</td>
+        </tr>
+        <tr>
+          <td>Altura de planta 90 dpt (mediana cm)</td>
+          <td>16</td>
+          <td>17</td>
+          <td>8</td>
+          <td>6,25</td>
+          <td>7</td>
+        </tr>
+        <tr>
+          <td>Prueba de Friedman p<0.001</td>
+          <td>p<0.001</td>
+          <td>p<0.001</td>
+          <td>p<0.001</td>
+          <td>p<0.001</td>
+          <td>p<0.001</td>
+        </tr>
+        <tr>
+          <td>Número de hojas a 3 dpt (mediana)</td>
+          <td>13,5</td>
+          <td>5</td>
+          <td>3</td>
+          <td>4</td>
+          <td>17</td>
+        </tr>
+        <tr>
+          <td>Número de hojas a 90 dpt (mediana)</td>
+          <td>22</td>
+          <td>11</td>
+          <td>5</td>
+          <td>4</td>
+          <td>22,5</td>
+        </tr>
+        <tr>
+          <td>Prueba de Friedman p<0.001</td>
+          <td>p<0.001</td>
+          <td>p<0.001</td>
+          <td>p<0.001</td>
+          <td>p=0.63</td>
+          <td>p<0.001</td>
+        </tr>
+        <tr>
+          <td>Diámetro de tallo a 3 dpt (mediana mm)</td>
+          <td>1,19</td>
+          <td>1,9</td>
+          <td>0,82</td>
+          <td>1</td>
+          <td>0,8</td>
+        </tr>
+        <tr>
+          <td>Diámetro de tallo a 90 dpt (mediana mm)</td>
+          <td>1,99</td>
+          <td>3,01</td>
+          <td>1,45</td>
+          <td>1,54</td>
+          <td>1,43</td>
+        </tr>
+        <tr>
+          <td>Prueba de Friedman p<0.001</td>
+          <td>p<0.001</td>
+          <td>p<0.001</td>
+          <td>p<0.001</td>
+          <td>p<0.001</td>
+          <td>p<0.001</td>
+        </tr>
+        <tr>
+          <td>Volumen inicial de raíz (media cm3)</td>
+          <td>0,51</td>
+          <td>0,61</td>
+          <td>0,38</td>
+          <td>0,14</td>
+          <td>0,12</td>
+        </tr>
+        <tr>
+          <td>Volumen de raíz a los 90 dpt (media cm3)</td>
+          <td>1,12</td>
+          <td>1,3</td>
+          <td>0,78</td>
+          <td>0,34</td>
+          <td>0,3</td>
+        </tr>
+        <tr>
+          <td>ANOVA RM</td>
+          <td>p=0.07</td>
+          <td>p=0.04</td>
+          <td>p=0.09</td>
+          <td>p=0.07</td>
+          <td>p=0.04</td>
+        </tr>
+      </table>
+    </section>
 
-      <p>
-        A partir de 1987, se observa un cambio en la dirección del río (ver
-        figura 4a), marcando una transición hacia un trazado más rectilíneo. Lo
-        cual ratifica los resultados del análisis de sinuosidad que revelan una
-        relación significativa entre el año y el índice de sinuosidad del río.
-        El análisis de correlación de Pearson muestra una correlación negativa
-        moderada a fuerte (r = -0.73, p < 0.01), indicando que la sinuosidad ha
-        tendido a disminuir con el tiempo durante el período estudiado
-        (1978-2025). El modelo de regresión polinomial de segundo grado explica
-        aproximadamente un 79% de la variabilidad en los datos (R² ajustado =
-        0.74), demostrando un buen ajuste a la tendencia observada. Los
-        coeficientes del modelo sugieren que la relación no es estrictamente
-        lineal (ver figura 3), sino que presenta cierta curvatura, con una tasa
-        de disminución que podría estar modificándose en los años más recientes.
-        La figura 4a destaca la dinámica de cambio del río El Bañado entre 1978
-        y 2023, con una reducción progresiva en su sinuosidad. Estos cambios
-        parecen ser resultado de procesos naturales, como erosión y
-        sedimentación, junto con intervenciones humanas relacionadas con
-        infraestructura y uso del suelo. También, se refuerza este análisis al
-        mostrar desplazamientos del cauce hacia áreas más rectas, influenciados
-        por la expansión urbana y la construcción vial.
-      </p>
-
-      <div class="figure">
-        <img
-          src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNjAwIDQwMCI+PHJlY3Qgd2lkdGg9IjYwMCIgaGVpZ2h0PSI0MDAiIGZpbGw9IiNlOGY1ZTkiLz48dGV4dCB4PSIzMDAiIHk9IjIwMCIgZm9udC1mYW1pbHk9IkFyaWhbIiBmb250LXNpemU9IjE4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMmM3ZDMyIj5GaWd1cmUgMy4gVGVuZGVuY2lhIHRlbXBvcmFsIGRlbCDDrW5kaWNlIGRlIHNpbnVvc2lkYWQgZmx1dmlhbDwvdGV4dD48L3N2Zz4="
-          alt="Figura 3. Tendencia temporal del índice de sinuosidad fluvial"
-        />
-        <div class="figure-caption">
-          Figura 3. Tendencia temporal del índice de sinuosidad fluvial
-          (1978-2025): modelo de regresión polinomial grado 2.
-        </div>
-      </div>
-
-      <div class="figure">
-        <img
-          src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNjAwIDQwMCI+PHJlY3Qgd2lkdGg9IjYwMCIgaGVpZ2h0PSI0MDAiIGZpbGw9IiNlOGY1ZTkiLz48dGV4dCB4PSIzMDAiIHk9IjIwMCIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjE4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMmM3ZDMyIj5GaWd1cmEgNC4gRMOtbmFtaWNhIGRlIGNhbWJpbyBkZWwgcmlvIEVsIEJhw7FhZG88L3RleHQ+PC9zdmc+"
-          alt="Figura 4. Dinámica de cambio del río El Bañado"
-        />
-        <div class="figure-caption">
-          Figura 4. Dinámica de cambio del tramo del río el Bañado desde 1978 al
-          2023 y la aparición de la laguna San Juan (a). Variación del perfil
-          longitudinal de los tramos del río el Bañado en base a los diferentes
-          años analizados(b).
-        </div>
-      </div>
-
-      <p>
-        Además, entre 1978 y 2023, las curvas hipsométricas del río (Figura 4b)
-        reflejan una evolución significativa en su morfología, caracterizada por
-        una rectificación progresiva. En 1978, el río presentaba un curso
-        sinuoso con marcados desniveles, señal de un sistema fluvial dinámico
-        con intensos procesos de sedimentación y erosión lateral. Con el tiempo,
-        se observa una estabilización en el gradiente altitudinal y una
-        alineación más uniforme del cauce, especialmente evidente desde el año
-        2000.
-      </p>
-
-      <p>
-        Un elemento notable es la aparición de la laguna San Juan, visible desde
-        1991 próximo al río Yanguilo. Esta laguna probablemente surgió como
-        resultado de inundaciones, acumulación de agua superficial o
-        alteraciones en el cauce del río. Su dinámica hidrológica está
-        estrechamente vinculada a los cambios en el sistema fluvial. Finalmente,
-        la proximidad del río a la carretera y al desarrollo urbano sugiere una
-        interacción constante entre el cauce y la expansión territorial. Los
-        cambios en su trazado reflejan una transformación continúa impulsada por
-        factores naturales y antrópicos, subrayando la importancia de monitorear
-        su dinámica para garantizar una gestión adecuada de los recursos y
-        evitar impactos negativos en el entorno.
-      </p>
-
-      <h3>
-        Cambios del espejo de agua de la laguna San Juan entre el 2002 al 2023
-      </h3>
-      <p>
-        Se ha evidenciado fluctuaciones significativas a lo largo de 21 años.
-        Durante el período analizado, el área de la laguna para el 2002 y 2007
-        tiene una forma más extendida a partir de un correspondiente meandro,
-        que este tipo de lagos se forman debido a una alta erosionabilidad,
-        donde se depositan en las barras puntuales que se forman cuando el río
-        se aleja de su antigua orilla. Posiblemente el área del lago fue más
-        extendida aproximadamente entre 1984 al 2002, ocupando la llanura de
-        inundación del antiguo curso del río el Bañado. Posteriormente, presenta
-        una tendencia variable con un incremento notable en 2010 y un pico
-        máximo en 2020, cuando alcanza aproximadamente 8000 m², el cual se debe
-        a que la laguna se expandió en dos espejos de agua (Figura 5b). Este
-        aumento puede asociarse con factores como intensas lluvias,
-        modificaciones hidrológicas en el río El Bañado o eventos puntuales de
-        inundación.
-      </p>
-
-      <p>
-        Sin embargo, después de 2011, se observa una disminución del área,
-        reflejada en los valores de 2022 y 2023 (Figura 5a), que podrían estar
-        relacionadas con fenómenos de sequía, sedimentación o actividades
-        antropogénicas. Este aspecto se puede evidenciar con las imágenes satell
-        tales con actividades de relleno o terraplenes que se realizan a partir
-        del 2013.
-      </p>
-
-      <div class="figure">
-        <img
-          src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNjAwIDQwMCI+PHJlY3Qgd2lkdGg9IjYwMCIgaGVpZ2h0PSI0MDAiIGZpbGw9IiNlOGY1ZTkiLz48dGV4dCB4PSIzMDAiIHk9IjIwMCIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjE4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMmM3ZDMyIj5GaWd1cmUgNS4gRXNwZWpvIGRlIGFndWEgZGUgbGEgbGFndW5hIFNhbiBKdWFuPC90ZXh0Pjwvc3ZnPg=="
-          alt="Figura 5. Espejo de agua de la laguna San Juan"
-        />
-        <div class="figure-caption">
-          Figura 5. a) Variación del área de la laguna San Juan de Candúa entre
-          2002 y 2023. b) Cambios en la forma y extensión de la laguna en
-          diferentes años.
-        </div>
-      </div>
-      <h3>Batimetría de la laguna San Juan</h3>
-      <p>
-        La batimetría de la laguna San Juan, realizada en noviembre de 2024,
-        revela que la profundidad máxima es de 1.5 metros, con una profundidad
-        promedio de 0.85 metros. El volumen total de agua almacenada se estima
-        en 3,400 m³. El perfil batimétrico muestra una forma relativamente
-        irregular, con zonas más profundas en el centro y sectores menos
-        profundos cerca de los bordes (Figura 6).
-      </p>
-
-      <div class="figure">
-        <img
-          src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNjAwIDQwMCI+PHJlY3Qgd2lkdGg9IjYwMCIgaGVpZ2h0PSI0MDAiIGZpbGw9IiNlOGY1ZTkiLz48dGV4dCB4PSIzMDAiIHk9IjIwMCIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjE4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMmM3ZDMyIj5GaWd1cmUgNi4gQmF0aW1ldHLDrWEgZGUgbGEgbGFndW5hIFNhbiBKdWFuPC90ZXh0Pjwvc3ZnPg==?raw+true"
-          alt="Figura 6. Batimetría de la laguna San Juan"
-        />
-        <div class="figure-caption">
-          Figura 6. a) Perfil batimétrico de la laguna San Juan de Candúa. b)
-          Mapa de profundidades con curvas batimétricas.
-        </div>
-      </div>
-
+    <section class="content-section">
       <h2>Discusión</h2>
       <p>
-        La evolución del río El Bañado y la laguna San Juan de Candúa ilustra la
-        compleja interacción entre procesos naturales y actividades humanas en
-        sistemas fluviales. La rectificación progresiva del río, evidenciada por
-        la disminución del índice de sinuosidad, coincide con patrones
-        observados en otros sistemas fluviales afectados por intervenciones
-        antrópicas (Graf 2006; Wohl 2015).
+        El incremento de áreas degradadas es la muestra del deterioro acelerado
+        de los ecosistemas y una consecuencia cuando se rompe la capacidad
+        natural de regeneración que tienen estos espacios, sino se interviene
+        oportunamente la tendencia es inevitable a la desertificación. En las
+        estrategias de restauración la vegetación nativa juega un rol
+        fundamental. Según Azpilicueta et al. (2023) el uso de la regeneración
+        para producir plantines forestales cuando la semilla de interés no se
+        vende en el mercado (lo que sucede con la mayoría de las plantas
+        nativas), es una alternativa totalmente viable y permite obtener
+        material de propagación durante todo el año.
       </p>
 
       <p>
-        La formación de la laguna San Juan como resultado de cambios en el curso
-        del río refleja procesos geomorfológicos comunes en llanuras de
-        inundación, donde la migración de meandros y eventos de inundación
-        pueden crear cuerpos de agua aislados (Knighton 1998). Sin embargo, la
-        rápida fluctuación en el área de la laguna sugiere una alta sensibilidad
-        a cambios hidrológicos y climáticos, similar a lo observado en otros
-        lagos andinos (Torres-Batllo 2020).
+        Según Castañeda et al. (2007) existe escasa información acerca de la
+        reproducción de especies nativas con fines de restauración ecológica, en
+        ese marco aplico dos métodos de propagación en _B. latifolia_. En el
+        método de propagación por semilla obtuvo como resultado 32.14% de
+        germinación y encontró que las plántulas se desarrollaron mejor bajo un
+        porcentaje de sombra del 30%. En el método de propagación por estaca
+        obtuvo 35% de enraizamiento y 22% de sobrevivencia de estacas. En ambos
+        métodos los valores encontrados están por debajo de los encontrados por
+        este estudio que registró valores del 100% de prendimiento de plántulas
+        al día 28 después del trasplante, los mismos que se mantuvieron hasta
+        los 90 días de seguimiento, alcanzando alturas de 16.98 cm en relación a
+        la altura de inicio que fue de 7.13 cm.
       </p>
 
       <p>
-        La disminución reciente en el área de la laguna podría estar relacionada
-        con factores como la sedimentación acelerada, cambios en los patrones de
-        precipitación, o extracción de agua para actividades humanas. Este
-        patrón de declive ha sido documentado en otros cuerpos de agua de la
-        región, donde la combinación de cambio climático y presión antrópica ha
-        llevado a la reducción o desaparición de lagos (Barlow et al. 2021).
+        Por otro lado, Manfreda et al. (2022) encontraron tasas de germinación
+        de _B. dracunculifolia_ de 86% y 69% a partir de semillas, valores
+        inferiores al 95% de prendimiento reportado en este estudio hasta los 90
+        días de seguimiento después del trasplante, a partir de plántulas de
+        regeneración natural; en este periodo, alcanzaron una altura de 16.29
+        cm, duplicando la altura inicial de 7.39 cm. En relación a _D. viscosa_,
+        Acero-Nitola & Cortés-Pérez (2014) encontraron en una prueba de
+        viabilidad indirecta de semillas recolectadas de individuos sanos de
+        entre 2 y 5 metros de altura y con una cobertura de 2 a 7.5 m², un 21%
+        de plántulas viables al germinar las semillas. En la misma
+        investigación, al aplicar la técnica de propagación por rescate de
+        plántulas sanas de su medio natural, se logró 97% de supervivencia hasta
+        los 65 días de seguimiento. Este valor es similar al encontrado en
+        nuestro estudio utilizando la misma técnica de propagación, que alcanzó
+        un 96% al finalizar los 90 días de seguimiento, con alturas de 6.88 cm,
+        duplicando la altura inicial de 3.51 cm.
       </p>
 
       <p>
-        La batimetría actual de la laguna sugiere un proceso avanzado de
-        colmatación, lo que podría afectar su permanencia a largo plazo. La
-        gestión sostenible de este ecosistema requerirá medidas de conservación
-        que consideren tanto los procesos naturales como las presiones humanas
-        en la cuenca.
+        En relación al _C. lilloi_ la información de propagación es muy escasa a
+        pesar de ser una de las especies más apreciadas por su madera muy
+        trabajable y durable, excelente para la ebanisteria. Reynel et al.
+        (2009) menciona que la semilla tiene 50 a 90% de germinación a partir
+        del día 20 hasta el 40 después del almacigado, la pérdida de viabilidad
+        bajo almacenamiento es acelerada y la viabilidad desciende
+        sustancialmente en un año. En el caso de nuestro trabajo usando
+        plántulas de la regeneración natural, se obtuvo un prendimiento del 96%
+        a los 90 días de seguimiento, con altura promedio de 8.34 cm, esta
+        altura significa el doble de la altura de inicio que fue de 4.20 cm.
       </p>
 
+      <p>
+        Para _P. parlatorei_ también existe poca información de propagación de
+        esta especie, como referencia se cita lo indicado por Ayma (2005) para
+        _Podocarpus glomeratus_, la semilla de esta especie es recalcitrante, el
+        contenido de humedad, peso y viabilidad bajan en función a días de
+        almacenamiento, por lo que en un ensayo realizado con escarificado en
+        laboratorio se obtuvo un 58% de germinación, en bosque y vivero 0%. Esto
+        debido a que no se aplicaron los tratamientos pregerminativos correctos
+        y no se proporcionaron los requerimientos de humedad y luz, considerando
+        que la semilla tiene una latencia combinada de cubierta y del embrión de
+        tipo fisiológico. En su medio natural (bosque) se puede apreciar
+        abundante regeneración de _P. parlatorei_, esto probablemente se debería
+        a la gran cantidad de sustancias de naturaleza lipídica presentes en el
+        pseudofruto, que indicarían la importancia que tiene en la dieta de
+        especies frugívoras y estas a su vez tendrían un papel importante en la
+        pregerminación y dispersión de las semillas (Barros & Giménez 2017). En
+        nuestro estudio a partir de plántulas de regeneración natural se obtuvo
+        un prendimiento de 90% hasta los tres meses de seguimiento, con una
+        altura de 7.21 cm, incrementando el 95% de la altura inicial que fue de
+        3.7 cm.
+      </p>
+
+      <p>
+        Los resultados de este estudio muestran que el uso de plántulas de la
+        regeneración natural para la producción de plantines es una alternativa,
+        considerando que se obtuvo prendimientos igual y/o superior al 90% para
+        las cinco especies estudiadas, con un sustrato de 67% de tierra negra
+        del lugar, 22% de arena lavada y 11% de materia orgánica. Por lo que el
+        uso de un buen sustrato es determinante (Pérez et al., 2011), quienes
+        realizaron la propagación por regeneración natural de cedro (_Cedrela
+        odorata_), empleando como sustrato tierra negra del lugar con abono
+        orgánico, logrando un porcentaje de supervivencia cercano al 80%.
+      </p>
+
+      <p>
+        Las plántulas que mostraron crecimiento rápido fueron _B. latifolia_
+        (especie del estadio sucesional II, de 11 a 20 años de regeneración) y
+        _B. dracunculifolia_ (especie del estadio sucesional I, de 1 a 10 años
+        de regeneración), mostrarndo un comportamiento típico de plantas
+        pioneras; corroborado por Valenzuela (2023) que indica que _B.
+        latifolia_ es pionera y ruderal utilizada para revegetación con
+        propósitos de estabilización de suelos y por Stephan et al. (2024) que
+        identifica a _B. dracunculifolia_ colonizando áreas erosionadas con
+        suelo poco profundos y pedregosos afectadas por incendios frecuentes. En
+        el caso de _D. viscosa_ (con presencia en sitios degradados con 20 a 30
+        años, especie exótica del estadio sucesional III) tuvo un crecimiento de
+        moderado a lento similar a _C. lilloi_ (especie del estadio sucesional
+        V, bosque primario) y _P. parlatorei_ (especie del estadio sucesional
+        IV, bosque secundario de 30 a 40 años).
+      </p>
+    </section>
+
+    <section class="content-section">
       <h2>Conclusiones</h2>
       <p>
-        El estudio demuestra que la laguna San Juan de Candúa se formó como
-        resultado de cambios geomorfológicos en el río El Bañado,
-        particularmente procesos de rectificación del cauce que ocurrieron entre
-        1980 y 1987. Estos cambios estuvieron influenciados tanto por procesos
-        naturales como por actividades humanas, incluyendo la expansión urbana y
-        la construcción de infraestructura vial.
+        El porcentaje de prendimiento fue alto (igual y/o superior al 90%) en
+        las cinco especies estudiadas: _B. latifolia_ (ch'illka), _D. viscosa_
+        (ch'akatea), _B. dracuncifolia_ (t'ola), _C. lilloi_ (cedro) y _P.
+        parlatorei_ (pino de monte). Esto demuestra que el método de propagación
+        por rescate de plántulas de la regeneración natural es viable,
+        ofreciendo ventajas. Entre ellas destaca que las plántulas de
+        regeneración natural siempre estarán disponibles en el medio natural,
+        partiendo de plántulas seguras. Además se evita el uso de tratamientos
+        pregerminativos costosos y que se desconocen para la mayoría de las
+        plantas nativas. Este método ahorra tiempo considerando que se parte de
+        plántulas que han completado de manera natural las fases de dispersión,
+        selección, germinación y crecimiento inicial todo dentro de su hábitat
+        natural, donde interactúan con otras especies del ecosistema (insectos,
+        frugívoros, otros). Esta ventaja contribuye a que en un periodo de 90
+        días se puedan obtener plantines listos para su trasplante a campo
+        definitivo. Sin embargo, el uso de la regeneración natural para la
+        producción de plantines en vivero requiere ciertas precauciones. Es
+        fundamental realizar una selección y protección de los rodales
+        semilleros, así como su espacio para garantizar una producción sostenida
+        de plántulas. Las especies _B. latifolia_ y _B. dracunculifolia_ son de
+        estadios sucesionales tempranos y tiene un desarrollo acelerado típicos
+        de plantas pionera. Sin embargo. Por su parte, _D. viscosa_ presenta
+        crecimiento lento, un patrón similar se observó en _C. lilloi_ y _P.
+        parlatorei_ que son especies propias del bosque primario.
+      </p>
+    </section>
+
+    <section class="content-section">
+      <h2>Agradecimientos</h2>
+      <p>
+        Expresamos nuestro agradecimiento a la Cooperación Suiza por el
+        financiamiento del Proyecto "Plantas nativas, una alternativa para la
+        fertilidad natural y provisión de agua a frutales de valle".
+        PIA.ACC-USFX.25, a AGRUCO – UMSS, al Instituto de Agroecología y
+        Seguridad Alimentaria (IASA) de la Facultad de Ciencias Agrarias -
+        Universidad Mayor, Real y Pontificia de San Francisco Xavier de
+        Chuquisaca.
       </p>
 
       <p>
-        La laguna ha experimentado fluctuaciones significativas en su extensión
-        superficial durante las últimas dos décadas, con un pico máximo en 2020
-        seguido de una disminución progresiva. Estas variaciones reflejan la
-        sensibilidad del sistema a factores climáticos, hidrológicos y
-        antrópicos.
+        Al Gobierno Autónomo Municipal de Villa Serrano y de manera muy especial
+        a los agricultores de la comunidad de Escaleras. Así mismo al Ing.
+        Ignacio Guzmán por facilitar el trabajo con la comunidad y al Ing.
+        Ronald Alcibia por su colaboración en el trabajo de campo.
       </p>
 
+      <h3>Contribución de autores</h3>
       <p>
-        La batimetría actual indica una profundidad máxima de 1.5 metros y un
-        proceso avanzado de colmatación, lo que sugiere vulnerabilidad ante
-        cambios ambientales y presiones humanas. Se recomienda implementar
-        medidas de conservación y monitoreo continuo para garantizar la
-        preservación de este ecosistema lacustre.
+        Manuel H. Jiménez Huamán: Registro de datos de campo, análisis
+        estadístico y redacción del documento.
       </p>
+      <p>
+        Ceferino Peca Huallpa: Implementación del experimento y transcripción de
+        datos de campo.
+      </p>
+      <p>Jorge R. Alurralde Saavedra: Revisión de redacción técnica.</p>
+      <p>Josue Bejarano Chumacero: Generación de base bibliográfica.</p>
+      <p>Julio V. Ramírez Balcera: Organización de la logística de campo.</p>
+    </section>
 
-      <div class="acknowledgements">
-        <h3>Agradecimientos</h3>
-        <p>
-          Los autores agradecen al Instituto Experimental de Biología "Luis Adam
-          Briançon" y a la Universidad San Francisco Xavier de Chuquisaca por el
-          apoyo institucional. También se extiende el agradecimiento a la
-          comunidad de Candúa por su colaboración durante el trabajo de campo.
-        </p>
+    <section class="references">
+      <h2>Referencias</h2>
+      <div class="reference-item">
+        Antezana, C. F. y G. Navarro (2002). Contribución al análisis
+        biogeográfico y catálogo preliminar de la flora de los valles secos
+        interandinos del centro de Bolivia. Rev. Bol. Ecol. 12:3-38, 2002.
       </div>
-
-      <div class="references">
-        <h2>Referencias</h2>
-        <div class="reference">
-          Barlow, P. M., et al. (2021). Climate-induced changes in the water
-          resources of South American lakes. Journal of Hydrology, 593, 125821.
-        </div>
-        <div class="reference">
-          Bishop, M. P., et al. (2012). Remote sensing and geomorphometry for
-          studying relief and topography. In Geomorphological Techniques (pp.
-          1-38). British Society for Geomorphology.
-        </div>
-        <div class="reference">
-          Chaoyong, Z., et al. (2024). Evolution of fluvial-lacustrine systems
-          and their response to climate change. Geomorphology, 435, 108756.
-        </div>
-        <div class="reference">
-          CNES (2023). SPOT World Heritage Program. https://spot.cnes.fr
-        </div>
-        <div class="reference">
-          Dewan, A., et al. (2017). Evolution of the Bengal Delta and its
-          prevailing processes. Journal of Coastal Research, 33(6), 1212-1226.
-        </div>
-        <div class="reference">
-          Google (2018). Google Earth Pro. Versión 7.3.6.
-        </div>
-        <div class="reference">
-          Graf, W. L. (2006). Downstream hydrologic and geomorphic effects of
-          large dams on American rivers. Geomorphology, 79(3-4), 336-360.
-        </div>
-        <div class="reference">
-          Heino, J., et al. (2021). Lakes in the era of global change: moving
-          beyond single-system thinking. Journal of Ecology, 109(6), 2251-2263.
-        </div>
-        <div class="reference">
-          IGM (2021). Cartografía Nacional. Instituto Geográfico Militar de
-          Bolivia.
-        </div>
-        <div class="reference">
-          Knighton, D. (1998). Fluvial forms and processes: a new perspective.
-          Routledge.
-        </div>
-        <div class="reference">
-          Kong, D., et al. (2020). Changes in river morphology and flood
-          dynamics after dam construction. Water Resources Research, 56(8),
-          e2020WR027127.
-        </div>
-        <div class="reference">
-          Lattuvesse, R., et al. (2009). Geomorphological mapping and sediment
-          budget of the Amazon River. Earth Surface Processes and Landforms,
-          34(12), 1632-1648.
-        </div>
-        <div class="reference">
-          Mertes, L. A. K., et al. (1995). Spatial and temporal patterns of
-          suspended sediment transport in the Amazon River. Water Resources
-          Research, 31(12), 3165-3180.
-        </div>
-        <div class="reference">
-          Moss, B. (2012). Ecology of freshwaters: a view for the twenty-first
-          century. John Wiley & Sons.
-        </div>
-        <div class="reference">
-          Paulino, R. C., et al. (2023). Remote sensing of geomorphological
-          changes in river systems. Remote Sensing, 15(4), 1023.
-        </div>
-        <div class="reference">
-          Puhakka, M., et al. (1992). Channel migration and vegetation patterns
-          in the Amazon Basin. Journal of Biogeography, 19(6), 623-634.
-        </div>
-        <div class="reference">
-          QGIS (2020). QGIS Geographic Information System. Open Source
-          Geospatial Foundation Project.
-        </div>
-        <div class="reference">
-          R Core Team (2021). R: A language and environment for statistical
-          computing. R Foundation for Statistical Computing.
-        </div>
-        <div class="reference">
-          Salo, J., et al. (1986). River dynamics and the diversity of Amazon
-          lowland forest. Nature, 322(6076), 254-258.
-        </div>
-        <div class="reference">
-          Schallenberg, M., et al. (2013). Ecosystem services of lakes. In
-          Ecosystem Services in New Zealand (pp. 203-225). Manaaki Whenua Press.
-        </div>
-        <div class="reference">
-          Schumm, S. A. (1963). Sinuosity of alluvial rivers on the Great
-          Plains. Geological Society of America Bulletin, 74(9), 1089-1100.
-        </div>
-        <div class="reference">
-          SENAMHI (2023). Servicio Nacional de Meteorología e Hidrología de
-          Bolivia. Datos climáticos.
-        </div>
-        <div class="reference">
-          Tandon, S. K., & Sinha, R. (2007). Geology of large river systems. In
-          Large Rivers: Geomorphology and Management (pp. 7-28). John Wiley &
-          Sons.
-        </div>
-        <div class="reference">
-          Torres-Batllo, J. (2020). The disappearance of Lake Poopó:
-          environmental and social implications. Journal of Latin American
-          Geography, 19(2), 183-206.
-        </div>
-        <div class="reference">
-          USGS (1995). Declassified satellite imagery - KH-9 HEXAGON. United
-          States Geological Survey.
-        </div>
-        <div class="reference">
-          VRHyR (2010). Viceministerio de Recursos Hídricos y Riego. Catastro de
-          cuencas de Bolivia.
-        </div>
-        <div class="reference">
-          Wohl, E. (2015). Legacy effects on sediments in river corridors.
-          Earth-Science Reviews, 147, 30-53.
-        </div>
-        <div class="reference">
-          Zambrano, E., et al. (2011). Caracterización hidrológica de la cuenca
-          del río Parapetí. Revista Boliviana de Ciencias de la Tierra, 12,
-          45-58.
-        </div>
-        <div class="reference">
-          ZONISIG (2000). Zonificación de la subcuenca del río El Bañado.
-          Informe técnico.
-        </div>
+      <div class="reference-item">
+        Antezana, C. (2004). Estudio de la flora y vegetación de los valles
+        secos interandinos del departamento de Cochabamba (Bolivia). Memoria
+        para optar el grado de Doctora por la Universidad Complutense de Madrid.
       </div>
+      <div class="reference-item">
+        Acero-Nitola, A. M. & Cortez-Pérez F. (2014). Propagación de especies
+        nativas de la microcuenca del río La Vega, Tunja, Boyacá, con potencial
+        para la restauración ecológica. Rev. Acad. Colomb. Cienc.
+        38(147):195-205.
+        https://racccjyn.co/index.php/racccjyn/article/view/76/45
+      </div>
+      <div class="reference-item">
+        Alvarado-García, V. & Zúñiga-Amador, M. A. (2018). Vegetación nativa
+        como factor de control de erosión y restauración ecológica, San José,
+        Costa Rica. La Calera, 18(30), 39-47.
+        https://doi.org/10.5327/calera.v18i30.7738
+      </div>
+      <div class="reference-item">
+        Ayma, A.I. (2005). Estudio de propagación sexual de pino de monte
+        (Podocarpus glomeratus D. Don) en la comunidad de Sailapata –
+        Independencia. Tesis de grado para obtener el título de Licenciatura en
+        Ingeniería Forestal. Facultad de Ciencias Agrícolas y Pecuarias,
+        Universidad Mayor de San Simón. Cochabamba, Bolivia.
+        10.13140/RG.2.1.4873.0005
+      </div>
+      <div class="reference-item">
+        Azpilioueta, M. M., Aparicio, A. G., Mondino, V. & Pastorino, M. J.
+        (2023). Banco de plantas con cita diferida como alternativa para la
+        producción continua de plantines de lenga en el vivero. Bosque. 44(1):
+        201-206. http://dx.doi.org/10.4067/s0717-92002023000100201
+      </div>
+      <div class="reference-item">
+        Barros, J. & Giménez, A. M. (2017). El valor de un bosque montano en
+        Catamarca, Argentina. Pp. 105-126 En: Econantomía y Biodiversidad.
+        Facultad de Ciencias Forestales. Universidad Nacional de Santiago del
+        Estero.
+        https://cf.unse.edu.ar/archivos/publicaciones/libro-econantomia/econantomia-p1-05-barros-EI-valor-de-un-bosque-montano-en-Catamarca-Argentina.pdf
+      </div>
+      <div class="reference-item">
+        Cabanzo-Alliano, I., Rodríguez-Mendoza, M. N., García-Cué, J. L.,
+        Almaraz-Suárez, J. J. & Gutierrez-Castonera, María del Carmen. (2020).
+        La biofertilización y nutrición en el desarrollo de plánulos de chile
+        serrano. Revista mexicana de ciencias agrícolas, 11(4), 699-712. Epub 13
+        de septiembre de 2021. https://doi.org/10.29312/renesca.v11i4.2121
+      </div>
+      <div class="reference-item">
+        Condori Tintaya, F., Pino Vargas, E. M., & Villegas, P. T. (2022).
+        Pérdida de suelos por erosión hídrica en laderas semifinales de la
+        subcuenca Cairani Camilaca. Perú. Iglesia (Arica), 40(2), 7-15.
+        https://doi.org/10.4067/S0718-34292022000200007
+      </div>
+      <div class="reference-item">
+        Crouzeilles, R., Ferreira, M. S., Chazdon, R. L., David, B., Lindemayer,
+        D. B., Sansevero, J. B. B., Monteiro, L., Inbarrem, A., Lataviec A. E. &
+        Strassburg, B. B. N. (2017). Ecological restoration success is higher
+        for natural regeneration than for active restoration in tropical
+        forests. Sci. Adv. 3, e1701345.
+        https://www.science.org/doi/pdf/10.1126/sciadv.1701345
+      </div>
+      <div class="reference-item">
+        Chave, J. (2006). Medición de densidades de madera en árboles
+        tropicales. Manual de campo. Lab. Evolution et Diversité Biologique
+        Universitaire de Toulouse 3 Paul Sabatier. Proyecto Pan-Amazonia.
+        https://rainfor.org/wp-content/uploads/sites/129/2022/07/wood_density_spanish1.pdf
+      </div>
+      <div class="reference-item">
+        Jiménez, M., Gonzales, M. L. & Ramírez, J. C. (2015). Guía práctica de
+        plantas leñosas para la implementación de sistemas agroforestales en el
+        Parque Nacional y Area Natural de manejo Integrado "Serranía del Ifao".
+        BEISA 3 – Instituto de Agroecología y Seguridad Alimentaria – IASA.
+        Facultad de Ciencias Agrarias, Universidad San Francisco Xavier de
+        Chuquisaca. Sucre, Bolivia. 12-148 PaS.
+        https://usfx.bio/Documents/oLibrosIASA/GUIA_PRACTICA_DE_PLANTAS_LENOSAS.pdf
+      </div>
+      <div class="reference-item">
+        Jiménez, M. H. (2024). Conocimiento tradicional y plantas nativas para
+        la fertilidad del suelo de la Microcuenca Escaleras. Martha Serrano
+        Editora. Universidad San Francisco Xavier de Chuquisaca. Instituto de
+        Agroecología y Seguridad Alimentaria (IASA). Editorial Departamento de
+        Publicaciones USFX. 170 p.
+        https://usfx.bio/Documents/oLibrosIASA/Conocimiento_Tradicional_20_09_24.pdf
+      </div>
+      <div class="reference-item">
+        Ladouceur, E., Isbell, F., Clark, A. T., Harpole, W. S., Reich, P. B.,
+        Tilman, G. D., & Chase, J. M. (2023). The recovery of plant community
+        composition following passive restoration across spatial scales. Journal
+        of Ecology. 111, 814-829. https://doi.org/10.1111/j.1365-2745.14063
+      </div>
+      <div class="reference-item">
+        Leakey, R. R. B. (2017). Low-technology techniques for the vegetative
+        propagation of tropical trees. En K. Wood & A. J. Sanchez (Eds.),
+        Agroforestry for sustainable land-use (pages. 275-292). Elsevier.
+        https://doi.org/10.1016/B978-0-12-805356-0.00017-9
+      </div>
+      <div class="reference-item">
+        Luna-Nieves, A. L., Meave, J. A., Cerdeira, L. P. & Ibarra-Marquoz, G.
+        (2017). Reproductive phenology of useful Seasonally Dry Tropical Forest
+        trees: Guiding patterns for seed collection and plant propagation in
+        nurseries. Forest Ecology and Management, 393, 52-62.
+        https://doi.org/10.1016/j.forceo.2017.03.014
+      </div>
+      <div class="reference-item">
+        Manfreda, V. T., Alcaraz, M. L. y Scaramuzzino, R. L. (2020).
+        Germinación de Baccharis dracomunidina subsp. tandisensis:
+        caracterización basada en la temperatura, la luz y la salinidad.
+        Rodríguesia. Vol. 71: e02642017. DOI:
+        http://dx.doi.org/10.1590/2175-7860202071035
+      </div>
+      <div class="reference-item">
+        BOLFOR, Mostacodo, B., Fredericksen, T. (2000). Manual de Métodos
+        Básicos de Muestre y Análisis en Ecología Vegetal. Santa Cruz, Bolivia.
+        http://www.bio-nica.info/biblioteca/mostacodo200becologiavegetal.pdf
+      </div>
+      <div class="reference-item">
+        Navarro, G. & Ferreira, W. (2011a). Bioclima del Departamento de
+        Chuquisaca. En Carretero A., M. Serrano, F. Borchsenius & H. Balslev
+        (eds.). 2011. Pueblos y plantas de Chuquisaca. Estado del conocimiento
+        de los pueblos, la flora, uso y conservación (pp. 25-53). Herbario del
+        Sur de Bolivia. Rio de Janeiro. 2011. pp. 65-73.
+        https://www.scielo.sa.cr/scielo.php?script=scl_arttext&pid=60034-7744208000200020
+      </div>
+      <div class="reference-item">
+        Narrato, G. & Maldonado, M. (2002). Geografía ecológica de Bolivia.
+        Vegetación y ambientes acuáticos. Editorial Centro de Ecología Simón I.
+        Patino. Cochabamba. 719 p.
+      </div>
+      <div class="reference-item">
+        Ochoa, S., Pérez, I. & Bernardus, H. J. (2008). Fenología reproductiva
+        de las especies arbóreas del bosque tropical de Tenosique, Tabasco,
+        México. Rev. Biol. Trop. Eur. J. Trop. Biol. ISSN-0034-7744) Vol. 56
+        (2): 657-673.
+        https://www.scielo.sa.cr/scielo.php?script=scl_arttext&pid=60034-7744208000200020
+      </div>
+      <div class="reference-item">
+        Parades, D. R. E. (2023). Características estructurales que inciden en
+        la regeneración natural de bosques cosechados bajo cortas de protección
+        de Nothofagus puntillo (lenga) a lo largo de gradientes ambientales en
+        Tierra del Fuego, Argentina: Adecuación de prácticas silvícolas para el
+        manejo sostenible (Doctoral dissertation, Universidad Nacional de La
+        Plata). https://doi.org/10.35537/I0915/165100
+      </div>
+      <div class="reference-item">
+        Pérez, J., Acosta, L. & Parrado, A. (2011). Ensayos de propagación de
+        algunas especies forestales aptas para el manejo de la microcuenca La
+        Leja, Cundinamarca, Colombia. Revista científica. 124-137 PaS.
+        https://www.redalyc.org/pdf/504350437320009.pdf
+      </div>
+      <div class="reference-item">
+        Ramírez, T. & Lozano, D. C. (2023). Estructura y dinámica sucesional de
+        la regeneración natural en el bosque siempre verde pelotonizado con
+        intervención de manejo forestal en Zamora Chinchipe, Ecuador. Tesis para
+        optar el grado de Magister en Biodiversidad y Cambio Climático.
+        Universidad Nacional de Loja. Loja, Ecuador.
+        https://aspace.unl.edu.ec/jsnu/handle/12345678927845
+      </div>
+      <div class="reference-item">
+        R Core Team. (2025). R: A language and environment for statistical
+        computing (Version 4.3.2) [Computer software]. R Foundation for
+        Statistical Computing. https://www.r-project.org/
+      </div>
+      <div class="reference-item">
+        Reis, L., Szabo, J., Damasceno-Junior, G. & Garcia, L. (2024).
+        Reintroducción by transplanting seedlings from natural regeneration: an
+        alternative for ecological restoration. Rev. Restoration Ecology. Vol:
+        33(1). https://doi.org/10.1111/rec.14289
+      </div>
+      <div class="reference-item">
+        Reynel, C. & Marcelo, J. (2009). Árboles de los ecosistemas forestales
+        andinos. Manual de identificación de especies. Serie investigadora y
+        sistematización N° 9. Programa Regional ECOBONA - INTERCOOPERATION.
+        Lima, Perú.
+        https://sinia.minam.gob.pcs/sites/default/files/siar-puno/archivos/public/docs/1526.pdf
+      </div>
+      <div class="reference-item">
+        RStudio Team. (2025). RStudio: Integrated development environment for R
+        (Version 2023.06.2) [Computer software]. Posti Software, PBC.
+        https://postico/
+      </div>
+      <div class="reference-item">
+        Stephan, B., Fuentes, A., López, C. L., Cuba-Orozco, E. & Gallegos, S.
+        C. (2024). Los bosques montanos húmedos de la serranía de Ana-Apa (Sud
+        Yungas, La Paz, Bolivia): Un centro de diversidad de plantas y fuente
+        esencial de agua. Rev. Ecología en Bolivia vol.59 (2): 85-151.
+        http://www.scielo.org.bop/df/reb/v59n2/2075-5023-reb-59-02-85.pdf
+      </div>
+      <div class="reference-item">
+        Toro Manriquez, M., Cellini, J. M., Lenchnas, M. V., Peri, P. L., Peña
+        Rojas, K. A. & Martinez, G. J. (2019). Suitable conditions for natural
+        regeneration in variable retention harvesting of southern Patagonian
+        Nothofagus puntillo forests. Ecol Process 8, 18 (2019).
+        https://doi.org/10.1186/s13717-019-0175-7
+      </div>
+      <div class="reference-item">
+        Valenzuela, E. (2023). La chilia en el valle de La Paz. Ciencia y
+        Cultura N° 51. https://doi.org/10.35319/reyc.2023511198
+      </div>
+      <div class="reference-item">
+        Vargas-Figueroa, J. A. & Torres-Gonzalez, A. M. (2018). Germination and
+        seed conservation of pioneer species, Tecoma stans (Bigmontaceae), from
+        tropical dry forest of Colombia. Revista De Biologia Tropical, 66(2),
+        918-936. https://doi.org/10.15517/tbt.v66i2.33423
+      </div>
+      <div class="reference-item">
+        Zamora, M. (2006). Influencia de la ganadería trashumante y la apertura
+        de claros en la supervivencia y el crecimiento de Cedrela liliol en
+        Tariquia, Bolivia. 131-142 PaS.
+        https://proyungas.org.ar/wp-content/uploads/2014/12/librocedro.pdf
+      </div>
+      <div class="reference-item">
+        ZONISIG. (2000). Zonificación agroecológica y socioeconómica del
+        departamento de Chuquisaca. Ministerio de Desarrollo Sostenible y
+        Planificación. Sucre, Bolivia.
+        https://www.bivica.org/files/zonificacion_chuquisaca.pdf
+      </div>
+    </section>
 
-      <footer>
-        <p>© 2025 Revista Agro-Ecológica. Todos los derechos reservados.</p>
-        <p>
-          Esta es una representación HTML del artículo científico original en
-          formato PDF.
-        </p>
-      </footer>
-    </div>
+    <footer>
+      <p>AGRO-ECOLÓGICA 4(1): 13-22 agosto 2025. ISSN 2313-2906</p>
+    </footer>
   </body>
 </html>
