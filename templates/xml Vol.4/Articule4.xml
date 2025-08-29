@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<articulo tipo="investigacion" idioma="es">
+    <metadatos>
+        <titulo-revista>AGRO-ECOLÓGICA</titulo-revista>
+        <volumen>4</volumen>
+        <numero>1</numero>
+        <paginas>23-31</paginas>
+        <fecha-publicacion>agosto 2025</fecha-publicacion>
+        <issn>2313-2906</issn>
+        <url>https://revistas.usfx.bo/index.php/rae/</url>
+        <doi>10.56469/rae.v4i1.1597</doi>
+    </metadatos>
+    
+    <titulos>
+        <titulo-principal>Adaptación y productividad de maní (Arachis hypogea L.) en ecosistemas subandinos secos del sur de Bolivia</titulo-principal>
+        <titulo-secundario>Adaptation and productivity of peanut (Arachis hypogaea L.) in dry sub-Andean ecosystems of southern Bolivia</titulo-secundario>
+    </titulos>
+    
+    <autores>
+        <autor numero="1" correspondencia="true">
+            <nombre>Julio Cesar Ramirez Balcera</nombre>
+            <afiliacion>Instituto de Agroecología y Seguridad Alimentaria, Facultad de Ciencias Agrarias, Universidad San Francisco Xavier de Chuquisaca, Casilla postal 1046, Calle Calvo Nº 132. Sucre, Bolivia</afiliacion>
+            <email>ramirez.julio@usfx.bo</email>
+        </autor>
+        <autor numero="2">
+            <nombre>Jose Luis Vacaflor Dominguez</nombre>
+            <afiliacion>Instituto Nacional de Innovación Agropecuaria y Forestal. Unidad de Fiscalización y Registros de Semillas. La Paz, Bolivia</afiliacion>
+        </autor>
+    </autores>
+    
+    <fechas>
+        <recibido>11/12/2024</recibido>
+        <aceptado>20/05/2025</aceptado>
+    </fechas>
+    
+    <resumenes>
+        <resumen idioma="es">
+            <texto>
+                El maní (Arachis hypogea L.) es un cultivo comercial de gran importancia en regiones tropicales y subtropicales, debido a su alto contenido de aceite, proteína, minerales y vitaminas. Se utiliza en diversas industrias, desde la alimentaria hasta la producción de fertilizantes. Sin embargo, su rendimiento y calidad se ven amenazados por factores biológicos, como enfermedades fúngicas, que afectan su crecimiento y productividad. En este contexto, el presente estudio evaluó el rendimiento agronómico de ecotipos y variedades de maní en el municipio de Padilla comunidad Pedernal, Bolivia, con el objetivo de identificar recursos genéticos con mayor potencial productivo y adaptabilidad a las condiciones agroecológicas de altura. Se evaluaron 12 tratamientos conformados por ocho ecotipos y cuatro variedades comerciales. Se encontraron diferencias significativas en variables de crecimiento como la altura de la planta; sin embargo, el rendimiento en grano no presentó diferencias estadísticamente significativas entre tratamientos. El tratamiento T8 registró el mayor rendimiento con 2272.52 kg/ha, mientras que T4 obtuvo el menor con 1071.31 kg/ha. Asimismo, se observaron variaciones en el porcentaje de cáscara y de granos sanos, el tratamiento T4 destacó con el mayor porcentaje de granos sanos (65%), mientras que el T5 presentó el mayor porcentaje de granos dañados (23.01%). El estudio concluyó que los ecotipos y variedades evaluadas mostraron buena adaptabilidad a las condiciones agroecológicas en el área de estudio. Se recomienda priorizar la propagación de los ecotipos y las variedades que mostraron mayor rendimiento y sanidad, con el fin de fortalecer la estabilidad y rentabilidad de la producción local de maní. Asimismo, se destaca la importancia de profundizar en investigaciones orientadas a optimizar las prácticas agronómicas y a conservar los recursos genéticos del cultivo garantizando así su sostenibilidad en zonas de altura.
+            </texto>
+            <palabras-clave>
+                <palabra>Adaptabilidad</palabra>
+                <palabra>ecotipos</palabra>
+                <palabra>prácticas agronómicas</palabra>
+                <palabra>recursos genéticos</palabra>
+            </palabras-clave>
+        </resumen>
+        
+        <resumen idioma="en">
+            <texto>
+                Peanut (Arachis hypogaea L.) is a commercially important crop in tropical and subtropical regions due to its high content of oil, protein, minerals, and vitamins. It is used across various industries, ranging from food production to the manufacture of fertilizers. However, its yield and quality are threatened by biological factors, such as fungal diseases, which negatively affect plant growth and productivity. In this context, the present study evaluated the agronomic performance of peanut ecotypes and varieties in the municipality of Padilla, Pedernal community, Bolivia, aiming to identify genetic resources with greater productive potential and adaptability to high-altitude agroecological conditions. Twelve treatments were assessed, comprising eight ecotypes and four commercial varieties. Significant differences were observed in growth-related variables, such as plant height; however, grain yield did not show statistically significant differences among treatments. Treatment T8 recorded the highest yield, reaching 2272.52 kg/ha, whereas T4 had the lowest yield at 1,071.31 kg/ha. Variations were also found in shell percentage and the proportion of healthy seeds: treatment T4 exhibited the highest percentage of healthy seeds (65%), while T5 showed the highest percentage of damaged seeds (23.01%). The study concluded that the evaluated ecotypes and varieties demonstrated good adaptability to the local agroecological conditions. It is recommended to prioritize the propagation of those ecotypes and varieties with higher yield and seed health to enhance the stability and profitability of local peanut production. Furthermore, the importance of advancing research focused on optimizing agronomic practices and conserving the crop's genetic resources is highlighted, ensuring its long-term sustainability in high-altitude areas.
+            </texto>
+            <palabras-clave>
+                <palabra>Adaptability</palabra>
+                <palabra>ecotypes</palabra>
+                <palabra>agronomic practices</palabra>
+                <palabra>genetic resources</palabra>
+            </palabras-clave>
+        </resumen>
+    </resumenes>
+    
+    <secciones>
+        <seccion nombre="introduccion">
+            <titulo>Introducción</titulo>
+            <parrafos>
+                <parrafo>
+                    El maní (Arachis hypogaea L.) es un cultivo que tiene la capacidad de fijar nitrógeno atmosférico, mejorando la fertilidad del suelo y reduciendo la dependencia de fertilizantes sintéticos, lo que es especialmente relevante en sistemas agrícolas de conservación (Qin et al. 2011). Además, su alta adaptabilidad a diversas condiciones climáticas y su valor nutricional, que incluye un alto contenido de proteínas, grasas saludables y micronutrientes esenciales, lo convierten en un alimento estratégico en muchas regiones agrícolas (Bannayan et al. 2009, Singh et al. 2014).
+                </parrafo>
+                <parrafo>
+                    En el contexto de los agroecosistemas montanos, el maní también presenta ventajas competitivas debido a su capacidad de adaptarse a terrenos marginales y aprovechar suelos menos fértiles. Estudios recientes han demostrado tecnologías como el uso de modelos de simulación y el manejo eficiente de la siembra pueden optimizar su producción, incluso bajo limitaciones agroecológicas (Pereira et al. 2016). Adicionalmente, su resistencia relativa a factores bióticos y abióticos y su capacidad de mitigar efectos adversos, como la toxicidad por metales pesados en suelos contaminados, refuerzan su importancia en la resiliencia de los agroecosistemas (Takhellambam et al. 2022). Estas características hacen del maní no solo un cultivo económico importante, sino también un componente esencial en el manejo sostenible de sistemas agrícolas.
+                </parrafo>
+                <parrafo>
+                    La caracterización morfológica del maní (Arachis hypogaea) ha sido fundamental para comprender su diversidad genética, evolución y adaptación. Además, estos rasgos sirven como indicadores importantes en la clasificación taxonómica y evolución de las especies de Arachis spp., contribuyendo a una mejor comprensión de la relación entre especies (Chen et al. 2013). Estudios proporcionaron información sobre los cariotipos de leguminosas y la evolución del poliploidismo, aportando herramientas genómicas para la domesticación y mejora del cultivo. Asimismo, Takhellambam et al. (2022) realizaron un análisis comparativo de genomas completos de cloroplastos en variedades botánicas de maní, destacando su utilidad en el entendimiento filogenético de las especies del género Arachis. Por otro lado, Chen et al. (2013) desarrollaron recursos genómicos de cloroplastos que han permitido profundizar en la diversidad genética y la evolución de esta planta. Estos estudios han sentado las bases para mejorar la sostenibilidad y productividad del cultivo, integrando enfoques genómicos y moleculares en programas de mejoramiento genético.
+                </parrafo>
+                <parrafo>
+                    El objetivo de este estudio es evaluar los rasgos morfológicos de diferentes ecotipos y variedades de maní (Arachis hypogaea L.), con énfasis en la identificación de características fenotípicas distintivas que permitan una clasificación precisa y la conservación eficiente del germoplasma. Estos rasgos resultan fundamentales no solo para garantizar la diversidad genética, sino también para fortalecer los programas de mejoramiento, orientados a optimizar el rendimiento y la adaptabilidad de esta especie en sistemas agrícolas y forrajeros.
+                </parrafo>
+            </parrafos>
+        </seccion>
+        
+        <seccion nombre="materiales-metodos">
+            <titulo>Materiales y Métodos</titulo>
+            
+            <subseccion nombre="area-estudio">
+                <titulo>Área de estudio</titulo>
+                <parrafos>
+                    <parrafo>
+                        La investigación se desarrolló en la comunidad de Pedernal (Figura 1), situada en las coordenadas Zona 20 K 367863.03 m E y 7867941.95 m S en el Parque Nacional y Área Natural de Manejo Integrado de la Serranía del Íñao, en el noreste del Departamento de Chuquisaca, Bolivia. La comunidad tiene un clima subhúmedo, con temperaturas promedio de 16°C a 18°C y precipitaciones anuales que oscilan entre 850 y 900 mm.
+                    </parrafo>
+                    <parrafo>
+                        La topografía de la zona es accidentada, con pendientes que varían entre 20° y 40°, lo que propicia la erosión, particularmente en áreas dedicadas a la agricultura y la ganadería. La vegetación está dominada por bosques subhúmedos y siempre verdes, aunque se observa un deterioro notable debido a la sobre explotación, como el pastoreo intensivo y la tala de árboles. Entre los recursos naturales, destaca la red hidrográfica que abastece las cuencas de los ríos Acero y Pili Pili, esenciales para el consumo humano.
+                    </parrafo>
+                    <parrafo>
+                        Las actividades económicas en la comunidad se centran principalmente en la agricultura y la ganadería. Los cultivos predominantes incluyen maíz (Zea mays), maní (Arachis hypogaea), papa (Solanum tuberosum) y ají (Capsicum pendulum), La población, caracterizada por una baja densidad demográfica, está conformada por un número reducido de familias, dedicadas a actividades productivas tradicionales de subsistencia.
+                    </parrafo>
+                </parrafos>
+                
+                <figura id="fig1">
+                    <titulo>Mapa de Localización de la Comunidad de Pedernal en el Parque Nacional y Área Natural de Manejo Integrado Serranía del Iñao, Chuquisaca, Bolivia</titulo>
+                    <url>https://github.com/AdanCR1/VOLUMEN4_AGRO-ECOLOGIA/blob/5fd37b97147e203831a4072a555594253438b8aa/articulo4/IMAGES/revista%204/Anotaci%C3%B3n%202025-08-28%20170627.png?raw=true</url>
+                </figura>
+            </subseccion>
+            
+            <subseccion nombre="material-vegetal">
+                <titulo>Material vegetal</titulo>
+                <parrafos>
+                    <parrafo>
+                        En esta investigación se utilizaron ecotipos y variedades de maní (Arachis hypogaea L.) recolectados y regenerados en el municipio de Monteagudo región del chaco de Chuquisaca, Bolivia. La selección del material vegetal se realizó considerando la diversidad fenotípica observable en las parcelas de procedencia manejo del cultivo tradicional.
+                    </parrafo>
+                    <parrafo>
+                        Se evaluaron ocho ecotipos de maní. Estos fueron: Tubito Bayo (T1), Colorado del Villar (T2), Coloradito (T3), Tubito Colorado (T4), Blanco Paradito (T7), Overo Atirimbia (T9), Overo Guarayo (T11) y Colorado de Bartolo (T12).
+                    </parrafo>
+                    <parrafo>
+                        Además, se incluyeron cuatro variedades, también cultivadas en la región y reconocidas por su potencial de rendimiento y características agronómicas. Estas fueron: Overo Guarani 2010 (T5), Colorado Iboperenda (T6), Overo Bola (T8) y Bayo Gigante (T10).
+                    </parrafo>
+                </parrafos>
+            </subseccion>
+            
+            <subseccion nombre="diseno-experimental">
+                <titulo>Diseño experimental</titulo>
+                <parrafos>
+                    <parrafo>
+                        El estudio se llevó a cabo utilizando un Diseño de Bloques Completamente al Azar (DBCA), con un total de 12 tratamientos, correspondientes a ocho ecotipos y cuatro variedades de maní (Arachis hypogaea L.), y tres repeticiones. La asignación de los tratamientos a las unidades experimentales dentro de los bloques se realizó mediante el método de números aleatorios, con el objetivo de garantizar una distribución equitativa y minimizar los efectos de la variabilidad ambiental.
+                    </parrafo>
+                </parrafos>
+            </subseccion>
+            
+            <subseccion nombre="diseno-parcela">
+                <titulo>Diseño y distribución de la parcela experimental</titulo>
+                <parrafos>
+                    <parrafo>
+                        La investigación se desarrolló en una parcela experimental con una superficie total de 48.5 m de largo por 9.8 m de ancho, lo que equivale a 475.3 m². Esta área fue organizada en bloques bajo un Diseño de Bloques Completamente al Azar (DBCA), con el fin de controlar la variabilidad ambiental y asegurar la confiabilidad de los resultados.
+                    </parrafo>
+                    <parrafo>
+                        Cada unidad experimental tuvo dimensions de 3.5 m de largo por 2.6 m de ancho, equivalente a una superficie de 9.1 m². Dentro de cada unidad experimental, se delimitó un área útil de 2.5 m por 1.3 m (3.25 m²), la cual fue utilizada para la recolección de datos, minimizando así los efectos de bordes y mejorando la precisión en la medición de las variables agronómicas.
+                    </parrafo>
+                    <parrafo>
+                        La distancia entre plantas fue de 50 cm, mientras que la distancia entre surcos fue de 65 cm, siguiendo las recomendaciones técnicas para el cultivo de maní (Arachis hypogaea L.) en condiciones de campo. Estas distancias permitieron una adecuada aireación, acceso a la luz solar y facilidad en las labores culturales, como el deshierbe y la cosecha manual.
+                    </parrafo>
+                    <parrafo>
+                        Cada unidad experimental contenía 28 plantas, de las cuales 10 plantas se encontraban dentro del área útil. Esto garantizó una muestra representativa para el análisis estadístico, reduciendo el sesgo causado por efectos de borde.
+                    </parrafo>
+                    <parrafo>
+                        La distribución espacial incluyó pasillos de 50 cm de ancho entre unidades experimentales y entre bloques, lo cual facilitó el acceso para las actividades de manejo, observación y recolección de datos, sin interferir con las variables en evaluación.
+                    </parrafo>
+                    <parrafo>
+                        Esta estructura metodológica asegura la repetibilidad del experimento y permite una adecuada comparación entre tratamientos, manteniendo el control sobre las fuentes de variabilidad y optimizando la calidad de los datos obtenidos.
+                    </parrafo>
+                </parrafos>
+            </subseccion>
+            
+            <subseccion nombre="variables-evaluadas">
+                <titulo>Variables evaluadas</titulo>
+                <parrafos>
+                    <parrafo>
+                        La evaluación de las variables agronómicas en el cultivo de maní (Arachis hypogaea L.) se realizó siguiendo un procedimiento riguroso y estandarizado, con el fin de obtener datos confiables que permitan una comparación objetiva entre los distintos ecotipos y variedades evaluadas. Para garantizar la representatividad de los datos, la evaluación se efectuó en 10 plantas dentro del área útil de cada unidad experimental, evitando los bordes para minimizar los efectos del entorno y asegurar condiciones homogéneas. Las mediciones de las variables se llevaron a cabo una vez alcanzado el estadio fenológico correspondiente a la madurez fisiológica del cultivo, es decir, al final del ciclo vegetativo, cuando las plantas habían completado su desarrollo morfo-reproductivo y expresaban plenamente sus características agronómicas.
+                    </parrafo>
+                    <parrafo>
+                        Este momento es crítico para asegurar la objetividad en la evaluación de parámetros como el número de vainas, rendimiento en grano, porcentaje de granos sanos y dañados, entre otros, ya que estos reflejan el comportamiento integral del cultivo bajo las condiciones del experimento. Esta estrategia metodológica permitió capturar de manera precisa el comportamiento agronómico de los tratamientos bajo estudio. A continuación, se detallan las variables evaluadas y los métodos utilizados para su medición.
+                    </parrafo>
+                </parrafos>
+                
+                <variable nombre="altura-planta">
+                    <nombre>Altura de la planta (cm)</nombre>
+                    <descripcion>La altura de la planta se midió desde la base del tallo, justo por encima del nivel del suelo, hasta el ápice o la parte más alta de la planta. Para garantizar representatividad y evitar sesgos. Cada planta se midió individualmente utilizando una cinta métrica.</descripcion>
+                </variable>
+                
+                <variable nombre="numero-vainas">
+                    <nombre>Número de vainas por planta</nombre>
+                    <descripcion>Se contabilizaron manualmente las vainas maduras de cada planta seleccionada, considerando solo aquellas que alcanzaron el grado de madurez correspondiente, se registró el número de vainas que se produjeron.</descripcion>
+                </variable>
+                
+                <variable nombre="porcentaje-cascara">
+                    <nombre>Porcentaje de cáscara de maní</nombre>
+                    <descripcion>El porcentaje de cáscara se calculó dividiendo el peso de la cáscara recolectada (después de extraer los granos) entre el peso total de las vainas secas por planta, y luego multiplicando el resultado por 100. Esta medición se realizó para cada tratamiento.</descripcion>
+                </variable>
+                
+                <variable nombre="porcentaje-granos-sanos">
+                    <nombre>Porcentaje de granos sanos</nombre>
+                    <descripcion>Para evaluar los granos sanos, se seleccionaron las vainas maduras, se extrajeron los granos y se clasificaron según su estado (sanos y defectuosos). Los granos sanos fueron pesados y se calculó el porcentaje en relación al peso total de los granos obtenidos por planta.</descripcion>
+                </variable>
+                
+                <variable nombre="porcentaje-granos-danados">
+                    <nombre>Porcentaje de granos dañados</nombre>
+                    <descripcion>Los granos de maní extraídos de las vainas fueron inspeccionados visualmente para identificar aquellos que presentaban daños causados por plagas, enfermedades o factores abióticos. El porcentaje de granos dañados se calculó dividiendo el peso de los granos dañados entre el peso total de los granos recolectados por planta y multiplicando por 100.</descripcion>
+                </variable>
+                
+                <variable nombre="rendimiento-grano">
+                    <nombre>Rendimiento en granos (kg/ha)</nombre>
+                    <descripcion>El rendimiento en granos se calculó a partir de la cosecha de las plantas de maní por unidad experimental. Se determinó el peso total de los granos cosechados por planta y luego se extrapoló este dato a la unidad de superficie, expresándolo en kilogramos por hectárea (kg/ha). Esta medida permitió estimar el rendimiento general de cada tratamiento a nivel de campo.</descripcion>
+                </variable>
+            </subseccion>
+            
+            <subseccion nombre="metodos-analisis">
+                <titulo>Métodos de análisis</titulo>
+                <parrafos>
+                    <parrafo>
+                        El análisis estadístico del presente estudio se realizó utilizando un diseño experimental de bloques completamente al azar (DBCA), basado en un modelo lineal que permite estimar los efectos de los tratamientos y los bloques sobre las variables evaluadas. Este enfoque considera las observaciones de cada tratamiento en sus respectivas repeticiones, incorporando los efectos sistemáticos de los tratamientos, los bloques y el error aleatorio residual.
+                    </parrafo>
+                    <parrafo>
+                        Para determinar la significancia de las diferencias entre tratamientos y bloques, se aplicó un análisis de varianza (ANOVA), mediante el cual se calcularon la suma de cuadrados, los cuadrados medios y el valor de la prueba F. Este análisis permitió establecer la existencia de diferencias estadísticamente significativas a niveles de probabilidad del 5% y 1% (Oladosu et al. 2017). Asimismo, se calculó el coeficiente de variación (CV) como un indicador de precisión y confiabilidad experimental, considerándose aceptable cuando su valor es igual o inferior al 25% (Montgomery, 2020). Todo el procesamiento de los datos experimentales se realizó utilizando el programa estadístico INFOSTAT versión libre, ampliamente utilizado en investigaciones agropecuarias, por su facilidad de uso y confiabilidad para la ejecución de análisis estadísticos avanzados en ensayos agronómicos.
+                    </parrafo>
+                    <parrafo>
+                        Posteriormente, para comparar las medias de los tratamientos que presentaron diferencias significativas en el ANOVA, se aplicó la prueba de comparación múltiple de medias de Duncan, con un nivel de significancia del 5% (Wilcox, 1986). Esta prueba también fue ejecutada mediante el programa INFOSTAT.
+                    </parrafo>
+                </parrafos>
+            </subseccion>
+        </seccion>
+        
+        <seccion nombre="resultados">
+            <titulo>Resultados</titulo>
+            
+            <subseccion nombre="desarrollo-cultivo">
+                <titulo>Características del desarrollo del cultivo de maní (Arachis hypogaea)</titulo>
+                
+                <subsubseccion nombre="altura-planta">
+                    <titulo>Altura de planta</titulo>
+                    <parrafos>
+                        <parrafo>
+                            Según el análisis de varianza (ANOVA) realizado para la variable altura de la planta, se encontraron que los tratamientos presentan diferencias altamente significativas, con un valor de P = 0.0001 (P < 0.01). Este resultado indica que los los ecotipos y variedades tuvieron diferencias en esta variable.
+                        </parrafo>
+                        <parrafo>
+                            Además, el coeficiente de variación (CV) reportado fue de 8.01%, lo cual se considera adecuado, ya que está dentro de los límites aceptables para experimentos agrícolas. Esto indica que el experimento tuvo un buen control del error experimental y que los resultados son confiables.
+                        </parrafo>
+                        <parrafo>
+                            Según la prueba de medias de Duncan a un nivel de significancia del 5% (Figura 2), se observó que el tratamiento T12 (Colorado de Bartolo) presentó el mayor valor de altura, con 41.03 cm. Este tratamiento fue estadísticamente similar a los tratamientos T7 (Blanco Paradito) y T1 (Tubito Bayo), ya que no se encontraron diferencias significativas entre estos tres. Por otro lado, los tratamientos T4 (Tubito Colorado) y T2 (Colorado del Villar) también mostraron valores similares en cuanto a altura, sin diferencias significativas entre ellos. Sin embargo, todos los demás tratamientos (T3 Coloradito, T11 Overo Guarayo, T5 Overo Guaraní 2010, T8 Overo Bola, T6 Colorado Iboperenda, T9 Overo Atirimbia y T10 Bayo Gigante) mostraron una altura significativamente menor, el tratamiento T10 (Bayo Gigante) fue el que presentó la menor altura, con un valor promedio de 30.43 cm. Estos resultados indican que, a pesar de que algunos tratamientos presentaron alturas similares, el tratamiento T12 (Colorado del Villar) destacó significativamente, mientras que T10 (Bayo Gigante) tuvo un desempeño inferior en términos de crecimiento.
+                        </parrafo>
+                        <parrafo>
+                            La información obtenida puede ser útil para optimizar las estrategias de manejo y selección de tratamientos en futuros ensayos.
+                        </parrafo>
+                    </parrafos>
+                    
+                    <figura id="fig2">
+                        <titulo>Altura promedio de la planta (cm) de maní (Arachis hypogea L.): comparación de medias con la prueba de Duncan al 5% de significancia por tratamiento</titulo>
+                        <url>https://github.com/AdanCR1/VOLUMEN4_AGRO-ECOLOGIA/blob/5fd37b97147e203831a4072a555594253438b8aa/articulo4/IMAGES/revista%204/Anotaci%C3%B3n1%202025-08-28%20170711.png?raw=true</url>
+                    </figura>
+                </subsubseccion>
+                
+                <subsubseccion nombre="numero-vainas">
+                    <titulo>Número de vainas por planta</titulo>
+                    <parrafos>
+                        <parrafo>
+                            De acuerdo con el análisis de varianza (ANOVA) para la variable número de vainas por planta, se observó que los tratamientos presentan diferencias altamente significativas, con un valor de P = 0.0084 (P < 0.01) y un CV de 22%. Esto indica que los ecotipos y variedades son estadísticamente diferentes en esta variable.
+                        </parrafo>
+                        <parrafo>
+                            Según la prueba de medias de Duncan a un nivel de significancia del 5% (Figura 3), se observó que el tratamiento T10 (Bayo gigante) presentó el mayor valor, con 47 vainas por planta. Este tratamiento fue estadísticamente diferente de los demás, mientras que los tratamientos T8 (Overo Bola), T3 (Coloradito), T2 (Colorado del Villar), T9 (Overo Atirimbia), T1 (Tubito Bayo), T11 (Overo Guarayo), T12 (Colorado de Bartolo), T5 (Overo Guaraní 2010), T4 (Tubito Colorado), T7 (Blanco Paradito) y T6 (Colorado Iboperenda) no mostraron diferencias significativas entre sí.
+                        </parrafo>
+                        <parrafo>
+                            El tratamiento T6 (Colorado Iboperenda), con 22 vainas por planta, presentó el menor valor, lo que lo distingue como el tratamiento menos efectivo en comparación con los demás.
+                        </parrafo>
+                        <parrafo>
+                            Estos resultados sugieren que la variedad Bayo Gigante (T10) tiene mayor capacidad en la formación de vainas, mientras que los demás tratamientos, aunque similares entre sí, fueron menos efectivos en este aspecto. La variedad Colorado Iboperenda (T6), en particular, evidenció un rendimiento inferior, lo que podría ser indicativo de una menor eficiencia en la producción de vainas en las condiciones del experimento.
+                        </parrafo>
+                    </parrafos>
+                    
+                    <figura id="fig3">
+                        <titulo>Número promedio de vainas por planta en los tratamientos de maní (Arachis hypogea L.): comparación de medias con la prueba de Duncan al 5% de significancia</titulo>
+                        <url>https://github.com/AdanCR1/VOLUMEN4_AGRO-ECOLOGIA/blob/5fd37b97147e203831a4072a555594253438b8aa/articulo4/IMAGES/revista%204/Anotaci%C3%B3n2%202025-08-28%20170825.png?raw=true</url>
+                    </figura>
+                </subsubseccion>
+                
+                <subsubseccion nombre="porcentaje-cascara">
+                    <titulo>Porcentaje de cáscara</titulo>
+                    <parrafos>
+                        <parrafo>
+                            De acuerdo al análisis de varianza (ANOVA) para el porcentaje de cáscara de maní (Arachis hypogea L.), se observó que los tratamientos presentan diferencias significativas, con un valor de P = 0.0108 (P < 0.05) y un CV de 10.55%. Esto indica que los ecotipos y variedades estadísticamente son diferentes en el porcentaje de cáscara.
+                        </parrafo>
+                        <parrafo>
+                            Según la prueba de medias de Duncan a un nivel de significancia del 5% (Figura 4), se observó que el tratamiento T6 (Colorado Iboperenda) presentó el mayor porcentaje, con 36.02%. Este tratamiento fue estadísticamente diferente de los demás, mientras que el tratamiento T7 (Blanco Paradito) también mostró un valor significativamente alto, pero no se diferenció del T6 (Colorado Iboperenda).
+                        </parrafo>
+                        <parrafo>
+                            Por otro lado, los tratamientos T5 (Overo Guarani 2010), T8 (Overo Bola), T12 (Colorado de Bartolo), T9 (Overo Atirimbia), T2 (Colorado del Villar), T3 (Coloradito), T11 (Overo Guarayo), T1 (Tubito Bayo), T10 (Bayo Gigante) y T4 (Tubito Colorado), presentaron valores significativamente más bajos y fueron agrupados en un mismo grupo de comparación. Entre estos, el tratamiento T4 (Tubito Colorado) fue el que mostró el menor porcentaje de cáscara, con 26.74%, lo que lo distingue como el tratamiento menor en cuanto a la producción de cáscara, por lo que este tratamiento (T4), puede ser de interés para aquellos que busquen minimizar la cantidad de cáscara en la producción de maní.
+                        </parrafo>
+                    </parrafos>
+                    
+                    <figura id="fig4">
+                        <titulo>Porcentaje promedio de cáscara de maní (Arachis hypogea L.) por tratamiento: comparación de medias con la prueba de Duncan al 5% de significancia</titulo>
+                        <url>https://github.com/AdanCR1/VOLUMEN4_AGRO-ECOLOGIA/blob/5fd37b97147e203831a4072a555594253438b8aa/articulo4/IMAGES/revista%204/Anotaci%C3%B3n3%202025-08-28%20170902.png?raw=true</url>
+                    </figura>
+                </subsubseccion>
+                
+                <subsubseccion nombre="porcentaje-granos-sanos">
+                    <titulo>Porcentaje de granos sanos</titulo>
+                    <parrafos>
+                        <parrafo>
+                            De acuerdo con el análisis de varianza (ANOVA) para la variable porcentaje de granos sanos (kg/ha), los tratamientos presentan diferencias altamente significativas, con un valor de P = 0.0043 (P < 0.01) y un CV de 11.46%.
+                        </parrafo>
+                        <parrafo>
+                            Según la prueba de medias de Duncan a un nivel de significancia del 5% (Figura 5), se observó que el tratamiento Tubito Colorado (T4) presentó el mayor porcentaje, con 65 %. Este tratamiento fue estadísticamente diferente de todos los demás tratamientos.
+                        </parrafo>
+                        <parrafo>
+                            El tratamiento T5 (Overo Guarani 2010), con un 42.44% de granos sanos, presentó el menor porcentaje de granos sanos en comparación con los demás tratamientos, lo que lo diferencia significativamente del grupo de tratamientos con mejor desempeño en este parámetro.
+                        </parrafo>
+                        <parrafo>
+                            Estos resultados indican que el ecotipo Tubito Colorado (T4) fue el más efectivo en porcentaje de granos sanos, mientras que la variedad Overo Guarani 2010 (T5) mostró el menor rendimiento en cuanto a la producción de granos sanos.
+                        </parrafo>
+                    </parrafos>
+                    
+                    <figura id="fig5">
+                        <titulo>Porcentaje promedio de granos sanos de maní (Arachis hypogea L.) por tratamiento: comparación de medias con la prueba de Duncan al 5% de significancia</titulo>
+                        <url>https://github.com/AdanCR1/VOLUMEN4_AGRO-ECOLOGIA/blob/5fd37b97147e203831a4072a555594253438b8aa/articulo4/IMAGES/revista%204/Anotaci%C3%B3n4%202025-08-28%20171015.png?raw=true</url>
+                    </figura>
+                </subsubseccion>
+                
+                <subsubseccion nombre="porcentaje-granos-danados">
+                    <titulo>Porcentaje de granos dañados</titulo>
+                    <parrafos>
+                        <parrafo>
+                            De acuerdo con el análisis de varianza (ANOVA) para la variable porcentaje de granos dañados (kg/ha), los tratamientos presentaron diferencias significativas, con un valor de P = 0.0495 (P < 0.05) y un CV de 47.72%.
+                        </parrafo>
+                        <parrafo>
+                            Según la prueba de medias de Duncan a un nivel de significancia del 5% (Figura 6), se observó que el tratamiento T5 (Overo Guarani 2010) presentó el mayor porcentaje, con 23.01%. Este tratamiento fue estadísticamente diferente de todos los demás tratamientos.
+                        </parrafo>
+                        <parrafo>
+                            El tratamiento T6 (Colorado Iboperenda), con un 8.01% de granos dañados, presentó el menor porcentaje de granos dañados en comparación con los demás tratamientos, lo que lo posiciona como el más efectivo en la reducción de daños en los granos de maní.
+                        </parrafo>
+                    </parrafos>
+                    
+                    <figura id="fig6">
+                        <titulo>Porcentaje promedio de granos dañados de maní (Arachis hypogea L.) por tratamiento: comparación de medias con la prueba de Duncan al 5% de significancia</titulo>
+                        <url>https://github.com/AdanCR1/VOLUMEN4_AGRO-ECOLOGIA/blob/5fd37b97147e203831a4072a555594253438b8aa/articulo4/IMAGES/revista%204/Anotaci%C3%B3n%202025-08-28%20171015.png?raw=true</url>
+                    </figura>
+                </subsubseccion>
+                
+                <subsubseccion nombre="rendimiento-grano">
+                    <titulo>Rendimiento en grano (kg/ha)</titulo>
+                    <parrafos>
+                        <parrafo>
+                            De acuerdo con el análisis de varianza (ANOVA) para la variable rendimiento en grano (kg/ha), los tratamientos no presentaron diferencias significativas, con un valor de P = 0.1127 (P > 0.05) y un CV de 24.35%.
+                        </parrafo>
+                        <parrafo>
+                            Según la prueba de medias de Duncan a un nivel de significancia del 5% (Figura 7), se observó que el tratamiento T8 (Overo Bola) presentó el mayor rendimiento, con 2272.52 kg/ha. Este tratamiento fue estadísticamente similar a los tratamientos T10 (Bayo Gigante), T12 (Colorado de Bartolo), T2 (Colorado del Villar), T3 (Coloradito) y T7 (Blanco Paradito), lo que indica que no hay diferencias significativas entre estos tratamientos en cuanto a rendimiento.
+                        </parrafo>
+                        <parrafo>
+                            Por otro lado, el grupo compuesto por T6 (Colorado Iboperenda), T9 (Overo Atirimbia), T5 (Overo Guarani 2010), T11 (Overo Guarayo), T1 (Tubito Bayo) y T4 (Tubito Colorado), mostró rendimientos significativamente menores en comparación con el grupo de tratamientos con el mayor rendimiento. En particular, el tratamiento T4 (Tubito Colorado), con 1071.31 kg/ha, tuvo el menor rendimiento en granos de maní, lo que lo posiciona como el tratamiento con menor producción de granos de maní.
+                        </parrafo>
+                        <parrafo>
+                            Estos resultados sugieren que la variedad de Overo Bola (T8) fue el más eficiente en cuanto al rendimiento de granos de maní, mientras que el ecotipo Tubito Colorado (T4) mostró el menor desempeño.
+                        </parrafo>
+                    </parrafos>
+                    
+                    <figura id="fig7">
+                        <titulo>Rendimiento promedio en granos de maní (Arachis hypogea L.) (kg/ha) por tratamiento: comparación de medias con la prueba de Duncan al 5% de significancia</titulo>
+                        <url>https://github.com/AdanCR1/VOLUMEN4_AGRO-ECOLOGIA/blob/5fd37b97147e203831a4072a555594253438b8aa/articulo4/IMAGES/revista%204/Anotaci%C3%B3n%202025-08-28%20171015.png?raw=true</url>
+                    </figura>
+                </subsubseccion>
+            </subseccion>
+        </seccion>
+        
+        <seccion nombre="discusion">
+            <titulo>Discusión</titulo>
+            <parrafos>
+                <parrafo>
+                    De acuerdo con los datos obtenidos en la evaluación de la altura, las diferencias observadas se deben a las características morfológicas particulares de los ecotipos y variedades, que se clasifican en "erectos, semierectos y rastreros". Estas variaciones morfológicas tienen un impacto directo en las dimensiones de la altura de planta, lo cual está en consonancia con estudios previos que afirman que la forma y la estructura de la planta influyen en estos parámetros (Li et al., 2019; Tardieu et al., 2018).
+                </parrafo>
+            </parrafos>
+            
+            <subseccion nombre="discusion-altura-planta">
+                <titulo>Altura de planta</titulo>
+                <parrafos>
+                    <parrafo>
+                        La altura de planta mostró diferencias altamente significativas entre tratamientos (P < 0.01), destacando el tratamiento T12 (Colorado de Bartolo) con una mayor altura promedio (41.03 cm), lo cual sugiere un efecto positivo de este manejo sobre el crecimiento vegetativo. Estos hallazgos concuerdan con estudios previos que indican que factores como la fertilización balanceada y el control adecuado de malezas pueden favorecer la elongación de los tallos en leguminosas (Bannayan et al., 2009; Sadok et al., 2021).
+                    </parrafo>
+                </parrafos>
+            </subseccion>
+            
+            <subseccion nombre="discusion-vainas-cascara">
+                <titulo>Producción de vainas y porcentaje de cáscara</titulo>
+                <parrafos>
+                    <parrafo>
+                        En relación con la producción de vainas por planta, se observó que el tratamiento T10 (Bayo Gigante) generó el mayor número de vainas (47), lo que puede explicarse por un mejor equilibrio en el crecimiento vegetativo y reproductivo. Estudios similares han documentado que una mayor área foliar y vigor vegetal favorecen la formación de estructuras reproductivas en el maní (Vara et al., 2003).
+                    </parrafo>
+                    <parrafo>
+                        Respecto al porcentaje de cáscara, los tratamientos T6 (Colorado Iboperenda) y T7 (Blanco Paradito) presentaron los valores más altos (36.02% y 34.81%, respectivamente). Si bien una mayor cáscara puede indicar un desarrollo robusto de las vainas, desde el punto de vista de la eficiencia productiva, un menor porcentaje es deseable ya que implica una mayor proporción de grano útil (Sadok et al., 2021). En este sentido, el tratamiento T4 (Tubito Colorado), con el menor porcentaje de cáscara (26.74%), podría representar una ventaja comercial para productores orientados a la maximización del rendimiento neto de grano.
+                    </parrafo>
+                </parrafos>
+            </subseccion>
+            
+            <subseccion nombre="discusion-calidad-grano">
+                <titulo>Calidad del grano: porcentaje de granos sanos y dañados</titulo>
+                <parrafos>
+                    <parrafo>
+                        Uno de los hallazgos más relevantes del estudio fue el impacto diferencial de los tratamientos sobre la calidad del grano. El tratamiento T4 (Tubito Colorado) alcanzó el mayor porcentaje de granos sanos (65 %), superando significativamente a los demás tratamientos. Este resultado destaca la importancia de un manejo integral que no solo promueva el rendimiento, sino también la sanidad del grano, posiblemente a través de prácticas que reduzcan la incidencia de plagas y enfermedades (Eck et al., 2020).
+                    </parrafo>
+                    <parrafo>
+                        En contraste, el tratamiento T5 (Overo Guarani 2010) evidenció el mayor porcentaje de granos dañados (23.01%), mientras que T6 (Colorado Iboperenda) mostró el menor (8.01%). Esto pone de manifiesto la necesidad de evaluar no solo el rendimiento total, sino también la calidad del producto cosechado, aspecto clave para el mercado alimentario y semillero (Bannayan et al., 2009).
+                    </parrafo>
+                </parrafos>
+            </subseccion>
+            
+            <subseccion nombre="discusion-rendimiento-grano">
+                <titulo>Rendimiento de grano</titulo>
+                <parrafos>
+                    <parrafo>
+                        Si bien el análisis de varianza no detectó diferencias significativas en el rendimiento de grano (P > 0.05), el tratamiento T8 (Overo Bola) presentó el valor más alto (2272.52 kg/ha). La falta de significancia estadística puede deberse a la alta variabilidad inherente a esta variable, influenciada por múltiples factores tanto genéticos como ambientales. Resultados similares han sido reportados por Vara et al. (2003), quienes argumentan que el rendimiento puede mostrar una alta dispersión incluso bajo condiciones experimentales controladas.
+                    </parrafo>
+                </parrafos>
+            </subseccion>
+        </seccion>
+        
+        <seccion nombre="conclusiones">
+            <titulo>Conclusiones</titulo>
+            <parrafos>
+                <parrafo>
+                    El estudio sobre la propagación de ecotipos y variedades de maní en la zona del Parque Nacional y Área de Manejo Integrado Serranía del Iñao reveló hallazgos importantes. Se observó que los 8 ecotipos y 4 variedades evaluados se adaptaron adecuadamente a la región, lo que sugiere que la propagación de estos ecotipos y variedades debe continuar, con el fin de fomentar la diversidad genética del cultivo. No obstante, se detectaron diferencias significativas en la resistencia a plagas y enfermedades entre los ecotipos, lo que indica que algunas variedades tienen un rendimiento superior y mayor resistencia. Por lo tanto, se recomienda seleccionar y propagar los ecotipos que mostraron un mejor desempeño y menor daño causado por plagas y enfermedades, lo que optimizaría los rendimientos y reduciría las pérdidas.
+                </parrafo>
+                <parrafo>
+                    Asimismo, las recomendaciones del estudio subrayan la importancia de enfocar la propagación en las variedades que presentaron menor impacto de daños, lo que contribuiría a una producción más estable y rentable. En cuanto a futuras investigaciones, se sugiere profundizar en la evaluación de la resistencia de los ecotipos a factores bióticos y abióticos, así como investigar técnicas de manejo agrícola más eficientes que puedan mejorar la productividad de estos cultivos.
+                </parrafo>
+                <parrafo>
+                    Finalmente, para la conservación de la biodiversidad y la mejora genética de la especie, es crucial mantener la variedad de ecotipos en las distintas zonas del área de estudio, lo que favorecería una agricultura más sostenible y resiliente frente al cambio climático.
+                </parrafo>
+            </parrafos>
+        </seccion>
+        
+        <seccion nombre="agradecimientos">
+            <titulo>Agradecimientos</titulo>
+            <parrafos>
+                <parrafo>
+                    Expresamos nuestro más sincero agradecimiento al Ing. Roger Rioja Barahona, funcionario del INIAF, Regional Chuquisaca, por su invaluable colaboración durante el desarrollo de la investigación. Su participación fue fundamental durante la fase de trabajo de campo, realizando de manera comprometida y profesional las visitas técnicas a las parcelas de investigación ubicadas en la comunidad de Pedernal. Gracias a su experiencia, disposición y acompañamiento constante, fue posible llevar a cabo un seguimiento adecuado de las actividades en campo, lo cual contribuyó significativamente a la obtención de datos precisos y al cumplimiento de los objetivos planteados. Su apoyo técnico y humano representó un aporte importante para la calidad y el éxito de este estudio.
+                </parrafo>
+            </parrafos>
+        </seccion>
+    </secciones>
+    
+    <referencias>
+        <referencia>
+            <autores>Bannayan, M., Tojo Soler, C. M., Garcia y Garcia, A., Guerra, L. C., & Hoogenboom, G.</autores>
+            <ano>2009</ano>
+            <titulo>Interactive effects of elevated CO₂ and temperature on growth and development of a short and long season peanut cultivar</titulo>
+            <revista>Climatic Change</revista>
+            <volumen>93</volumen>
+            <numero>3-4</numero>
+            <paginas>389-406</paginas>
+            <doi>10.1007/s10584-008-9510-1</doi>
+        </referencia>
+        <referencia>
+            <autores>Bell, M. L., King, M. T., & Fairclough, D. L.</autores>
+            <ano>2014</ano>
+            <titulo>Bias in area under the curve for longitudinal clinical trials with missing patient reported outcome data: Summary measures versus summary statistics</titulo>
+            <revista>SAGE Open</revista>
+            <volumen>4</volumen>
+            <numero>2</numero>
+            <paginas>1-11</paginas>
+            <doi>10.1177/2158244014534858</doi>
+        </referencia>
+        <referencia>
+            <autores>Chen, C. Y., Nuit, R. C., Rowland, D. L., Faircloth, W. H., Lamb, M. C., & Harvey, E.</autores>
+            <ano>2013</ano>
+            <titulo>Heritability and genetic relationships for drought-related traits in peanut</titulo>
+            <revista>Crop Science</revista>
+            <volumen>53</volumen>
+            <numero>4</numero>
+            <paginas>1392-1402</paginas>
+            <doi>10.2135/cropsci2012.07.0426</doi>
+        </referencia>
+        <referencia>
+            <autores>Eck, M. A., Murray, A. R., Ward, A. R., & Konrad, C. E.</autores>
+            <ano>2020</ano>
+            <titulo>Influence of growing season temperature and precipitation anomalies on crop yield in the southeastern United States</titulo>
+            <revista>Agricultural and Forest Meteorology</revista>
+            <volumen>291</volumen>
+            <paginas>108053</paginas>
+            <doi>10.1016/j.agrformet.2020.108053</doi>
+        </referencia>
+        <referencia>
+            <autores>Li, L., Yang, X., Cui, S., Meng, X., Mu, G., Hou, M., He, M., Zhang, H., Liu, L., & Chen, C. Y.</autores>
+            <ano>2019</ano>
+            <titulo>Construction of high-density genetic map and mapping quantitative trait loci for growth habit-related traits of peanut (Arachis hypogaea L.)</titulo>
+            <revista>Frontiers in Plant Science</revista>
+            <volumen>10</volumen>
+            <paginas>745</paginas>
+            <doi>10.3389/fpls.2019.00745</doi>
+        </referencia>
+        <referencia>
+            <autores>Oladosu, Y., Rafii, M. Y., Abdullah, N., Magaji, U., Miah, G., Hussin, G., & Ramli, A.</autores>
+            <ano>2017</ano>
+            <titulo>Genotype-by-environment interaction and yield stability of rice mutant genotypes evaluated in multiple locations of Malaysia</titulo>
+            <revista>Acta Agriculturae Scandinavica, Section B -- Soil & Plant Science</revista>
+            <volumen>67</volumen>
+            <numero>7</numero>
+            <paginas>590-606</paginas>
+            <doi>10.1080/09064710.2017.1321138</doi>
+        </referencia>
+        <referencia>
+            <autores>Peeters, A., Dendoncker, N., & Jacobs, S.</autores>
+            <ano>2013</ano>
+            <titulo>Chapter 22--Enhancing ecosystem services in Belgian agriculture through agroecology: A vision for a farming with a future</titulo>
+            <libro>Ecosystem services</libro>
+            <editorial>Elsevier</editorial>
+            <paginas>285-304</paginas>
+            <doi>10.1016/B978-0-12-419964-4.00022-6</doi>
+        </referencia>
+        <referencia>
+            <autores>Pereira, J., Albuquerque, M., Filho, P., Nogueira, R. J., Lima, L., & Santos, R.</autores>
+            <ano>2016</ano>
+            <titulo>Assessment of drought tolerance of peanut cultivars based on physiological and yield traits in a semiarid environment</titulo>
+            <revista>Agricultural Water Management</revista>
+            <volumen>166</volumen>
+            <paginas>70-76</paginas>
+            <doi>10.1016/j.agwat.2015.12.010</doi>
+        </referencia>
+        <referencia>
+            <autores>Prasad, P. V. V., Boote, K. J., Allen, L. H., & Thomas, J. M. G.</autores>
+            <ano>2003</ano>
+            <titulo>Super-optimal temperatures are detrimental to peanut (Arachis hypogaea L.) reproductive processes and yield at both ambient and elevated carbon dioxide</titulo>
+            <revista>Global Change Biology</revista>
+            <volumen>9</volumen>
+            <numero>12</numero>
+            <paginas>1775-1787</paginas>
+            <doi>10.1046/j.1365-2486.2003.00708.x</doi>
+        </referencia>
+        <referencia>
+            <autores>Qin, H., Feng, S., Chen, C., Guo, Y., Knapp, S., Culbreath, A., He, G., Wang, M. L., Zhang, X., Holbrook, C. C., Ozias-Akins, P., & Guo, B.</autores>
+            <ano>2012</ano>
+            <titulo>An integrated genetic linkage map of cultivated peanut (Arachis hypogaea L.) constructed from two RIL populations</titulo>
+            <revista>Theoretical and Applied Genetics</revista>
+            <volumen>124</volumen>
+            <numero>4</numero>
+            <paginas>653-664</paginas>
+            <doi>10.1007/s00122-011-1737-y</doi>
+        </referencia>
+        <referencia>
+            <autores>Sadok, W., Lopez, J. R., & Smith, K. P.</autores>
+            <ano>2021</ano>
+            <titulo>Transpiration increases under high-temperature stress: Potential mechanisms, trade-offs and prospects for crop resilience in a warming world</titulo>
+            <revista>Plant, Cell & Environment</revista>
+            <volumen>44</volumen>
+            <numero>7</numero>
+            <paginas>2102-2116</paginas>
+            <doi>10.1111/pce.13970</doi>
+        </referencia>
+        <referencia>
+            <autores>Singh, P., Nedumaran, S., Ntare, B., Boote, K. J., Singh, N. P., Komuravelly, S., & Bantilan, M. C. S.</autores>
+            <ano>2014</ano>
+            <titulo>Potential benefits of drought and heat tolerance in groundnut for adaptation to climate change in India and West Africa</titulo>
+            <revista>Mitigation and Adaptation Strategies for Global Change</revista>
+            <volumen>19</volumen>
+            <numero>5</numero>
+            <paginas>509-529</paginas>
+            <doi>10.1007/s11027-012-9446-7</doi>
+        </referencia>
+        <referencia>
+            <autores>Takhellambam, B., Srivastava, P., Lamba, J., McGehee, R., Kumar, H., & Tian, D.</autores>
+            <ano>2022</ano>
+            <titulo>Temporal disaggregation of hourly precipitation under changing climate over the Southeast United States</titulo>
+            <revista>Scientific Data</revista>
+            <volumen>9</volumen>
+            <paginas>211</paginas>
+            <doi>10.1038/s41597-022-01304-7</doi>
+        </referencia>
+        <referencia>
+            <autores>Tardieu, F., Simonneau, T., & Muller, B.</autores>
+            <ano>2018</ano>
+            <titulo>The physiological basis of drought tolerance in crop plants: A scenario-dependent probabilistic approach</titulo>
+            <revista>Annual Review of Plant Biology</revista>
+            <volumen>69</volumen>
+            <paginas>733-759</paginas>
+            <doi>10.1146/annurev-arplant-042817-040218</doi>
+        </referencia>
+        <referencia>
+            <autores>Tornaghi, C.</autores>
+            <ano>2017</ano>
+            <titulo>Urban agriculture in the food-disabling city: (Re) defining urban food justice, reimagining a politics of empowerment</titulo>
+            <revista>Antipode</revista>
+            <volumen>49</volumen>
+            <numero>3</numero>
+            <paginas>781-801</paginas>
+            <doi>10.1111/anti.12291</doi>
+        </referencia>
+        <referencia>
+            <autores>Wilcox, R. R.</autores>
+            <ano>1986</ano>
+            <titulo>Controlling power in a heteroscedastic ANOVA procedure</titulo>
+            <revista>British Journal of Mathematical and Statistical Psychology</revista>
+            <volumen>39</volumen>
+            <numero>1</numero>
+            <paginas>65-68</paginas>
+            <doi>10.1111/j.2044-8317.1986.tb00845.x</doi>
+        </referencia>
+    </referencias>
+    
+    <pie>
+        <texto>AGRO-ECOLÓGICA 4(1): 23-31 agosto 2025. ISSN 2313-2906</texto>
+    </pie>
+</articulo>
