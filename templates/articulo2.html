@@ -19,6 +19,7 @@
         color: #333;
         line-height: 1.6;
         padding: 20px;
+        transition: all 0.6s;
       }
 
       .container {
@@ -28,6 +29,7 @@
         padding: 30px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         border-radius: 5px;
+        transition: all 0.7s;
       }
 
       header {
@@ -63,7 +65,36 @@
       
       .a_doi {
         color: #666;
-        text-decoration: none;
+      }
+      .container_theme {
+        position: fixed;
+        top: 20px;
+      }
+
+      .theme_claro, .theme_oscuro {
+        width: 80px;
+        height: 30px;
+        border-radius: 10px;
+        transition: all 0.4s;
+      }
+
+      .theme_claro {
+        background-color: white;
+        color: black;  
+      }
+      .theme_claro:hover {
+        background-color: #555;
+        color: white;
+        cursor: pointer;  
+      }
+      .theme_oscuro {
+        background-color: black;
+        color: white;  
+      }
+      .theme_oscuro:hover {
+        background-color: white;
+        color: black;  
+        cursor: pointer;
       }
 
       h1 {
@@ -83,7 +114,7 @@
 
       h3 {
         font-size: 1.2em;
-        color: #444;
+        color: #333;
         margin: 20px 0 10px 0;
       }
 
@@ -115,10 +146,10 @@
 
       .abstract,
       .keywords {
-        background-color: #f9f9f9;
         padding: 15px;
         border-left: 4px solid #2c7d32;
         margin: 20px 0;
+        background-color: transparent;
       }
 
       .abstract-title,
@@ -139,6 +170,7 @@
         margin: 5px 5px 5px 0;
         border-radius: 3px;
         font-size: 0.9em;
+        color: black;
       }
 
       p {
@@ -194,6 +226,7 @@
 
       .acknowledgements {
         background-color: #f9f9f9;
+        color: black;
         padding: 15px;
         margin: 20px 0;
         border-left: 4px solid #2c7d32;
@@ -224,7 +257,11 @@
     </style>
   </head>
   <body>
-    <div class="container">
+    <div class="container_theme">
+      <button class="theme_claro" id="theme_claro">claro</button>
+      <button class="theme_oscuro" id="theme_oscuro">oscuro</button>
+    </div>
+    <div class="container" id="container">
       <header>
         <img
           class="logo_RAE"
@@ -776,7 +813,7 @@
       <p>Entre 2002 y 2023, el espejo de agua mostró fluctuaciones significativas, con un máximo en 2020 (8000 m²), seguido por  una  contracción  asociada  a  sequías, sedimentación y  actividades  humanas  como  rellenos.  Actualmente,  la  laguna,  clasificada  como  un  sistema  palustre,  presenta un alto grado de eutrofización, reflejado en su cobertura predominante  por  macrófitas  flotantes,  indicador  de condiciones   de   aislamiento   y   alta   concentración   de   nitrógeno  inorgánico.  Este  fenómeno  está  relacionado  con  la  expansión  urbana  desde  2013.  La  conectividad  hidrológica  de  la  laguna  es  esencial  para  su  dinámica  ecológica e hidrológica, influyendo en la calidad del agua y en la biodiversidad.</p>
       <p>Finalmente, las imágenes satelitales de alta resolución, como SPOT y aquellas disponibles en el programa Google Earth   Pro,   demostraron   ser   herramientas   clave   para   monitorear los cambios fluviales y de la laguna, aportando información  crítica  para  la  gestión  de  recursos  hídricos  y  la  planificación  ambiental,  especialmente  en  regiones donde  los  impactos  del  desarrollo  socioeconómico  son  significativos.</p>
 
-      <div class="acknowledgements">
+      <div class="abstract">
         <h3>Agradecimientos</h3>
         <p>
           Se agradece al Barrío San Juan y su representante el Sr Rodrigo Velázquez por la apertura para el estudio realizado en la Laguna San Juan. También a los estudiantes Ruth Valentina Campos Pérez, Diana Enríquez Loayza, Gabriel Espíndola y Cecilia Sandoval de la Carrera de Biología de la USFX por su colaboración en la fase de campo.
@@ -947,5 +984,42 @@
         <p>© 2025 AGRO-ECOLÓGICA 4(1): 3-12 agosto 2025. ISSN 2313-2906</p>
       </footer>
     </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+          const btnClaro = document.getElementById("theme_claro");
+          const btnOscuro = document.getElementById("theme_oscuro");
+          const container = document.getElementById("container");
+          const container_child = document.querySelectorAll('.abstract');
+          const h2s = document.querySelectorAll("h2");
+          const h3s = document.querySelectorAll("h3");
+
+          const originalStyles = {
+            bodyBg: document.body.style.backgroundColor || "",
+            bodyColor: document.body.style.color || "",
+            containerBg: container.style.backgroundColor || "",
+            h2Colors: Array.from(h2s).map(h2 => h2.style.color || ""),
+            h3Colors: Array.from(h3s).map(h3 => h3.style.color || "")
+          };
+        
+          btnOscuro.addEventListener("click", () => {
+            document.body.style.backgroundColor = "black";
+            document.body.style.color = "white";
+            container.style.backgroundColor = "black";
+            container_child.forEach(el => el.style.backgroundColor = "black");
+            container_child.forEach(el => el.style.color = "white");
+            h2s.forEach(h2 => h2.style.color = "#555");
+            h3s.forEach(h3 => h3.style.color = "#ddd");
+          });
+        
+          btnClaro.addEventListener("click", () => {
+            document.body.style.backgroundColor = originalStyles.bodyBg;
+            document.body.style.color = originalStyles.bodyColor;
+            container.style.backgroundColor = originalStyles.containerBg;
+            h2s.forEach((h2, i) => h2.style.color = originalStyles.h2Colors[i]);
+            h3s.forEach((h3, i) => h3.style.color = originalStyles.h3Colors[i]);
+          });
+});
+
+    </script>
   </body>
 </html>
