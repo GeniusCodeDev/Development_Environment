@@ -165,10 +165,10 @@
 
       .keywords-list li {
         display: inline-block;
-        background-color: #e8f5e9;
+        background-color: #d7f6d9;
         padding: 5px 10px;
         margin: 5px 5px 5px 0;
-        border-radius: 3px;
+        border-radius: 10px;
         font-size: 0.9em;
         color: black;
       }
@@ -186,13 +186,14 @@
 
       th,
       td {
-        border: 1px solid #ddd;
+        border: 1px solid #d2d2d2;
         padding: 8px;
         text-align: left;
       }
 
       th {
-        background-color: #f2f2f2;
+        background-color: #333;
+        color: white;
       }
 
       .figure {
@@ -204,6 +205,7 @@
         max-width: 100%;
         height: auto;
         border: 1px solid #ddd;
+        border-radius: 10px;
       }
 
       .figure-caption {
@@ -759,9 +761,6 @@
       </div>
 
       <div class="figure">
-        <div class="figure-caption">
-          Figura 3.  Porcentaje de dosel cerrado respecto a la sombra de Inga spp.
-        </div>
         <img
           src="https://github.com/AdanCR1/VOLUMEN4_AGRO-ECOLOGIA/blob/main/articulo2/IMAGES/Imagen5.png?raw=true"
           alt="Figura 5. Espejo de agua de la laguna San Juan"
@@ -990,15 +989,15 @@
           const btnOscuro = document.getElementById("theme_oscuro");
           const container = document.getElementById("container");
           const container_child = document.querySelectorAll('.abstract');
-          const h2s = document.querySelectorAll("h2");
           const h3s = document.querySelectorAll("h3");
 
           const originalStyles = {
             bodyBg: document.body.style.backgroundColor || "",
             bodyColor: document.body.style.color || "",
             containerBg: container.style.backgroundColor || "",
-            h2Colors: Array.from(h2s).map(h2 => h2.style.color || ""),
-            h3Colors: Array.from(h3s).map(h3 => h3.style.color || "")
+            h3Colors: Array.from(h3s).map(h3 => h3.style.color || ""),
+            container_ch: Array.from(container_child).map(container_child => container_child.style.backgroundColor || ""),
+            container_ch: Array.from(container_child).map(container_child => container_child.style.color || "")
           };
         
           btnOscuro.addEventListener("click", () => {
@@ -1007,7 +1006,6 @@
             container.style.backgroundColor = "black";
             container_child.forEach(el => el.style.backgroundColor = "black");
             container_child.forEach(el => el.style.color = "white");
-            h2s.forEach(h2 => h2.style.color = "#555");
             h3s.forEach(h3 => h3.style.color = "#ddd");
           });
         
@@ -1015,7 +1013,8 @@
             document.body.style.backgroundColor = originalStyles.bodyBg;
             document.body.style.color = originalStyles.bodyColor;
             container.style.backgroundColor = originalStyles.containerBg;
-            h2s.forEach((h2, i) => h2.style.color = originalStyles.h2Colors[i]);
+            container_child.forEach(el => el.style.backgroundColor = "white");
+            container_child.forEach(el => el.style.color = "black");
             h3s.forEach((h3, i) => h3.style.color = originalStyles.h3Colors[i]);
           });
 });
