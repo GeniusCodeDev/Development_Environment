@@ -20,29 +20,44 @@
             margin: 0 auto;
             padding: 20px;
         }
+
         
         header {
             text-align: center;
+            flex-wrap: wrap;
+            justify-content: space-between;
             margin-bottom: 30px;
             border-bottom: 2px solid #2e7d32;
             padding-bottom: 20px;
         }
-        
+        .logo_RAE{
+            width: 150px;
+            height: auto;
+            object-fit: contain;
+        }
+        .container_title{
+            display: grid;
+
+        }
         .journal-title {
-            font-size: 18px;
-            font-weight: bold;
+            font-size: 1.4em;
             color: #2e7d32;
             margin-bottom: 5px;
+            text-align: center;
         }
         
         .doi {
             font-size: 14px;
             color: #666;
-            margin-bottom: 15px;
+            margin-bottom: 20px;
+        }
+        .a_doi{
+            color: #666;
+            text-decoration: none;
         }
         
         h1 {
-            font-size: 24px;
+            font-size: 0.9em;
             color: #2e7d32;
             margin: 20px 0;
             text-align: center;
@@ -186,10 +201,20 @@
 </head>
 <body>
     <header>
-        <div class="journal-title">AGRO-ECOLÓGICA 4(1): 23-31, agosto 2025. ISSN 2313-2906</div>
-        <div class="doi">https://revistas.usfx.bo/index.php/rae/</div>
-        <div class="doi">DOI:10.56469/rae.v4i1.1597</div>
+        <img class="logo_RAE" src="https://revistas.usfx.bo/public/journals/6/pageHeaderLogoImage_es_ES.png" alt="logo_RAE">
         
+       <div class="container_title">
+            <div class="journal-title">
+                AGRO-ECOLÓGICA 4(1): 23-31, agosto 2025. ISSN 2313-2906
+            </div>
+            <div class="doi">
+                
+                 <a calss="a_doi"href="https://revistas.usfx.bo/index.php/rae/">
+                    https://revistas.usfx.bo/index.php/rae/
+                </a>
+                 <p>DOI:10.56469/rae.v4i1.1597</p>
+            </div>       
+       </div>
         <h1>Adaptación y productividad de maní (Arachis hypogea L.) en ecosistemas subandinos secos del sur de Bolivia</h1>
         <h2>Adaptation and productivity of peanut (Arachis hypogaea L.) in dry sub-Andean ecosystems of southern Bolivia</h2>
         
@@ -249,10 +274,6 @@
         
         <p>Las actividades económicas en la comunidad se centran principalmente en la agricultura y la ganadería. Los cultivos predominantes incluyen maíz (Zea mays), maní (Arachis hypogaea), papa (Solanum tuberosum) y ají (Capsicum pendulum), La población, caracterizada por una baja densidad demográfica, está conformada por un número reducido de familias, dedicadas a actividades productivas tradicionales de subsistencia.</p>
         
-        <div class="figure">
-            <img src="https://github.com/AdanCR1/VOLUMEN4_AGRO-ECOLOGIA/blob/5fd37b97147e203831a4072a555594253438b8aa/articulo4/IMAGES/revista%204/Anotaci%C3%B3n%202025-08-28%20170627.png?raw=true" alt="Figura 1. Mapa de Localización de la Comunidad de Pedernal en el Parque Nacional y Área Natural de Manejo Integrado Serranía del Iñao, Chuquisaca, Bolivia.">
-            <div class="caption">Figura 1. Mapa de Localización de la Comunidad de Pedernal en el Parque Nacional y Área Natural de Manejo Integrado Serranía del Iñao, Chuquisaca, Bolivia.</div>
-        </div>
         
         <h3>Material vegetal</h3>
         <p>En esta investigación se utilizaron ecotipos y variedades de maní (Arachis hypogaea L.) recolectados y regenerados en el municipio de Monteagudo región del chaco de Chuquisaca, Bolivia. La selección del material vegetal se realizó considerando la diversidad fenotípica observable en las parcelas de procedencia manejo del cultivo tradicional.</p>
@@ -276,6 +297,11 @@
         <p>La distribución espacial incluyó pasillos de 50 cm de ancho entre unidades experimentales y entre bloques, lo cual facilitó el acceso para las actividades de manejo, observación y recolección de datos, sin interferir con las variables en evaluación.</p>
         
         <p>Esta estructura metodológica asegura la repetibilidad del experimento y permite una adecuada comparación entre tratamientos, manteniendo el control sobre las fuentes de variabilidad y optimizando la calidad de los datos obtenidos.</p>
+        
+        <div class="figure">
+            <img src="https://github.com/AdanCR1/VOLUMEN4_AGRO-ECOLOGIA/blob/5fd37b97147e203831a4072a555594253438b8aa/articulo4/IMAGES/revista%204/Anotaci%C3%B3n%202025-08-28%20170627.png?raw=true" alt="Figura 1. Mapa de Localización de la Comunidad de Pedernal en el Parque Nacional y Área Natural de Manejo Integrado Serranía del Iñao, Chuquisaca, Bolivia.">
+            <div class="caption">Figura 1. Mapa de Localización de la Comunidad de Pedernal en el Parque Nacional y Área Natural de Manejo Integrado Serranía del Iñao, Chuquisaca, Bolivia.</div>
+        </div>
         
         <h3>Variables evaluadas</h3>
         <p>La evaluación de las variables agronómicas en el cultivo de maní (Arachis hypogaea L.) se realizó siguiendo un procedimiento riguroso y estandarizado, con el fin de obtener datos confiables que permitan una comparación objetiva entre los distintos ecotipos y variedades evaluadas. Para garantizar la representatividad de los datos, la evaluación se efectuó en 10 plantas dentro del área útil de cada unidad experimental, evitando los bordes para minimizar los efectos del entorno y asegurar condiciones homogéneas. Las mediciones de las variables se llevaron a cabo una vez alcanzado el estadio fenológico correspondiente a la madurez fisiológica del cultivo, es decir, al final del ciclo vegetativo, cuando las plantas habían completado su desarrollo morfo-reproductivo y expresaban plenamente sus características agronómicas.</p>
@@ -316,6 +342,10 @@
             <img src="https://github.com/AdanCR1/VOLUMEN4_AGRO-ECOLOGIA/blob/5fd37b97147e203831a4072a555594253438b8aa/articulo4/IMAGES/revista%204/Anotaci%C3%B3n1%202025-08-28%20170711.png?raw=true" alt="Figura 2. Altura promedio de la planta (cm) de maní (Arachis hypogea L.): comparación de medias con la prueba de Duncan al 5% de significancia por tratamiento.">
             <div class="caption">Figura 2. Altura promedio de la planta (cm) de maní (Arachis hypogea L.): comparación de medias con la prueba de Duncan al 5% de significancia por tratamiento.</div>
         </div>
+        <div class="figure">
+            <img src="https://github.com/AdanCR1/VOLUMEN4_AGRO-ECOLOGIA/blob/5fd37b97147e203831a4072a555594253438b8aa/articulo4/IMAGES/revista%204/Anotaci%C3%B3n2%202025-08-28%20170825.png?raw=true" alt="Figura 3. Número promedio de vainas por planta en los tratamientos de maní (Arachis hypogea L.): comparación de medias con la prueba de Duncan al 5% de significancia.">
+            <div class="caption">Figura 3. Número promedio de vainas por planta en los tratamientos de maní (Arachis hypogea L.): comparación de medias con la prueba de Duncan al 5% de significancia.</div>
+        </div>
         
         <p>Según la prueba de medias de Duncan a un nivel de significancia del 5% (Figura 2), se observó que el tratamiento T12 (Colorado de Bartolo) presentó el mayor valor de altura, con 41.03 cm. Este tratamiento fue estadísticamente similar a los tratamientos T7 (Blanco Paradito) y T1 (Tubito Bayo), ya que no se encontraron diferencias significativas entre estos tres. Por otro lado, los tratamientos T4 (Tubito Colorado) y T2 (Colorado del Villar) también mostraron valores similares en cuanto a altura, sin diferencias significativas entre ellos. Sin embargo, todos los demás tratamientos (T3 Coloradito, T11 Overo Guarayo, T5 Overo Guaraní 2010, T8 Overo Bola, T6 Colorado Iboperenda, T9 Overo Atirimbia y T10 Bayo Gigante) mostraron una altura significativamente menor, el tratamiento T10 (Bayo Gigante) fue el que presentó la menor altura, con un valor promedio de 30.43 cm. Estos resultados indican que, a pesar de que algunos tratamientos presentaron alturas similares, el tratamiento T12 (Colorado del Villar) destacó significativamente, mientras que T10 (Bayo Gigante) tuvo un desempeño inferior en términos de crecimiento.</p>
         
@@ -326,10 +356,7 @@
         <h4>Número de vainas por planta</h4>
         <p>De acuerdo con el análisis de varianza (ANOVA) para la variable número de vainas por planta, se observó que los tratamientos presentan diferencias altamente significativas, con un valor de P = 0.0084 (P < 0.01) y un CV de 22%. Esto indica que los ecotipos y variedades son estadísticamente diferentes en esta variable.</p>
         
-        <div class="figure">
-            <img src="https://github.com/AdanCR1/VOLUMEN4_AGRO-ECOLOGIA/blob/5fd37b97147e203831a4072a555594253438b8aa/articulo4/IMAGES/revista%204/Anotaci%C3%B3n2%202025-08-28%20170825.png?raw=true" alt="Figura 3. Número promedio de vainas por planta en los tratamientos de maní (Arachis hypogea L.): comparación de medias con la prueba de Duncan al 5% de significancia.">
-            <div class="caption">Figura 3. Número promedio de vainas por planta en los tratamientos de maní (Arachis hypogea L.): comparación de medias con la prueba de Duncan al 5% de significancia.</div>
-        </div>
+        
         
         <p>Según la prueba de medias de Duncan a un nivel de significancia del 5% (Figura 3), se observó que el tratamiento T10 (Bayo gigante) presentó el mayor valor, con 47 vainas por planta. Este tratamiento fue estadísticamente diferente de los demás, mientras que los tratamientos T8 (Overo Bola), T3 (Coloradito), T2 (Colorado del Villar), T9 (Overo Atirimbia), T1 (Tubito Bayo), T11 (Overo Guarayo), T12 (Colorado de Bartolo), T5 (Overo Guaraní 2010), T4 (Tubito Colorado), T7 (Blanco Paradito) y T6 (Colorado Iboperenda) no mostraron diferencias significativas entre sí.</p>
         
@@ -339,24 +366,26 @@
         
         <h4>Porcentaje de cáscara</h4>
         <p>De acuerdo al análisis de varianza (ANOVA) para el porcentaje de cáscara de maní (Arachis hypogea L.), se observó que los tratamientos presentan diferencias significativas, con un valor de P = 0.0108 (P < 0.05) y un CV de 10.55%. Esto indica que los ecotipos y variedades estadísticamente son diferentes en el porcentaje de cáscara.</p>
+      
+        <p>Según la prueba de medias de Duncan a un nivel de significancia del 5% (Figura 4), se observó que el tratamiento T6 (Colorado Iboperenda) presentó el mayor porcentaje, con 36.02%. Este tratamiento fue estadísticamente diferente de los demás, mientras que el tratamiento T7 (Blanco Paradito) también mostró un valor significativamente alto, pero no se diferenció del T6 (Colorado Iboperenda).</p>
         
+        <p>Por otro lado, los tratamientos T5 (Overo Guarani 2010), T8 (Overo Bola), T12 (Colorado de Bartolo), T9 (Overo Atirimbia), T2 (Colorado del Villar), T3 (Coloradito), T11 (Overo Guarayo), T1 (Tubito Bayo), T10 (Bayo Gigante) y T4 (Tubito Colorado), presentaron valores significativamente más bajos y fueron agrupados en un mismo grupo de comparación. Entre estos, el tratamiento T4 (Tubito Colorado) fue el que mostró el menor porcentaje de cáscara, con 26.74%, lo que lo distingue como el tratamiento menor en cuanto a la producción de cáscara, por lo que este tratamiento (T4), puede ser de interés para aquellos que busquen minimizar la cantidad de cáscara en la producción de maní.</p>
+          
         <div class="figure">
             <img src="https://github.com/AdanCR1/VOLUMEN4_AGRO-ECOLOGIA/blob/5fd37b97147e203831a4072a555594253438b8aa/articulo4/IMAGES/revista%204/Anotaci%C3%B3n3%202025-08-28%20170902.png?raw=true" alt="Figura 4. Porcentaje promedio de cáscara de maní (Arachis hypogea L.) por tratamiento: comparación de medias con la prueba de Duncan al 5% de significancia.">
             <div class="caption">Figura 4. Porcentaje promedio de cáscara de maní (Arachis hypogea L.) por tratamiento: comparación de medias con la prueba de Duncan al 5% de significancia.</div>
         </div>
-        
-        <p>Según la prueba de medias de Duncan a un nivel de significancia del 5% (Figura 4), se observó que el tratamiento T6 (Colorado Iboperenda) presentó el mayor porcentaje, con 36.02%. Este tratamiento fue estadísticamente diferente de los demás, mientras que el tratamiento T7 (Blanco Paradito) también mostró un valor significativamente alto, pero no se diferenció del T6 (Colorado Iboperenda).</p>
-        
-        <p>Por otro lado, los tratamientos T5 (Overo Guarani 2010), T8 (Overo Bola), T12 (Colorado de Bartolo), T9 (Overo Atirimbia), T2 (Colorado del Villar), T3 (Coloradito), T11 (Overo Guarayo), T1 (Tubito Bayo), T10 (Bayo Gigante) y T4 (Tubito Colorado), presentaron valores significativamente más bajos y fueron agrupados en un mismo grupo de comparación. Entre estos, el tratamiento T4 (Tubito Colorado) fue el que mostró el menor porcentaje de cáscara, con 26.74%, lo que lo distingue como el tratamiento menor en cuanto a la producción de cáscara, por lo que este tratamiento (T4), puede ser de interés para aquellos que busquen minimizar la cantidad de cáscara en la producción de maní.</p>
-        
-        <h4>Porcentaje de granos sanos</h4>
-        <p>De acuerdo con el análisis de varianza (ANOVA) para la variable porcentaje de granos sanos (kg/ha), los tratamientos presentan diferencias altamente significativas, con un valor de P = 0.0043 (P < 0.01) y un CV de 11.46%.</p>
-        
-        <div class="figure">
+         <div class="figure">
             <img src="https://github.com/AdanCR1/VOLUMEN4_AGRO-ECOLOGIA/blob/5fd37b97147e203831a4072a555594253438b8aa/articulo4/IMAGES/revista%204/Anotaci%C3%B3n4%202025-08-28%20171015.png?raw=true" alt="Figura 5. Porcentaje promedio de granos sanos de maní (Arachis hypogea L.) por tratamiento: comparación de medias con la prueba de Duncan al 5% de significancia.">
             <div class="caption">Figura 5. Porcentaje promedio de granos sanos de maní (Arachis hypogea L.) por tratamiento: comparación de medias con la prueba de Duncan al 5% de significancia.</div>
         </div>
         
+        
+        
+        <h4>Porcentaje de granos sanos</h4>
+        <p>De acuerdo con el análisis de varianza (ANOVA) para la variable porcentaje de granos sanos (kg/ha), los tratamientos presentan diferencias altamente significativas, con un valor de P = 0.0043 (P < 0.01) y un CV de 11.46%.</p>
+        
+       
         <p>Según la prueba de medias de Duncan a un nivel de significancia del 5% (Figura 5), se observó que el tratamiento Tubito Colorado (T4) presentó el mayor porcentaje, con 65 %. Este tratamiento fue estadísticamente diferente de todos los demás tratamientos.</p>
         
         <p>El tratamiento T5 (Overo Guarani 2010), con un 42.44% de granos sanos, presentó el menor porcentaje de granos sanos en comparación con los demás tratamientos, lo que lo diferencia significativamente del grupo de tratamientos con mejor desempeño en este parámetro.</p>
@@ -366,10 +395,7 @@
         <h4>Porcentaje de granos dañados</h4>
         <p>De acuerdo con el análisis de varianza (ANOVA) para la variable porcentaje de granos dañados (kg/ha), los tratamientos presentaron diferencias significativas, con un valor de P = 0.0495 (P < 0.05) y un CV de 47.72%.</p>
         
-        <div class="figure">
-            <img src="" alt="Figura 6. Porcentaje promedio de granos dañados de maní (Arachis hypogea L.) por tratamiento: comparación de medias con la prueba de Duncan al 5% de significancia">
-            <div class="caption">Figura 6. Porcentaje promedio de granos dañados de maní (Arachis hypogea L.) por tratamiento: comparación de medias con la prueba de Duncan al 5% de significancia</div>
-        </div>
+      
         
         <p>Según la prueba de medias de Duncan a un nivel de significancia del 5% (Figura 6), se observó que el tratamiento T5 (Overo Guarani 2010) presentó el mayor porcentaje, con 23.01%. Este tratamiento fue estadísticamente diferente de todos los demás tratamientos.</p>
         
@@ -377,7 +403,11 @@
         
         <h4>Rendimiento en grano (kg/ha)</h4>
         <p>De acuerdo con el análisis de varianza (ANOVA) para la variable rendimiento en grano (kg/ha), los tratamientos no presentaron diferencias significativas, con un valor de P = 0.1127 (P > 0.05) y un CV de 24.35%.</p>
-        
+        <div class="figure">
+            <img src="" alt="Figura 6. Porcentaje promedio de granos dañados de maní (Arachis hypogea L.) por tratamiento: comparación de medias con la prueba de Duncan al 5% de significancia">
+            <div class="caption">Figura 6. Porcentaje promedio de granos dañados de maní (Arachis hypogea L.) por tratamiento: comparación de medias con la prueba de Duncan al 5% de significancia</div>
+        </div>
+
         <div class="figure">
             <img src="" alt="Figura 7. Rendimiento promedio en granos de maní (Arachis hypogea L.) (kg/ha) por tratamiento: comparación de medias con la prueba de Duncan al 5% de significancia">
             <div class="caption">Figura 7. Rendimiento promedio en granos de maní (Arachis hypogea L.) (kg/ha) por tratamiento: comparación de medias con la prueba de Duncan al 5% de significancia</div>
