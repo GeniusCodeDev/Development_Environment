@@ -1,0 +1,949 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Dinámica geomorfológica del río El Bañado - Revista Agro-Ecológica
+    </title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Arial", sans-serif;
+      }
+
+      body {
+        background-color: #f5f5f5;
+        color: #333;
+        line-height: 1.6;
+        padding: 20px;
+      }
+
+      .container {
+        max-width: 1000px;
+        margin: 0 auto;
+        background-color: white;
+        padding: 30px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+      }
+
+      header {
+        text-align: center;
+        margin-bottom: 30px;
+        border-bottom: 2px solid #2c7d32;
+        padding-bottom: 20px;
+      }
+
+      .journal-title {
+        font-size: 1.4em;
+        color: #2c7d32;
+        margin-bottom: 5px;
+      }
+
+      .doi {
+        font-size: 0.9em;
+        color: #666;
+        margin-bottom: 20px;
+      }
+
+      h1 {
+        font-size: 1.8em;
+        color: #2c7d32;
+        margin: 20px 0;
+        text-align: center;
+      }
+
+      h2 {
+        font-size: 1.5em;
+        color: #2c7d32;
+        margin: 25px 0 15px 0;
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 5px;
+      }
+
+      h3 {
+        font-size: 1.2em;
+        color: #444;
+        margin: 20px 0 10px 0;
+      }
+
+      .authors {
+        margin: 20px 0;
+      }
+
+      .author {
+        margin-bottom: 5px;
+      }
+
+      .corresponding-author {
+        font-weight: bold;
+      }
+
+      .affiliation {
+        font-size: 0.9em;
+        color: #666;
+        margin-bottom: 5px;
+        font-style: italic;
+      }
+
+      .dates {
+        font-size: 0.9em;
+        color: #666;
+        margin: 15px 0;
+        text-align: center;
+      }
+
+      .abstract,
+      .keywords {
+        background-color: #f9f9f9;
+        padding: 15px;
+        border-left: 4px solid #2c7d32;
+        margin: 20px 0;
+      }
+
+      .abstract-title,
+      .keywords-title {
+        font-weight: bold;
+        margin-bottom: 10px;
+        color: #2c7d32;
+      }
+
+      .keywords-list {
+        list-style-type: none;
+      }
+
+      .keywords-list li {
+        display: inline-block;
+        background-color: #e8f5e9;
+        padding: 5px 10px;
+        margin: 5px 5px 5px 0;
+        border-radius: 3px;
+        font-size: 0.9em;
+      }
+
+      p {
+        margin-bottom: 15px;
+        text-align: justify;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+      }
+
+      th,
+      td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+      }
+
+      th {
+        background-color: #f2f2f2;
+      }
+
+      .figure {
+        margin: 25px 0;
+        text-align: center;
+      }
+
+      .figure img {
+        max-width: 100%;
+        height: auto;
+        border: 1px solid #ddd;
+      }
+
+      .figure-caption {
+        font-size: 0.9em;
+        color: #666;
+        margin-top: 8px;
+        font-style: italic;
+      }
+
+      .references {
+        margin-top: 30px;
+      }
+
+      .reference {
+        margin-bottom: 10px;
+        padding-left: 20px;
+        text-indent: -20px;
+        font-size: 0.9em;
+      }
+
+      .acknowledgements {
+        background-color: #f9f9f9;
+        padding: 15px;
+        margin: 20px 0;
+        border-left: 4px solid #2c7d32;
+      }
+
+      footer {
+        text-align: center;
+        margin-top: 30px;
+        padding-top: 20px;
+        border-top: 1px solid #ddd;
+        color: #666;
+        font-size: 0.9em;
+      }
+
+      @media (max-width: 768px) {
+        .container {
+          padding: 15px;
+        }
+
+        h1 {
+          font-size: 1.5em;
+        }
+
+        h2 {
+          font-size: 1.3em;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="journal-title">
+          AGRO-ECOLÓGICA 4(1): 3-12, agosto 2025. ISSN 2313-2906
+        </div>
+        <div class="doi">
+          https://revistas.usfx.bo/index.php/rae/ DOI:10.56469/rae.v4i1.1791
+        </div>
+      </header>
+
+      <h1>
+        Dinámica geomorfológica del río El Bañado y su influencia en la
+        formación de la laguna San Juan de Candúa, Monteagudo (Chuquisaca,
+        Bolivia)
+      </h1>
+      <h2>
+        Geomorphological dynamics of the El Bañado River and its influence on
+        the formation of the San Juan de Candúa lagoon, Monteagudo (Chuquisaca,
+        Bolivia)
+      </h2>
+
+      <div class="authors">
+        <div class="author corresponding-author">
+          Cespedes-Llave Ariel Angel¹*, Andrea Bolanos-Angulo² & Natalio
+          Roque-Marca³
+        </div>
+        <div class="affiliation">
+          *Autor de Correspondencia: cespedes.ariel@usfx.bo
+        </div>
+        <div class="affiliation">
+          ¹ Instituto Experimental de Biología "Luis Adam Briançon", Facultad de
+          Ciencias de Bioquímica, Química Farmacéutica y Bioquímica, Universidad
+          San Francisco Xavier de Chuquisaca, Bolivia.
+        </div>
+        <div class="affiliation">² Sociedad de Ingenieros de Bolivia.</div>
+        <div class="affiliation">
+          ³ Asociación Boliviana para la Investigación y Conservación de
+          Ecosistemas Andino-Amazónicos (Conservación Amazónica - ACEAA):
+          Cobija, Pando, Bolivia.
+        </div>
+      </div>
+
+      <div class="dates">
+        <p>Recibido: 28/05/2025 Aceptado para publicación: 22/06/2025</p>
+      </div>
+
+      <div class="abstract">
+        <div class="abstract-title">Resumen</div>
+        <p>
+          El estudio analiza los cambios geomorfológicos del sistema fluvial del
+          río El Bañado y su relación con la formación y cambios de la laguna
+          San Juan de Candúa, ubicado en el municipio de Monteagudo (Bolivia:
+          Chuquisaca) durante los últimos 45 años. Para ello, se emplearon
+          imágenes satelitales de alta resolución (KH-9 HEXAGON, SPOT y Airbus),
+          cartas cartográficas 1:50 000 del Instituto Geográfico Militar y
+          mediciones batimétricas in situ del lago. El análisis multitemporal
+          revela que el río presentaba un curso sinuoso (1978), pero entre 1980
+          a 1987 comenzó un proceso de rectificación, probablemente debido a
+          procesos naturales como erosión y sedimentación, así como por
+          actividades antrópicas como la expansión urbana y obras viales. Estos
+          cambios geomorfológicos habrían favorecido la formación de la laguna
+          San Juan, visible desde 1991, producto de inundaciones recurrentes y
+          alteraciones del cauce fluvial. Desde el 2002, se observan
+          fluctuaciones significativas en el espejo de agua, alcanzando un
+          máximo de 8 000 m² (2002), asociado a lluvias intensas y eventos de
+          inundación, seguido de una disminución posiblemente vinculada a
+          sequías, colmatación y presión antrópica. Sin embargo, muestra signos
+          de eutrofización avanzada, similar a otras lagunas regionales
+          afectadas por las actividades antropogénicas y el cambio climático.
+          Estos resultados subrayan la importancia de monitorear la dinámica
+          fluvial y lacustre para una adecuada gestión de los recursos hídricos,
+          especialmente en contextos donde las actividades humanas interactúan
+          fuertemente con sistemas naturales.
+        </p>
+        <div class="keywords">
+          <div class="keywords-title">Palabras clave:</div>
+          <ul class="keywords-list">
+            <li>Dinámica morfológica fluvial</li>
+            <li>lago pequeño y palustre</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="abstract">
+        <div class="abstract-title">Abstract</div>
+        <p>
+          The study analyzes the geomorphological changes in the fluvial system
+          of the El Bañado River system and its relations with the formation and
+          transformation of the San Juan de Candúa lagoon, located in the
+          municipality of Monteagudo (Chuquisaca, Bolivia), over the past 45
+          years. High-resolution satellite images (KH-9 HEXAGON, SPOT, and
+          Airbus), was used. And, 1:50 000 scale topographic map and in situ
+          bathymetric measurement of the lagoon were used for this purpose. The
+          multitemporal analysis reveals that the river followed a sinuous
+          course in 1978, but between 1980 and 1987 it began a straighten,
+          likely due to natural processes such as erosion and sedimentation, as
+          well as anthropogenic activities including expansion and road
+          construction. These geomorphological changes likely influenced the
+          formation of San Juan lake, first visible in 1991, as a result of
+          recurrent flooding and alterations to the river channel. Since 2002,
+          significant fluctuations in the water surface area have been observed,
+          peaking of 8,000 m² in 2020, likely associated with heavy rainfall and
+          flood events, followed by a decline in subsequent years, possibly due
+          to droughts, sedimentation, or human pressure. However, the lagoon
+          currently shows signs of advanced eutrophication, similar to other
+          regional lagoons affected by anthropogenic activities and climate
+          change. These findings highlight the importance of monitoring fluvial
+          and lacustrine dynamics for the effective management of water
+          resources, particularly in contexts where human activities strongly
+          interact with natural systems.
+        </p>
+
+        <div class="keywords">
+          <div class="keywords-title">Keywords:</div>
+          <ul class="keywords-list">
+            <li>Fluvial morphological dynamics</li>
+            <li>marsh system and small-lake</li>
+          </ul>
+        </div>
+      </div>
+      <h2>Introducción</h2>
+      <p>
+        Los lagos de origen fluvial en regiones montañosas constituyen sistemas
+        naturales dinámicos, moldeados por la interacción de procesos
+        geomorfológicos, climáticos e hidrológicos (Tandon & Sinha 2007). Estas
+        formaciones pueden adoptar características tanto lacustres como
+        palustres, en función de factores como la actividad tectónica, la
+        dinámica glaciar, los patrones de sedimentación y las fluctuaciones
+        hidrológicas, a menudo modificadas por la intervención humana. Dichos
+        procesos generan ecosistemas únicos, dotados de un elevado valor
+        ecológico, geológico y socioeconómico, ya que sustentan la biodiversidad
+        regional y proveen servicios ecosistémicos clave. El estudio de estos
+        mecanismos resulta fundamental para garantizar una gestión sostenible de
+        los recursos hídricos y la conservación de estos entornos frágiles
+        (Chaoyong et al. 2024).
+      </p>
+
+      <p>
+        El empleo de herramientas de teledetección (imágenes satelitales y
+        sensores de alta resolución) ha revolucionado el estudio de estas
+        formaciones al proporcionar registros multitemporales de alta precisión
+        (Bishop et al. 2012). Técnicas como el análisis de datos
+        multiespectrales han permitido caracterizar procesos geomorfológicos en
+        sistemas lacustres y fluviales (Mertes et al. 1995; Paulino et al.
+        2023). Mientras que la integración de imágenes satelitales, mapas
+        históricos, fotografías aéreas, topografía y estudios de campo ha
+        mejorado la comprensión de la evolución planimétrica y la morfodinámica
+        en múltiples escalas espaciotemporales (Boothroyd et al. 2021).
+      </p>
+
+      <p>
+        Entre las aplicaciones fluviales destacan: la cuantificación de la
+        erosión de canales laterales (Salo et al. 1986, Puhakka et al. 1992); el
+        mapeo geomorfológico y balance de sedimentos (Lattuvesse et al. 2009);
+        evolución de la forma de terreno (Dewan et al. 2017); cambios
+        morfohidrodinámicos inducidos por represas(Kong et al. 2020). En
+        ambientes lacustres, tecnologías como radar de apertura sintética (SAR)
+        y sensores MODIS han facilitado el monitoreo de superficies acuáticas,
+        con avances recientes en segmentación de imágenes para detectar cuerpos
+        hídricos en áreas remotas (Hou et al. 2019, Ling et al. 2020, Chen et
+        al. 2022, Shen et al. 2022, Wang et al. 2022). Estos métodos han
+        documentado la variabilidad espacio-temporal de lagos, como el
+        emblemático caso de la cuenca del lago Poopó en Bolivia, cuyos cambios
+        drásticos reflejan su vulnerabilidad ante perturbaciones naturales y
+        antrópicas (Torres-Batllo 2020).
+      </p>
+
+      <p>
+        La Laguna San Juan de Candua, ubicada en Chuquisaca (Bolivia) y
+        vinculada al río El Bañado, representa un sistema lacustre de interés
+        por su evolución no evaluada en décadas recientes. Su estudio mediante
+        un enfoque de morfología fluvial, es crucial para entender su rol como
+        humedal regional. Estos ecosistemas no solo albergan biodiversidad
+        única, sino que regulan ciclos hidrológicos y nutrientes, como evidencia
+        estudios previos (Moss 2012, Schallenberg et al. 2013, Heino et al.
+        2021). El objetivo de este estudio es describir los cambios de la forma
+        del sistema fluvial del río El Bañado durante los últimos 45 años, y
+        como este influyó en la formación de la laguna San Juan de Candua.
+      </p>
+
+      <h2>Materiales y Métodos</h2>
+
+      <h3>Área de estudio</h3>
+      <p>
+        La laguna San Juan de Candua está ubicada en el Cantón los Sauces del
+        municipio de Monteagudo, perteneciente al departamento de Chuquisaca
+        (Bolivia), en las coordenadas geográficas 19°48'18.69" latitud sur
+        63°59'26.24" de longitud oeste, a una altitud de 1134 m sobre el nivel
+        del mar. Esta laguna se encuentra entre los ríos El Bañado y el río
+        Yangullo (este), adyacente a la Ruta Nacional 6 (Padilla-Monteagudo), y
+        muy próximo al centro urbano Candúa (aproximadamente 4.46 km) (Figura
+        1).
+      </p>
+
+      <p>
+        Las características hidroclimáticas de sistema fluvial está definida por
+        precipitaciones con una media anual de 994.7 mm y una temperatura
+        promedio anual de 20.2°C (SENAMHI, 2023). El sistema fluvial forma parte
+        de la cuenca baja del río Parapetí (Nivel 4) (VRHyR, 2010; Zambrano et
+        al., 2011). El río el Bañado, es uno de los principales cauces del
+        cantón los Sauces, tiene su origen en el río Heredia, otros ríos
+        tributarios que aportan en las nacientes son los ríos Yaconal, Pozuelos
+        y Corpocillos, además, durante las épocas de crecida, puede alcanzar
+        caudales de entre 100 y 400 m3/s (ZONISIG 2000).
+      </p>
+      <div class="figure">
+        <img
+          src="https://github.com/AdanCR1/VOLUMEN4_AGRO-ECOLOGIA/blob/5fd37b97147e203831a4072a555594253438b8aa/articulo3/IMAGES/Imagen9.pngraw=true"
+          alt="Figura 1. Ubicación de la laguna San Juan de Candua"
+        />
+        <div class="figure-caption">
+          Figura 1. a) Ubicación de la laguna San Juan de Candua en el municipio
+          de Monteagudo. b) Fotografía del área de la laguna (Foto: Claribel
+          Villarruel)
+        </div>
+      </div>
+
+      <h3>Métodos</h3>
+      <p>
+        En este estudio analizó la dinámica morfológica del sistema fluvial del
+        río El Bañado que dio origen a la laguna San Juan de Candúa. Para ello,
+        se realizó un análisis multitemporal de los cambios en la morfología
+        sistema fluvial, utilizando imágenes satelitales históricas y de libre
+        acceso. Además, se utilizó mapas cartográficos del Instituto Geográfico
+        Militar (IGM), en particular la hoja 6834-IV H731 a escala 1:50 000,
+        publicada en 1980 (IGM 2021). Las imágenes utilizadas incluyen
+        fotografías satelitales desclasificadas KH-9 HEXAGON de 1978 (USGS 1995)
+        y escenas SPOT adquiridas por el Programa Spot de Patrimonio Mundial
+        (CNES 2023). Estas imágenes permitieron visualizar y analizar para
+        visualizar los cambios morfológicos en el tramo del río El Bañado
+        durante el período comprendido entre 1987 al 2013 (Tabla 1).
+      </p>
+
+      <p>
+        Complementariamente para el 2013 al 2025, se usaron imágenes Maxar
+        Technologies y Airbus disponibles en Google Earth Pro Ver 7.3.6. Se
+        aplicó el índice de sinuosidad a la morfología fluvial digitalizada en
+        base a las imágenes previamente descritas, para cuantificar patrones de
+        canales mediante relaciones entre longitud del canal y longitud del
+        valle (Schumm 1963). Para el análisis hiposmétrico del cambio del río El
+        Bañado, se utilizó imágenes radar del 2010, de ALOPS PALSAR
+        (AP_24973_FBD_F6780_RT1) con 12.5 metros de resolución.
+      </p>
+
+      <p>
+        En noviembre del 2024 se realizó medidas in situ usando una regla y
+        cinta métrica, para obtener las métricas de batimetría del lago
+        (profundidad), longitud, ancho, perímetro y de área. Se calculó el
+        volumen de agua almacenada usando el método del prisma trapezoidal, que
+        integra las profundidades a lo largo del perfil. Por otra se obtuvieron
+        métricas de variación de la morfología y el área usando imágenes
+        satelitales de WorldView y GeoEye, proporcionadas por Maxar Technologies
+        y disponibles en Google Earth Pro (Tabla 1), para el período 2002-2013 y
+        también las imágenes disponibles de CNES y Airbus para los períodos 2016
+        al 2023 (Google 2018).
+      </p>
+
+      <p>
+        Todos los geo-procesos realizados sobre de las imágenes satelitales,
+        incluyendo la ortorectificación de las imágenes SPOT, georreferenciación
+        de imágenes descargadas de Google Earth Pro, el cálculo de área y la
+        obtención del perfil longitudinal, se llevaron a cabo utilizando el
+        programa QGIS 3.34.7 (QGIS 2020) y complementado con plugins como
+        ProfileTool (Jurgiel et al., 2025).
+      </p>
+
+      <p>
+        Para el análisis de los cambios en la superficie de la laguna se
+        aplicaron estadísticas univariadas, mientras que la sinuosidad, perfil
+        longitudinal y batimetría fueron evaluados mediante análisis bivariado
+        representados con gráficos de dispersión. El perfil longitudinal se
+        construyó a partir de los datos de elevación, considerando la dinámica
+        de cambio a lo largo de un tramo de aproximadamente 9 km del curso del
+        río El Bañado, en los diferentes años analizados. Además, se analizó la
+        relación temporal del índice de sinuosidad, aplicando una correlación de
+        Pearson y un modelo de regresión polinomial grado 2, previa comprobación
+        de la normalidad de los datos con la prueba de Shapiro-Wilk, con un
+        nivel de confianza al 95%. Todos estos análisis fueron realizados con el
+        programa R 4.4.2 (R Core Team, 2021).
+      </p>
+
+      <table>
+        <caption>
+          Tabla 1. Imágenes utilizadas para los análisis de cambio según la
+          fecha y la fuente, para el río el Bañado y la laguna San Juan.
+        </caption>
+        <thead>
+          <tr>
+            <th>Fecha</th>
+            <th>Río</th>
+            <th>Laguna</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1978-08-03</td>
+            <td>KH-9 GONA Mission 1214-4 ID: D3C1214-401095A036</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>1987-03-14</td>
+            <td>SPOT1 ID: 1 678-389 87-03-14 14:34:36 2 X</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>1991-08-06</td>
+            <td>SPOT 2 ID: 2 679-390 90-08-06 14:20:36 1 P</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>1996-06-14</td>
+            <td>SPOT 3 ID: 3 678-389 96-06-14 14:42:07 2 P</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>2000-08-01</td>
+            <td>SPOT 4 ID: 4 679-390 00-08-01 14:39:57 1 I</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>2002-08</td>
+            <td></td>
+            <td>Maxar Technologies</td>
+          </tr>
+          <tr>
+            <td>2007-04</td>
+            <td></td>
+            <td>Maxar Technologies Google Earth Pro</td>
+          </tr>
+          <tr>
+            <td>2008-11-28</td>
+            <td>SPOT 5 ID: 5 679-390 08/11/28 14:18:58 2 J</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>2011-09</td>
+            <td></td>
+            <td>Maxar Technologies</td>
+          </tr>
+          <tr>
+            <td>2013-10</td>
+            <td>SPOT 5 ID: 5 678-389 13/05/29 14:12:31 2 S</td>
+            <td>Airbus: Google Earth Pro</td>
+          </tr>
+          <tr>
+            <td>2016-12</td>
+            <td></td>
+            <td>Airbus: Google Earth Pro</td>
+          </tr>
+          <tr>
+            <td>2020-01</td>
+            <td></td>
+            <td>Airbus: Google Earth Pro</td>
+          </tr>
+          <tr>
+            <td>2022-11</td>
+            <td></td>
+            <td>Airbus: Google Earth Pro</td>
+          </tr>
+          <tr>
+            <td>2023-05</td>
+            <td></td>
+            <td>Airbus: Google Earth Pro</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2>Resultados</h2>
+
+      <h3>
+        Origen de la laguna San Juan a través de la dinámica de cambio del río
+        el Bañado
+      </h3>
+      <p>
+        En 1978, la fotografía satelital KH-9 HEXAGON muestra el curso natural
+        del río El Bañado con un trazo serpenteante característico. En
+        contraste, el mapa cartográfico de 1980 refleja una interpretación que
+        incluye posibles modificaciones debido a procesos naturales, como
+        erosión y sedimentación, o actividades humanas (Figura 2a). En ambas
+        fuentes, el tramo del río que emerge del Cañón de Heredia, pasando por
+        la comunidad de San Miguel, forma una horquilla cercana a la carretera
+        RN6 (Figura 2b). Este detalle evidencia la interacción entre el río y su
+        entorno, así como la influencia potencial de la infraestructura vial en
+        su trayectoria.
+      </p>
+
+      <div class="figure">
+        <img
+          src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNjAwIDQwMCI+PHJlY3Qgd2lkdGg9IjYwMCIgaGVpZ2h0PSI0MDAiIGZpbGw9IiNlOGY1ZTkiLz48dGV4dCB4PSIzMDAiIHk9IjIwMCIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjE4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMmM3ZDMyIj5GaWd1cmEgMi4gUmVjb3JyaWRvIGRlbCByw61vIEVsIEJhw7FhZG88L3RleHQ+PC9zdmc+"
+          alt="Figura 2. Recorrido del río El Bañado"
+        />
+        <div class="figure-caption">
+          Figura 2. Recorrido del río El Bañado (a), en 1978 imagen obtenida de
+          fotografías satelitales KH-9 HEXAGON y en 1980 mapa cartográfico del
+          IGM de la hoja 6834-IV H731 (b) de que muestra el trazo del río. La
+          flecha amarilla representa la dirección de flujo del río.
+        </div>
+      </div>
+
+      <p>
+        A partir de 1987, se observa un cambio en la dirección del río (ver
+        figura 4a), marcando una transición hacia un trazado más rectilíneo. Lo
+        cual ratifica los resultados del análisis de sinuosidad que revelan una
+        relación significativa entre el año y el índice de sinuosidad del río.
+        El análisis de correlación de Pearson muestra una correlación negativa
+        moderada a fuerte (r = -0.73, p < 0.01), indicando que la sinuosidad ha
+        tendido a disminuir con el tiempo durante el período estudiado
+        (1978-2025). El modelo de regresión polinomial de segundo grado explica
+        aproximadamente un 79% de la variabilidad en los datos (R² ajustado =
+        0.74), demostrando un buen ajuste a la tendencia observada. Los
+        coeficientes del modelo sugieren que la relación no es estrictamente
+        lineal (ver figura 3), sino que presenta cierta curvatura, con una tasa
+        de disminución que podría estar modificándose en los años más recientes.
+        La figura 4a destaca la dinámica de cambio del río El Bañado entre 1978
+        y 2023, con una reducción progresiva en su sinuosidad. Estos cambios
+        parecen ser resultado de procesos naturales, como erosión y
+        sedimentación, junto con intervenciones humanas relacionadas con
+        infraestructura y uso del suelo. También, se refuerza este análisis al
+        mostrar desplazamientos del cauce hacia áreas más rectas, influenciados
+        por la expansión urbana y la construcción vial.
+      </p>
+
+      <div class="figure">
+        <img
+          src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNjAwIDQwMCI+PHJlY3Qgd2lkdGg9IjYwMCIgaGVpZ2h0PSI0MDAiIGZpbGw9IiNlOGY1ZTkiLz48dGV4dCB4PSIzMDAiIHk9IjIwMCIgZm9udC1mYW1pbHk9IkFyaWhbIiBmb250LXNpemU9IjE4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMmM3ZDMyIj5GaWd1cmUgMy4gVGVuZGVuY2lhIHRlbXBvcmFsIGRlbCDDrW5kaWNlIGRlIHNpbnVvc2lkYWQgZmx1dmlhbDwvdGV4dD48L3N2Zz4="
+          alt="Figura 3. Tendencia temporal del índice de sinuosidad fluvial"
+        />
+        <div class="figure-caption">
+          Figura 3. Tendencia temporal del índice de sinuosidad fluvial
+          (1978-2025): modelo de regresión polinomial grado 2.
+        </div>
+      </div>
+
+      <div class="figure">
+        <img
+          src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNjAwIDQwMCI+PHJlY3Qgd2lkdGg9IjYwMCIgaGVpZ2h0PSI0MDAiIGZpbGw9IiNlOGY1ZTkiLz48dGV4dCB4PSIzMDAiIHk9IjIwMCIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjE4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMmM3ZDMyIj5GaWd1cmEgNC4gRMOtbmFtaWNhIGRlIGNhbWJpbyBkZWwgcmlvIEVsIEJhw7FhZG88L3RleHQ+PC9zdmc+"
+          alt="Figura 4. Dinámica de cambio del río El Bañado"
+        />
+        <div class="figure-caption">
+          Figura 4. Dinámica de cambio del tramo del río el Bañado desde 1978 al
+          2023 y la aparición de la laguna San Juan (a). Variación del perfil
+          longitudinal de los tramos del río el Bañado en base a los diferentes
+          años analizados(b).
+        </div>
+      </div>
+
+      <p>
+        Además, entre 1978 y 2023, las curvas hipsométricas del río (Figura 4b)
+        reflejan una evolución significativa en su morfología, caracterizada por
+        una rectificación progresiva. En 1978, el río presentaba un curso
+        sinuoso con marcados desniveles, señal de un sistema fluvial dinámico
+        con intensos procesos de sedimentación y erosión lateral. Con el tiempo,
+        se observa una estabilización en el gradiente altitudinal y una
+        alineación más uniforme del cauce, especialmente evidente desde el año
+        2000.
+      </p>
+
+      <p>
+        Un elemento notable es la aparición de la laguna San Juan, visible desde
+        1991 próximo al río Yanguilo. Esta laguna probablemente surgió como
+        resultado de inundaciones, acumulación de agua superficial o
+        alteraciones en el cauce del río. Su dinámica hidrológica está
+        estrechamente vinculada a los cambios en el sistema fluvial. Finalmente,
+        la proximidad del río a la carretera y al desarrollo urbano sugiere una
+        interacción constante entre el cauce y la expansión territorial. Los
+        cambios en su trazado reflejan una transformación continúa impulsada por
+        factores naturales y antrópicos, subrayando la importancia de monitorear
+        su dinámica para garantizar una gestión adecuada de los recursos y
+        evitar impactos negativos en el entorno.
+      </p>
+
+      <h3>
+        Cambios del espejo de agua de la laguna San Juan entre el 2002 al 2023
+      </h3>
+      <p>
+        Se ha evidenciado fluctuaciones significativas a lo largo de 21 años.
+        Durante el período analizado, el área de la laguna para el 2002 y 2007
+        tiene una forma más extendida a partir de un correspondiente meandro,
+        que este tipo de lagos se forman debido a una alta erosionabilidad,
+        donde se depositan en las barras puntuales que se forman cuando el río
+        se aleja de su antigua orilla. Posiblemente el área del lago fue más
+        extendida aproximadamente entre 1984 al 2002, ocupando la llanura de
+        inundación del antiguo curso del río el Bañado. Posteriormente, presenta
+        una tendencia variable con un incremento notable en 2010 y un pico
+        máximo en 2020, cuando alcanza aproximadamente 8000 m², el cual se debe
+        a que la laguna se expandió en dos espejos de agua (Figura 5b). Este
+        aumento puede asociarse con factores como intensas lluvias,
+        modificaciones hidrológicas en el río El Bañado o eventos puntuales de
+        inundación.
+      </p>
+
+      <p>
+        Sin embargo, después de 2011, se observa una disminución del área,
+        reflejada en los valores de 2022 y 2023 (Figura 5a), que podrían estar
+        relacionadas con fenómenos de sequía, sedimentación o actividades
+        antropogénicas. Este aspecto se puede evidenciar con las imágenes satell
+        tales con actividades de relleno o terraplenes que se realizan a partir
+        del 2013.
+      </p>
+
+      <div class="figure">
+        <img
+          src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNjAwIDQwMCI+PHJlY3Qgd2lkdGg9IjYwMCIgaGVpZ2h0PSI0MDAiIGZpbGw9IiNlOGY1ZTkiLz48dGV4dCB4PSIzMDAiIHk9IjIwMCIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjE4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMmM3ZDMyIj5GaWd1cmUgNS4gRXNwZWpvIGRlIGFndWEgZGUgbGEgbGFndW5hIFNhbiBKdWFuPC90ZXh0Pjwvc3ZnPg=="
+          alt="Figura 5. Espejo de agua de la laguna San Juan"
+        />
+        <div class="figure-caption">
+          Figura 5. a) Variación del área de la laguna San Juan de Candúa entre
+          2002 y 2023. b) Cambios en la forma y extensión de la laguna en
+          diferentes años.
+        </div>
+      </div>
+      <h3>Batimetría de la laguna San Juan</h3>
+      <p>
+        La batimetría de la laguna San Juan, realizada en noviembre de 2024,
+        revela que la profundidad máxima es de 1.5 metros, con una profundidad
+        promedio de 0.85 metros. El volumen total de agua almacenada se estima
+        en 3,400 m³. El perfil batimétrico muestra una forma relativamente
+        irregular, con zonas más profundas en el centro y sectores menos
+        profundos cerca de los bordes (Figura 6).
+      </p>
+
+      <div class="figure">
+        <img
+          src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNjAwIDQwMCI+PHJlY3Qgd2lkdGg9IjYwMCIgaGVpZ2h0PSI0MDAiIGZpbGw9IiNlOGY1ZTkiLz48dGV4dCB4PSIzMDAiIHk9IjIwMCIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjE4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMmM3ZDMyIj5GaWd1cmUgNi4gQmF0aW1ldHLDrWEgZGUgbGEgbGFndW5hIFNhbiBKdWFuPC90ZXh0Pjwvc3ZnPg==?raw+true"
+          alt="Figura 6. Batimetría de la laguna San Juan"
+        />
+        <div class="figure-caption">
+          Figura 6. a) Perfil batimétrico de la laguna San Juan de Candúa. b)
+          Mapa de profundidades con curvas batimétricas.
+        </div>
+      </div>
+
+      <h2>Discusión</h2>
+      <p>
+        La evolución del río El Bañado y la laguna San Juan de Candúa ilustra la
+        compleja interacción entre procesos naturales y actividades humanas en
+        sistemas fluviales. La rectificación progresiva del río, evidenciada por
+        la disminución del índice de sinuosidad, coincide con patrones
+        observados en otros sistemas fluviales afectados por intervenciones
+        antrópicas (Graf 2006; Wohl 2015).
+      </p>
+
+      <p>
+        La formación de la laguna San Juan como resultado de cambios en el curso
+        del río refleja procesos geomorfológicos comunes en llanuras de
+        inundación, donde la migración de meandros y eventos de inundación
+        pueden crear cuerpos de agua aislados (Knighton 1998). Sin embargo, la
+        rápida fluctuación en el área de la laguna sugiere una alta sensibilidad
+        a cambios hidrológicos y climáticos, similar a lo observado en otros
+        lagos andinos (Torres-Batllo 2020).
+      </p>
+
+      <p>
+        La disminución reciente en el área de la laguna podría estar relacionada
+        con factores como la sedimentación acelerada, cambios en los patrones de
+        precipitación, o extracción de agua para actividades humanas. Este
+        patrón de declive ha sido documentado en otros cuerpos de agua de la
+        región, donde la combinación de cambio climático y presión antrópica ha
+        llevado a la reducción o desaparición de lagos (Barlow et al. 2021).
+      </p>
+
+      <p>
+        La batimetría actual de la laguna sugiere un proceso avanzado de
+        colmatación, lo que podría afectar su permanencia a largo plazo. La
+        gestión sostenible de este ecosistema requerirá medidas de conservación
+        que consideren tanto los procesos naturales como las presiones humanas
+        en la cuenca.
+      </p>
+
+      <h2>Conclusiones</h2>
+      <p>
+        El estudio demuestra que la laguna San Juan de Candúa se formó como
+        resultado de cambios geomorfológicos en el río El Bañado,
+        particularmente procesos de rectificación del cauce que ocurrieron entre
+        1980 y 1987. Estos cambios estuvieron influenciados tanto por procesos
+        naturales como por actividades humanas, incluyendo la expansión urbana y
+        la construcción de infraestructura vial.
+      </p>
+
+      <p>
+        La laguna ha experimentado fluctuaciones significativas en su extensión
+        superficial durante las últimas dos décadas, con un pico máximo en 2020
+        seguido de una disminución progresiva. Estas variaciones reflejan la
+        sensibilidad del sistema a factores climáticos, hidrológicos y
+        antrópicos.
+      </p>
+
+      <p>
+        La batimetría actual indica una profundidad máxima de 1.5 metros y un
+        proceso avanzado de colmatación, lo que sugiere vulnerabilidad ante
+        cambios ambientales y presiones humanas. Se recomienda implementar
+        medidas de conservación y monitoreo continuo para garantizar la
+        preservación de este ecosistema lacustre.
+      </p>
+
+      <div class="acknowledgements">
+        <h3>Agradecimientos</h3>
+        <p>
+          Los autores agradecen al Instituto Experimental de Biología "Luis Adam
+          Briançon" y a la Universidad San Francisco Xavier de Chuquisaca por el
+          apoyo institucional. También se extiende el agradecimiento a la
+          comunidad de Candúa por su colaboración durante el trabajo de campo.
+        </p>
+      </div>
+
+      <div class="references">
+        <h2>Referencias</h2>
+        <div class="reference">
+          Barlow, P. M., et al. (2021). Climate-induced changes in the water
+          resources of South American lakes. Journal of Hydrology, 593, 125821.
+        </div>
+        <div class="reference">
+          Bishop, M. P., et al. (2012). Remote sensing and geomorphometry for
+          studying relief and topography. In Geomorphological Techniques (pp.
+          1-38). British Society for Geomorphology.
+        </div>
+        <div class="reference">
+          Chaoyong, Z., et al. (2024). Evolution of fluvial-lacustrine systems
+          and their response to climate change. Geomorphology, 435, 108756.
+        </div>
+        <div class="reference">
+          CNES (2023). SPOT World Heritage Program. https://spot.cnes.fr
+        </div>
+        <div class="reference">
+          Dewan, A., et al. (2017). Evolution of the Bengal Delta and its
+          prevailing processes. Journal of Coastal Research, 33(6), 1212-1226.
+        </div>
+        <div class="reference">
+          Google (2018). Google Earth Pro. Versión 7.3.6.
+        </div>
+        <div class="reference">
+          Graf, W. L. (2006). Downstream hydrologic and geomorphic effects of
+          large dams on American rivers. Geomorphology, 79(3-4), 336-360.
+        </div>
+        <div class="reference">
+          Heino, J., et al. (2021). Lakes in the era of global change: moving
+          beyond single-system thinking. Journal of Ecology, 109(6), 2251-2263.
+        </div>
+        <div class="reference">
+          IGM (2021). Cartografía Nacional. Instituto Geográfico Militar de
+          Bolivia.
+        </div>
+        <div class="reference">
+          Knighton, D. (1998). Fluvial forms and processes: a new perspective.
+          Routledge.
+        </div>
+        <div class="reference">
+          Kong, D., et al. (2020). Changes in river morphology and flood
+          dynamics after dam construction. Water Resources Research, 56(8),
+          e2020WR027127.
+        </div>
+        <div class="reference">
+          Lattuvesse, R., et al. (2009). Geomorphological mapping and sediment
+          budget of the Amazon River. Earth Surface Processes and Landforms,
+          34(12), 1632-1648.
+        </div>
+        <div class="reference">
+          Mertes, L. A. K., et al. (1995). Spatial and temporal patterns of
+          suspended sediment transport in the Amazon River. Water Resources
+          Research, 31(12), 3165-3180.
+        </div>
+        <div class="reference">
+          Moss, B. (2012). Ecology of freshwaters: a view for the twenty-first
+          century. John Wiley & Sons.
+        </div>
+        <div class="reference">
+          Paulino, R. C., et al. (2023). Remote sensing of geomorphological
+          changes in river systems. Remote Sensing, 15(4), 1023.
+        </div>
+        <div class="reference">
+          Puhakka, M., et al. (1992). Channel migration and vegetation patterns
+          in the Amazon Basin. Journal of Biogeography, 19(6), 623-634.
+        </div>
+        <div class="reference">
+          QGIS (2020). QGIS Geographic Information System. Open Source
+          Geospatial Foundation Project.
+        </div>
+        <div class="reference">
+          R Core Team (2021). R: A language and environment for statistical
+          computing. R Foundation for Statistical Computing.
+        </div>
+        <div class="reference">
+          Salo, J., et al. (1986). River dynamics and the diversity of Amazon
+          lowland forest. Nature, 322(6076), 254-258.
+        </div>
+        <div class="reference">
+          Schallenberg, M., et al. (2013). Ecosystem services of lakes. In
+          Ecosystem Services in New Zealand (pp. 203-225). Manaaki Whenua Press.
+        </div>
+        <div class="reference">
+          Schumm, S. A. (1963). Sinuosity of alluvial rivers on the Great
+          Plains. Geological Society of America Bulletin, 74(9), 1089-1100.
+        </div>
+        <div class="reference">
+          SENAMHI (2023). Servicio Nacional de Meteorología e Hidrología de
+          Bolivia. Datos climáticos.
+        </div>
+        <div class="reference">
+          Tandon, S. K., & Sinha, R. (2007). Geology of large river systems. In
+          Large Rivers: Geomorphology and Management (pp. 7-28). John Wiley &
+          Sons.
+        </div>
+        <div class="reference">
+          Torres-Batllo, J. (2020). The disappearance of Lake Poopó:
+          environmental and social implications. Journal of Latin American
+          Geography, 19(2), 183-206.
+        </div>
+        <div class="reference">
+          USGS (1995). Declassified satellite imagery - KH-9 HEXAGON. United
+          States Geological Survey.
+        </div>
+        <div class="reference">
+          VRHyR (2010). Viceministerio de Recursos Hídricos y Riego. Catastro de
+          cuencas de Bolivia.
+        </div>
+        <div class="reference">
+          Wohl, E. (2015). Legacy effects on sediments in river corridors.
+          Earth-Science Reviews, 147, 30-53.
+        </div>
+        <div class="reference">
+          Zambrano, E., et al. (2011). Caracterización hidrológica de la cuenca
+          del río Parapetí. Revista Boliviana de Ciencias de la Tierra, 12,
+          45-58.
+        </div>
+        <div class="reference">
+          ZONISIG (2000). Zonificación de la subcuenca del río El Bañado.
+          Informe técnico.
+        </div>
+      </div>
+
+      <footer>
+        <p>© 2025 Revista Agro-Ecológica. Todos los derechos reservados.</p>
+        <p>
+          Esta es una representación HTML del artículo científico original en
+          formato PDF.
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
