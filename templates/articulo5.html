@@ -19,6 +19,7 @@
             max-width: 1000px;
             margin: 0 auto;
             padding: 20px;
+            transition: all 0.5s;
         }
         
         header {
@@ -88,6 +89,7 @@
         
         .content-section {
             margin-bottom: 30px;
+            transition: all 0.6s;
         }
         
         table {
@@ -147,26 +149,126 @@
             font-size: 14px;
         }
         
+        /* Botones de tema */
+        .container_theme {
+          position: fixed;
+          top: 20px;
+          right: 20px;
+          z-index: 1000;
+          display: flex;
+          gap: 10px;
+        }
+        .theme_claro, .theme_oscuro {
+          width: 36px;
+          height: 36px;
+          border-radius: 50%;
+          border: 2px solid #2c7d32;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 0;
+          transition: border 0.3s;
+          box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+          cursor: pointer;
+          padding: 0;
+        }
+        .theme_claro {
+          background: white;
+          border-color: #bbb;
+        }
+        .theme_claro:hover {
+          border-color: #2c7d32;
+        }
+        .theme_oscuro {
+          background: black;
+          border-color: #bbb;
+        }
+        .theme_oscuro:hover {
+          border-color: #2c7d32;
+        }
+        .theme_claro::after {
+          content: "";
+          display: block;
+          width: 18px;
+          height: 18px;
+          background: white;
+          border-radius: 50%;
+          border: 1px solid #bbb;
+        }
+        .theme_oscuro::after {
+          content: "";
+          display: block;
+          width: 18px;
+          height: 18px;
+          background: black;
+          border-radius: 50%;
+          border: 1px solid #bbb;
+        }
         @media (max-width: 768px) {
-            body {
-                padding: 15px;
-            }
-            
-            h1 {
-                font-size: 20px;
-            }
-            
-            h2 {
-                font-size: 18px;
-            }
-            
-            table {
-                font-size: 14px;
-            }
+          .container_theme {
+            top: 0;
+            right: 0;
+            gap: 6px;
+            padding: 8px 8px 0 0;
+          }
+          .theme_claro, .theme_oscuro {
+            width: 28px;
+            height: 28px;
+          }
+          .theme_claro::after, .theme_oscuro::after {
+            width: 14px;
+            height: 14px;
+          }
+        }
+
+        /* Tema oscuro */
+        body.dark-mode,
+        .dark-mode body {
+          background-color: #181818 !important;
+          color: #f2f2f2 !important;
+        }
+        .dark-mode .journal-title,
+        .dark-mode h1,
+        .dark-mode h2,
+        .dark-mode .references h2 {
+          color: #7be37e !important;
+          border-color: #333 !important;
+        }
+        .dark-mode .doi,
+        .dark-mode .dates,
+        .dark-mode .author-affiliation,
+        .dark-mode .reference-item {
+          color: #b6e3b8 !important;
+        }
+        .dark-mode .abstract,
+        .dark-mode .keywords,
+        .dark-mode .content-section,
+        .dark-mode .figure,
+        .dark-mode .caption {
+          background-color: #232323 !important;
+          color: #f2f2f2 !important;
+        }
+        .dark-mode th {
+          background-color: #232323 !important;
+          color: #fff !important;
+        }
+        .dark-mode td {
+          background-color: #181818 !important;
+          color: #f2f2f2 !important;
+        }
+        .dark-mode a {
+          color: #b6e3b8 !important;
+        }
+        .dark-mode a:hover {
+          color: #fff !important;
         }
     </style>
 </head>
 <body>
+    <div class="container_theme">
+      <button class="theme_claro" id="theme_claro">claro</button>
+      <button class="theme_oscuro" id="theme_oscuro">oscuro</button>
+    </div>
     <header>
         <div class="journal-title">AGRO-ECOLÓGICA 4(1): 32-36, agosto 2025. ISSN 2313-2906</div>
         <div class="doi">https://revistas.usfx.bo/index.php/rae/</div>
@@ -381,5 +483,17 @@
     <footer>
         <p>AGRO-ECOLÓGICA 4(1): 32-36 agosto 2025. ISSN 2313-2906</p>
     </footer>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const btnClaro = document.getElementById("theme_claro");
+        const btnOscuro = document.getElementById("theme_oscuro");
+        btnOscuro.addEventListener("click", () => {
+          document.body.classList.add("dark-mode");
+        });
+        btnClaro.addEventListener("click", () => {
+          document.body.classList.remove("dark-mode");
+        });
+      });
+    </script>
 </body>
 </html>
