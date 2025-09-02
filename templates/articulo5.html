@@ -23,17 +23,26 @@
         }
         
         header {
-            text-align: center;
-            margin-bottom: 30px;
-            border-bottom: 2px solid #2e7d32;
-            padding-bottom: 20px;
+           display: flex;
+           flex-wrap: wrap;
+           justify-content: space-between;
+           margin-bottom: 30px;
+           border-bottom: 2px solid #2e7d32;
+           padding-bottom: 20px;
         }
-        
+        .logo_RAE{
+            width: 150px;
+            height: auto;
+            object-fit: contain;
+        }
+        .container_title{
+            display: grid;
+        }
         .journal-title {
-            font-size: 18px;
-            font-weight: bold;
+            font-size: 1.4em;
             color: #2e7d32;
             margin-bottom: 5px;
+            text-align: center;
         }
         
         .doi {
@@ -41,9 +50,13 @@
             color: #666;
             margin-bottom: 15px;
         }
+        .a_doi{
+            color: #666;
+            text-decoration: none;
+            text-decoration: underline;
+        }
         
         h1 {
-            font-size: 24px;
             color: #2e7d32;
             margin: 20px 0;
             text-align: center;
@@ -57,30 +70,62 @@
             border-bottom: 1px solid #ccc;
         }
         
-        .authors {
+        .author_info {
             margin: 15px 0;
-            text-align: center;
         }
-        
-        .author-affiliation {
-            font-size: 14px;
-            color: #555;
-            margin-bottom: 5px;
+        .author{
+            display: grid;
         }
+        .author::after{
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 2px;
+            background-color: #2c7d32;
+            bottom: 0px;
+            left: 0;
+        }
+        .author_name{
+            font-weight: bold;
+            margin-bottom: -20px;
+        }
+        .author_corresponding {
+             font-weight: normal;
+             margin-bottom: 10px;
+        }
+      
         
         .dates {
-            font-size: 14px;
-            text-align: center;
-            margin-bottom: 20px;
+            font-size: 0.9em;
+            margin: 10px 0;
             color: #666;
+            position: relative;
         }
-        
+        .dates::after{
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 2px;
+            background-color: #2c7d32;
+            bottom: -4px;
+            left: 0;
+        }
+        .dates::before{
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 2px;
+            background-color: #2c7d32;
+            bottom: -4px;
+            left: 0;
+        }
         .abstract, .keywords {
             background-color: #e8f5e9;
             padding: 15px;
             border-radius: 5px;
             margin-bottom: 20px;
         }
+       
         
         .abstract h3, .keywords h3 {
             color: #2e7d32;
@@ -269,27 +314,42 @@
       <button class="theme_claro" id="theme_claro">claro</button>
       <button class="theme_oscuro" id="theme_oscuro">oscuro</button>
     </div>
-    <header>
-        <div class="journal-title">AGRO-ECOLÓGICA 4(1): 32-36, agosto 2025. ISSN 2313-2906</div>
-        <div class="doi">https://revistas.usfx.bo/index.php/rae/</div>
-        <div class="doi">DOI:10.56469/rae.v4i1.1964</div>
-        
+    <div class="container">
+        <header>
+            <img src="https://revistas.usfx.bo/public/journals/6/pageHeaderLogoImage_es_ES.png"
+             alt="logo_RAE" 
+             class="logo_RAE">
+            <div class="container_title">
+                <div class="journal-title">AGRO-ECOLÓGICA 4(1): 32-36, agosto 2025. ISSN 2313-2906</div>
+                <div class="journal_info">
+                    <a href="https://revistas.usfx.bo/index.php/rae/" class="a_doi">
+                        https://revistas.usfx.bo/index.php/rae/
+                    </a>
+                    <div class="doi">DOI:10.56469/rae.v4i1.1964</div>
+                </div>
+            </div>  
+        </header>
         <h1>Actividad antifúngica de aceites esenciales frente a Ascochyta rabiei bajo condiciones in vitro</h1>
         <h2>Antifungal activity of essential oils against Ascochyta rabiei under in vitro conditions</h2>
-        
-        <div class="authors">
-            <div class="author">Miriam Liliana Velasco Caballero¹</div>
-            <div class="author">José Fernando León Paz²</div>
-            <div class="author-affiliation">*Autor de Correspondencia: velasco.miriam@usfx.bo</div>
-            <div class="author-affiliation">¹ Universidad San Francisco Xavier de Chuquisaca, Bolivia. https://orcid.org/0000-0001-6131-4925</div>
-            <div class="author-affiliation">² Universidad Audina Simón Bolívar. Sucre, Bolivia. https://orcid.org/0009-0009-0575-6775</div>
+        <div class="author_info">
+            <div class="author">
+                <div class="author_name">Miriam Liliana Velasco Caballero¹*, José Fernando León Paz²</div>
+                <div class="author_corresponding">*Autor de Correspondencia: velasco.miriam@usfx.bo</div>
+              
+            </div>
+            
         </div>
-        
+          <p>
+                ¹ Universidad San Francisco Xavier de Chuquisaca, Bolivia. https://orcid.org/0000-0001-6131-4925
+                </p>
+                <p>
+                    ² Universidad Andina Simón Bolívar. Sucre, Bolivia. https://orcid.org/0009-0009-0575-6775</p>
+
         <div class="dates">
             Recibido: 30/04/2025 | Aceptado para publicación: 09/06/2025
         </div>
-    </header>
-    
+    </div>
+  
     <section class="abstract">
         <h3>Resumen</h3>
         <p>Con el objetivo de encontrar fungicidas naturales sobre la base de extractos vegetales para el control de enfermedades en los cultivos, como es la rabia producido por Ascochyta rabiei en el cultivo de garbanzo, y buscar alternativas para disminuir el uso de biocidas químico-sintéticos, se llevó a cabo el presente trabajo. Se realizaron las extracciones de los aceites esenciales de dos especies de vegetales: molle (Schinus molle) y khoa o muña (Satureja boliviana), mediante destilación por arrastre de vapor y hacer un screening a dosis de 0.0,7, 1.5, 3.1, 6.2, 12.5 y 25 mg/mL de los aceites. A partir de la concentración de 1.5 mg/mL del aceite de khoa o muña se obtuvo una notoria inhibición del crecimiento micelial, siendo del 100%. Con el aceite de molle (Schinus molle) no se detecta actividad antifúngica hasta los 12.5 mg/mL contra Ascochyta rabiei, solo se observa actividad a 25 mg/mL.</p>
