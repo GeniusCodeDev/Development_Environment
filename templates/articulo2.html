@@ -74,8 +74,8 @@
       }
 
       .a_doi {
-        color: #666;
-        transition: all 0.2s;
+        color: #2c7d32;
+        transition: all 0.3s;
       }
 
       .a_doi:hover {
@@ -174,8 +174,9 @@
         color: #f2f2f2 !important;
       }
 
-      .dark-mode .affiliation {
-        color: #b6e3b8 !important;
+      .dark-mode .affiliation,
+      .dark-mode .dates {
+        color: #cacaca !important;
       }
 
       .dark-mode .figure-caption {
@@ -199,7 +200,8 @@
       }
 
       .dark-mode .a_doi:hover {
-        color: #fff !important;
+        color: #2c7d32 !important;
+        filter: brightness(150%) !important;
       }
 
       .dark-mode .abstract,
@@ -409,6 +411,13 @@
         border-top: 1px solid #ddd;
         color: #666;
         font-size: 0.9em;
+      }
+
+      @media (max-width: 1160px) {
+        .container_theme {
+          display: flex;
+          flex-direction: column;
+        }
       }
 
       @media (max-width: 768px) {
