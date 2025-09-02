@@ -38,13 +38,19 @@
             height: auto;
             object-fit: contain;
         }
-
-        .container_title {
+        .journal-title {
             display: grid;
-
+            position: relative;
         }
-      
-        
+        .journal-title::after{
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 2px;
+            background-color: #2c7d32;
+            bottom: 0px;
+            left: 0;
+        }
 
         .journal-title {
             font-size: 1.4em;
@@ -53,20 +59,16 @@
             text-align: center;
         }
 
-        .doi {
-            font-size: 14px;
-            color: #666;
-            margin-bottom: 20px;
-        }
-
+     
         .a_doi {
-            color: #666;
+            color: #2c7d32;
             text-decoration: none;
-            text-decoration: underline;
-
+            text-decoration: none;
+            transition: 0.2s;
         }
         .a_doi:hover{
-            color: black;
+            color: darkgreen;
+            
         }
 
         h1 {
@@ -326,12 +328,11 @@
             border-color: #333 !important;
         }
 
-        .dark-mode .doi,
-        .dark-mode .dates,
-        .dark-mode .dates,
-        .dark-mode 
+        .dark-mode .a_doi,
+        .dark-mode .dates
         {
-            color: #b6e3b8 !important;
+            color: #2c7d32 !important;
+            filter: brightness(150%) !important;
         }
 
         .dark-mode .abstract,
@@ -379,7 +380,7 @@
                 </div>
                 <div class="jornal-info">
 
-                    <a calss="a_doi" href="https://revistas.usfx.bo/index.php/rae/">
+                    <a class="a_doi" href="https://revistas.usfx.bo/index.php/rae/">
                         https://revistas.usfx.bo/index.php/rae/
                     </a>
                     <div class="jornal-info">DOI:10.56469/rae.v4i1.1597</div>
@@ -512,7 +513,7 @@
         <h2>Materiales y Métodos</h2>
 
         <h3>Área de estudio</h3>
-        <p>La investigación se desarrolló en la comunidad de Pedernal (Figura 1), situada en las coordenadas Zona 20 K
+        <p>La investigación se desarrolló en la comunidad de Pedernal <a href="#figura_1">(Figura 1)</a>, situada en las coordenadas Zona 20 K
             367863.03 m E y 7867941.95 m S en el Parque Nacional y Área Natural de Manejo Integrado de la Serranía del
             Íñao, en el noreste del Departamento de Chuquisaca, Bolivia. La comunidad tiene un clima subhúmedo, con
             temperaturas promedio de 16°C a 18°C y precipitaciones anuales que oscilan entre 850 y 900 mm.</p>
@@ -579,7 +580,7 @@
             datos obtenidos.</p>
 
         <div class="figure">
-            <img src="https://github.com/AdanCR1/VOLUMEN4_AGRO-ECOLOGIA/blob/5fd37b97147e203831a4072a555594253438b8aa/articulo4/IMAGES/revista%204/Anotaci%C3%B3n%202025-08-28%20170627.png?raw=true"
+            <img id="figura_1" src="https://github.com/AdanCR1/VOLUMEN4_AGRO-ECOLOGIA/blob/5fd37b97147e203831a4072a555594253438b8aa/articulo4/IMAGES/revista%204/Anotaci%C3%B3n%202025-08-28%20170627.png?raw=true"
                 alt="Figura 1. Mapa de Localización de la Comunidad de Pedernal en el Parque Nacional y Área Natural de Manejo Integrado Serranía del Iñao, Chuquisaca, Bolivia.">
             <div class="caption">Figura 1. Mapa de Localización de la Comunidad de Pedernal en el Parque Nacional y Área
                 Natural de Manejo Integrado Serranía del Iñao, Chuquisaca, Bolivia.</div>

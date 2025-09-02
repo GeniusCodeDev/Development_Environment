@@ -35,6 +35,19 @@
             height: auto;
             object-fit: contain;
         }
+        .journal-title{
+            position: relative;
+            display: grid;
+        }
+        .journal-title::after{
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 2px;
+            background-color: #2c7d32;
+            bottom: 0px;
+            left: 0;
+        }
         .container_title{
             display: grid;
         }
@@ -45,15 +58,15 @@
             text-align: center;
         }
         
-        .doi {
-            font-size: 14px;
-            color: #666;
-            margin-bottom: 15px;
-        }
-        .a_doi{
-            color: #666;
+        .a_doi {
+            color: #2c7d32;
             text-decoration: none;
-            text-decoration: underline;
+            text-decoration: none;
+            transition: 0.2s;
+        }
+        .a_doi:hover{
+            color: darkgreen;
+            
         }
         
         h1 {
@@ -75,6 +88,7 @@
         }
         .author{
             display: grid;
+            position: relative;
         }
         .author::after{
             content: "";
@@ -87,7 +101,7 @@
         }
         .author_name{
             font-weight: bold;
-            margin-bottom: -20px;
+            margin-bottom: 0px;
         }
         .author_corresponding {
              font-weight: normal;
@@ -249,7 +263,7 @@
           border-radius: 50%;
           border: 1px solid #bbb;
         }
-        @media (max-width: 768px) {
+        @media (max-width: 1160px) {
           .container_theme {
             top: 0;
             right: 0;
@@ -276,13 +290,11 @@
         .dark-mode h1,
         .dark-mode h2,
         .dark-mode .references h2 {
-          color: #7be37e !important;
+          color: #2c7d32 !important;
           border-color: #333 !important;
         }
-        .dark-mode .doi,
-        .dark-mode .dates,
-        .dark-mode .author-affiliation,
-        .dark-mode .reference-item {
+        .dark-mode .a_doi,
+        .dark-mode .dates {
           color: #b6e3b8 !important;
         }
         .dark-mode .abstract,
@@ -322,13 +334,14 @@
             <div class="container_title">
                 <div class="journal-title">AGRO-ECOLÓGICA 4(1): 32-36, agosto 2025. ISSN 2313-2906</div>
                 <div class="journal_info">
-                    <a href="https://revistas.usfx.bo/index.php/rae/" class="a_doi">
+                    <a class="a_doi" href="https://revistas.usfx.bo/index.php/rae/" class="a_doi">
                         https://revistas.usfx.bo/index.php/rae/
                     </a>
                     <div class="doi">DOI:10.56469/rae.v4i1.1964</div>
                 </div>
             </div>  
         </header>
+        <h3 class="editorial">Editorial</h3>
         <h1>Actividad antifúngica de aceites esenciales frente a Ascochyta rabiei bajo condiciones in vitro</h1>
         <h2>Antifungal activity of essential oils against Ascochyta rabiei under in vitro conditions</h2>
         <div class="author_info">
