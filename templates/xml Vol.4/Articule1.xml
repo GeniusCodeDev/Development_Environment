@@ -1,224 +1,254 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <article>
     <metadata>
-        <title>Antifungal activity of essential oils against Ascochyta rabiei under in vitro conditions</title>
+        <title>Importancia de los actores locales en el contexto de las áreas protegidas</title>
+        <title_english>Importance of local actors in the context of protected areas</title_english>
         <journal>AGRO-ECOLÓGICA</journal>
         <volume>4(1)</volume>
-        <pages>32-36</pages>
-        <publication-date>August 2025</publication-date>
+        <pages>1-2</pages>
+        <publication_date>August 2025</publication_date>
         <issn>2313-2906</issn>
-        <doi>10.56469/rae.v4i1.1964</doi>
+        <doi>10.56469/rae.v4i1.1791</doi>
         <url>https://revistas.usfx.bo/index.php/rae/</url>
+        <type>editorial</type>
     </metadata>
     
     <authors>
         <author>
-            <name>Miriam Liliana Velasco Caballero</name>
-            <email>velasco.miriam@usfx.bo</email>
-            <affiliation>Universidad San Francisco Xavier de Chuquisaca, Bolivia</affiliation>
-            <orcid>https://orcid.org/0000-0001-6131-4925</orcid>
-            <corresponding>true</corresponding>
-        </author>
-        <author>
-            <name>José Fernando León Paz</name>
-            <affiliation>Universidad Andina Simón Bolívar, Sucre, Bolivia</affiliation>
-            <orcid>https://orcid.org/0009-0009-0575-6775</orcid>
-            <corresponding>false</corresponding>
+            <name>Susana Rengel Rojas</name>
+            <email>srengel@uasb.edu.bo</email>
+            <affiliation>
+                <institution>Universidad Andina Simón Bolívar</institution>
+                <campus>Cede Central</campus>
+                <city>Sucre</city>
+                <country>Bolivia</country>
+            </affiliation>
+            <affiliation>
+                <institution>Universidad San Francisco Xavier de Chuquisaca</institution>
+                <city>Sucre</city>
+                <country>Bolivia</country>
+            </affiliation>
+            <corresponding_author>true</corresponding_author>
         </author>
     </authors>
     
     <dates>
-        <received>2025-04-30</received>
-        <accepted>2025-06-09</accepted>
+        <received>2025-04-08</received>
+        <accepted>2025-06-03</accepted>
     </dates>
     
-    <abstract lang="es">
-        <p>Con el objetivo de encontrar fungicidas naturales sobre la base de extractos vegetales para el control de enfermedades en los cultivos, como es la rabia producido por Ascochyta rabiei en el cultivo de garbanzo, y buscar alternativas para disminuir el uso de biocidas químico-sintéticos, se llevó a cabo el presente trabajo. Se realizaron las extracciones de los aceites esenciales de dos especies de vegetales: molle (Schinus molle) y khoa o muña (Satureja boliviana), mediante destilación por arrastre de vapor y hacer un screening a dosis de 0.0,7, 1.5, 3.1, 6.2, 12.5 y 25 mg/mL de los aceites. A partir de la concentración de 1.5 mg/mL del aceite de khoa o muña se obtuvo una notoria inhibición del crecimiento micelial, siendo del 100%. Con el aceite de molle (Schinus molle) no se detecta actividad antifúngica hasta los 12.5 mg/mL contra Ascochyta rabiei, solo se observa actividad a 25 mg/mL.</p>
-        <keywords>
-            <keyword>Ascochyta rabiei</keyword>
-            <keyword>aceites esenciales</keyword>
-            <keyword>antifúngico</keyword>
-            <keyword>khoa</keyword>
-            <keyword>muña</keyword>
-        </keywords>
-    </abstract>
-    
-    <abstract lang="en">
-        <p>With the aim of finding natural fungicides based on plant extracts for the control of diseases in crops, such as rabies produced by Ascochyta rabiei in chickpea crops, and looking for alternatives to reduce the use of chemical-synthetic biocides, it was carried out the present work. The extractions of essential oils from two species of vegetables were carried out: molle (Schinus molle) and khoa or muña (Satureja boliviana), by steam distillation and screening at doses of 0, 0.7, 1.5, 3.1, 6.2, 12.5 and 25 mg/mL of the oils. From a concentration of 1.5 mg/ml of khoa oil, a notable inhibition of mycelial growth was obtained, being 100%. With molle oil (Schinus molle), no antifungal activity is detected up to 12.5 mg/mL against Ascochyta rabiei, activity is only observed at 25 mg/mL.</p>
-        <keywords>
-            <keyword>Ascochyta rabiei</keyword>
-            <keyword>antifungal</keyword>
-            <keyword>essential oils</keyword>
-            <keyword>khoa</keyword>
-            <keyword>muña</keyword>
-        </keywords>
-    </abstract>
-    
-    <sections>
-        <section id="introduction">
-            <title>Introduction</title>
-            <content>
-                <p>Ascochyta rabiei is a phytopathogenic fungus that causes chickpea blight, one of the most destructive diseases affecting chickpea crops (Cicer arietinum) worldwide. This pathology impacts leaves, stems, and pods, causing necrotic lesions that significantly reduce yield and grain quality (Okrushko et al. 2025). Conventional management of this disease is based on the application of synthetic fungicides; however, their indiscriminate use has led to the emergence of resistant strains, as well as adverse effects on the environment and risks to human health (Burt 2004). In this context, essential oils (EOs) have emerged as natural alternatives with antifungal potential, attributable to their complex composition of secondary metabolites with bioactive properties (Bakkali et al. 2008).</p>
-                
-                <p>Various studies have demonstrated the antifungal efficacy of EOs against A. rabiei. For example, Cuminum cyminum essential oil inhibits spore germination, attributed to compounds such as cuminaldehyde and p-cymene (Holley & Patel 2005). Likewise, oils from Thymus species such as T. capitatus, T. bleicherianus, and T. satureioides have achieved significant inhibitions of mycelial growth, due to the presence of thymol and carvacrol (Kalemba & Kunicka 2003). Additionally, Pistacia atlantica oil showed a notable correlation between its antifungal and antioxidant activity, evidenced by a determination coefficient of 72.72% (Burt 2004). Similarly, Melaleuca alternifolia (tea tree) oil has been widely recognized for its antifungal action, while Thymus vulgaris oil has shown high effectiveness in reducing mycelial growth in in vitro studies (Carson et al. 2006). These findings support the scientific interest in exploring essential oils as part of an integrated, sustainable, and ecologically viable management for the control of A. rabiei.</p>
-                
-                <p>Llontop (2008) indicates that in an ecological pest and disease management program, the use of plants with biocidal properties constitutes alternatives to reduce the negative effects already mentioned. Essential oils extracted from plants have different activities with pharmacological and agrochemical properties. Balchin et al. (1995) indicate that many essential oils extracted from plants have great antimicrobial capacity. Therefore, the objective of this work was to evaluate in vitro the fungicidal effect of essential oils from S. molle and M. spicata extracted from plants against Ascochyta rabiei.</p>
-            </content>
-        </section>
-        
-        <section id="materials-methods">
-            <title>Materials and Methods</title>
-            <content>
-                <p>The collection of plant samples of molle (Schinus molle) and khoa or muña (Minthostachys spicata) was carried out in the localities of Yotala and Punilla, Sucre. The experiment was carried out in the laboratories of CIICA-VC, Faculty of Agricultural Sciences, Mayor, Real y Pontificia San Francisco Xavier de Chuquisaca University (U.S.F.X.CH.).</p>
-                
-                <p>The extraction of oils (natural fungicides) was performed using a steam distillation equipment, followed by in vitro antifungal activity tests to evaluate their efficacy and optimal dosage against the phytopathogenic fungus Ascochyta rabiei. The methodology was adapted from that developed by Flores (1998) at the Instituto de Investigaciones Farmaco-Bioquímicas (IIFB), Faculty of Biochemistry, Universidad Mayor de San Andrés (UMSA).</p>
-                
-                <p>The assay consisted of a screening of the oils extracted from the two plant species. The culture medium used for the fungus was potato dextrose agar (PDA), with oil concentrations tested at 0.7, 1.5, 3.1, 6.2, 12.5, and 25 mg/mL, along with a control (0 mg/mL) without oil, incorporated into the sterilized medium.</p>
-                
-                <p>The A. rabiei strain was isolated from chickpea plants affected by Ascochyta blight in the Escana region (Chuquisaca, Bolivia). Fungal spores were aseptically inoculated into five Petri dishes containing PDA medium, which were sealed with parafilm and incubated at 25°C to obtain a pure culture and serve as a source of inoculum for the experiments. Separate PDA media were prepared for each concentration, with three replicates per treatment. A 5 mm diameter mycelial fragment was centrally inoculated into each Petri dish and incubated for 3 to 9 days.</p>
-                
-                <p>Readings were taken after six days of incubation, identifying the concentrations and types of oil that inhibited mycelial growth (no visible growth observed). The oil that showed the greatest inhibition among the concentrations was selected; in this case, M. spicata oil was chosen due to the absence of inhibition with S. molle oil. The selected concentrations were subsequently used to evaluate mycelial growth.</p>
-                
-                <p>To evaluate the antifungal activity of M. spicata oil against the fungus, the recommendations of French and Heber (1982) were followed. The radial growth of the mycelium on the surface of the PDA medium was measured at 72 hours (3 days), 144 hours (6 days), and 216 hours (9 days). After these measurements, the average growth was calculated and the percentage of inhibition of mycelial growth in vitro in relation to the control was determined.</p>
-            </content>
-        </section>
-        
-        <section id="results">
-            <title>Results</title>
-            <content>
-                <p>The results of the inhibition of the two oils can be observed in Table 1. In molle oil (S. molle), no antifungal activity is detected up to 12.5 mg/mL against Ascochyta rabiei, activity is only observed at 25 mg/mL.</p>
-                
-                <p>In the same table, it can be observed that Khoa or muña oil (M. spicata) presents better antifungal activity against Ascochyta rabiei from 1.5 mg/mL of oil up to 25 mg/mL, although medium inhibition is noted at 0.7 mg/mL. Therefore, it was decided to continue the work with khoa oil.</p>
-                
-                <p>In the effect of khoa or muña oil (M. spicata) on the mycelial growth of Ascochyta rabiei in vitro, it is observed that at 0.7 mg/mL it exerted mycelial inhibition at 72 hours (3 days) and mycelial growth was observed from 144 hours (6 days), with an increase in diameter of 0.2 cm, obtaining 0.7 cm, the growth increased until reaching 1.1 cm with an increase of 0.6 cm from the original diameter at 216 hours (9 days) compared to 3.1 cm diameter of the control, which increased 2.6 cm in diameter as observed in Table 2.</p>
-                
-                <p>From concentrations of 1.5 to 25 mg/mL, a notable inhibition of mycelial growth is observed in relation to 0.7 mg/mL and the control during the 9 days of incubation since at the other concentrations the initial mycelium size is maintained. In the control, initial growth is observed from 72 hours and the growth increases until 216 hours.</p>
-                
-                <p>Calculating the percentage of inhibition of the oil on the initial growth of Ascochyta rabiei, we observe in Figure 1 that the oil at 0.7 mg/mL has 100% inhibition at 72 hours, 86% at 144 hours, and 76% at 216 hours. On the other hand, from doses of 1.5 to 25 mg/mL, inhibition of mycelium is observed at 100% between 72 and 216 hours.</p>
-                
-                <p>According to the in vitro results obtained of the initial growth of Ascochyta rabiei with the 6 concentrations of the oil from the curve in figure 1, khoa oil from 1.5 mg/mL exerts one hundred percent inhibition in the growth of the fungus mycelium.</p>
-            </content>
+    <content>
+        <section type="editorial">
+            <paragraph>
+                <strong>Sr. Editor:</strong>
+            </paragraph>
             
-            <figure id="fig1">
-                <title>Figure 1. Curve of percentage inhibition of mycelial growth of Ascochyta rabiei at different concentrations of khoa oil (M. spicata)</title>
-                <url>https://github.com/AdanCR1/VOLUMEN4_AGRO-ECOLOGIA/blob/5fd37b97147e203831a4072a555594253438b8aa/articulo5/IMAGES/revista%205/Anotaci%C3%B3n%202025-08-28%20170059.png?raw=true</url>
-            </figure>
+            <paragraph>
+                Las áreas protegidas (APs) son reconocidas globalmente como herramientas
+                esenciales para conservar la biodiversidad (Cao et al. 2015, Mandić &
+                Petrić 2021) y mantener servicios ecosistémicos vitales como la
+                regulación hídrica y climática (Castro et al. 2015, Dudley & Stolton
+                2010). Para las comunidades locales que a menudo viven dentro o cerca de
+                estas áreas protegidas, los ecosistemas saludables no son solo un bien
+                de interés global, sino la base de sus medios de vida, cultura y
+                bienestar. La provisión de agua limpia, suelos fértiles, productos
+                forestales no maderables y oportunidades recreativas o turísticas
+                depende directamente de su buen estado de conservación. Por lo tanto, el
+                reconocimiento de la importancia de las APs debe ir acompañado del
+                entendimiento de que su éxito está intrínsecamente ligado al apoyo y la
+                colaboración de los actores locales, quienes son los guardianes más
+                directos y los primeros beneficiarios (o afectados) por su gestión.
+            </paragraph>
             
-            <table id="table1">
-                <title>Table 1. Antifungal activity at different concentrations of S. molle and M. spicata extracted oils on Ascochyta rabiei, - no inhibition, + inhibition.</title>
-                <headers>
-                    <header>Plant species</header>
-                    <header>25 mg/mL</header>
-                    <header>12.5 mg/mL</header>
-                    <header>6.2 mg/mL</header>
-                    <header>3.1 mg/mL</header>
-                    <header>1.5 mg/mL</header>
-                    <header>0.7 mg/mL</header>
-                    <header>0 mg/mL</header>
-                </headers>
-                <rows>
-                    <row>
-                        <cell>S. molle (molle)</cell>
-                        <cell>+</cell>
-                        <cell>-</cell>
-                        <cell>-</cell>
-                        <cell>-</cell>
-                        <cell>-</cell>
-                        <cell>-</cell>
-                        <cell>-</cell>
-                    </row>
-                    <row>
-                        <cell>M. spicata (Khoa)</cell>
-                        <cell>+</cell>
-                        <cell>+</cell>
-                        <cell>+</cell>
-                        <cell>+</cell>
-                        <cell>+</cell>
-                        <cell>+/-</cell>
-                        <cell>-</cell>
-                    </row>
-                </rows>
-            </table>
+            <paragraph>
+                A pesar de la creciente cobertura de APs (Shackleton et al. 2020), su
+                manejo funcional enfrenta serios problemas que a menudo se exacerban por
+                una insuficiente consideración de los actores locales. La falta de datos
+                históricos, la categorización a veces inadecuada (Xie 2019) y la
+                complejidad en la clasificación de los sistemas de APs (Ouyang et al.
+                2020) pueden llevar a planes de manejo desconectados de la realidad
+                local. Además, las presiones económicas externas e internas sobre los
+                recursos naturales, como las observadas en otros contextos (Müller
+                2008), pueden generar conflictos si las necesidades de subsistencia o
+                desarrollo de las comunidades locales no se integran en los objetivos de
+                conservación. La exclusión de los actores locales en la toma de
+                decisiones puede resultar en falta de legitimidad, incumplimiento de
+                normativas y, en última instancia, en el fracaso de los objetivos de
+                protección a largo plazo.
+            </paragraph>
             
-            <table id="table2">
-                <title>Table 2. Diameter of mycelial growth of A. rabiei at different concentrations of khoa oil (M. spicata), *initial inoculum diameter.</title>
-                <headers>
-                    <header>Concentration (mg/mL)</header>
-                    <header>72 hrs (cm)</header>
-                    <header>144 hrs (cm)</header>
-                    <header>216 hrs (cm)</header>
-                </headers>
-                <rows>
-                    <row>
-                        <cell>0</cell>
-                        <cell>0.5*</cell>
-                        <cell>2.0</cell>
-                        <cell>3.1</cell>
-                    </row>
-                    <row>
-                        <cell>0.7</cell>
-                        <cell>0.5</cell>
-                        <cell>0.7</cell>
-                        <cell>1.1</cell>
-                    </row>
-                    <row>
-                        <cell>1.5</cell>
-                        <cell>0.5</cell>
-                        <cell>0.5</cell>
-                        <cell>0.5</cell>
-                    </row>
-                    <row>
-                        <cell>3.1</cell>
-                        <cell>0.5</cell>
-                        <cell>0.5</cell>
-                        <cell>0.5</cell>
-                    </row>
-                    <row>
-                        <cell>6.2</cell>
-                        <cell>0.5</cell>
-                        <cell>0.5</cell>
-                        <cell>0.5</cell>
-                    </row>
-                    <row>
-                        <cell>12.5</cell>
-                        <cell>0.5</cell>
-                        <cell>0.5</cell>
-                        <cell>0.5</cell>
-                    </row>
-                    <row>
-                        <cell>25</cell>
-                        <cell>0.5</cell>
-                        <cell>0.5</cell>
-                        <cell>0.5</cell>
-                    </row>
-                </rows>
-            </table>
+            <paragraph>
+                Para que las APs sean verdaderamente efectivas y sostenibles, es
+                imperativo fortalecer el rol de los actores locales. Esto requiere, en
+                primer lugar, marcos legales y organizativos claros que no solo definan
+                las categorías de protección (Ouyang et al. 2020, Ravenel & Redford
+                2005) sino que, también establezcan mecanismos formales para la
+                participación local y el reconocimiento de sus derechos y conocimientos
+                (Yu et al. 2020). Es necesario mejorar los sistemas de monitoreo, por
+                ejemplo, para hacer frente a invasiones biológicas (Shackleton et al.
+                2020), e idealmente, estos sistemas deberían incorporar el conocimiento
+                ecológico local junto con datos científicos. Fundamentalmente, la
+                planificación y gestión de las APs debe integrar de manera sistemática
+                el análisis y la valoración de los servicios ecosistémicos (Dudley &
+                Stolton 2010), asegurando que los beneficios derivados de la
+                conservación sean percibidos y, cuando sea posible, gestionados
+                parcialmente por las comunidades locales.
+            </paragraph>
+            
+            <paragraph>
+                En conclusión, el manejo funcional y la sostenibilidad a largo plazo de
+                las áreas protegidas dependen críticamente de una alianza sólida y
+                equitativa con los actores locales. Si bien las APs son fundamentales
+                para la conservación global (Xie 2019), su efectividad sobre el terreno
+                no puede garantizarse únicamente mediante decretos o planes técnicos
+                centralizados. Superar los desafíos de gestión requiere abordar las
+                necesidades local, integrar sus conocimientos y aspiraciones, y
+                desarrollar estrategias de gobernanza participativa (Weixlbaumer et al.
+                2015). Reconocer a las comunidades locales no solo como partes
+                interesadas, sino como socios esenciales en la conservación, es una
+                condición indispensable para asegurar que las áreas protegidas cumplan
+                sus múltiples objetivos de protección de la biodiversidad y provisión de
+                beneficios para la sociedad (Dudley & Stolton 2010).
+            </paragraph>
+            
+            <paragraph>
+                La importancia de los esfuerzos de las organizaciones locales, como una
+                forma de complementar e influir en políticas y regulaciones más
+                efectivas para proteger a la población de los efectos de los grandes
+                retos medio ambientales forma parte del respaldo en la literatura
+                académica, puesto que para resolver los grandes retos de sostenibilidad
+                se requiere una acción coordinada de distintos tipos de actores de un
+                lugar específico, ya que las conseciencias afectan directamente los
+                intereses públicos y privados, y daran los sistemas ecológicos clave que
+                los apoyan y por tanto el bienestar de las personas de esa zona.
+            </paragraph>
         </section>
-        
-        <section id="conclusion">
-            <title>Conclusion</title>
-            <content>
-                <p>Khoa oil (M. spicata) showed better antifungal activity compared to molle oil at different concentrations against Ascochyta rabiei in vitro, which could be a good option to evaluate its activity as a biofungicide in the field.</p>
-            </content>
-        </section>
-    </sections>
+    </content>
     
     <references>
         <reference>
-            <authors>Agrios, G. N.</authors>
-            <year>2001</year>
-            <title>Fitopatología (2nd ed.)</title>
-            <publisher>Limusa</publisher>
+            <authors>Cao, M., Peng, L., & Liu, S.</authors>
+            <year>2015</year>
+            <title>Analysis of the network of protected areas in China based on a geographic perspective: Current status, issues and integration</title>
+            <journal>Sustainability (Switzerland)</journal>
+            <volume>7(11)</volume>
+            <pages>15617-15631</pages>
+            <doi>10.3390/su71115617</doi>
         </reference>
+        
         <reference>
-            <authors>Alvarado, M., &amp; Rojas, L.</authors>
-            <year>2023</year>
-            <title>Essential oils as sustainable alternatives for phytopathogen control in legume crops</title>
-            <journal>Journal of Sustainable Agriculture</journal>
-            <volume>47(3)</volume>
-            <pages>215–230</pages>
-            <doi>10.1007/s13593-023-00895-6</doi>
+            <authors>Castro, A. J., Martin-Lopez, B., Lopez, E., Plieninger, T., Alcaraz-Segura, D., Vaughn, C. C., & Cabello, J.</authors>
+            <year>2015</year>
+            <title>Do protected areas networks ensure the supply of ecosystem services? Spatial patterns of two nature reserve systems in semi-arid Spain</title>
+            <journal>Applied Geography</journal>
+            <volume>60</volume>
+            <pages>1-9</pages>
+            <doi>10.1016/j.apgeog.2015.02.012</doi>
         </reference>
-        <!-- Additional references would be included here -->
+        
+        <reference>
+            <authors>Demmel, O., Seyhan, S., & Gul, A.</authors>
+            <year>2021</year>
+            <title>Protected Areas</title>
+            <book_title>Theories, Techniques, Strategies For Spatial Flamers and Designers: Planning, Design, Applications</book_title>
+            <editors>Yucel, C. S. & Eyuboglu, E. O.</editors>
+            <publisher>Iksad Global Publications</publisher>
+            <pages>965-996</pages>
+        </reference>
+        
+        <reference>
+            <authors>Dudley, N., & Stolton, S.</authors>
+            <year>2010</year>
+            <title>Arguments for protected areas: Multiple benefits for conservation and use</title>
+            <publisher>Earthscan</publisher>
+            <doi>10.4324/9781849774888</doi>
+        </reference>
+        
+        <reference>
+            <authors>Mandic, A., & Petric, L.</authors>
+            <year>2021</year>
+            <title>Introduction to Mediterranean Protected Areas in the Era of Overtourism</title>
+            <book_title>Mediterranean Protected Areas in the Era of Overtourism: Challenges and Solutions</book_title>
+            <editors>Mandic, A. & Petric, L.</editors>
+            <publisher>Springer</publisher>
+            <pages>1-12</pages>
+            <doi>10.1007/978-3-030-69193-6_1</doi>
+        </reference>
+        
+        <reference>
+            <authors>Muller, M.</authors>
+            <year>2008</year>
+            <title>Protected areas in Russia catalysts for sustainable development? [Schutzgebiete in Russland katalysatoren nachhaltiger entwicklung?]</title>
+            <journal>Osteuropa</journal>
+            <volume>58(4-5)</volume>
+            <pages>419-437</pages>
+        </reference>
+        
+        <reference>
+            <authors>Ouyang, Z., Du, A., & Xu, W.</authors>
+            <year>2020</year>
+            <title>Research on China's protected area system classification</title>
+            <journal>Shengtai Xuebao</journal>
+            <volume>40(20)</volume>
+            <pages>7207-7215</pages>
+            <doi>10.5846/stxb202005051103</doi>
+        </reference>
+        
+        <reference>
+            <authors>Ravenel, R. M., & Redford, K. H.</authors>
+            <year>2005</year>
+            <title>Understanding IUCN protected area categories</title>
+            <journal>Natural Areas Journal</journal>
+            <volume>25(4)</volume>
+            <pages>381-389</pages>
+        </reference>
+        
+        <reference>
+            <authors>Shackleton, R. T., Bertzky, B., Wood, L. E., Bunbury, N., Jager, H., van Merm, R., Sevilla, C., Smith, K., Wilson, J. R. U., Witt, A. B. R., & Richardson, D. M.</authors>
+            <year>2020</year>
+            <title>Biological invasions in World Heritage Sites: current status and a proposed monitoring and reporting framework</title>
+            <journal>Biodiversity and Conservation</journal>
+            <volume>29(11-12)</volume>
+            <pages>3327-3347</pages>
+            <doi>10.1007/s10531-020-02026-1</doi>
+        </reference>
+        
+        <reference>
+            <authors>Weixibaumer, N., Siegrist, D., Mose, I., & Hammer, T.</authors>
+            <year>2015</year>
+            <title>Participation and regional governance. A crucial research perspective on protected areas policies in Austria and Switzerland</title>
+            <book_title>Nature Policies and Landscape Policies: Towards an Alliance</book_title>
+            <editor>Dovigo, F. M.</editor>
+            <publisher>Springer</publisher>
+            <pages>207-215</pages>
+            <doi>10.1007/978-3-319-05410-0_23</doi>
+        </reference>
+        
+        <reference>
+            <authors>Xie, Y.</authors>
+            <year>2019</year>
+            <title>Protected Area</title>
+            <book_title>Encyclopedia of Ecology</book_title>
+            <editors>Jorgensen, S. E. & Fath, B. D.</editors>
+            <edition>2nd</edition>
+            <volume>1</volume>
+            <publisher>Elsevier</publisher>
+            <pages>451-457</pages>
+            <doi>10.1016/B978-0-12-409548-9.10586-X</doi>
+        </reference>
+        
+        <reference>
+            <authors>Yu, E., Cui, N., Quan, Y., Wang, C., Jia, T., Wu, D., & Wu, G.</authors>
+            <year>2020</year>
+            <title>Ecological protection for natural protected areas based on landsenses ecology: a case study of Dalmor National Nature Reserve</title>
+            <journal>International Journal of Sustainable Development and World Ecology</journal>
+            <volume>27(8)</volume>
+            <pages>709-717</pages>
+            <doi>10.1080/13504509.2020.1727585</doi>
+        </reference>
     </references>
+    
+    <footer>
+        <copyright>© 2025 AGRO-ECOLÓGICA 4(1): 1-2 agosto 2025. ISSN 2313-2906</copyright>
+    </footer>
 </article>
