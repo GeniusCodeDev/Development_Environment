@@ -45,9 +45,9 @@
             
             <paragraph>
                 Las áreas protegidas (APs) son reconocidas globalmente como herramientas
-                esenciales para conservar la biodiversidad (Cao et al. 2015, Mandić &
+                esenciales para conservar la biodiversidad (Cao et al. 2015, Mandić &amp;
                 Petrić 2021) y mantener servicios ecosistémicos vitales como la
-                regulación hídrica y climática (Castro et al. 2015, Dudley & Stolton
+                regulación hídrica y climática (Castro et al. 2015, Dudley &amp;Stolton
                 2010). Para las comunidades locales que a menudo viven dentro o cerca de
                 estas áreas protegidas, los ecosistemas saludables no son solo un bien
                 de interés global, sino la base de sus medios de vida, cultura y
@@ -81,7 +81,7 @@
                 Para que las APs sean verdaderamente efectivas y sostenibles, es
                 imperativo fortalecer el rol de los actores locales. Esto requiere, en
                 primer lugar, marcos legales y organizativos claros que no solo definan
-                las categorías de protección (Ouyang et al. 2020, Ravenel & Redford
+                las categorías de protección (Ouyang et al. 2020, Ravenel &amp; Redford
                 2005) sino que, también establezcan mecanismos formales para la
                 participación local y el reconocimiento de sus derechos y conocimientos
                 (Yu et al. 2020). Es necesario mejorar los sistemas de monitoreo, por
@@ -89,7 +89,7 @@
                 2020), e idealmente, estos sistemas deberían incorporar el conocimiento
                 ecológico local junto con datos científicos. Fundamentalmente, la
                 planificación y gestión de las APs debe integrar de manera sistemática
-                el análisis y la valoración de los servicios ecosistémicos (Dudley &
+                el análisis y la valoración de los servicios ecosistémicos (Dudley &amp;
                 Stolton 2010), asegurando que los beneficios derivados de la
                 conservación sean percibidos y, cuando sea posible, gestionados
                 parcialmente por las comunidades locales.
@@ -108,7 +108,7 @@
                 interesadas, sino como socios esenciales en la conservación, es una
                 condición indispensable para asegurar que las áreas protegidas cumplan
                 sus múltiples objetivos de protección de la biodiversidad y provisión de
-                beneficios para la sociedad (Dudley & Stolton 2010).
+                beneficios para la sociedad (Dudley &amp; Stolton 2010).
             </paragraph>
             
             <paragraph>
@@ -127,7 +127,7 @@
     
     <references>
         <reference>
-            <authors>Cao, M., Peng, L., & Liu, S.</authors>
+            <authors>Cao, M., Peng, L., &amp; Liu, S.</authors>
             <year>2015</year>
             <title>Analysis of the network of protected areas in China based on a geographic perspective: Current status, issues and integration</title>
             <journal>Sustainability (Switzerland)</journal>
@@ -137,7 +137,7 @@
         </reference>
         
         <reference>
-            <authors>Castro, A. J., Martin-Lopez, B., Lopez, E., Plieninger, T., Alcaraz-Segura, D., Vaughn, C. C., & Cabello, J.</authors>
+            <authors>Castro, A. J., Martin-Lopez, B., Lopez, E., Plieninger, T., Alcaraz-Segura, D., Vaughn, C. C., &amp;; Cabello, J.</authors>
             <year>2015</year>
             <title>Do protected areas networks ensure the supply of ecosystem services? Spatial patterns of two nature reserve systems in semi-arid Spain</title>
             <journal>Applied Geography</journal>
@@ -147,17 +147,17 @@
         </reference>
         
         <reference>
-            <authors>Demmel, O., Seyhan, S., & Gul, A.</authors>
+            <authors>Demmel, O., Seyhan, S., &amp;; Gul, A.</authors>
             <year>2021</year>
             <title>Protected Areas</title>
             <book_title>Theories, Techniques, Strategies For Spatial Flamers and Designers: Planning, Design, Applications</book_title>
-            <editors>Yucel, C. S. & Eyuboglu, E. O.</editors>
+            <editors>Yucel, C. S. &amp; Eyuboglu, E. O.</editors>
             <publisher>Iksad Global Publications</publisher>
             <pages>965-996</pages>
         </reference>
         
         <reference>
-            <authors>Dudley, N., & Stolton, S.</authors>
+            <authors>Dudley, N., &amp; Stolton, S.</authors>
             <year>2010</year>
             <title>Arguments for protected areas: Multiple benefits for conservation and use</title>
             <publisher>Earthscan</publisher>
@@ -165,11 +165,11 @@
         </reference>
         
         <reference>
-            <authors>Mandic, A., & Petric, L.</authors>
+            <authors>Mandic, A., &amp; Petric, L.</authors>
             <year>2021</year>
             <title>Introduction to Mediterranean Protected Areas in the Era of Overtourism</title>
             <book_title>Mediterranean Protected Areas in the Era of Overtourism: Challenges and Solutions</book_title>
-            <editors>Mandic, A. & Petric, L.</editors>
+            <editors>Mandic, A. &amp; Petric, L.</editors>
             <publisher>Springer</publisher>
             <pages>1-12</pages>
             <doi>10.1007/978-3-030-69193-6_1</doi>
@@ -185,7 +185,7 @@
         </reference>
         
         <reference>
-            <authors>Ouyang, Z., Du, A., & Xu, W.</authors>
+            <authors>Ouyang, Z., Du, A., &amp; Xu, W.</authors>
             <year>2020</year>
             <title>Research on China's protected area system classification</title>
             <journal>Shengtai Xuebao</journal>
@@ -195,7 +195,7 @@
         </reference>
         
         <reference>
-            <authors>Ravenel, R. M., & Redford, K. H.</authors>
+            <authors>Ravenel, R. M., &amp; Redford, K. H.</authors>
             <year>2005</year>
             <title>Understanding IUCN protected area categories</title>
             <journal>Natural Areas Journal</journal>
@@ -204,7 +204,7 @@
         </reference>
         
         <reference>
-            <authors>Shackleton, R. T., Bertzky, B., Wood, L. E., Bunbury, N., Jager, H., van Merm, R., Sevilla, C., Smith, K., Wilson, J. R. U., Witt, A. B. R., & Richardson, D. M.</authors>
+            <authors>Shackleton, R. T., Bertzky, B., Wood, L. E., Bunbury, N., Jager, H., van Merm, R., Sevilla, C., Smith, K., Wilson, J. R. U., Witt, A. B. R., &amp; Richardson, D. M.</authors>
             <year>2020</year>
             <title>Biological invasions in World Heritage Sites: current status and a proposed monitoring and reporting framework</title>
             <journal>Biodiversity and Conservation</journal>
@@ -214,7 +214,7 @@
         </reference>
         
         <reference>
-            <authors>Weixibaumer, N., Siegrist, D., Mose, I., & Hammer, T.</authors>
+            <authors>Weixibaumer, N., Siegrist, D., Mose, I., &amp; Hammer, T.</authors>
             <year>2015</year>
             <title>Participation and regional governance. A crucial research perspective on protected areas policies in Austria and Switzerland</title>
             <book_title>Nature Policies and Landscape Policies: Towards an Alliance</book_title>
@@ -229,7 +229,7 @@
             <year>2019</year>
             <title>Protected Area</title>
             <book_title>Encyclopedia of Ecology</book_title>
-            <editors>Jorgensen, S. E. & Fath, B. D.</editors>
+            <editors>Jorgensen, S. E. &amp; Fath, B. D.</editors>
             <edition>2nd</edition>
             <volume>1</volume>
             <publisher>Elsevier</publisher>
@@ -238,7 +238,7 @@
         </reference>
         
         <reference>
-            <authors>Yu, E., Cui, N., Quan, Y., Wang, C., Jia, T., Wu, D., & Wu, G.</authors>
+            <authors>Yu, E., Cui, N., Quan, Y., Wang, C., Jia, T., Wu, D., &amp; Wu, G.</authors>
             <year>2020</year>
             <title>Ecological protection for natural protected areas based on landsenses ecology: a case study of Dalmor National Nature Reserve</title>
             <journal>International Journal of Sustainable Development and World Ecology</journal>
