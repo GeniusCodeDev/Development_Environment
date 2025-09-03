@@ -29,15 +29,18 @@
            margin-bottom: 30px;
            border-bottom: 2px solid #2e7d32;
            padding-bottom: 20px;
+           align-items: center;
+           gap: 15px;
         }
         .logo_RAE{
-            width: 150px;
+            max-width: 150px;
+            width: 100%;
             height: auto;
-            object-fit: contain;
         }
         .journal-title{
             position: relative;
             display: grid;
+            font-size: calmp(1.2,4vw,1.4);
         }
         .journal-title::after{
             content: "";
@@ -61,8 +64,8 @@
         .a_doi {
             color: #2c7d32;
             text-decoration: none;
-            text-decoration: none;
             transition: 0.2s;
+            font-size: 0.9em;
         }
         .a_doi:hover{
             color: darkgreen;
@@ -155,6 +158,8 @@
             width: 100%;
             border-collapse: collapse;
             margin: 20px 0;
+            overflow-x: auto;
+            display: block;
         }
         
         th, td {
@@ -197,6 +202,7 @@
             padding-left: 20px;
             text-indent: -20px;
             font-size: 14px;
+            overflow-wrap: break-word;
         }
         
         footer {
@@ -263,6 +269,7 @@
           border-radius: 50%;
           border: 1px solid #bbb;
         }
+        /* media queries*/
         @media (max-width: 1160px) {
           .container_theme {
             top: 0;
@@ -278,6 +285,76 @@
             width: 14px;
             height: 14px;
           }
+
+        }
+        @media (max-width:768px){
+            body{
+                padding: 15px;
+            }
+            header{
+                flex-direction: column;
+                text-align: center;
+                gap: 20px;
+            }
+            .journal-title::after{
+                width: 50%;
+                left: 25%;
+            }
+            .author::after{
+                width: 80%;
+                left: 25%;
+            }
+            .abstract, .keywords{
+                padding: 12px;
+                th,td {
+                    padding: 6px;
+                    font-size: 0.9em;
+
+                }
+            }
+
+        }
+        @media (max-width: 480px) {
+            body {
+                padding: 10px; /* Reducir aún más el padding en móviles */
+            }
+            
+            h1 {
+                margin: 15px 0; /* Reducir margen en móviles */
+            }
+            
+            h2 {
+                margin: 20px 0 10px 0; /* Reducir margen en móviles */
+            }
+            
+            .abstract, .keywords {
+                padding: 10px; /* Reducir padding en móviles */
+            }
+            
+            .figure {
+                margin: 15px 0; /* Reducir margen en móviles */
+            }
+            
+            .reference-item {
+                font-size: 0.85em; /* Reducir tamaño de fuente en referencias */
+                padding-left: 15px; /* Reducir padding en referencias */
+                text-indent: -15px; /* Ajustar indentación */
+            }
+            
+            footer {
+                margin-top: 30px; /* Reducir margen superior */
+                padding-top: 15px; /* Reducir padding superior */
+                font-size: 0.85em; /* Reducir tamaño de fuente */
+            }
+            
+            .container_theme {
+                position: relative; /* Cambiar de fixed a relative */
+                top: unset; /* Eliminar posición fija */
+                right: unset; /* Eliminar posición fija */
+                justify-content: center; /* Centrar botones */
+                margin-bottom: 15px; /* Añadir margen inferior */
+                padding: 0 !important; /* Eliminar padding */
+            }
         }
 
         /* Tema oscuro */
