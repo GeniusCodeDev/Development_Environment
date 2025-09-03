@@ -63,9 +63,10 @@
       <titulo>Introducción</titulo>
       <parrafos>
         <parrafo>
-          Los lagos de origen fluvial en regiones montañosas constituyen sistemas naturales dinámicos, moldeados por la interacción de procesos geomorfológicos, climáticos e hidrológicos (Tandon & Sinha 2007). Estas formaciones pueden adoptar características tanto lacustres como palustres, en función de factores como la actividad tectónica, la dinámica glaciar, los patrones de sedimentación y las fluctuaciones hidrológicas, a menudo modificadas por la intervención humana. Dichos procesos generan ecosistemas únicos, dotados de un elevado valor ecológico, geológico y socioeconómico, ya que sustentan la biodiversidad regional y proveen servicios ecosistémicos clave. El estudio de estos mecanismos resulta fundamental para garantizar una gestión sostenible de los recursos hídricos y la conservación de estos entornos frágiles (Chaoyong et al. 2024).
+          Los lagos de origen fluvial en regiones montañosas constituyen sistemas naturales dinámicos, moldeados por la interacción de procesos geomorfológicos, climáticos e hidrológicos (Tandon &amp; Sinha 2007). Estas formaciones pueden adoptar características tanto lacustres como palustres, en función de factores como la actividad tectónica, la dinámica glaciar, los patrones de sedimentación y las fluctuaciones hidrológicas, a menudo modificadas por la intervención humana. Dichos procesos generan ecosistemas únicos, dotados de un elevado valor ecológico, geológico y socioeconómico, ya que sustentan la biodiversidad regional y proveen servicios ecosistémicos clave. El estudio de estos mecanismos resulta fundamental para garantizar una gestión sostenible de los recursos hídricos y la conservación de estos entornos frágiles (Chaoyong et al. 2024).
         </parrafo>
-        <!-- Los demás párrafos de la introducción seguirían aquí -->
+        
+       
       </parrafos>
     </seccion>
     
