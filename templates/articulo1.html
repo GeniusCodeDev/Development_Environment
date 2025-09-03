@@ -144,6 +144,7 @@
         margin-bottom: 10px;
         padding-left: 20px;
         font-size: 0.9rem;
+        overflow-wrap: break-word;
       }
 
       .container_theme {
@@ -232,13 +233,14 @@
       .editorial {
         font-family: Georgia, "Times New Roman", Times, serif;
         position: relative;
+        display: inline-block;
       }
       .editorial::after {
         content: "";
         background-color: darkgreen;
         position: absolute;
         bottom: 2px;
-        width: 90px;
+        width: 100%;
         height: 3px;
         left: 0;
       }
@@ -246,6 +248,12 @@
       p {
         margin-bottom: 15px;
         text-align: justify;
+      }
+
+      @media (max-width: 1160px) {
+        .container_theme {
+          display: grid;
+        }
       }
 
       @media (max-width: 768px) {

@@ -187,6 +187,7 @@
         padding-left: 20px;
         text-indent: -20px;
         font-size: 14px;
+        overflow-wrap: break-word;
       }
 
       footer {
@@ -254,8 +255,16 @@
         border-radius: 50%;
         border: 1px solid #bbb;
       }
+
+      @media (max-width: 1160px) {
+        .container_theme {
+          display: grid;
+        }
+      }
+
       @media (max-width: 768px) {
         .container_theme {
+          display: grid;
           top: 0;
           right: 0;
           gap: 6px;

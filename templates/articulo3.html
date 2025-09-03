@@ -36,13 +36,14 @@
       .editorial {
         font-family: Georgia, "Times New Roman", Times, serif;
         position: relative;
+        display: inline-block;
       }
       .editorial::after {
         content: "";
         background-color: darkgreen;
         position: absolute;
         bottom: 2px;
-        width: 150px;
+        width: 100%;
         height: 2px;
         left: 0;
       }
@@ -233,6 +234,7 @@
         padding-left: 20px;
         text-indent: -20px;
         font-size: 14px;
+        overflow-wrap: break-word;
       }
 
       p {
@@ -328,16 +330,13 @@
 
       @media (max-width: 1160px) {
         .container_theme {
-          display: flex;
-          flex-direction: column;
-        }
-        .abstract {
-          width: 100%;
+          display: grid;
         }
       }
 
       @media (max-width: 768px) {
         .container_theme {
+          display: grid;
           top: 0;
           right: 0;
           gap: 6px;
