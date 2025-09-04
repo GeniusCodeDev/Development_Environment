@@ -59,8 +59,19 @@
             text-align: center;
         }
 
+        .doi {
+        font-size: 0.9em;
+        margin-bottom: 20px;
+        }
+
      
         .a_doi {
+          color: #2c7d32;
+          transition: all 0.3s;
+        }
+
+        .a_doi:hover {
+          color: darkgreen;
             color: #2c7d32;
             text-decoration: none;
             text-decoration: none;
@@ -84,6 +95,12 @@
             margin: 25px 0 15px 0;
             padding-bottom: 5px;
             border-bottom: 1px solid #ccc;
+        }
+
+        h3 {
+        font-size: 1.2em;
+        color: #333;
+        margin: 20px 0 10px 0;
         }
 
         .author-info {
@@ -140,16 +157,31 @@
     
         .abstract,
         .keywords {
-            background-color: #e8f5e9;
-            padding: 15px;
-            border-radius: 5px;
-            margin-bottom: 20px;
+        padding: 15px;
+        border-left: 4px solid #2c7d32;
+        margin: 20px 0;
+        background-color: transparent;
         }
 
-        .abstract h3,
-        .keywords h3 {
-            color: #2e7d32;
-            margin-bottom: 10px;
+        .abstract-title,
+        .keywords-title {
+          font-weight: bold;
+          margin-bottom: 10px;
+          color: #2c7d32;
+        }
+
+        .keywords-list {
+          list-style-type: none;
+        }
+
+        .keywords-list li {
+          display: inline-block;
+          background-color: #d7f6d9;
+          padding: 5px 10px;
+          margin: 5px 5px 5px 0;
+          border-radius: 10px;
+          font-size: 0.9em;
+          color: black;
         }
 
         .content-section {
@@ -203,6 +235,7 @@
             margin-bottom: 15px;
             padding-left: 20px;
             font-size: 14px;
+            overflow-wrap: break-word;
         }
 
         footer {
@@ -291,6 +324,12 @@
             border: 1px solid #bbb;
         }
 
+        @media (max-width: 1160px) {
+        .container_theme {
+          display: grid;
+        }
+      }
+
         @media (max-width: 768px) {
             .container_theme {
                 top: 0;
@@ -320,19 +359,26 @@
         }
 
         .dark-mode .journal-title,
-        .dark-mode h1,
-        .dark-mode h2,
-        .dark-mode .references h2 {
-           
-            
-            border-color: #333 !important;
+        .dark-mode .abstract-title,
+        .dark-mode .keywords-title,
+        .dark-mode h2 {
+          color: #7be37e !important;
         }
 
+        .dark-mode .doi,
+        .dark-mode .a_doi,
+        .dark-mode .dates,
+        .dark-mode .dates,
+        .dark-mode 
         .dark-mode .a_doi,
         .dark-mode .dates
         {
             color: #2c7d32 !important;
             filter: brightness(150%) !important;
+        }
+        .dark-mode .a_doi:hover {
+        color: #2c7d32 !important;
+        filter: brightness(150%) !important;
         }
 
         .dark-mode .abstract,
@@ -361,6 +407,32 @@
         .dark-mode a:hover {
             color: #fff !important;
         }
+        .dark-mode h3 {
+        color: #b6e3b8 !important;
+        }
+
+        .responsive-table {
+          width: 100%;
+          overflow-x: auto;
+          overflow-y: hidden;
+          display: block;
+        }
+        .responsive-table table {
+          width: 100%;
+          min-width: 600px;
+          border-collapse: collapse;
+        }
+        @media (max-width: 768px) {
+          .responsive-table {
+            width: 100%;
+            overflow-x: auto;
+            overflow-y: hidden;
+            display: block;
+          }
+          .responsive-table table {
+            min-width: 600px;
+          }
+        }
     </style>
 </head>
 
@@ -378,6 +450,8 @@
                 <div class="journal-title">
                     AGRO-ECOLÓGICA 4(1): 23-31, agosto 2025. ISSN 2313-2906
                 </div>
+                <div class="doi">
+                    <a class="a_doi" href="https://revistas.usfx.bo/index.php/rae/">
                 <div class="jornal-info">
 
                     <a class="a_doi" href="https://revistas.usfx.bo/index.php/rae/">
@@ -438,8 +512,13 @@
     </section>
 
     <section class="keywords">
-        <h3>Palabras clave:</h3>
-        <p>Adaptabilidad, ecotipos, prácticas agronómicas, recursos genéticos.</p>
+        <h3 class="keywords-title">Palabras clave:</h3>
+        <ul class="keywords-list">
+            <li>Adaptabilidad</li>
+            <li>ecotipos</li>
+            <li>prácticas agronómicas</li>
+            <li>recursos genéticos</li>
+        </ul>
     </section>
 
     <section class="abstract">
@@ -467,8 +546,13 @@
     </section>
 
     <section class="keywords">
-        <h3>Keywords:</h3>
-        <p>Adaptability, ecotypes, agronomic practices, genetic resources.</p>
+        <h3 class="keywords-title">Keywords:</h3>
+        <ul class="keywords-list">
+            <li>Adaptability</li>
+            <li>ecotypes</li>
+            <li>agronomic practices</li>
+            <li>genetic resources</li>
+        </ul>
     </section>
 
     <section class="content-section">
@@ -916,8 +1000,8 @@
             sostenible y resiliente frente al cambio climático.</p>
     </section>
 
-    <section class="content-section">
-        <h2>Agradecimientos</h2>
+    <div class="abstract">
+        <h3>Agradecimientos</h3>
         <p>Expresamos nuestro más sincero agradecimiento al Ing. Roger Rioja Barahona, funcionario del INIAF, Regional
             Chuquisaca, por su invaluable colaboración durante el desarrollo de la investigación. Su participación fue
             fundamental durante la fase de trabajo de campo, realizando de manera comprometida y profesional las visitas
@@ -926,7 +1010,7 @@
             en campo, lo cual contribuyó significativamente a la obtención de datos precisos y al cumplimiento de los
             objetivos planteados. Su apoyo técnico y humano representó un aporte importante para la calidad y el éxito
             de este estudio.</p>
-    </section>
+    </div>
 
     <section class="references">
         <h2>Referencias</h2>
