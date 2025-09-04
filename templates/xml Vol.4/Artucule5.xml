@@ -32,7 +32,7 @@
         <accepted>2025-06-09</accepted>
     </dates>
     
-    <abstract lang="es">
+    <abstract lang="Resumen">
         <p>Con el objetivo de encontrar fungicidas naturales sobre la base de extractos vegetales para el control de enfermedades en los cultivos, como es la rabia producido por Ascochyta rabiei en el cultivo de garbanzo, y buscar alternativas para disminuir el uso de biocidas químico-sintéticos, se llevó a cabo el presente trabajo. Se realizaron las extracciones de los aceites esenciales de dos especies de vegetales: molle (Schinus molle) y khoa o muña (Satureja boliviana), mediante destilación por arrastre de vapor y hacer un screening a dosis de 0.0,7, 1.5, 3.1, 6.2, 12.5 y 25 mg/mL de los aceites. A partir de la concentración de 1.5 mg/mL del aceite de khoa o muña se obtuvo una notoria inhibición del crecimiento micelial, siendo del 100%. Con el aceite de molle (Schinus molle) no se detecta actividad antifúngica hasta los 12.5 mg/mL contra Ascochyta rabiei, solo se observa actividad a 25 mg/mL.</p>
         <keywords>
             <keyword>Ascochyta rabiei</keyword>
@@ -58,45 +58,46 @@
         <section id="introduction">
             <title>Introduction</title>
             <content>
-                <p>Ascochyta rabiei is a phytopathogenic fungus that causes chickpea blight, one of the most destructive diseases affecting chickpea crops (Cicer arietinum) worldwide. This pathology impacts leaves, stems, and pods, causing necrotic lesions that significantly reduce yield and grain quality (Okrushko et al. 2025). Conventional management of this disease is based on the application of synthetic fungicides; however, their indiscriminate use has led to the emergence of resistant strains, as well as adverse effects on the environment and risks to human health (Burt 2004). In this context, essential oils (EOs) have emerged as natural alternatives with antifungal potential, attributable to their complex composition of secondary metabolites with bioactive properties (Bakkali et al. 2008).</p>
+                <p>Ascochyta rabiei es un hongo fitopatógeno causante de la rabia del garbanzo, una de las enfermedades más destructivas que afectan al cultivo de garbanzo (Cicer arietinum) a nivel mundial. Esta patología impacta hojas, tallos y vainas, lo que provoca lesiones necróticas que reducen significativamente el rendimiento como la calidad del grano (Okrushko et al. 2025). El manejo convencional de esta enfermedad se basa en la aplicación de fungicidas sintéticos; sin embargo, su uso indiscriminado ha dado lugar a la aparición de cepas resistentes, así como a efectos adversos en el medio ambiente y riesgos para la salud humana (Burt 2004). En este contexto, los aceites esenciales (AEs) han surgido como alternativas naturales con un potencial antifúngico, atribuible a su compleja composición de metabolitos secundarios con propiedades bioactivas (Bakkali et al. 2008).</p>
                 
-                <p>Various studies have demonstrated the antifungal efficacy of EOs against A. rabiei. For example, Cuminum cyminum essential oil inhibits spore germination, attributed to compounds such as cuminaldehyde and p-cymene (Holley & Patel 2005). Likewise, oils from Thymus species such as T. capitatus, T. bleicherianus, and T. satureioides have achieved significant inhibitions of mycelial growth, due to the presence of thymol and carvacrol (Kalemba & Kunicka 2003). Additionally, Pistacia atlantica oil showed a notable correlation between its antifungal and antioxidant activity, evidenced by a determination coefficient of 72.72% (Burt 2004). Similarly, Melaleuca alternifolia (tea tree) oil has been widely recognized for its antifungal action, while Thymus vulgaris oil has shown high effectiveness in reducing mycelial growth in in vitro studies (Carson et al. 2006). These findings support the scientific interest in exploring essential oils as part of an integrated, sustainable, and ecologically viable management for the control of A. rabiei.</p>
+                <p>Diversos estudios han demostrado la eficacia antifúngica de AEs frente a A. rabiei. Por ejemplo, el aceite esencial de Cuminum cyminum inhibe la germinación de esporas que atribuye a compuestos como el cuminaldehído y el p-cimeno (Holley &amp; Patel 2005). Asimismo, aceites de especies de Thymus como T. capitatus, T. bleicherianus y T. satureioides han logrado inhibiciones significativas del crecimiento micelial, debida a la presencia de timol y carvacrol (Kalemba &amp; Kunicka 2003). Además, el aceite de Pistacia atlantica mostró una correlación notable entre su actividad antifúngica y antioxidante, evidenciada por un coeficiente de determinación del 72.72% (Burt 2004). Del mismo modo, el aceite de Melaleuca alternifolia (árbol de té) ha sido ampliamente reconocido por su acción antifúngica, mientras que el de Thymus vulgaris ha mostrado alta efectividad en la reducción del crecimiento micelial en estudios in vitro (Carson et al. 2006). Estos hallazgos respaldan el interés científico por explorar los aceites esenciales como parte de un manejo integrado, sostenible y ecológicamente viable para el control de A. rabiei.</p>
                 
-                <p>Llontop (2008) indicates that in an ecological pest and disease management program, the use of plants with biocidal properties constitutes alternatives to reduce the negative effects already mentioned. Essential oils extracted from plants have different activities with pharmacological and agrochemical properties. Balchin et al. (1995) indicate that many essential oils extracted from plants have great antimicrobial capacity. Therefore, the objective of this work was to evaluate in vitro the fungicidal effect of essential oils from S. molle and M. spicata extracted from plants against Ascochyta rabiei.</p>
+                <p>Llontop (2008) indica que, en un programa de manejo ecológico de plagas y enfermedades, el uso de plantas con propiedades biocidas constituye alternativas para la disminución de los efectos negativos ya mencionados. Los aceites esenciales extraídos de plantas tienen diferentes actividades con propiedades farmacológicas y agroquímicas. Balchin et al. (1995) indican que muchos aceites esenciales extraídos de plantas tienen gran capacidad antimicrobiana. Por lo anterior el objetivo del trabajo fue evaluar in vitro el efecto fungicida de aceites esenciales de S. molle y M. spicata extraídos de plantas contra Ascochyta rabiei.</p>
+                
             </content>
         </section>
         
-        <section id="materials-methods">
-            <title>Materials and Methods</title>
+        <section id="Materiales y Métodos">
+            <title>Materiales y Métodos</title>
             <content>
-                <p>The collection of plant samples of molle (Schinus molle) and khoa or muña (Minthostachys spicata) was carried out in the localities of Yotala and Punilla, Sucre. The experiment was carried out in the laboratories of CIICA-VC, Faculty of Agricultural Sciences, Mayor, Real y Pontificia San Francisco Xavier de Chuquisaca University (U.S.F.X.CH.).</p>
+                <p>La recolección de muestras vegetales de molle (Schinus molle) y khoa o muña (Minthostachys spicata) se realizó en las localidades de Yotala y Punilla, Sucre. El experimento se llevó a cabo en los laboratorios del CIICA-VC, Facultad de Ciencias Agrarias, Universidad Mayor, Real y Pontificia San Francisco Xavier de Chuquisaca (U.S.F.X.CH.).</p>
                 
-                <p>The extraction of oils (natural fungicides) was performed using a steam distillation equipment, followed by in vitro antifungal activity tests to evaluate their efficacy and optimal dosage against the phytopathogenic fungus Ascochyta rabiei. The methodology was adapted from that developed by Flores (1998) at the Instituto de Investigaciones Farmaco-Bioquímicas (IIFB), Faculty of Biochemistry, Universidad Mayor de San Andrés (UMSA).</p>
+                <p>La extracción de aceites (fungicidas naturales) se realizó utilizando un equipo de destilación por arrastre de vapor, seguida de pruebas de actividad antifúngica in vitro para evaluar su eficacia y dosis óptima contra el hongo fitopatógeno Ascochyta rabiei. La metodología se adaptó de la desarrollada por Flores (1998) en el Instituto de Investigaciones Farmaco-Bioquímicas (IIFB), Facultad de Bioquímica, Universidad Mayor de San Andrés (UMSA).</p>
                 
-                <p>The assay consisted of a screening of the oils extracted from the two plant species. The culture medium used for the fungus was potato dextrose agar (PDA), with oil concentrations tested at 0.7, 1.5, 3.1, 6.2, 12.5, and 25 mg/mL, along with a control (0 mg/mL) without oil, incorporated into the sterilized medium.</p>
+                <p>El ensayo consistió en un cribado de los aceites extraídos de las dos especies vegetales. El medio de cultivo utilizado para el hongo fue agar patata dextrosa (PDA), con concentraciones de aceite probadas a 0.7, 1.5, 3.1, 6.2, 12.5 y 25 mg/mL, junto con un control (0 mg/mL) sin aceite, incorporado al medio esterilizado.</p>
                 
-                <p>The A. rabiei strain was isolated from chickpea plants affected by Ascochyta blight in the Escana region (Chuquisaca, Bolivia). Fungal spores were aseptically inoculated into five Petri dishes containing PDA medium, which were sealed with parafilm and incubated at 25°C to obtain a pure culture and serve as a source of inoculum for the experiments. Separate PDA media were prepared for each concentration, with three replicates per treatment. A 5 mm diameter mycelial fragment was centrally inoculated into each Petri dish and incubated for 3 to 9 days.</p>
+                <p>La cepa de A. rabiei fue aislada de plantas de garbanzo afectadas por la rabia de Ascochyta en la región de Escana (Chuquisaca, Bolivia). Las esporas del hongo se inocularon de manera aséptica en cinco placas Petri conteniendo medio PDA, las cuales fueron selladas con parafilm e incubadas a 25°C para obtener un cultivo puro y servir como fuente de inóculo para los experimentos. Se prepararon medios PDA separados para cada concentración, con tres réplicas por tratamiento. Un fragmento de micelio de 5 mm de diámetro se inoculó centralmente en cada placa Petri y se incubó durante 3 a 9 días.</p>
                 
-                <p>Readings were taken after six days of incubation, identifying the concentrations and types of oil that inhibited mycelial growth (no visible growth observed). The oil that showed the greatest inhibition among the concentrations was selected; in this case, M. spicata oil was chosen due to the absence of inhibition with S. molle oil. The selected concentrations were subsequently used to evaluate mycelial growth.</p>
+                <p>Las lecturas se realizaron a los seis días de incubación, identificando las concentraciones y tipos de aceite que inhibieron el crecimiento micelial (sin crecimiento visible observado). Se seleccionó el aceite que mostró la mayor inhibición entre las concentraciones; en este caso, se optó por el aceite de M. spicata debido a la ausencia de inhibición con el aceite de S. molle. Las concentraciones seleccionadas se utilizaron posteriormente para evaluar el crecimiento micelial.</p>
                 
-                <p>To evaluate the antifungal activity of M. spicata oil against the fungus, the recommendations of French and Heber (1982) were followed. The radial growth of the mycelium on the surface of the PDA medium was measured at 72 hours (3 days), 144 hours (6 days), and 216 hours (9 days). After these measurements, the average growth was calculated and the percentage of inhibition of mycelial growth in vitro in relation to the control was determined.</p>
+                <p>Para evaluar la actividad antifúngica del aceite de M. spicata contra el hongo, se siguieron las recomendaciones de French y Heber (1982). Se midió el crecimiento radial del micelio en la superficie del medio PDA a las 72 horas (3 días), 144 horas (6 días) y 216 horas (9 días). Tras estas mediciones, se calculó el crecimiento medio y se determinó el porcentaje de inhibición del crecimiento micelial in vitro en relación con el control.</p>
             </content>
         </section>
         
-        <section id="results">
-            <title>Results</title>
+        <section id="resultados">
+            <title>Resultados</title>
             <content>
-                <p>The results of the inhibition of the two oils can be observed in Table 1. In molle oil (S. molle), no antifungal activity is detected up to 12.5 mg/mL against Ascochyta rabiei, activity is only observed at 25 mg/mL.</p>
+                <p>Los resultados de la inhibición de los dos aceites se pueden observar en la Tabla 1. En el aceite de molle (S. molle) no se detecta actividad antifúngica hasta los 12,5 mg/mL contra Ascochyta rabiei, solo se observa actividad a 25 mg/mL.</p>
                 
-                <p>In the same table, it can be observed that Khoa or muña oil (M. spicata) presents better antifungal activity against Ascochyta rabiei from 1.5 mg/mL of oil up to 25 mg/mL, although medium inhibition is noted at 0.7 mg/mL. Therefore, it was decided to continue the work with khoa oil.</p>
+                <p>En la misma tabla se observa que el aceite de Khoa o muña (M. spicata) presenta mejor actividad antifúngica contra Ascochyta rabiei a partir de 1.5 mg/mL de aceite hasta 25 mg/mL, aunque se nota inhibición mediana a 0.7 mg/mL. Por lo que se decidió continuar el trabajo con el aceite de khoa.</p>
                 
-                <p>In the effect of khoa or muña oil (M. spicata) on the mycelial growth of Ascochyta rabiei in vitro, it is observed that at 0.7 mg/mL it exerted mycelial inhibition at 72 hours (3 days) and mycelial growth was observed from 144 hours (6 days), with an increase in diameter of 0.2 cm, obtaining 0.7 cm, the growth increased until reaching 1.1 cm with an increase of 0.6 cm from the original diameter at 216 hours (9 days) compared to 3.1 cm diameter of the control, which increased 2.6 cm in diameter as observed in Table 2.</p>
+                <p>En el efecto del aceite de khoa o muña (M. spicata) sobre el crecimiento micelial de Ascochyta rabiei in vitro se observa que a 0.7 mg/mL ejerció inhibición micelial a las 72 horas (3 días) y se observó crecimiento del micelio a partir de las 144 horas (6 días), con un aumento del diámetro de 0.2 cm, obteniéndose 0.7 cm, el crecimiento fue en aumento hasta llegar a 1.1 cm con un aumento de 0.6 cm a partir del diámetro original a las 216 horas (9 días) contra 3.1 cm de diámetro del testigo, que aumento 2,6 cm de diámetro como se observa en la Tabla 2.</p>
                 
-                <p>From concentrations of 1.5 to 25 mg/mL, a notable inhibition of mycelial growth is observed in relation to 0.7 mg/mL and the control during the 9 days of incubation since at the other concentrations the initial mycelium size is maintained. In the control, initial growth is observed from 72 hours and the growth increases until 216 hours.</p>
+                <p>A partir de las concentraciones de 1,5 hasta 25 mg/mL se observa una notoria inhibición del crecimiento micelial con relación a 0.7 mg/mL y al testigo durante los 9 días de incubación ya que en las otras concentraciones mantienen el tamaño del micelio inicial. En el testigo se observa crecimiento inicial a partir de las 72 horas y el crecimiento va en aumento hasta las 216 horas.</p>
                 
-                <p>Calculating the percentage of inhibition of the oil on the initial growth of Ascochyta rabiei, we observe in Figure 1 that the oil at 0.7 mg/mL has 100% inhibition at 72 hours, 86% at 144 hours, and 76% at 216 hours. On the other hand, from doses of 1.5 to 25 mg/mL, inhibition of mycelium is observed at 100% between 72 and 216 hours.</p>
+                <p>Calculando el porcentaje de inhibición del aceite sobre del crecimiento inicial de Ascochyta rabiei observamos en la Figura 1, que el aceite a 0.7 mg/mL tiene un 100% de inhibición a las 72 horas, un 86% a las 144 horas y un 76% a las 216 horas. Por el contrario, a partir de las dosis de 1.5 a 25 mg/mL se observa inhibición del micelio en el 100% entre las 72 y 216 horas.</p>
                 
-                <p>According to the in vitro results obtained of the initial growth of Ascochyta rabiei with the 6 concentrations of the oil from the curve in figure 1, khoa oil from 1.5 mg/mL exerts one hundred percent inhibition in the growth of the fungus mycelium.</p>
+                <p>De acuerdo con los resultados obtenidos in vitro, del crecimiento inicial de Ascochyta rabiei con las 6 concentraciones del aceite por la curva de la figura 1, el aceite de khoa a partir de 1,5 mg/mL ejerce inhibición del cien por ciento en el crecimiento del micelio del hongo.</p>
             </content>
             
             <figure id="fig1">
@@ -195,30 +196,27 @@
             </table>
         </section>
         
-        <section id="conclusion">
-            <title>Conclusion</title>
+        <section id="conclusión">
+            <title>Conclusión</title>
             <content>
-                <p>Khoa oil (M. spicata) showed better antifungal activity compared to molle oil at different concentrations against Ascochyta rabiei in vitro, which could be a good option to evaluate its activity as a biofungicide in the field.</p>
+                <p>El aceite de khoa (M. spicata) mostró mejor actividad antifúngica con relación al aceite de molle a las diferentes concentraciones contra Ascochyta rabiei in vitro, lo que podría ser una buena opción para evaluar su actividad como biofungicida en campo.</p>
             </content>
         </section>
     </sections>
     
     <references>
-        <reference>
-            <authors>Agrios, G. N.</authors>
-            <year>2001</year>
-            <title>Fitopatología (2nd ed.)</title>
-            <publisher>Limusa</publisher>
-        </reference>
-        <reference>
-            <authors>Alvarado, M., & Rojas, L.</authors>
-            <year>2023</year>
-            <title>Essential oils as sustainable alternatives for phytopathogen control in legume crops</title>
-            <journal>Journal of Sustainable Agriculture</journal>
-            <volume>47(3)</volume>
-            <pages>215–230</pages>
-            <doi>10.1007/s13593-023-00895-6</doi>
-        </reference>
-        <!-- Additional references would be included here -->
+        <reference>Bakkali, F., Averbeck, S., Averbeck, D., &amp; Idaomar, M. (2008). Biological effects of essential oils – A review. Food and Chemical Toxicology, 46(2), 446–475. https://doi.org/10.1016/j.fct.2007.09.106</reference>
+        <reference>Balchin, L., Hart, S. L., &amp; Deans, S. D. (1995). Potential agronochemical and medicinal usage of essential oils of Pelargonium species. Journal of Herbs, Spices &amp; Medicinal Plants, 3, [páginas si disponibles]. [DOI si disponible]</reference>
+        <reference>Burt, S. (2004). Essential oils: Their antibacterial properties and potential applications in foods – A review. International Journal of Food Microbiology, 94(3), 223–253. https://doi.org/10.1016/j.jfoodmicro.2004.03.022</reference>
+        <reference>Carson, C. F., Hammer, K. A., &amp; Riley, T. V. (2006). Melaleuca alternifolia (tea tree) oil: A review of antimicrobial and other medicinal properties. Clinical Microbiology Reviews, 19(1), 50–62. https://doi.org/10.1128/CMR.19.1.50-62.2006</reference>
+        <reference>Flores, E. (1998). Manual de procedimientos de técnicas antifúngicas para productos naturales (p. 27). Instituto de Investigaciones Farmacobioquímicas, Facultad de Ciencias Farmacéuticas y Bioquímicas, Universidad Mayor de San Andrés.</reference>
+        <reference>French, E. R., &amp; Hebert, T. T. (1980). Métodos de investigación fitopatológica. Instituto Interamericano de Cooperación para la Agricultura</reference>
+        <reference>Holley, R. A., &amp; Patel, D. (2005). Improvement in shelf-life and safety of perishable foods by plant essential oils and smoke antimicrobials. Food Microbiology, 22(4), 273–292. https://doi.org/10.1016/j.fm.2004.08.006</reference>
+        <reference>Kalemba, D., &amp; Kunicka, A. (2003). Antibacterial and antifungal properties of essential oils. Current Medicinal Chemistry, 10(10), 813–829. https://doi.org/10.2174/0929867033457719</reference>
+        <reference>Llontop, J., &amp; Panizo, C. (1995). Aportes al manejo ecológico de cultivos. Red de Acción en Alternativas al Uso de Agroquímicos.</reference>
+        <reference>Okrushko, S. E., Verheles, P. N., &amp; Aralova, T. S. (2025). Effect of Ascochyta rabiei on symbiotic efficiency and productivity of Cicer arietinum. Regulatory Mechanisms in Biosystems, 16(1), e25001. https://doi.org/10.15421/0225001</reference>
+      
+
+        
     </references>
 </article>
