@@ -1,251 +1,254 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<articulo tipo="editorial" idioma="es">
-    <metadatos>
-        <titulo-revista>AGRO-ECOLÓGICA</titulo-revista>
-        <volumen>4</volumen>
-        <numero>1</numero>
-        <paginas>1-2</paginas>
-        <fecha-publicacion>agosto 2025</fecha-publicacion>
+<article>
+    <metadata>
+        <title>Importancia de los actores locales en el contexto de las áreas protegidas</title>
+        <title_english>Importance of local actors in the context of protected areas</title_english>
+        <journal>AGRO-ECOLÓGICA</journal>
+        <volume>4(1)</volume>
+        <pages>1-2</pages>
+        <publication_date>August 2025</publication_date>
         <issn>2313-2906</issn>
-        <url>https://revistas.usfx.bo/index.php/rae/</url>
         <doi>10.56469/rae.v4i1.1791</doi>
-    </metadatos>
+        <url>https://revistas.usfx.bo/index.php/rae/</url>
+        <type>editorial</type>
+    </metadata>
     
-    <titulos>
-        <titulo-principal>Importancia de los actores locales en el contexto de las áreas protegidas</titulo-principal>
-        <titulo-secundario>Importance of local actors in the context of protected areas</titulo-secundario>
-    </titulos>
-    
-    <autores>
-        <autor numero="1" correspondencia="true">
-            <nombre>Susana Rengel Rojas</nombre>
-            <afiliacion>Universidad Andina Simón Bolívar, Cede Central, Sucre, Bolivia</afiliacion>
-            <afiliacion>Universidad San Francisco Xavier de Chuquisaca, Sucre, Bolivia</afiliacion>
+    <authors>
+        <author>
+            <name>Susana Rengel Rojas</name>
             <email>srengel@uasb.edu.bo</email>
-        </autor>
-    </autores>
+            <affiliation>
+                <institution>Universidad Andina Simón Bolívar</institution>
+                <campus>Cede Central</campus>
+                <city>Sucre</city>
+                <country>Bolivia</country>
+            </affiliation>
+            <affiliation>
+                <institution>Universidad San Francisco Xavier de Chuquisaca</institution>
+                <city>Sucre</city>
+                <country>Bolivia</country>
+            </affiliation>
+            <corresponding_author>true</corresponding_author>
+        </author>
+    </authors>
     
-    <fechas>
-        <recibido>08/04/2025</recibido>
-        <aceptado>03/06/2025</aceptado>
-    </fechas>
+    <dates>
+        <received>2025-04-08</received>
+        <accepted>2025-06-03</accepted>
+    </dates>
     
-    <contenido>
-        <parrafo>
-            <strong>Sr. Editor:</strong>
-        </parrafo>
-        
-        <parrafo>
-            Las áreas protegidas (APs) son reconocidas globalmente como herramientas
-            esenciales para conservar la biodiversidad (Cao et al. 2015, Mandić &amp;
-            Petrić 2021) y mantener servicios ecosistémicos vitales como la
-            regulación hídrica y climática (Castro et al. 2015, Dudley &amp; Stolton
-            2010). Para las comunidades locales que a menudo viven dentro o cerca de
-            estas áreas protegidas, los ecosistemas saludables no son solo un bien
-            de interés global, sino la base de sus medios de vida, cultura y
-            bienestar. La provisión de agua limpia, suelos fértiles, productos
-            forestales no maderables y oportunidades recreativas o turísticas
-            depende directamente de su buen estado de conservación. Por lo tanto, el
-            reconocimiento de la importancia de las APs debe ir acompañado del
-            entendimiento de que su éxito está intrínsecamente ligado al apoyo y la
-            colaboración de los actores locales, quienes son los guardianes más
-            directos y los primeros beneficiarios (o afectados) por su gestión.
-        </parrafo>
-        
-        <parrafo>
-            A pesar de la creciente cobertura de APs (Shackleton et al. 2020), su
-            manejo funcional enfrenta serios problemas que a menudo se exacerban por
-            una insuficiente consideración de los actores locales. La falta de datos
-            históricos, la categorización a veces inadecuada (Xie 2019) y la
-            complejidad en la clasificación de los sistemas de APs (Ouyang et al.
-            2020) pueden llevar a planes de manejo desconectados de la realidad
-            local. Además, las presiones económicas externas e internas sobre los
-            recursos naturales, como las observadas en otros contextos (Müller
-            2008), pueden generar conflictos si las necesidades de subsistencia o
-            desarrollo de las comunidades local no se integran en los objetivos de
-            conservación. La exclusión de los actores locales en la toma de
-            decisiones puede resultar en falta de legitimidad, incumplimiento de
-            normativas y, en última instancia, en el fracaso de los objetivos de
-            protección a largo plazo.
-        </parrafo>
-        
-        <parrafo>
-            Para que las APs sean verdaderamente efectivas y sostenibles, es
-            imperativo fortalecer el rol de los actores locales. Esto requiere, en
-            primer lugar, marcos legales y organizativos claros que no solo definan
-            las categorías de protección (Ouyang et al. 2020, Ravenel &amp; Redford
-            2005) sino que, también establezcan mecanismos formales para la
-            participación local y el reconocimiento de sus derechos y conocimientos
-            (Yu et al. 2020). Es necesario mejorar los sistemas de monitoreo, por
-            ejemplo, para hacer frente a invasiones biológicas (Shackleton et al.
-            2020), e idealmente, estos sistemas deberían incorporar el conocimiento
-            ecológico local junto con datos científicos. Fundamentalmente, la
-            planificación y gestión de las APs debe integrar de manera sistemática
-            el análisis y la valoración de los servicios ecosistémicos (Dudley &amp;
-            Stolton 2010), asegurando que los beneficios derivados de la
-            conservación sean percibidos y, cuando sea posible, gestionados
-            parcialmente por las comunidades locales.
-        </parrafo>
-        
-        <parrafo>
-            En conclusión, el manejo funcional y la sostenibilidad a largo plazo de
-            las áreas protegidas dependen críticamente de una alianza sólida y
-            equitativa con los actores locales. Si bien las APs son fundamentales
-            para la conservación global (Xie 2019), su efectividad sobre el terreno
-            no puede garantizarse únicamente mediante decretos o planes técnicos
-            centralizados. Superar los desafíos de gestión requiere abordar las
-            necesidades local, integrar sus conocimientos y aspiraciones, y
-            desarrollar estrategias de gobernanza participativa (Weixlbaumer et al.
-            2015). Reconocer a las comunidades locales no solo como partes
-            interesadas, sino como socios esenciales en la conservación, es una
-            condición indispensable para asegurar que las áreas protegidas cumplan
-            sus múltiples objetivos de protección de la biodiversidad y provisión de
-            beneficios para la sociedad (Dudley &amp; Stolton 2010).
-        </parrafo>
-        
-        <parrafo>
-            La importancia de los esfuerzos de las organizaciones locales, como una
-            forma de complementar e influir en políticas y regulaciones más
-            efectivas para proteger a la población de los efectos de los grandes
-            retos medio ambientales forma parte del respaldo en la literatura
-            académica, puesto que para resolver los grandes retos de sostenibilidad
-            se requiere una acción coordinada de distintos tipos de actores de un
-            lugar específico, ya que las consecuencias afectan directamente los
-            intereses públicos y privados, y daran los sistemas ecológicos clave que
-            los apoyan y por tanto el bienestar de las personas de esa zona.
-        </parrafo>
-    </contenido>
+    <content>
+        <section type="editorial">
+            <paragraph>
+                <strong>Sr. Editor:</strong>
+            </paragraph>
+            
+            <paragraph>
+                Las áreas protegidas (APs) son reconocidas globalmente como herramientas
+                esenciales para conservar la biodiversidad (Cao et al. 2015, Mandić &amp;
+                Petrić 2021) y mantener servicios ecosistémicos vitales como la
+                regulación hídrica y climática (Castro et al. 2015, Dudley &amp;Stolton
+                2010). Para las comunidades locales que a menudo viven dentro o cerca de
+                estas áreas protegidas, los ecosistemas saludables no son solo un bien
+                de interés global, sino la base de sus medios de vida, cultura y
+                bienestar. La provisión de agua limpia, suelos fértiles, productos
+                forestales no maderables y oportunidades recreativas o turísticas
+                depende directamente de su buen estado de conservación. Por lo tanto, el
+                reconocimiento de la importancia de las APs debe ir acompañado del
+                entendimiento de que su éxito está intrínsecamente ligado al apoyo y la
+                colaboración de los actores locales, quienes son los guardianes más
+                directos y los primeros beneficiarios (o afectados) por su gestión.
+            </paragraph>
+            
+            <paragraph>
+                A pesar de la creciente cobertura de APs (Shackleton et al. 2020), su
+                manejo funcional enfrenta serios problemas que a menudo se exacerban por
+                una insuficiente consideración de los actores locales. La falta de datos
+                históricos, la categorización a veces inadecuada (Xie 2019) y la
+                complejidad en la clasificación de los sistemas de APs (Ouyang et al.
+                2020) pueden llevar a planes de manejo desconectados de la realidad
+                local. Además, las presiones económicas externas e internas sobre los
+                recursos naturales, como las observadas en otros contextos (Müller
+                2008), pueden generar conflictos si las necesidades de subsistencia o
+                desarrollo de las comunidades locales no se integran en los objetivos de
+                conservación. La exclusión de los actores locales en la toma de
+                decisiones puede resultar en falta de legitimidad, incumplimiento de
+                normativas y, en última instancia, en el fracaso de los objetivos de
+                protección a largo plazo.
+            </paragraph>
+            
+            <paragraph>
+                Para que las APs sean verdaderamente efectivas y sostenibles, es
+                imperativo fortalecer el rol de los actores locales. Esto requiere, en
+                primer lugar, marcos legales y organizativos claros que no solo definan
+                las categorías de protección (Ouyang et al. 2020, Ravenel &amp; Redford
+                2005) sino que, también establezcan mecanismos formales para la
+                participación local y el reconocimiento de sus derechos y conocimientos
+                (Yu et al. 2020). Es necesario mejorar los sistemas de monitoreo, por
+                ejemplo, para hacer frente a invasiones biológicas (Shackleton et al.
+                2020), e idealmente, estos sistemas deberían incorporar el conocimiento
+                ecológico local junto con datos científicos. Fundamentalmente, la
+                planificación y gestión de las APs debe integrar de manera sistemática
+                el análisis y la valoración de los servicios ecosistémicos (Dudley &amp;
+                Stolton 2010), asegurando que los beneficios derivados de la
+                conservación sean percibidos y, cuando sea posible, gestionados
+                parcialmente por las comunidades locales.
+            </paragraph>
+            
+            <paragraph>
+                En conclusión, el manejo funcional y la sostenibilidad a largo plazo de
+                las áreas protegidas dependen críticamente de una alianza sólida y
+                equitativa con los actores locales. Si bien las APs son fundamentales
+                para la conservación global (Xie 2019), su efectividad sobre el terreno
+                no puede garantizarse únicamente mediante decretos o planes técnicos
+                centralizados. Superar los desafíos de gestión requiere abordar las
+                necesidades local, integrar sus conocimientos y aspiraciones, y
+                desarrollar estrategias de gobernanza participativa (Weixlbaumer et al.
+                2015). Reconocer a las comunidades locales no solo como partes
+                interesadas, sino como socios esenciales en la conservación, es una
+                condición indispensable para asegurar que las áreas protegidas cumplan
+                sus múltiples objetivos de protección de la biodiversidad y provisión de
+                beneficios para la sociedad (Dudley &amp; Stolton 2010).
+            </paragraph>
+            
+            <paragraph>
+                La importancia de los esfuerzos de las organizaciones locales, como una
+                forma de complementar e influir en políticas y regulaciones más
+                efectivas para proteger a la población de los efectos de los grandes
+                retos medio ambientales forma parte del respaldo en la literatura
+                académica, puesto que para resolver los grandes retos de sostenibilidad
+                se requiere una acción coordinada de distintos tipos de actores de un
+                lugar específico, ya que las conseciencias afectan directamente los
+                intereses públicos y privados, y daran los sistemas ecológicos clave que
+                los apoyan y por tanto el bienestar de las personas de esa zona.
+            </paragraph>
+        </section>
+    </content>
     
-    <referencias>
-        <referencia>
-            <autores>Cao, M., Peng, L., &amp; Liu, S.</autores>
-            <ano>2015</ano>
-            <titulo>Analysis of the network of protected areas in China based on a geographic perspective: Current status, issues and integration</titulo>
-            <revista>Sustainability (Switzerland)</revista>
-            <volumen>7</volumen>
-            <numero>11</numero>
-            <paginas>15617-15631</paginas>
+    <references>
+        <reference>
+            <authors>Cao, M., Peng, L., &amp; Liu, S.</authors>
+            <year>2015</year>
+            <title>Analysis of the network of protected areas in China based on a geographic perspective: Current status, issues and integration</title>
+            <journal>Sustainability (Switzerland)</journal>
+            <volume>7(11)</volume>
+            <pages>15617-15631</pages>
             <doi>10.3390/su71115617</doi>
-        </referencia>
+        </reference>
         
-        <referencia>
-            <autores>Castro, A. J., Martin-Lopez, B., Lopez, E., Plieninger, T., Alcaraz-Segura, D., Vaughn, C. C., &amp; Cabello, J.</autores>
-            <ano>2015</ano>
-            <titulo>Do protected areas networks ensure the supply of ecosystem services? Spatial patterns of two nature reserve systems in semi-arid Spain</titulo>
-            <revista>Applied Geography</revista>
-            <volumen>60</volumen>
-            <paginas>1-9</paginas>
+        <reference>
+            <authors>Castro, A. J., Martin-Lopez, B., Lopez, E., Plieninger, T., Alcaraz-Segura, D., Vaughn, C. C., &amp;; Cabello, J.</authors>
+            <year>2015</year>
+            <title>Do protected areas networks ensure the supply of ecosystem services? Spatial patterns of two nature reserve systems in semi-arid Spain</title>
+            <journal>Applied Geography</journal>
+            <volume>60</volume>
+            <pages>1-9</pages>
             <doi>10.1016/j.apgeog.2015.02.012</doi>
-        </referencia>
+        </reference>
         
-        <referencia>
-            <autores>Demmel, O., Seyhan, S., &amp; Gul, A.</autores>
-            <ano>2021</ano>
-            <titulo>Protected Areas</titulo>
-            <libro>Theories, Techniques, Strategies For Spatial Flamers and Designers: Planning, Design, Applications</libro>
-            <editores>C. S. Yucel &amp; E. O. Eyuboglu</editores>
-            <editorial>Iksad Global Publications</editorial>
-            <paginas>965-996</paginas>
-        </referencia>
+        <reference>
+            <authors>Demmel, O., Seyhan, S., &amp;; Gul, A.</authors>
+            <year>2021</year>
+            <title>Protected Areas</title>
+            <book_title>Theories, Techniques, Strategies For Spatial Flamers and Designers: Planning, Design, Applications</book_title>
+            <editors>Yucel, C. S. &amp; Eyuboglu, E. O.</editors>
+            <publisher>Iksad Global Publications</publisher>
+            <pages>965-996</pages>
+        </reference>
         
-        <referencia>
-            <autores>Dudley, N., &amp; Stolton, S.</autores>
-            <ano>2010</ano>
-            <titulo>Arguments for protected areas: Multiple benefits for conservation and use</titulo>
-            <editorial>Earthscan</editorial>
+        <reference>
+            <authors>Dudley, N., &amp; Stolton, S.</authors>
+            <year>2010</year>
+            <title>Arguments for protected areas: Multiple benefits for conservation and use</title>
+            <publisher>Earthscan</publisher>
             <doi>10.4324/9781849774888</doi>
-        </referencia>
+        </reference>
         
-        <referencia>
-            <autores>Mandic, A., &amp; Petric, L.</autores>
-            <ano>2021</ano>
-            <titulo>Introduction to Mediterranean Protected Areas in the Era of Over tourism</titulo>
-            <libro>Mediterranean Protected Areas in the Era of Over tourism: Challenges and Solutions</libro>
-            <editores>A. Mandic &amp; L. Petric</editores>
-            <editorial>Springer</editorial>
-            <paginas>1-12</paginas>
+        <reference>
+            <authors>Mandic, A., &amp; Petric, L.</authors>
+            <year>2021</year>
+            <title>Introduction to Mediterranean Protected Areas in the Era of Overtourism</title>
+            <book_title>Mediterranean Protected Areas in the Era of Overtourism: Challenges and Solutions</book_title>
+            <editors>Mandic, A. &amp; Petric, L.</editors>
+            <publisher>Springer</publisher>
+            <pages>1-12</pages>
             <doi>10.1007/978-3-030-69193-6_1</doi>
-        </referencia>
+        </reference>
         
-        <referencia>
-            <autores>Muller, M.</autores>
-            <ano>2008</ano>
-            <titulo>Protected areas in Russia catalysts for sustainable development? [Schutzgebiete in Russland katalysatoren nachhaltiger entwicklung?]</titulo>
-            <revista>Osteuropa</revista>
-            <volumen>58</volumen>
-            <numero>4-5</numero>
-            <paginas>419-437</paginas>
-        </referencia>
+        <reference>
+            <authors>Muller, M.</authors>
+            <year>2008</year>
+            <title>Protected areas in Russia catalysts for sustainable development? [Schutzgebiete in Russland katalysatoren nachhaltiger entwicklung?]</title>
+            <journal>Osteuropa</journal>
+            <volume>58(4-5)</volume>
+            <pages>419-437</pages>
+        </reference>
         
-        <referencia>
-            <autores>Ouyang, Z., Du, A., &amp; Xu, W.</autores>
-            <ano>2020</ano>
-            <titulo>Research on China's protected area system classification</titulo>
-            <revista>Shengtai Xuebao</revista>
-            <volumen>40</volumen>
-            <numero>20</numero>
-            <paginas>7207-7215</paginas>
+        <reference>
+            <authors>Ouyang, Z., Du, A., &amp; Xu, W.</authors>
+            <year>2020</year>
+            <title>Research on China's protected area system classification</title>
+            <journal>Shengtai Xuebao</journal>
+            <volume>40(20)</volume>
+            <pages>7207-7215</pages>
             <doi>10.5846/stxb202005051103</doi>
-        </referencia>
+        </reference>
         
-        <referencia>
-            <autores>Ravenel, R. M., &amp; Redford, K. H.</autores>
-            <ano>2005</ano>
-            <titulo>Understanding IUCN protected area categories</titulo>
-            <revista>Natural Areas Journal</revista>
-            <volumen>25</volumen>
-            <numero>4</numero>
-            <paginas>381-389</paginas>
-        </referencia>
+        <reference>
+            <authors>Ravenel, R. M., &amp; Redford, K. H.</authors>
+            <year>2005</year>
+            <title>Understanding IUCN protected area categories</title>
+            <journal>Natural Areas Journal</journal>
+            <volume>25(4)</volume>
+            <pages>381-389</pages>
+        </reference>
         
-        <referencia>
-            <autores>Shackleton, R. T., Bertzky, B., Wood, L. E., Bunbury, N., Jager, H., van Merm, R., Sevilla, C., Smith, K., Wilson, J. R. U., Witt, A. B. R., &amp; Richardson, D. M.</autores>
-            <ano>2020</ano>
-            <titulo>Biological invasions in World Heritage Sites: current status and a proposed monitoring and reporting framework</titulo>
-            <revista>Biodiversity and Conservation</revista>
-            <volumen>29</volumen>
-            <numero>11-12</numero>
-            <paginas>3327-3347</paginas>
+        <reference>
+            <authors>Shackleton, R. T., Bertzky, B., Wood, L. E., Bunbury, N., Jager, H., van Merm, R., Sevilla, C., Smith, K., Wilson, J. R. U., Witt, A. B. R., &amp; Richardson, D. M.</authors>
+            <year>2020</year>
+            <title>Biological invasions in World Heritage Sites: current status and a proposed monitoring and reporting framework</title>
+            <journal>Biodiversity and Conservation</journal>
+            <volume>29(11-12)</volume>
+            <pages>3327-3347</pages>
             <doi>10.1007/s10531-020-02026-1</doi>
-        </referencia>
+        </reference>
         
-        <referencia>
-            <autores>Weixibaumer, N., Siegrist, D., Mose, I., &amp; Hammer, T.</autores>
-            <ano>2015</ano>
-            <titulo>Participation and regional governance. A crucial research perspective on protected areas policies in Austria and Switzerland</titulo>
-            <libro>Nature Policies and Landscape Policies: Towards an Alliance</libro>
-            <editor>F. M. Dovigo</editor>
-            <editorial>Springer</editorial>
-            <paginas>207-215</paginas>
+        <reference>
+            <authors>Weixibaumer, N., Siegrist, D., Mose, I., &amp; Hammer, T.</authors>
+            <year>2015</year>
+            <title>Participation and regional governance. A crucial research perspective on protected areas policies in Austria and Switzerland</title>
+            <book_title>Nature Policies and Landscape Policies: Towards an Alliance</book_title>
+            <editor>Dovigo, F. M.</editor>
+            <publisher>Springer</publisher>
+            <pages>207-215</pages>
             <doi>10.1007/978-3-319-05410-0_23</doi>
-        </referencia>
+        </reference>
         
-        <referencia>
-            <autores>Xie, Y.</autores>
-            <ano>2019</ano>
-            <titulo>Protected Area</titulo>
-            <libro>Encyclopedia of Ecology</libro>
-            <edicion>2nd</edicion>
-            <volumen>1</volumen>
-            <editores>S. E. Jorgensen &amp; B. D. Fath</editores>
-            <editorial>Elsevier</editorial>
-            <paginas>451-457</paginas>
+        <reference>
+            <authors>Xie, Y.</authors>
+            <year>2019</year>
+            <title>Protected Area</title>
+            <book_title>Encyclopedia of Ecology</book_title>
+            <editors>Jorgensen, S. E. &amp; Fath, B. D.</editors>
+            <edition>2nd</edition>
+            <volume>1</volume>
+            <publisher>Elsevier</publisher>
+            <pages>451-457</pages>
             <doi>10.1016/B978-0-12-409548-9.10586-X</doi>
-        </referencia>
+        </reference>
         
-        <referencia>
-            <autores>Yu, E., Cui, N., Quan, Y., Wang, C., Jia, T., Wu, D., &amp; Wu, G.</autores>
-            <ano>2020</ano>
-            <titulo>Ecological protection for natural protected areas based on landsenses ecology: a case study of Dalmor National Nature Reserve</titulo>
-            <revista>International Journal of Sustainable Development and World Ecology</revista>
-            <volumen>27</volumen>
-            <numero>8</numero>
-            <paginas>709-717</paginas>
+        <reference>
+            <authors>Yu, E., Cui, N., Quan, Y., Wang, C., Jia, T., Wu, D., &amp; Wu, G.</authors>
+            <year>2020</year>
+            <title>Ecological protection for natural protected areas based on landsenses ecology: a case study of Dalmor National Nature Reserve</title>
+            <journal>International Journal of Sustainable Development and World Ecology</journal>
+            <volume>27(8)</volume>
+            <pages>709-717</pages>
             <doi>10.1080/13504509.2020.1727585</doi>
-        </referencia>
-    </referencias>
+        </reference>
+    </references>
     
-    <pie>
-        <texto>AGRO-ECOLÓGICA 4(1): 1-2 agosto 2025. ISSN 2313-2906</texto>
-    </pie>
-</articulo>
+    <footer>
+        <copyright>© 2025 AGRO-ECOLÓGICA 4(1): 1-2 agosto 2025. ISSN 2313-2906</copyright>
+    </footer>
+</article>

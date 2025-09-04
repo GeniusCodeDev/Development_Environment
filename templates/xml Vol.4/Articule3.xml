@@ -1,231 +1,187 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<articulo_cientifico>
-  <metadatos>
-    <titulo_principal>Propagación de especies nativas para la restauración ecológica en la microcuenca Escaleras, Chuquisaca, Bolivia</titulo_principal>
-    <titulo_secundario>Three and a Half Decades of Cover and Land Use Change in a Protected Area in Southern Bolivia</titulo_secundario>
-    <revista>AGRO-ECOLÓGICA</revista>
-    <volumen>4</volumen>
-    <numero>1</numero>
-    <paginas>13-22</paginas>
-    <fecha_publicacion>agosto 2025</fecha_publicacion>
-    <issn>2313-2906</issn>
+<article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+         xsi:noNamespaceSchemaLocation="article_schema.xsd" 
+         language="es" 
+         type="research">
+  
+  <journalInfo>
+    <title>AGRO-ECOLÓGICA 4(1): 13-22, agosto 2025. ISSN 2313-2906</title>
+    <url>https://revistas.usfx.bo/index.php/rae/</url>
     <doi>10.56469/rae.v4i1.1580</doi>
-    <url_revista>https://revistas.usfx.bo/index.php/rae/</url_revista>
-    <fechas>
-      <recibido>08/12/2024</recibido>
-      <aceptado>15/05/2025</aceptado>
-    </fechas>
-  </metadatos>
+  </journalInfo>
   
-  <autores>
-    <autor correspondiente="true">
-      <nombre>Manuel H. Jiménez Huamán</nombre>
-      <afiliacion>Instituto de Agroecología y Seguridad Alimentaria (IASA) de la Facultad de Ciencias Agrarias – Universidad Mayor Real y Pontificia de San Francisco Xavier de Chuquisaca.</afiliacion>
-      <correo>jimenez.manuel@usfx.bo</correo>
-      <orden>1</orden>
-    </autor>
-    <autor>
-      <nombre>Jorge R. Alurralde Saavedra</nombre>
-      <afiliacion>Instituto de Agroecología y Seguridad Alimentaria (IASA) de la Facultad de Ciencias Agrarias – Universidad Mayor Real y Pontificia de San Francisco Xavier de Chuquisaca.</afiliacion>
-      <orden>2</orden>
-    </autor>
-    <autor>
-      <nombre>Josué Bejarano Chumacero</nombre>
-      <afiliacion>Instituto de Agroecología y Seguridad Alimentaria (IASA) de la Facultad de Ciencias Agrarias – Universidad Mayor Real y Pontificia de San Francisco Xavier de Chuquisaca.</afiliacion>
-      <orden>3</orden>
-    </autor>
-    <autor>
-      <nombre>Julio C. Ramírez Balcera</nombre>
-      <afiliacion>Instituto de Agroecología y Seguridad Alimentaria (IASA) de la Facultad de Ciencias Agrarias – Universidad Mayor Real y Pontificia de San Francisco Xavier de Chuquisaca.</afiliacion>
-      <orden>4</orden>
-    </autor>
-    <autor>
-      <nombre>Ceferino Peca Huallpa</nombre>
-      <afiliacion>Carrera de Ingeniería en Desarrollo Rural de la Facultad de Ciencias Agrícolas y Pecuarias - Universidad Autónoma Tomas Frias.</afiliacion>
-      <orden>5</orden>
-    </autor>
-  </autores>
+  <articleInfo>
+    <articleType>Original Article</articleType>
+    <title lang="es">Propagación de especies nativas para la restauración ecológica en la microcuenca Escaleras, Chuquisaca, Bolivia</title>
+    <title lang="en">Propagation of native species for ecological restoration in the Escaleras micro-basin, Chuquisaca, Bolivia</title>
+    
+    <authors>
+      <author id="1" corresponding="true">
+        <name>Manuel H. Jiménez Huamán</name>
+        <email>jimenez.manuel@usfx.bo</email>
+        <affiliation>Instituto de Agroecología y Seguridad Alimentaria (IASA) de la Facultad de Ciencias Agrarias – Universidad Mayor Real y Pontificia de San Francisco Xavier de Chuquisaca</affiliation>
+      </author>
+      <author id="2">
+        <name>Jorge R. Alurralde Saavedra</name>
+        <affiliation>Instituto de Agroecología y Seguridad Alimentaria (IASA) de la Facultad de Ciencias Agrarias – Universidad Mayor Real y Pontificia de San Francisco Xavier de Chuquisaca</affiliation>
+      </author>
+      <author id="3">
+        <name>Josué Bejarano Chumacero</name>
+        <affiliation>Instituto de Agroecología y Seguridad Alimentaria (IASA) de la Facultad de Ciencias Agrarias – Universidad Mayor Real y Pontificia de San Francisco Xavier de Chuquisaca</affiliation>
+      </author>
+      <author id="4">
+        <name>Julio C. Ramírez Balcera</name>
+        <affiliation>Instituto de Agroecología y Seguridad Alimentaria (IASA) de la Facultad de Ciencias Agrarias – Universidad Mayor Real y Pontificia de San Francisco Xavier de Chuquisaca</affiliation>
+      </author>
+      <author id="5">
+        <name>Ceferino Peca Huallpa</name>
+        <affiliation>Carrera de Ingeniería en Desarrollo Rural de la Facultad de Ciencias Agrícolas y Pecuarias - Universidad Autónoma Tomas Frías</affiliation>
+      </author>
+    </authors>
+    
+    <dates>
+      <submission>2024-12-08</submission>
+      <acceptance>2025-05-15</acceptance>
+    </dates>
+  </articleInfo>
   
-  <resumenes>
-    <resumen idioma="es">
-      <texto>
-        El uso de especies nativas constituye una estrategia prometedora para restauración de ecosistemas degradados. El objetivo del estudio fue, evaluar el comportamiento de propagación en vivero de cinco especies nativas utilizando plántulas provenientes de la regeneración natural en la Microcuenca Escaleras, municipio de Villa Serrano, Departamento de Chuquisaca. Los sitios y especies seleccionadas para recolección de plántulas fueron: estadio sucesional I, Baccharis dracunculifolia (t'ola); estadio sucesional II, Baccharis latifolia (ch'illka); estadio sucesional III, Dodonaea viscosa (ch'akatea); estadio sucesional IV, Podocarpus parlatorei (pino de monte) y estadio sucesional V, Cedrela lilloi (cedro). El diseño experimental utilizado fue bloques al azar (D.B.A), con cuatro repeticiones (bloques) y cinco tratamientos (especies). Las variables evaluadas fueron: porcentaje de prendimiento, altura de la plántula, número de hojas, diámetro de tallo y volumen radicular. Baccharis latifolia (ch'illka), obtuvo el 100% de prendimiento, seguido de Dodonaea viscosa (ch'akatea) y Cedrela lilloi (cedro) 96%, luego Baccharis dracunculifolia (t'ola) con 95% y Podocarpus parlatorei (pino de monte) 90%. Así mismo, Baccharis latifolia (ch'illka) obtuvo la mejor respuesta en altura de planta (17 cm), diámetro de tallo (3 mm) y volumen de raíz (0.69 cm³), seguido por Baccharis dracunculifolia (t'ola). En el desarrollo de las plántulas en vivero se identificaron tres grupos, el primero compuesto por Baccharis latifolia (ch'illka) y Baccharis dracunculifolia (t'ola) con crecimiento acelerado; el segundo Dodonaea viscosa (ch'akatea) y el tercero formado por Cedrela lilloi (cedro) y Podocarpus parlatorei (pino de monte) con crecimiento lento, propios de estadios sucesionales tardíos. Los resultados de este estudio sugieren que el método de propagación mediante rescate de plántulas de regeneración natural es viable y eficiente especialmente en términos de tiempo.
-      </texto>
-      <palabras_clave>
-        <palabra>Estadio sucesional</palabra>
-        <palabra>germinación</palabra>
-        <palabra>plántulas</palabra>
-        <palabra>regeneración natural</palabra>
-        <palabra>suelo degradado</palabra>
-      </palabras_clave>
-    </resumen>
-    
-    <resumen idioma="en">
-      <texto>
-        The use of native species constitutes a promising strategy for the restoration of degraded ecosystems. The objective of the study was to evaluate the propagation behavior in a nursery of five native species using seedlings from natural regeneration in the Escaleras Microbasin, Villa Serrano municipality, Chuquisaca Department. The sites and species selected for seedling collection were: successional stage I, Baccharis dracunculifolia (t'ola); successional stage II, Baccharis latifolia (ch'illka); successional stage III, Dodonaea viscosa (ch'akatea); successional stage IV, Podocarpus parlatorei (mountain pine); and successional stage V, Cedrela lilloi (cedar). The experimental design was randomized blocks (RBD), with four replications (blocks) and five treatments (species). The variables evaluated were: percentage of engraftment, seedling height, number of leaves, stem diameter and root volume. Baccharis latifolia (ch'illka) obtained 100% take root, followed by Dodonaea viscosa (ch'akatea) and Cedrela lilloi (cedar) 96%, then Baccharis dracunculifolia (t'ola) with 95% and Podocarpus parlatorei (mountain pine) 90%. Likewise, Baccharis latifolia (ch'illka) obtained the best response in plant height (17 cm), stem diameter (3 mm) and root volume (0.69 cm³), followed by Baccharis dracunculifolia (t'ola). In the development of the plants at the nursery level, three groups were observed, the first made up of Baccharis latifolia (ch'illka) and Baccharis dracunculifolia (t'ola) with accelerated growth, typical of pioneer species; the second Dodonaea viscosa (ch'akatea) and the third Cedrela lilloi (cedar) and Podocarpus parlatorei (mountain pine) with slow growth, typical of late successional stages. The results of this study indicate that the propagation method by rescuing naturally regenerated seedlings is viable and time-efficient.
-      </texto>
-      <palabras_clave>
-        <palabra>Successful stage</palabra>
-        <palabra>germination</palabra>
-        <palabra>seedlings</palabra>
-        <palabra>natural regeneration</palabra>
-        <palabra>degraded soil</palabra>
-      </palabras_clave>
-    </resumen>
-  </resumenes>
+  <abstract lang="es">
+    <p>El uso de especies nativas constituye una estrategia prometedora para restauración de ecosistemas degradados. El objetivo del estudio fue, evaluar el comportamiento de propagación en vivero de cinco especies nativas utilizando plántulas provenientes de la regeneración natural en la Microcuenca Escaleras, municipio de Villa Serrano, Departamento de Chuquisaca. Los sitios y especies seleccionadas para recolección de plántulas fueron: estadio sucesional I, _Baccharis dracunculifolia_ (t'ola); estadio sucesional II, _Baccharis latifolia_ (ch'illka); estadio sucesional III, _Dodonaea viscosa_ (ch'akatea); estadio sucesional IV, Podocarpus parlatorei (pino de monte) y estadio sucesional V, _Cedrela lilloi_ (cedro). El diseño experimental utilizado fue bloques al azar (D.B.A), con cuatro repeticiones (bloques) y cinco tratamientos (especies). Las variables evaluadas fueron: porcentaje de prendimiento, altura de la plántula, número de hojas, diámetro de tallo y volumen radicular. _Baccharis latifolia_ (ch'illka), obtuvo el 100% de prendimiento, seguido de _Dodonaea viscosa_ (ch'akatea) y _Cedrela lilloi_ (cedro) 96%, luego _Baccharis dracunculifolia_ (t'ola) con 95% y _Podocarpus parlatorei_ (pino de monte) 90%. Así mismo, _Baccharis latifolia_ (ch'illka) obtuvo la mejor respuesta en altura de planta (17 cm), diámetro de tallo (3 mm) y volumen de raíz (0.69 cm³), seguido por _Baccharis dracunculifolia_ (t'ola). En el desarrollo de las plántulas en vivero se identificaron tres grupos, el primero compuesto por _Baccharis latifolia_ (ch'illka) y _Baccharis dracunculifolia_ (t'ola) con crecimiento acelerado; el segundo _Dodonaea viscosa_ (ch'akatea) y el tercero formado por _Cedrela lilloi_ (cedro) y _Podocarpus parlatorei_ (pino de monte) con crecimiento lento, propios de estadios sucesionales tardíos. Los resultados de este estudio sugieren que el método de propagación mediante rescate de plántulas de regeneración natural es viable y eficiente especialmente en términos de tiempo.</p>
+  </abstract>
   
-  <secciones>
-    <seccion id="introduccion">
-      <titulo>Introducción</titulo>
-      <parrafos>
-        <parrafo>
-          En los Valles interandinos, la pérdida de la cobertura vegetal ha generado un impacto negativo, como la erosión del suelo, la disminución de la fertilidad de la tierra y la pérdida de la capacidad de infiltrar agua, repercutiendo en la disminución del caudal de vertientes naturales y manantiales, lo que se traduce en la degradación generalizada del ecosistema (Condori et al. 2022). La restauración ecológica es un proceso que ayuda a la restitución de los componentes vivos que eran parte de un ecosistema antes de ser dañado (Acero-Nitola & Cortés-Pérez 2014). La restauración mediante estrategias de revegetación y agroforestería dinámica integrando especies nativas, no solo favorece la recuperación y protección de manantiales y zonas de recarga hídrica, sino que también facilita la recuperación productiva de áreas agrícolas degradadas, contribuyendo al equilibrio ecológico y funcionalidad de los agroecosistemas (Jiménez et al. 2015).
-        </parrafo>
-        <!-- Más párrafos de la introducción -->
-      </parrafos>
-    </seccion>
-    
-    <seccion id="materiales_metodos">
-      <titulo>Materiales y métodos</titulo>
-      <subseccion id="ubicacion">
-        <titulo>Ubicación y descripción del área de estudio</titulo>
-        <parrafos>
-          <parrafo>
-            El estudio se realizó en la comunidad de Escaleras del municipio de Villa Serrano del departamento de Chuquisaca (Figura 1). Se encuentra entre 2106 a 3096 msnm. La temperatura promedio anual es de 16.9°C y la precipitación oscila entre los 600 a 650 mm año (Navarro & Wanderley 2011a).
-          </parrafo>
-          <!-- Más párrafos -->
-        </parrafos>
-      </subseccion>
-      
-      <subseccion id="recoleccion">
-        <titulo>Ubicación de los sitios de recolección de plántulas</titulo>
-        <parrafos>
-          <parrafo>
-            La clasificación de los estadios sucesionales se realizó siguiendo lo propuesto por Jiménez (2024), quien, a partir de encuestas realizadas a agricultores, indica que los bosques altoandinos requieren un período de descanso de aproximadamente 40 años para que un área intervenida por actividades agropecuarias pueda transformarse nuevamente en bosque. En este marco, se identificaron cinco series de vegetación descritas por Antezana & Navarro (2002), Navarro & Maldonado (2002), las cuales corresponden a categorías de sucesión según la edad de recuperación de la vegetación con especies características de estas.
-          </parrafo>
-          <!-- Más párrafos -->
-        </parrafos>
-      </subseccion>
-      
-      <tabla id="tabla1">
-        <titulo>Lugares de recolección de plántulas según los estadios sucesionales de regeneración en bosque nativo</titulo>
-        <columnas>
-          <columna>Estadio sucesional</columna>
-          <columna>Serie de vegetación/ Especie recolectada</columna>
-          <columna>Nombre común</columna>
-          <columna>Localidad</columna>
-          <columna>Altitud (msnm)</columna>
-          <columna>Ubicación</columna>
-        </columnas>
-        <filas>
-          <fila>
-            <celda>Estadio sucesional I (ESI): 1 a 10 años</celda>
-            <celda>Baccharis dracunculifolia</celda>
-            <celda>T'ola</celda>
-            <celda>Viskachani</celda>
-            <celda>2178</celda>
-            <celda>S: 0358042, W: 7885752</celda>
-          </fila>
-          <!-- Más filas de la tabla -->
-        </filas>
-      </tabla>
-      
-      <!-- Otras subsecciones de materiales y métodos -->
-    </seccion>
-    
-    <seccion id="resultados">
-      <titulo>Resultados</titulo>
-      <subseccion id="prendimiento">
-        <titulo>Porcentaje de prendimiento</titulo>
-        <parrafos>
-          <parrafo>
-            La especie del estadio sucesional dos (ESII) Baccharis latifolia (ch'illka) presentó un 100% de prendimiento. Le siguieron Dodonaea viscosa (ch'akatea: ESIII) con un 96% de prendimiento. Luego continuaron Cedrela lilloi (cedro; ESV) que registró un 96% y Baccharis dracunculifolia (tóla; ESI) con un 95%. La especie con el menor porcentaje fue Podocarpus parlatorei (pino de monte; ESIV) con un 90% (Figura 3). La mortalidad se registró a partir de los siete días posteriores al trasplante. Sin embargo, hasta los 28 días la única especie que mantuvo 100% supervivencia fue el Baccharis latifolia (ch'illka; ESII).
-          </parrafo>
-        </parrafos>
-      </subseccion>
-      
-      <!-- Otras subsecciones de resultados -->
-    </seccion>
-    
-    <seccion id="discusion">
-      <titulo>Discusión</titulo>
-      <parrafos>
-        <parrafo>
-          El incremento de áreas degradadas es la muestra del deterioro acelerado de los ecosistemas y una consecuencia cuando se rompe la capacidad natural de regeneración que tienen estos espacios, sino se interviene oportunamente la tendencia es inevitable a la desertificación. En las estrategias de restauración la vegetación nativa juega un rol fundamental. Según Azpilicueta et al. (2023) el uso de la regeneración para producir plantines forestales cuando la semilla de interés no se vende en el mercado (lo que sucede con la mayoría de las plantas nativas), es una alternativa totalmente viable y permite obtener material de propagación durante todo el año.
-        </parrafo>
-        <!-- Más párrafos de discusión -->
-      </parrafos>
-    </seccion>
-    
-    <seccion id="conclusiones">
-      <titulo>Conclusiones</titulo>
-      <parrafos>
-        <parrafo>
-          El porcentaje de prendimiento fue alto (igual y/o superior al 90%) en las cinco especies estudiadas: B. latifolia (ch'illka), D. viscosa (ch'akatea), B. dracuncifolia (t'ola), C. lilloi (cedro) y P. parlatorei (pino de monte). Esto demuestra que el método de propagación por rescate de plántulas de la regeneración natural es viable, ofreciendo ventajas. Entre ellas destaca que las plántulas de regeneración natural siempre estarán disponibles en el medio natural, partiendo de plántulas seguras. Además se evita el uso de tratamientos pregerminativos costosos y que se desconocen para la mayoría de las plantas nativas. Este método ahorra tiempo considerando que se parte de plántulas que han completado de manera natural las fases de dispersión, selección, germinación y crecimiento inicial todo dentro de su hábitat natural, donde interactúan con otras especies del ecosistema (insectos, frugívoros, otros). Esta ventaja contribuye a que en un periodo de 90 días se puedan obtener plantines listos para su trasplante a campo definitivo. Sin embargo, el uso de la regeneración natural para la producción de plantines en vivero requiere ciertas precauciones. Es fundamental realizar una selección y protección de los rodales semilleros, así como su espacio para garantizar una producción sostenida de plántulas. Las especies B. latifolia y B. dracunculifolia son de estadios sucesionales tempranos y tiene un desarrollo acelerado típicos de plantas pionera. Sin embargo. Por su parte, D. viscosa presenta crecimiento lento, un patrón similar se observó en C. lilloi y P. parlatorei que son especies propias del bosque primario.
-        </parrafo>
-      </parrafos>
-    </seccion>
-    
-    <seccion id="agradecimientos">
-      <titulo>Agradecimientos</titulo>
-      <parrafos>
-        <parrafo>
-          Expresamos nuestro agradecimiento a la Cooperación Suiza por el financiamiento del Proyecto "Plantas nativas, una alternativa para la fertilidad natural y provisión de agua a frutales de valle". PIA.ACC-USFX.25, a AGRUCO – UMSS, al Instituto de Agroecología y Seguridad Alimentaria (IASA) de la Facultad de Ciencias Agrarias - Universidad Mayor, Real y Pontificia de San Francisco Xavier de Chuquisaca.
-        </parrafo>
-        <parrafo>
-          Al Gobierno Autónomo Municipal de Villa Serrano y de manera muy especial a los agricultores de la comunidad de Escaleras. Así mismo al Ing. Ignacio Guzmán por facilitar el trabajo con la comunidad y al Ing. Ronald Alcibia por su colaboración en el trabajo de campo.
-        </parrafo>
-      </parrafos>
-      
-      <subseccion id="contribucion_autores">
-        <titulo>Contribución de autores</titulo>
-        <contribuciones>
-          <contribucion>
-            <autor>Manuel H. Jiménez Huamán</autor>
-            <descripcion>Registro de datos de campo, análisis estadístico y redacción del documento.</descripcion>
-          </contribucion>
-          <contribucion>
-            <autor>Ceferino Peca Huallpa</autor>
-            <descripcion>Implementación del experimento y transcripción de datos de campo.</descripcion>
-          </contribucion>
-          <contribucion>
-            <autor>Jorge R. Alurralde Saavedra</autor>
-            <descripcion>Revisión de redacción técnica.</descripcion>
-          </contribucion>
-          <contribucion>
-            <autor>Josue Bejarano Chumacero</autor>
-            <descripcion>Generación de base bibliográfica.</descripcion>
-          </contribucion>
-          <contribucion>
-            <autor>Julio V. Ramírez Balcera</autor>
-            <descripcion>Organización de la logística de campo.</descripcion>
-          </contribucion>
-        </contribuciones>
-      </subseccion>
-    </seccion>
-  </secciones>
+  <keywords lang="es">
+    <keyword>Estadio sucesional</keyword>
+    <keyword>germinación</keyword>
+    <keyword>plántulas</keyword>
+    <keyword>regeneración natural</keyword>
+    <keyword>suelo degradado</keyword>
+  </keywords>
   
-  <figuras>
-    <figura id="figura1">
-      <titulo>Ubicación de la microcuenca Escaleras, Municipio de Villa Serrano y distribución de áreas de muestreo.</titulo>
+  <abstract lang="en">
+    <p>The use of native species constitutes a promising strategy for the restoration of degraded ecosystems. The objective of the study was to evaluate the propagation behavior in a nursery of five native species using seedlings from natural regeneration in the Escaleras Microbasin, Villa Serrano municipality, Chuquisaca Department. The sites and species selected for seedling collection were: successional stage I, _Baccharis dracunculifolia_ (t'ola); successional stage II, _Baccharis latifolia_ (ch'illka); successional stage III, _Dodonaea viscosa_ (ch'akatea); successional stage IV, _Podocarpus parlatorei_ (mountain pine); and successional stage V, _Cedrela lilloi_ (cedar). The experimental design was randomized blocks (RBD), with four replications (blocks) and five treatments (species). The variables evaluated were: percentage of engraftment, seedling height, number of leaves, stem diameter and root volume. _Baccharis latifolia_ (ch'illka) obtained 100% take root, followed by _Dodonaea viscosa_ (ch'akatea) and _Cedrela lilloi_ (cedar) 96%, then _Baccharis dracunculifolia_ (t'ola) with 95% and _Podocarpus parlatorei_ (mountain pine) 90%. Likewise, _Baccharis latifolia_ (ch'illka) obtained the best response in plant height (17 cm), stem diameter (3 mm) and root volume (0.69 cm³), followed by _Baccharis dracunculifolia_ (t'ola). In the development of the plants at the nursery level, three groups were observed, the first made up of _Baccharis latifolia_ (ch'illka) and _Baccharis dracunculifolia_ (t'ola) with accelerated growth, typical of pioneer species; the second _Dodonaea viscosa_ (ch'akatea) and the third _Cedrela lilloi_ (cedar) and _Podocarpus parlatorei_ (mountain pine) with slow growth, typical of late successional stages. The results of this study indicate that the propagation method by rescuing naturally regenerated seedlings is viable and time-efficient.</p>
+  </abstract>
+  
+  <keywords lang="en">
+    <keyword>Successful stage</keyword>
+    <keyword>germination</keyword>
+    <keyword>seedlings</keyword>
+    <keyword>natural regeneration</keyword>
+    <keyword>degraded soil</keyword>
+  </keywords>
+  
+  <sections>
+    <section id="intro" title="Introducción">
+      <paragraph>En los Valles interandinos, la pérdida de la cobertura vegetal ha generado un impacto negativo, como la erosión del suelo, la disminución de la fertilidad de la tierra y la pérdida de la capacidad de infiltrar agua, repercutiendo en la disminución del caudal de vertientes naturales y manantiales, lo que se traduce en la degradación generalizada del ecosistema (Condori et al. 2022). La restauración ecológica es un proceso que ayuda a la restitución de los componentes vivos que eran parte de un ecosistema antes de ser dañado (Acero-Nitola & Cortés-Pérez 2014). La restauración mediante estrategias de revegetación y agroforestería dinámica integrando especies nativas, no solo favorece la recuperación y protección de manantiales y zonas de recarga hídrica, sino que también facilita la recuperación productiva de áreas agrícolas degradadas, contribuyendo al equilibrio ecológico y funcionalidad de los agroecosistemas (Jiménez et al. 2015).</paragraph>
+      <paragraph>En los procesos de restauración ecológica es fundamental comprender la dinámica de sucesión natural, entendiendo a esta como al cambio progresivo de la vegetación que se produce en el tiempo, hacia la formación de un bosque maduro (Crouzeilles et al. 2017). En este proceso se forman diferentes estadios sucesionales, en las primeras etapas dominan plantas herbáceas y arbustos pioneros de ciclo corto, destinados a generar condiciones para la vegetación de las sucesiones posteriores (Ramírez 2023). Muchas especies nativas locales de los primeros estadios sucesionales, son consideradas de poco valor comercial, pero de gran valor ecológico por su potencial para prosperar en lugares perturbados y cumplen un papel muy importante en los ecosistemas al proveer recursos alimenticios para integrar a la fauna al proceso de restauración (Lalouceur et al. 2023). Cuando se incluyen especies de alto valor ecológico en los programas de restauración y conservación de ecosistemas, la efectividad ecológica es mayor y los procesos de recuperación de áreas degradadas se pueden acelerar (Ramírez 2023, Alvarado-García et al. 2018).</paragraph>
+      <paragraph>La propagación de plantas nativas ha sido ampliamente reconocida como una práctica fundamental en el ámbito de restauración de ecosistemas, dado que la calidad de la semilla botánica o del material vegetativo utilizado condiciona el resto del proceso productivo (Vargas-Figueroa & Torres-González 2018). Muchas especies de plantas nativas presentan características y problemas particulares en su propagación, por lo que se hace necesario aplicar tratamientos especializados para la obtención de plantines (Leakey 2017).</paragraph>
+      <paragraph>El trasplante de plántulas de regeneración natural a vivero para la propagación de plantas nativas, se muestra como alternativa viable (Reis et al 2024) debido a diversos factores: la fenología reproductiva de las plantas nativas ya sea de fructificación o floración varía entre especies, entre años y entre localidades, esto se debe a las particularidades ecológicas y biológicas que tiene cada microhábitat, condicionando la disponibilidad de semillas (Luna-Nieves 2017). Las plántulas están compuestas por tejidos jóvenes frágiles, susceptibles al ataque de plagas, depredadores, condiciones climáticas adversas y actividades antrópicas como la ganadería; estos factores constituyen procesos que condicionan la supervivencia de las plántulas en su medio natural (Paredes 2023). Por otro lado, existen evidencias de que el ataque de plagas, el pastoreo libre y la marcada estacionalidad de las lluvias han sido causa natural y el principal factor determinante que influyó significativamente en la mortalidad de las plántulas (Toro Marríquez 2019).</paragraph>
+      <paragraph>En ese sentido, la propagación de especies nativas a nivel de vivero por rescate de plántulas de regeneración natural, es una práctica que da ventaja para la restauración, al partir de plantines que en su primera etapa de desarrollo se han minimizado los factores de riesgo (ataque de plagas, depredadores, condiciones climáticas adversas y pisoteo por ganadería), a las que si estarían supeditadas las plántulas producto de la siembra directa de semillas en las áreas de restauración, además permite el aprovechamiento del excedente de plántulas que se producen en inmediaciones de las plantas madres en su estado natural. Por otro lado, se puede evitar gastos adicionales a los viveros forestales en la compra de semillas, sustratos e insumos, este sistema de producción forestal es más económico.</paragraph>
+      <paragraph>El objetivo de este estudio fue realizar la propagación de cinco especies nativas, obtenidas a partir de la regeneración natural en estadios sucesionales del bosque nativo, para la restauración ecológica en la Microcuenca Escaleras, municipio de Villa Serrano, Departamento de Chuquisaca, Bolivia.</paragraph>
+    </section>
+    
+    <section id="methods" title="Materiales y métodos">
+      <subsection title="Ubicación y descripción del área de estudio">
+        <paragraph>El estudio se realizó en la comunidad de Escaleras del municipio de Villa Serrano del departamento de Chuquisaca (Figura 1). Se encuentra entre 2106 a 3096 msnm. La temperatura promedio anual es de 16.9°C y la precipitación oscila entre los 600 a 650 mm año (Navarro & Wanderley 2011a).</paragraph>
+        <paragraph>La vegetación nativa del área de estudio según Navarro & Wanderley (2011b) corresponde a los bosques altimontanos pluviestacionales Boliviano-Tucumanos. En la zona se encuentran bosques húmedos montanos dominados por pino de monte (Podocarpus parlatorei), cedro (Cedrela lilloi), saluninto (Myrcianthes pseudomato), arrayan (Blepharocalyx salicifolius), aliso (Alnus acuminata), laurel (Cinnamonum porphyrium), y quewifias (Polylepis hieronymi). En cambio, en los bosques de la zona media y baja (quebradas), encontramos entre especies de: tipa (Tipuana tipu), ceibo (Erythrina falcata) y guaranguay (Tecoma stans) (Navarro & Wanderley 2011b).</paragraph>
+        <paragraph>Los principales cultivos en la Cuenca Escaleras varían de una comunidad a otra, debido a factores climáticos, calidad del suelo y la diversidad de pisos ecológicos. Los cultivos más relevantes son: papa (Solanum tuberosum), maíz (Zea mays) y trigo (Triticum aestivum); en menor medida se encuentran haba (Vicia faba), arveja (Pisum sativum), ají (Capsicum baccatum), mani (Arachis hypogaea) y hortalizas de hoja. También se cultivan frutales como durazno (Prunus persica) y manzana (Malus domestica).</paragraph>
+        <paragraph>La Cuenca Escaleras presenta diversas características en función de la gradiente altitudinal, topografía y pendiente, lo que permite distinguir varios tipos de uso del suelo (ZONISIG 2000), tales como espacios destinados a la agricultura, al pastoreo, bosques nativos y bosques introducidos, que se distribuyen a lo largo de toda la superficie. Asimismo, se identifican zonas degradadas, que sirven como indicadores del grado de deterioro de la cuenca.</paragraph>
+      </subsection>
+      
+      <subsection title="Ubicación de los sitios de recolección de plántulas">
+        <paragraph>La clasificación de los estadios sucesionales se realizó siguiendo lo propuesto por Jiménez (2024), quien, a partir de encuestas realizadas a agricultores, indica que los bosques altoandinos requieren un período de descanso de aproximadamente 40 años para que un área intervenida por actividades agropecuarias pueda transformarse nuevamente en bosque. En este marco, se identificaron cinco series de vegetación descritas por Antezana & Navarro (2002), Navarro & Maldonado (2002), las cuales corresponden a categorías de sucesión según la edad de recuperación de la vegetación con especies características de estas.</paragraph>
+        <paragraph>La numeración de los estadios sucesionales I a IV no representa una secuencia cronológica de recuperación de la vegetación. Por ejemplo, la serie con Dodonaea viscosa fue sectorizada en un estadio sucesional intermedio debido a su desarrollo y permanencia en años en el sitio evaluado en el proceso de recuperación, no en función de un orden secuencial de regeneración. La recolección de plántulas se efectuó en parcelas temporales ubicadas en cada estadio sucesional, cuya ubicación se detalla en la Tabla 1.</paragraph>
+      </subsection>
+      
+      <subsection title="Recolección de plántulas del bosque nativo">
+        <paragraph>Las plántulas se recolectaron en el mes de marzo y corresponden a semillas dispersadas en el periodo invernal anterior (mayo – junio). La recolección se llevó a cabo en las primeras horas de la mañana, considerando su uniformidad en tamaño y diámetro. Las plántulas fueron almacenadas en recipientes de plástico y, con el fin de evitar daños a las raíces por la exposición solar, se cubrieron con tierra. Posteriormente, se trasladaron al sitio destinado para su plantación en las últimas horas de la tarde del mismo día.</paragraph>
+      </subsection>
+      
+      <subsection title="Preparación, embolsado y desinfección del sustrato">
+        <paragraph>Las proporciones en volumen que se emplearon para preparar el sustrato fueron 67% de tierra negra del lugar (tres carretillas), 22% de arena lavada de río (una carretilla) y 11% de materia orgánica descompuesta (media carretilla). Estos componentes fueron cernidos y mezclados previamente hasta obtener una mezcla homogénea. Para el embolsado, se emplearon bolsas de polietileno de dimensiones 18 x 25 cm. La cantidad de sustrato utilizado fue de 1.77 m³ en 980 bolsas.</paragraph>
+        <paragraph>Para la desinfección del sustrato se empleó formol (CH2O) diluido en agua según las indicaciones especificadas en el envase del producto (100 cm³ de formol por cada 10 litros de agua).</paragraph>
+      </subsection>
+      
+      <subsection title="Establecimiento del diseño experimental">
+        <paragraph>El ensayo de campo, se llevó a cabo utilizando un diseño de Bloques al Azar (Figura 2), con cuatro repeticiones (bloque) y cinco tratamientos (especies), en total se obtuvieron 20 unidades experimentales de 0.75 por 0.75 m., para un total de 49 plántulas (bolsas) totalizando 980 bolsas. Los tratamientos corresponden a la especie de la serie de vegetación de cada estadio sucesional: T1: ESI, _Baccharis dracunculifolia_ (t'ola); T2: ESII, _Baccharis latifolia_ (ch'illka); T3: ESIII, _Dodonaea viscosa_ (ch'akatea); T4: ESIV, _Podocarpus parlatorei_ (pino de monte); y T5: ESV, _Cedrela lilloi_ (cedro).</paragraph>
+      </subsection>
+      
+      <subsection title="Registro de datos">
+        <paragraph>Los datos registrados correspondieron sólo a 25 plántulas evaluables de cada unidad experimental, referido al porcentaje de prendimiento, altura de planta, número de hojas, diámetro del tallo y volumen de raíz. El porcentaje de prendimiento se registró a los 7, 14, 21, 28 y 90 días después del trasplante, contando el número de plántulas prendidas de cada unidad experimental. Las plántulas a nivel de vivero se evaluaron según Mostacedo & Fredericksen (2000), la altura de planta, número de hojas y diámetro de tallo. se registró a los 3, 30, 60 y 90 días después del trasplante. El volumen de raíz se midió a través del método de desplazamiento de agua (Cabanzo-Atilano et al. 2020, Chave 2006) y se registró antes del trasplante y 90 días después de éste, para esto sólo se eligió una planta al azar de cada unidad experimental.</paragraph>
+      </subsection>
+      
+      <subsection title="Análisis de los datos">
+        <paragraph>Los datos se analizaron mediante el software R versión 4.5.0 (R Core Team 2025), con el entorno de desarrollo RStudio versión 2024.12.1 (RStudio Team 2025). Para la comparación entre especies, los datos de altura de planta, número de hojas y diámetro de tallo se analizaron mediante la prueba de Kruskal-Wallis y Wilcoxon, por no cumplir con los supuestos de normalidad. Para el volumen de raíz se usó un modelo de Anova de bloques al azar y la prueba de Tukey. Para comparar la evaluación al momento del trasplante con la evaluación a los 90 días, se utilizó la prueba de Friedman para altura de planta, número de hojas y diámetro de tallo por la no normalidad de los datos; para el volumen de raíz se utilizó Anova de medidas repetidas (ANOVA RM). Para validar los supuestos de normalidad se usó Shapiro-Wilk.</paragraph>
+      </subsection>
+    </section>
+    
+    <section id="results" title="Resultados">
+      <subsection title="Porcentaje de prendimiento">
+        <paragraph>La especie del estadio sucesional dos (ESII) _Baccharis latifolia_ (ch'illka) presentó un 100% de prendimiento. Le siguieron _Dodonaea viscosa_ (ch'akatea: ESIII) con un 96% de prendimiento. Luego continuaron _Cedrela lilloi_ (cedro; ESV) que registró un 96% y _Baccharis dracunculifolia_ (tóla; ESI) con un 95%. La especie con el menor porcentaje fue _Podocarpus parlatorei_ (pino de monte; ESIV) con un 90% (Figura 3). La mortalidad se registró a partir de los siete días posteriores al trasplante. Sin embargo, hasta los 28 días la única especie que mantuvo 100% supervivencia fue el _Baccharis latifolia_ (ch'illka; ESII).</paragraph>
+      </subsection>
+      
+      <subsection title="Crecimiento en altura de planta">
+        <paragraph>Las especies del estadio sucesional uno (ESI) _B. dracunculifolia_ (t'ola) y del estado sucesional dos (ESII) _B. latifolia_ (ch'illka) mostraron un crecimiento en altura significativamente mayor en comparación con las especies de los otros estadios sucesionales _D. viscosa_ (ch'akatea; ESIII), _P. parlatorei_ (pino de monte; ESIV) y _C. lilloi_ (cedro; ESV) que reportaron menor crecimiento (Figura 4a). La prueba no paramétrica de Kruskal-Wallis evidenció diferencias altamente significativas en la altura de planta a los 90 días posteriores al trasplante (p<0.001, α=0.05).</paragraph>
+        <paragraph>La prueba post hoc de Wilcoxon con ajuste para comparaciones múltiples reveló que no hubo diferencia significativa (p=0.17, α=0.05) entre la altura de planta de _B. latifolia_ y _B. dracunculifolia_, sin embargo, estas especies tuvieron alturas superiores altamente significativas (p<0.001, α=0.05) en relación a _C. lilloi_, _D. viscosa_ y _P. parlatorei_. Por otro lado, la misma prueba reporta diferencias altamente significativas al comparar la altura de planta de _C. lilloi_ con _D. viscosa_ (p<0.001, α=0.05) y _P. parlatorei_ (p<0.001, α=0.05). Finalmente, no se detectó diferencia significativa entre _P. parlatorei_ y _D. viscosa_ (p=0.17, α=0.05), sugiriendo que ambas presentan alturas similares (Tabla 2).</paragraph>
+        <paragraph>A los 90 días, se identificaron tres grupos con base a la altura de las plantas. El primer grupo conformado por _B. latifolia_ (ch'illka; ESII) y _B. dracunculifolia_ (t'ola; ESI)) con medianas de 17 y 16 cm respectivamente. El segundo grupo conformado por _C. lilloi_ (cedro; ESV) con una mediana de 8 cm. El tercer grupo incluyo a _P. parlatorei_ (pino de monte; ESIV) con 7 cm y _D. viscosa_ (ch'akatea; ESIII) con 6.25 cm de altura de planta (Figura 4b).</paragraph>
+        <paragraph>La formación de estos grupos estuvo influenciada por la edad de los estadios sucesionales. Es decir, que las especies pertenecientes a los primeros estadios crecieron más rápido en relación a los de mayor edad.</paragraph>
+      </subsection>
+      
+      <!-- Secciones adicionales de resultados (número de hojas, diámetro de tallo, volumen radicular) -->
+      <!-- Tablas y figuras -->
+      
+    </section>
+    
+    <!-- Secciones adicionales (discusión, conclusiones, agradecimientos, referencias) -->
+    
+  </sections>
+  
+  <tables>
+    <table id="table1" caption="Tabla 1. Lugares de recolección de plántulas según los estadios sucesionales de regeneración en bosque nativo">
+      <headers>
+        <header>Estadio sucesional</header>
+        <header>Serie de vegetación/ Especie recolectada</header>
+        <header>Nombre común</header>
+        <header>Localidad</header>
+        <header>Altitud (msnm)</header>
+        <header>Ubicación</header>
+      </headers>
+      <row>
+        <cell>Estadio sucesional I (ESI): 1 a 10 años</cell>
+        <cell>Baccharis dracunculifolia</cell>
+        <cell>T'ola</cell>
+        <cell>Viskachani</cell>
+        <cell>2178</cell>
+        <cell>S: 0358042, W: 7885752</cell>
+      </row>
+      <!-- Filas adicionales de la tabla -->
+    </table>
+    
+    <!-- Otras tablas -->
+  </tables>
+  
+  <figures>
+    <figure id="fig1" caption="Figura 1. Ubicación de la microcuenca Escaleras, Municipio de Villa Serrano y distribución de áreas de muestreo.">
       <url>https://github.com/AdanCR1/VOLUMEN4_AGRO-ECOLOGIA/blob/5fd37b97147e203831a4072a555594253438b8aa/articulo3/IMAGES/Imagen9.png?raw=true</url>
-    </figura>
-    <!-- Más figuras -->
-  </figuras>
+    </figure>
+    <!-- Otras figuras -->
+  </figures>
   
-  <referencias>
-    <referencia>
-      <autores>Antezana, C. F. y G. Navarro</autores>
-      <año>2002</año>
-      <titulo>Contribución al análisis biogeográfico y catálogo preliminar de la flora de los valles secos interandinos del centro de Bolivia</titulo>
-      <revista>Rev. Bol. Ecol.</revista>
-      <volumen>12</volumen>
-      <paginas>3-38</paginas>
-    </referencia>
-    <!-- Más referencias -->
-  </referencias>
+  <acknowledgements>
+    <p>Expresamos nuestro agradecimiento a la Cooperación Suiza por el financiamiento del Proyecto "Plantas nativas, una alternativa para la fertilidad natural y provisión de agua a frutales de valle". PIA.ACC-USFX.25, a AGRUCO – UMSS, al Instituto de Agroecología y Seguridad Alimentaria (IASA) de la Facultad de Ciencias Agrarias - Universidad Mayor, Real y Pontificia de San Francisco Xavier de Chuquisaca.</p>
+    <p>Al Gobierno Autónomo Municipal de Villa Serrano y de manera muy especial a los agricultores de la comunidad de Escaleras. Así mismo al Ing. Ignacio Guzmán por facilitar el trabajo con la comunidad y al Ing. Ronald Alcibia por su colaboración en el trabajo de campo.</p>
+  </acknowledgements>
   
-  <pie>
-    <derechos>AGRO-ECOLÓGICA 4(1): 13-22 agosto 2025. ISSN 2313-2906</derechos>
-  </pie>
-</articulo_cientifico>
+  <authorContributions>
+    <contribution authorId="1">Registro de datos de campo, análisis estadístico y redacción del documento.</contribution>
+    <contribution authorId="5">Implementación del experimento y transcripción de datos de campo.</contribution>
+    <contribution authorId="2">Revisión de redacción técnica.</contribution>
+    <contribution authorId="3">Generación de base bibliográfica.</contribution>
+    <contribution authorId="4">Organización de la logística de campo.</contribution>
+  </authorContributions>
+  
+  <references>
+    <reference>Antezana, C. F. y G. Navarro (2002). Contribución al análisis biogeográfico y catálogo preliminar de la flora de los valles secos interandinos del centro de Bolivia. Rev. Bol. Ecol. 12:3-38, 2002.</reference>
+    <!-- Referencias adicionales -->
+  </references>
+  
+</article>
