@@ -94,6 +94,21 @@
         margin: 20px 0 10px 0;
         }
 
+        .editorial {
+            font-family: Georgia, "Times New Roman", Times, serif;
+            position: relative;
+            display: inline-block;
+          }
+        .editorial::after {
+            content: "";
+            background-color: darkgreen;
+            position: absolute;
+            bottom: 2px;
+            width: 100%;
+            height: 3px;
+            left: 0;
+          }
+
         .author-info {
             margin: 15px 0;
             
@@ -112,9 +127,9 @@
             bottom: 0px;
             left: 0;
         }
-        .author-correponding{
-            font-weight: bold;
-            margin-bottom: -20px;
+        .author-corresponding {
+          font-weight: bold;
+          margin-top: -5px;
         }
 
         .dates {
@@ -178,6 +193,11 @@
         .content-section {
             margin-bottom: 30px;
             transition: all 0.6s;
+        }
+
+        p {
+          margin-bottom: 15px;
+          text-align: justify;
         }
 
         table {
@@ -455,7 +475,7 @@
             </div>
            
         </header> 
-        <h3 class="editorial">Editorial</h3>
+        <h3 class="editorial">Original Article</h3>
 
         <h1>Adaptación y productividad de maní (Arachis hypogea L.) en ecosistemas subandinos secos del sur de
                 Bolivia</h1>
@@ -467,11 +487,11 @@
                     <div class="author-corresponding">Julio Cesar Ramirez Balcera¹*Jose Luis Vacaflor Dominguez²</div>
                     <div class="author-corresponding"><sub>*</sub>Autor de Correspondencia: ramirez.julio@usfx.bo</div>
                 </div>
-                
-               
-                <p ><sub>2</sub>Instituto Nacional de Innovación Agropecuaria y Forestal. Unidad de
-                    Fiscalización y Registros de Semillas. La Paz, Bolivia.</div>
-                </p>
+                <div class="affiliation">
+                    <p><sup>1</sup>Instituto de Agroecología y Seguridad Alimentaria, Facultad de Ciencias Agrarias, Universidad San Francisco Xavier de Chuquisaca, Casilla postal 1046, Calle Calvo Nº 132. Sucre, Bolivia</div>
+                    </p>
+                    <p><sup>2</sup> Instituto Nacional de Innovación Agropecuaria y Forestal. Unidad de Fiscalización y Registros de Semillas. La Paz, Bolivia.</p>
+                </div>
 
             <div class="dates">
                 <p class="dates_after date_open">
