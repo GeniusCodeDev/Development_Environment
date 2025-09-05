@@ -53,9 +53,11 @@
         margin-bottom: 15px;
       }
       .a_doi {
-        color: #666;
-        text-decoration: none;
-        text-decoration: underline;
+        color: #2c7d32;
+        transition: all 0.3s;
+      }
+      .a_doi:hover {
+        color: darkgreen;
       }
 
       h1 {
@@ -140,11 +142,21 @@
         transition: all 0.6s;
       }
 
-      table {
-        width: 100%;
-        border-collapse: collapse;
-        margin: 20px 0;
-      }
+
+
+    .container-table {
+      max-width: 1400px;
+      overflow-x: scroll;
+      overflow: hidden;
+    }
+
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 30px 0;
+      font-size: 0.9rem;
+    }
 
       th,
       td {
@@ -270,6 +282,13 @@
           gap: 6px;
           padding: 8px 8px 0 0;
         }
+        .container-table table {
+        font-size: 0.7rem;
+        }
+
+        th, td {
+          padding: 2px;
+        }
         .theme_claro,
         .theme_oscuro {
           width: 28px;
@@ -295,12 +314,22 @@
         color: #7be37e !important;
         border-color: #333 !important;
       }
-      .dark-mode .doi,
       .dark-mode .dates,
       .dark-mode .author-affiliation,
       .dark-mode .reference-item {
         color: #b6e3b8 !important;
       }
+
+      .dark-mode .a_doi {
+        color: #b6e3b8 !important;
+      }
+
+      .dark-mode .a_doi:hover,
+      .dark-mode a {
+        color: #2c7d32 !important;
+        filter: brightness(150%) !important;
+      }
+
       .dark-mode .abstract,
       .dark-mode .keywords,
       .dark-mode .content-section,
@@ -579,99 +608,102 @@
           khoa (M. spicata)
         </div>
       </div>
-
-      <table>
-        <caption>
-          Tabla 1. Actividad antifúngica a diferentes concentraciones de los S.
-          molle y M. spicata aceites extraídos sobre Ascochyta rabiei, - sin
-          inhibición, + inhibición.
-        </caption>
-        <tr>
-          <th>Especie vegetal</th>
-          <th>25 mg/mL</th>
-          <th>12.5 mg/mL</th>
-          <th>6.2 mg/mL</th>
-          <th>3.1 mg/mL</th>
-          <th>1.5 mg/mL</th>
-          <th>0.7 mg/mL</th>
-          <th>0 mg/mL</th>
-        </tr>
-        <tr>
-          <td>S. molle (molle)</td>
-          <td>+</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-        </tr>
-        <tr>
-          <td>M. spicata (Khoa)</td>
-          <td>+</td>
-          <td>+</td>
-          <td>+</td>
-          <td>+</td>
-          <td>+</td>
-          <td>+/-</td>
-          <td>-</td>
-        </tr>
-      </table>
-      <table>
-        <caption>
-          Tabla 2. Diámetro de crecimiento del micelio de A. rabiei en las
-          diferentes concentraciones del aceite de khoa (M. spicata), *diámetro
-          inicial del inóculo.
-        </caption>
-        <tr>
-          <th>Concentración (mg/mL)</th>
-          <th>72 hrs (cm)</th>
-          <th>144 hrs (cm)</th>
-          <th>216 hrs (cm)</th>
-        </tr>
-        <tr>
-          <td>0</td>
-          <td>0.5*</td>
-          <td>2.0</td>
-          <td>3.1</td>
-        </tr>
-        <tr>
-          <td>0.7</td>
-          <td>0.5</td>
-          <td>0.7</td>
-          <td>1.1</td>
-        </tr>
-        <tr>
-          <td>1.5</td>
-          <td>0.5</td>
-          <td>0.5</td>
-          <td>0.5</td>
-        </tr>
-        <tr>
-          <td>3.1</td>
-          <td>0.5</td>
-          <td>0.5</td>
-          <td>0.5</td>
-        </tr>
-        <tr>
-          <td>6.2</td>
-          <td>0.5</td>
-          <td>0.5</td>
-          <td>0.5</td>
-        </tr>
-        <tr>
-          <td>12.5</td>
-          <td>0.5</td>
-          <td>0.5</td>
-          <td>0.5</td>
-        </tr>
-        <tr>
-          <td>25</td>
-          <td>0.5</td>
-          <td>0.5</td>
-          <td>0.5</td>
-        </tr>
-      </table>
+      <div class="container-table">
+        <table>
+          <caption>
+            Tabla 1. Actividad antifúngica a diferentes concentraciones de los S.
+            molle y M. spicata aceites extraídos sobre Ascochyta rabiei, - sin
+            inhibición, + inhibición.
+          </caption>
+          <tr>
+            <th>Especie vegetal</th>
+            <th>25 mg/mL</th>
+            <th>12.5 mg/mL</th>
+            <th>6.2 mg/mL</th>
+            <th>3.1 mg/mL</th>
+            <th>1.5 mg/mL</th>
+            <th>0.7 mg/mL</th>
+            <th>0 mg/mL</th>
+          </tr>
+          <tr>
+            <td>S. molle (molle)</td>
+            <td>+</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>M. spicata (Khoa)</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+/-</td>
+            <td>-</td>
+          </tr>
+        </table>
+      </div>
+      <div class="container-table">
+        <table>
+          <caption>
+            Tabla 2. Diámetro de crecimiento del micelio de A. rabiei en las
+            diferentes concentraciones del aceite de khoa (M. spicata), *diámetro
+            inicial del inóculo.
+          </caption>
+          <tr>
+            <th>Concentración (mg/mL)</th>
+            <th>72 hrs (cm)</th>
+            <th>144 hrs (cm)</th>
+            <th>216 hrs (cm)</th>
+          </tr>
+          <tr>
+            <td>0</td>
+            <td>0.5*</td>
+            <td>2.0</td>
+            <td>3.1</td>
+          </tr>
+          <tr>
+            <td>0.7</td>
+            <td>0.5</td>
+            <td>0.7</td>
+            <td>1.1</td>
+          </tr>
+          <tr>
+            <td>1.5</td>
+            <td>0.5</td>
+            <td>0.5</td>
+            <td>0.5</td>
+          </tr>
+          <tr>
+            <td>3.1</td>
+            <td>0.5</td>
+            <td>0.5</td>
+            <td>0.5</td>
+          </tr>
+          <tr>
+            <td>6.2</td>
+            <td>0.5</td>
+            <td>0.5</td>
+            <td>0.5</td>
+          </tr>
+          <tr>
+            <td>12.5</td>
+            <td>0.5</td>
+            <td>0.5</td>
+            <td>0.5</td>
+          </tr>
+          <tr>
+            <td>25</td>
+            <td>0.5</td>
+            <td>0.5</td>
+            <td>0.5</td>
+          </tr>
+        </table>
+      </div>
 
       <p>
         A partir de las concentraciones de 1,5 hasta 25 mg/mL se observa una
