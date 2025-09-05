@@ -71,17 +71,11 @@
       left: 0;
     }
 
-    .journal-info {
-      font-size: 0.9em;
-      margin-bottom: 20px;
+    .a_doi {
+      color: #2c7d32;
+      transition: all 0.3s;
     }
-
-    .journal-info a {
-      color: #666;
-      transition: all 0.2s;
-    }
-
-    .journal-info a:hover {
+    .a_doi:hover {
       color: darkgreen;
     }
 
@@ -231,11 +225,15 @@
       font-style: italic;
     }
 
-
-    table {
-      max-width: 1200px;
+    .container-table {
+      max-width: 1400px;
       overflow-x: scroll;
       overflow: hidden;
+    }
+
+
+    table {
+      width: 100%;
       border-collapse: collapse;
       margin: 30px 0;
       font-size: 0.9rem;
@@ -403,6 +401,14 @@
         padding: 8px 8px 0 0;
       }
 
+      .container-table table {
+        font-size: 0.7rem;
+      }
+
+      th, td {
+        padding: 2px;
+      }
+
       .theme_claro,
       .theme_oscuro {
         width: 28px;
@@ -435,8 +441,14 @@
       color: #7be37e !important;
     }
 
-    .dark-mode .doi {
-      color: #b6e3b8 !important;
+    .dark-mode .a_doi {
+        color: #b6e3b8 !important;
+    }
+
+    .dark-mode .a_doi:hover,
+    .dark-mode a {
+      color: #2c7d32 !important;
+      filter: brightness(150%) !important;
     }
 
     .dark-mode .reference,
@@ -906,262 +918,269 @@
       Kruskal-Wallis evidenció diferencias altamente significativas en la altura
       de planta a los 90 días posteriores al trasplante (p<0.001, α=0.05). </p>
   </section>
-  <table>
-    <caption>
-      Tabla 1. Lugares de recolección de plántulas según los estadios
-      sucesionales de regeneración en bosque nativo
-    </caption>
-    <tr>
-      <th>Estadio sucesional</th>
-      <th>Serie de vegetación/ Especie recolectada</th>
-      <th>Nombre común</th>
-      <th>Localidad</th>
-      <th>Altitud (msnm)</th>
-      <th>Ubicación</th>
-    </tr>
-    <tr>
-      <td>Estadio sucesional I (ESI): 1 a 10 años</td>
-      <td>Baccharis dracunculifolia</td>
-      <td>T'ola</td>
-      <td>Viskachani</td>
-      <td>2178</td>
-      <td>S: 0358042, W: 7885752</td>
-    </tr>
-    <tr>
-      <td>Estadio sucesional II (ESII): 11 a 20 años</td>
-      <td>Baccharis latifolia</td>
-      <td>Ch'illka</td>
-      <td>Viskachani</td>
-      <td>3592</td>
-      <td>S: 0355979, W: 7884766</td>
-    </tr>
-    <tr>
-      <td>Estadio sucesional III (ESIII): 21 a 30 años</td>
-      <td>Dodonaea viscosa</td>
-      <td>Ch'akatea</td>
-      <td>Chillkiwar</td>
-      <td>2293</td>
-      <td>S: 0356532, W: 7886107</td>
-    </tr>
-    <tr>
-      <td>Estadio sucesional IV (ESIV): bosque de 31 a 40 años</td>
-      <td>Podocarpus parlatorei</td>
-      <td>Pino de monte</td>
-      <td>Zarzo Pampa</td>
-      <td>2443</td>
-      <td>S: 0355819, W: 7888148</td>
-    </tr>
-  </table>
-  <table class="styled-table">
-    <caption>
-      Tabla 2. Comparación entre especies mediante Test de Wilcoxon para altura de planta, número de hojas, diá-metro de tallo y prueba de Tukey para volumen de raíz, (p<0.05), a los 90 días después del trasplante (a, b, c, d, letras iguales no hay diferencias significativas, letras diferentes muestran diferencias significativas)plante (a, b, c, d, letras iguales no hay diferencias significativas, letras diferentes muestran diferencias significativas)
-    </caption>
-    <thead>
+  <div class="container-table">
+    <table>
+      <caption>
+        Tabla 1. Lugares de recolección de plántulas según los estadios
+        sucesionales de regeneración en bosque nativo
+      </caption>
       <tr>
-        <th rowspan="2">Especie</th>
-        <th colspan="6">Test de Wilcoxon (mediana)</th>
-        <th colspan="2">Prueba de Tukey (media)</th>
+        <th>Estadio sucesional</th>
+        <th>Serie de vegetación/ Especie recolectada</th>
+        <th>Nombre común</th>
+        <th>Localidad</th>
+        <th>Altitud (msnm)</th>
+        <th>Ubicación</th>
       </tr>
       <tr>
-        <th>Altura de planta (cm)</th>
-        <th>Grupos</th>
-        <th>Número de hojas</th>
-        <th>Grupos</th>
-        <th>Diámetro de tallo (mm)</th>
-        <th>Grupos</th>
-        <th>Volumen de raíz (cm3)</th>
-        <th>Grupos</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><i>B. dracunculifolia</i></td>
-        <td>16</td>
-        <td>a</td>
-        <td>22</td>
-        <td>a</td>
-        <td>1,99</td>
-        <td>b</td>
-        <td>1,12</td>
-        <td>a</td>
+        <td>Estadio sucesional I (ESI): 1 a 10 años</td>
+        <td>Baccharis dracunculifolia</td>
+        <td>T'ola</td>
+        <td>Viskachani</td>
+        <td>2178</td>
+        <td>S: 0358042, W: 7885752</td>
       </tr>
       <tr>
-        <td><i>B. latifolia</i></td>
-        <td>17</td>
-        <td>a</td>
-        <td>11</td>
-        <td>b</td>
-        <td>3,01</td>
-        <td>a</td>
-        <td>1,3</td>
-        <td>a</td>
+        <td>Estadio sucesional II (ESII): 11 a 20 años</td>
+        <td>Baccharis latifolia</td>
+        <td>Ch'illka</td>
+        <td>Viskachani</td>
+        <td>3592</td>
+        <td>S: 0355979, W: 7884766</td>
       </tr>
       <tr>
-        <td><i>C. lilloi</i></td>
-        <td>8</td>
-        <td>b</td>
-        <td>5</td>
-        <td>c</td>
-        <td>1,45</td>
-        <td>cd</td>
-        <td>0,78</td>
-        <td>ab</td>
+        <td>Estadio sucesional III (ESIII): 21 a 30 años</td>
+        <td>Dodonaea viscosa</td>
+        <td>Ch'akatea</td>
+        <td>Chillkiwar</td>
+        <td>2293</td>
+        <td>S: 0356532, W: 7886107</td>
       </tr>
       <tr>
-        <td><i>P. parlatorei</i></td>
+        <td>Estadio sucesional IV (ESIV): bosque de 31 a 40 años</td>
+        <td>Podocarpus parlatorei</td>
+        <td>Pino de monte</td>
+        <td>Zarzo Pampa</td>
+        <td>2443</td>
+        <td>S: 0355819, W: 7888148</td>
+      </tr>
+    </table>  
+  </div>
+  <div class="container-table">
+    <table class="styled-table">
+      <caption>
+        Tabla 2. Comparación entre especies mediante Test de Wilcoxon para altura de planta, número de hojas, diá-metro de tallo y prueba de Tukey para volumen de raíz, (p<0.05), a los 90 días después del trasplante (a, b, c, d, letras iguales no hay diferencias significativas, letras diferentes muestran diferencias significativas)plante (a, b, c, d, letras iguales no hay diferencias significativas, letras diferentes muestran diferencias significativas)
+      </caption>
+      <thead>
+        <tr>
+          <th rowspan="2">Especie</th>
+          <th colspan="6">Test de Wilcoxon (mediana)</th>
+          <th colspan="2">Prueba de Tukey (media)</th>
+        </tr>
+        <tr>
+          <th>Altura de planta (cm)</th>
+          <th>Grupos</th>
+          <th>Número de hojas</th>
+          <th>Grupos</th>
+          <th>Diámetro de tallo (mm)</th>
+          <th>Grupos</th>
+          <th>Volumen de raíz (cm3)</th>
+          <th>Grupos</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><i>B. dracunculifolia</i></td>
+          <td>16</td>
+          <td>a</td>
+          <td>22</td>
+          <td>a</td>
+          <td>1,99</td>
+          <td>b</td>
+          <td>1,12</td>
+          <td>a</td>
+        </tr>
+        <tr>
+          <td><i>B. latifolia</i></td>
+          <td>17</td>
+          <td>a</td>
+          <td>11</td>
+          <td>b</td>
+          <td>3,01</td>
+          <td>a</td>
+          <td>1,3</td>
+          <td>a</td>
+        </tr>
+        <tr>
+          <td><i>C. lilloi</i></td>
+          <td>8</td>
+          <td>b</td>
+          <td>5</td>
+          <td>c</td>
+          <td>1,45</td>
+          <td>cd</td>
+          <td>0,78</td>
+          <td>ab</td>
+        </tr>
+        <tr>
+          <td><i>P. parlatorei</i></td>
+          <td>7</td>
+          <td>cd</td>
+          <td>22,5</td>
+          <td>a</td>
+          <td>1,43</td>
+          <td>d</td>
+          <td>0,3</td>
+          <td>b</td>
+        </tr>
+        <tr>
+          <td><i>D. viscosa</i></td>
+          <td>6,25</td>
+          <td>d</td>
+          <td>4</td>
+          <td>d</td>
+          <td>1,54</td>
+          <td>c</td>
+          <td>0,34</td>
+          <td>b</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="container-table">    
+    <table>
+      <caption>
+        Tabla 3. Crecimiento de las plántulas durante la etapa de vivero (dpt:
+        días después del trasplante)
+      </caption>
+      <tr>
+        <th>Variables evaluadas (p<0.05)< /th>
+        </th>
+        <th>B. dracunculifolia</th>
+        <th>B. latifolia</th>
+        <th>C. lilloi</th>
+        <th>D. viscosa</th>
+        <th>P. parlatorei</th>
+      </tr>
+      <tr>
+        <td>Altura de planta a 3 dpt (mediana cm)</td>
         <td>7</td>
-        <td>cd</td>
-        <td>22,5</td>
-        <td>a</td>
-        <td>1,43</td>
-        <td>d</td>
-        <td>0,3</td>
-        <td>b</td>
+        <td>7</td>
+        <td>4</td>
+        <td>3,25</td>
+        <td>3,75</td>
       </tr>
       <tr>
-        <td><i>D. viscosa</i></td>
+        <td>Altura de planta 90 dpt (mediana cm)</td>
+        <td>16</td>
+        <td>17</td>
+        <td>8</td>
         <td>6,25</td>
-        <td>d</td>
-        <td>4</td>
-        <td>d</td>
-        <td>1,54</td>
-        <td>c</td>
-        <td>0,34</td>
-        <td>b</td>
+        <td>7</td>
       </tr>
-    </tbody>
-  </table>
-  <table>
-    <caption>
-      Tabla 3. Crecimiento de las plántulas durante la etapa de vivero (dpt:
-      días después del trasplante)
-    </caption>
-    <tr>
-      <th>Variables evaluadas (p<0.05)< /th>
-      </th>
-      <th>B. dracunculifolia</th>
-      <th>B. latifolia</th>
-      <th>C. lilloi</th>
-      <th>D. viscosa</th>
-      <th>P. parlatorei</th>
-    </tr>
-    <tr>
-      <td>Altura de planta a 3 dpt (mediana cm)</td>
-      <td>7</td>
-      <td>7</td>
-      <td>4</td>
-      <td>3,25</td>
-      <td>3,75</td>
-    </tr>
-    <tr>
-      <td>Altura de planta 90 dpt (mediana cm)</td>
-      <td>16</td>
-      <td>17</td>
-      <td>8</td>
-      <td>6,25</td>
-      <td>7</td>
-    </tr>
-    <tr>
-      <td>Prueba de Friedman</td>
-      </td>
-      <td>p<0.001 </td>
-      </td>
-      <td>p<0.001 </td>
-      </td>
-      <td>p<0.001 </td>
-      </td>
-      <td>p<0.001 </td>
-      </td>
-      <td>p<0.001 </td>
-      </td>
-    </tr>
-
-    <tr>
-      <td>Número de hojas a 3 dpt (mediana)</td>
-      <td>13,5</td>
-      <td>5</td>
-      <td>3</td>
-      <td>4</td>
-      <td>17</td>
-    </tr>
-    <tr>
-      <td>Número de hojas a 90 dpt (mediana)</td>
-      <td>22</td>
-      <td>11</td>
-      <td>5</td>
-      <td>4</td>
-      <td>22,5</td>
-    </tr>
-    <tr>
-      <td>Prueba de Friedman</td>
-      </td>
-      <td>p<0.001 </td>
-      </td>
-      <td>p<0.001 </td>
-      </td>
-      <td>p<0.001 </td>
-      </td>
-      <td>p=0.63</td>
-      <td>p<0.001 </td>
-      </td>
-    </tr>
-
-    <tr>
-      <td>Diámetro de tallo a 3 dpt (mediana mm)</td>
-      <td>1,19</td>
-      <td>1,9</td>
-      <td>0,82</td>
-      <td>1</td>
-      <td>0,8</td>
-    </tr>
-    <tr>
-      <td>Diámetro de tallo a 90 dpt (mediana mm)</td>
-      <td>1,99</td>
-      <td>3,01</td>
-      <td>1,45</td>
-      <td>1,54</td>
-      <td>1,43</td>
-    </tr>
-    <tr>
-      <td>Prueba de Friedman</td>
-      </td>
-      <td>p<0.001 </td>
-      </td>
-      <td>p<0.001  </td>
-      </td>
-      <td>p<0.001 </td>
-      </td>
-      <td>p<0.001 </td>
-      </td>
-      <td>p<0.001 </td>
-      </td>
-    </tr>
-
-    <tr>
-      <td>Volumen inicial de raíz (media cm3)</td>
-      <td>0,51</td>
-      <td>0,61</td>
-      <td>0,38</td>
-      <td>0,14</td>
-      <td>0,12</td>
-    </tr>
-    <tr>
-      <td>Volumen de raíz a los 90 dpt (media cm3)</td>
-      <td>1,12</td>
-      <td>1,3</td>
-      <td>0,78</td>
-      <td>0,34</td>
-      <td>0,3</td>
-    </tr>
-    <tr>
-      <td>ANOVA RM</td>
-      <td>p=0.07</td>
-      <td>p=0.04</td>
-      <td>p=0.09</td>
-      <td>p=0.07</td>
-      <td>p=0.04</td>
-    </tr>
-  </table>
+      <tr>
+        <td>Prueba de Friedman</td>
+        </td>
+        <td>p<0.001 </td>
+        </td>
+        <td>p<0.001 </td>
+        </td>
+        <td>p<0.001 </td>
+        </td>
+        <td>p<0.001 </td>
+        </td>
+        <td>p<0.001 </td>
+        </td>
+      </tr>
+  
+      <tr>
+        <td>Número de hojas a 3 dpt (mediana)</td>
+        <td>13,5</td>
+        <td>5</td>
+        <td>3</td>
+        <td>4</td>
+        <td>17</td>
+      </tr>
+      <tr>
+        <td>Número de hojas a 90 dpt (mediana)</td>
+        <td>22</td>
+        <td>11</td>
+        <td>5</td>
+        <td>4</td>
+        <td>22,5</td>
+      </tr>
+      <tr>
+        <td>Prueba de Friedman</td>
+        </td>
+        <td>p<0.001 </td>
+        </td>
+        <td>p<0.001 </td>
+        </td>
+        <td>p<0.001 </td>
+        </td>
+        <td>p=0.63</td>
+        <td>p<0.001 </td>
+        </td>
+      </tr>
+  
+      <tr>
+        <td>Diámetro de tallo a 3 dpt (mediana mm)</td>
+        <td>1,19</td>
+        <td>1,9</td>
+        <td>0,82</td>
+        <td>1</td>
+        <td>0,8</td>
+      </tr>
+      <tr>
+        <td>Diámetro de tallo a 90 dpt (mediana mm)</td>
+        <td>1,99</td>
+        <td>3,01</td>
+        <td>1,45</td>
+        <td>1,54</td>
+        <td>1,43</td>
+      </tr>
+      <tr>
+        <td>Prueba de Friedman</td>
+        </td>
+        <td>p<0.001 </td>
+        </td>
+        <td>p<0.001  </td>
+        </td>
+        <td>p<0.001 </td>
+        </td>
+        <td>p<0.001 </td>
+        </td>
+        <td>p<0.001 </td>
+        </td>
+      </tr>
+  
+      <tr>
+        <td>Volumen inicial de raíz (media cm3)</td>
+        <td>0,51</td>
+        <td>0,61</td>
+        <td>0,38</td>
+        <td>0,14</td>
+        <td>0,12</td>
+      </tr>
+      <tr>
+        <td>Volumen de raíz a los 90 dpt (media cm3)</td>
+        <td>1,12</td>
+        <td>1,3</td>
+        <td>0,78</td>
+        <td>0,34</td>
+        <td>0,3</td>
+      </tr>
+      <tr>
+        <td>ANOVA RM</td>
+        <td>p=0.07</td>
+        <td>p=0.04</td>
+        <td>p=0.09</td>
+        <td>p=0.07</td>
+        <td>p=0.04</td>
+      </tr>
+    </table>
+  </div>
   
   <div class="figure figure_3">
     <img id="figure_3"
