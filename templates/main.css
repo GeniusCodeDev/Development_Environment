@@ -2041,7 +2041,6 @@ body.navIsOpen .siteHeader__navToggleIcon>span:last-child {
 
 .pkp_page_index .cmp_announcements:before,.pkp_page_index .cmp_announcements:after {
     content: " ";
-    display: table
 }
 
 .pkp_page_index .cmp_announcements:after {
