@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <article>
     <metadata>
+        <journal-meta>
+            <journal-title>AGRO-ECOLÓGICA</journal-title>
+            <issn pub-type="ppud">2313-2906</issn>
+
+        </journal-meta>
         <title>Importancia de los actores locales en el contexto de las áreas protegidas</title>
         <title_english>Importance of local actors in the context of protected areas</title_english>
-        <journal>AGRO-ECOLÓGICA</journal>
+        <journal-title>AGRO-ECOLÓGICA</journal-title>
         <volume>4(1)</volume>
         <pages>1-2</pages>
         <publication_date>August 2025</publication_date>
-        <issn>2313-2906</issn>
+        <issn pub-type="ppud">2313-2906</issn>
         <doi>10.56469/rae.v4i1.1791</doi>
         <url>https://revistas.usfx.bo/index.php/rae/</url>
         <type>editorial</type>
@@ -260,6 +266,15 @@
     </references>
 
     <footer>
-        <copyright>© 2025 AGRO-ECOLÓGICA 4(1): 1-2 agosto 2025. ISSN 2313-2906</copyright>
+        <permissions>
+            <copyright-statement>© 2025 AGRO-ECOLÓGICA 4(1)</copyright-statement>
+            <copyright-date>1-2 agosto 2025</copyright-date>
+            <copyright-issn>2313-2906</copyright-issn>
+            <license license-type="open-access">
+                <license-p>This article is licensed under a Creative Commons Attribution 4.0
+                    International License.</license-p>
+            </license>
+        </permissions>
+
     </footer>
 </article>
