@@ -562,7 +562,7 @@
 
     </section>
 
-    </sections>
+  </sections>
 
 <tables>
     <table>
@@ -613,7 +613,9 @@
     </table>
     <table>
       <title>Tabla 2. Comparación entre especies mediante Test de Wilcoxon para altura de planta,
-  número de hojas, diámetro de tallo; prueba de Tukey para volumen de raíz (p&lt;0.05), a los 90 días después del trasplante (a, b, c, d; letras iguales no hay diferencias significativas, letras diferentes muestran diferencias significativas).</title>
+  número de hojas, diámetro de tallo; prueba de Tukey para volumen de raíz (p&lt;0.05), a los 90
+  días después del trasplante (a, b, c, d; letras iguales no hay diferencias significativas, letras
+  diferentes muestran diferencias significativas).</title>
       <headers>
         <header rowspan="2">Especie</header>
         <header colspan="2">Test de Wilcoxon (mediana)</header>
@@ -781,25 +783,28 @@
 <figures>
     <figure id="fig1"
       caption="Figura 1. Ubicación de la microcuenca Escaleras, Municipio de Villa Serrano y distribución de áreas de muestreo.">
-      <url>https://github.com/AdanCR1/VOLUMEN4_AGRO-ECOLOGIA/blob/5fd37b97147e203831a4072a555594253438b8aa/articulo3/IMAGES/Imagen9.png?raw=true</url>
-      
+      <url>
+  https://github.com/AdanCR1/VOLUMEN4_AGRO-ECOLOGIA/blob/5fd37b97147e203831a4072a555594253438b8aa/articulo3/IMAGES/Imagen9.png?raw=true</url>
 
 
       <figure id="fig2"
         caption="Figura 2. a) croquis del experimento en campo, b) representación de la unidad experimental (←plántulas evaluables por el efecto de borde).">
-        <url>https:// github.com/ AdanCR1/ VOLUMEN4_AGRO-ECOLOGIA/ blob/ 5fd37b97147e203831a4072a555594253438b8aa/ articulo3/ IMAGES/ Imagen10.png?raw=true</url>
+        <url>https:// github.com/ AdanCR1/ VOLUMEN4_AGRO-ECOLOGIA/ blob/
+  5fd37b97147e203831a4072a555594253438b8aa/ articulo3/ IMAGES/ Imagen10.png?raw=true</url>
 
       </figure>
       <figure id="fig3"
         caption="Figura 3. Prendimiento de plántulas de la regeneración natural en
         vivero.">
-        <url>https://github.com/AdanCR1/VOLUMEN4_AGRO-ECOLOGIA/blob/5fd37b97147e203831a4072a555594253438b8aa/articulo3/IMAGES/Imagen11.png?raw=true</url>
+        <url>
+  https://github.com/AdanCR1/VOLUMEN4_AGRO-ECOLOGIA/blob/5fd37b97147e203831a4072a555594253438b8aa/articulo3/IMAGES/Imagen11.png?raw=true</url>
       </figure>
       <figure id="fig4"
         caption="Figura 4. a) crecimiento en altura de planta de cinco especies nativas
           en vivero, b) comparación de altura de planta entre especies a los 90
           después del trasplante.">
-        <url>https:// github.com/ AdanCR1/ VOLUMEN4_AGRO-ECOLOGIA/ blob/ 5fd37b97147e203831a4072a555594253438b8aa/ articulo3/ IMAGES/ Imagen12.png?raw=true</url>
+        <url>https:// github.com/ AdanCR1/ VOLUMEN4_AGRO-ECOLOGIA/ blob/
+  5fd37b97147e203831a4072a555594253438b8aa/ articulo3/ IMAGES/ Imagen12.png?raw=true</url>
       </figure>
       <figure id="fig5"
         caption=" Figura 5. a) incremento en número de hojas de cinco especies en
@@ -817,7 +822,6 @@
         caption="Figura 7. Comparación del crecimiento de volumen radicular entre especies al inicio y 90 días después del trasplante.">
         <url></url>
       </figure>
-    
 
 
     </figure>
@@ -827,7 +831,7 @@
 <acknowledgements>
     <p>Expresamos nuestro agradecimiento a la Cooperación Suiza por el financiamiento del Proyecto
   "Plantas nativas, una alternativa para la fertilidad natural y provisión de agua a frutales de
-  valle". PIA.ACC-USFX.25, a AGRUCO  - UMSS, al Instituto de Agroecología y Seguridad Alimentaria
+  valle". PIA.ACC-USFX.25, a AGRUCO - UMSS, al Instituto de Agroecología y Seguridad Alimentaria
   (IASA) de la Facultad de Ciencias Agrarias - Universidad Mayor, Real y Pontificia de San
       Francisco Xavier de Chuquisaca.</p>
     <p>Al Gobierno Autónomo Municipal de Villa Serrano y de manera muy especial a los agricultores
@@ -846,160 +850,282 @@
   </authorContributions>
 
 <references>
-    <reference>Antezana, C. F. y G. Navarro (2002). Contribución al análisis biogeográfico y
-      catálogo
-      preliminar de la flora de los valles secos interandinos del centro de Bolivia. Rev. Bol. Ecol.
-  12:3-38, 2002.</reference>
-    <reference>Antezana, C. (2004). Estudio de la flora y vegetación de los valles
-        secos interandinos del departamento de Cochabamba (Bolivia). Memoria
-        para optar el grado de Doctora por la Universidad Complutense de Madrid.</reference>
-    <reference> Acero-Nitola, A. M. &amp; Cortez-Pérez F. (2014). Propagación de especies
-        nativas de la microcuenca del río La Vega, Tunja, Boyacá, con potencial
-        para la restauración ecológica. Rev. Acad. Colomb. Cienc.
-        38(147):195-205.
-        https://racccjyn.co/index.php/racccjyn/article/view/76/45</reference>
-    <reference> Alvarado-García, V. &amp; Zúñiga-Amador, M. A. (2018). Vegetación nativa
-        como factor de control de erosión y restauración ecológica, San José,
-        Costa Rica. La Calera, 18(30), 39-47.
-        https://doi.org/10.5327/calera.v18i30.7738</reference>
-    <reference> Ayma, A.I. (2005). Estudio de propagación sexual de pino de monte
-        (Podocarpus glomeratus D. Don) en la comunidad de Sailapata –
-        Independencia. Tesis de grado para obtener el título de Licenciatura en
-        Ingeniería Forestal. Facultad de Ciencias Agrícolas y Pecuarias,
-        Universidad Mayor de San Simón. Cochabamba, Bolivia.
-        10.13140/RG.2.1.4873.0005</reference>
-    <reference>Azpilioueta, M. M., Aparicio, A. G., Mondino, V. &amp; Pastorino, M. J.
-        (2023). Banco de plantas con cita diferida como alternativa para la
-        producción continua de plantines de lenga en el vivero. Bosque. 44(1):
-        201-206. http://dx.doi.org/10.4067/s0717-92002023000100201</reference>
-    <reference>Barros, J. &amp; Giménez, A. M. (2017). El valor de un bosque montano en
-        Catamarca, Argentina. Pp. 105-126 En: Econantomía y Biodiversidad.
-        Facultad de Ciencias Forestales. Universidad Nacional de Santiago del
-        Estero.
-        https://cf.unse.edu.ar/archivos/publicaciones/libro-econantomia/econantomia-p1-05-barros-EI-valor-de-un-bosque-montano-en-Catamarca-Argentina.pdf</reference>
-    <reference>Cabanzo-Alliano, I., Rodríguez-Mendoza, M. N., García-Cué, J. L.,
-        Almaraz-Suárez, J. J. &amp; Gutierrez-Castonera, María del Carmen. (2020).
-        La biofertilización y nutrición en el desarrollo de plánulos de chile
-        serrano. Revista mexicana de ciencias agrícolas, 11(4), 699-712. Epub 13
-        de septiembre de 2021. https://doi.org/10.29312/renesca.v11i4.2121</reference>
-    <reference>Condori Tintaya, F., Pino Vargas, E. M., &amp; Villegas, P. T. (2022).
-        Pérdida de suelos por erosión hídrica en laderas semifinales de la
-        subcuenca Cairani Camilaca. Perú. Iglesia (Arica), 40(2), 7-15.
-        https://doi.org/10.4067/S0718-34292022000200007</reference>
-    <reference>Crouzeilles, R., Ferreira, M. S., Chazdon, R. L., David, B., Lindemayer,
-        D. B., Sansevero, J. B. B., Monteiro, L., Inbarrem, A., Lataviec A. E. &amp;
-        Strassburg, B. B. N. (2017). Ecological restoration success is higher
-        for natural regeneration than for active restoration in tropical
-        forests. Sci. Adv. 3, e1701345.
-        https://www.science.org/doi/pdf/10.1126/sciadv.1701345</reference>
-    <reference>Chave, J. (2006). Medición de densidades de madera en árboles
-        tropicales. Manual de campo. Lab. Evolution et Diversité Biologique
-        Universitaire de Toulouse 3 Paul Sabatier. Proyecto Pan-Amazonia.
-        https://rainfor.org/wp-content/uploads/sites/129/2022/07/wood_density_spanish1.pdf</reference>
-    <reference>Jiménez, M., Gonzales, M. L. &amp; Ramírez, J. C. (2015). Guía práctica de
-        plantas leñosas para la implementación de sistemas agroforestales en el
-        Parque Nacional y Area Natural de manejo Integrado "Serranía del Ifao".
-        BEISA 3 – Instituto de Agroecología y Seguridad Alimentaria – IASA.
-        Facultad de Ciencias Agrarias, Universidad San Francisco Xavier de
-        Chuquisaca. Sucre, Bolivia. 12-148 PaS.
-        https://usfx.bio/Documents/oLibrosIASA/GUIA_PRACTICA_DE_PLANTAS_LENOSAS.pdf</reference>
-    <reference>Jiménez, M. H. (2024). Conocimiento tradicional y plantas nativas para
-        la fertilidad del suelo de la Microcuenca Escaleras. Martha Serrano
-        Editora. Universidad San Francisco Xavier de Chuquisaca. Instituto de
-        Agroecología y Seguridad Alimentaria (IASA). Editorial Departamento de
-        Publicaciones USFX. 170 p.
-        https://usfx.bio/Documents/oLibrosIASA/Conocimiento_Tradicional_20_09_24.pdf</reference>
-    <reference>Ladouceur, E., Isbell, F., Clark, A. T., Harpole, W. S., Reich, P. B.,
-        Tilman, G. D., &amp; Chase, J. M. (2023). The recovery of plant community
-        composition following passive restoration across spatial scales. Journal
-        of Ecology. 111, 814-829. https://doi.org/10.1111/j.1365-2745.14063</reference>
-    <reference> Leakey, R. R. B. (2017). Low-technology techniques for the vegetative
-        propagation of tropical trees. En K. Wood &amp; A. J. Sanchez (Eds.),
-        Agroforestry for sustainable land-use (pages. 275-292). Elsevier.
-        https://doi.org/10.1016/B978-0-12-805356-0.00017-9</reference>
-    <reference> Luna-Nieves, A. L., Meave, J. A., Cerdeira, L. P. &amp; Ibarra-Marquoz, G.
-        (2017). Reproductive phenology of useful Seasonally Dry Tropical Forest
-        trees: Guiding patterns for seed collection and plant propagation in
-        nurseries. Forest Ecology and Management, 393, 52-62.
-        https://doi.org/10.1016/j.forceo.2017.03.014</reference>
-    <reference> Manfreda, V. T., Alcaraz, M. L. y Scaramuzzino, R. L. (2020).
-        Germinación de Baccharis dracomunidina subsp. tandisensis:
-        caracterización basada en la temperatura, la luz y la salinidad.
-        Rodríguesia. Vol. 71: e02642017. DOI:
-        http://dx.doi.org/10.1590/2175-7860202071035</reference>
-    <reference>BOLFOR, Mostacodo, B., Fredericksen, T. (2000). Manual de Métodos
-        Básicos de Muestre y Análisis en Ecología Vegetal. Santa Cruz, Bolivia.
-        http://www.bio-nica.info/biblioteca/mostacodo200becologiavegetal.pdf</reference>
-    <reference>Navarro, G. &amp; Ferreira, W. (2011a). Bioclima del Departamento de
-        Chuquisaca. En Carretero A., M. Serrano, F. Borchsenius &amp; H. Balslev
-        (eds.). 2011. Pueblos y plantas de Chuquisaca. Estado del conocimiento
-        de los pueblos, la flora, uso y conservación (pp. 25-53). Herbario del
-        Sur de Bolivia. Rio de Janeiro. 2011. pp. 65-73.
-        https://www.scielo.sa.cr/scielo.php?script=scl_arttext&amp;pid=60034-7744208000200020</reference>
-    <reference>Narrato, G. &amp; Maldonado, M. (2002). Geografía ecológica de Bolivia.
-        Vegetación y ambientes acuáticos. Editorial Centro de Ecología Simón I.
-        Patino. Cochabamba. 719 p.</reference>
-    <reference> Ochoa, S., Pérez, I. &amp; Bernardus, H. J. (2008). Fenología reproductiva
-        de las especies arbóreas del bosque tropical de Tenosique, Tabasco,
-        México. Rev. Biol. Trop. Eur. J. Trop. Biol. ISSN-0034-7744) Vol. 56
-        (2): 657-673.
-        https://www.scielo.sa.cr/scielo.php?script=scl_arttext&amp;pid=60034-7744208000200020</reference>
-    <reference>Parades, D. R. E. (2023). Características estructurales que inciden en
-        la regeneración natural de bosques cosechados bajo cortas de protección
-        de Nothofagus puntillo (lenga) a lo largo de gradientes ambientales en
-        Tierra del Fuego, Argentina: Adecuación de prácticas silvícolas para el
-        manejo sostenible (Doctoral dissertation, Universidad Nacional de La
-        Plata). https://doi.org/10.35537/I0915/165100</reference>
-    <reference>Pérez, J., Acosta, L. &amp; Parrado, A. (2011). Ensayos de propagación de
-        algunas especies forestales aptas para el manejo de la microcuenca La
-        Leja, Cundinamarca, Colombia. Revista científica. 124-137 PaS.
-        https://www.redalyc.org/pdf/504350437320009.pdf</reference>
-    <reference>Ramírez, T. &amp; Lozano, D. C. (2023). Estructura y dinámica sucesional de
-        la regeneración natural en el bosque siempre verde pelotonizado con
-        intervención de manejo forestal en Zamora Chinchipe, Ecuador. Tesis para
-        optar el grado de Magister en Biodiversidad y Cambio Climático.
-        Universidad Nacional de Loja. Loja, Ecuador.
-        https://aspace.unl.edu.ec/jsnu/handle/12345678927845</reference>
-    <reference>R Core Team. (2025). R: A language and environment for statistical
-        computing (Version 4.3.2) [Computer software]. R Foundation for
-        Statistical Computing. https://www.r-project.org/</reference>
-    <reference> Reis, L., Szabo, J., Damasceno-Junior, G. &amp; Garcia, L. (2024).
-        Reintroducción by transplanting seedlings from natural regeneration: an
-        alternative for ecological restoration. Rev. Restoration Ecology. Vol:
-        33(1). https://doi.org/10.1111/rec.14289</reference>
-    <reference> Reynel, C. &amp; Marcelo, J. (2009). Árboles de los ecosistemas forestales
-        andinos. Manual de identificación de especies. Serie investigadora y
-        sistematización N° 9. Programa Regional ECOBONA - INTERCOOPERATION.
-        Lima, Perú.
-        https://sinia.minam.gob.pcs/sites/default/files/siar-puno/archivos/public/docs/1526.pdf</reference>
-    <reference> RStudio Team. (2025). RStudio: Integrated development environment for R
-        (Version 2023.06.2) [Computer software]. Posti Software, PBC.
-        https://postico/</reference>
-    <reference>Stephan, B., Fuentes, A., López, C. L., Cuba-Orozco, E. &amp; Gallegos, S.
-        C. (2024). Los bosques montanos húmedos de la serranía de Ana-Apa (Sud
-        Yungas, La Paz, Bolivia): Un centro de diversidad de plantas y fuente
-        esencial de agua. Rev. Ecología en Bolivia vol.59 (2): 85-151.
-        http://www.scielo.org.bop/df/reb/v59n2/2075-5023-reb-59-02-85.pdf</reference>
-    <reference> Toro Manriquez, M., Cellini, J. M., Lenchnas, M. V., Peri, P. L., Peña
-        Rojas, K. A. &amp; Martinez, G. J. (2019). Suitable conditions for natural
-        regeneration in variable retention harvesting of southern Patagonian
-        Nothofagus puntillo forests. Ecol Process 8, 18 (2019).
-        https://doi.org/10.1186/s13717-019-0175-7</reference>
-    <reference> Valenzuela, E. (2023). La chilia en el valle de La Paz. Ciencia y
-        Cultura N° 51. https://doi.org/10.35319/reyc.2023511198</reference>
-    <reference> Vargas-Figueroa, J. A. &amp; Torres-Gonzalez, A. M. (2018). Germination and
-        seed conservation of pioneer species, Tecoma stans (Bigmontaceae), from
-        tropical dry forest of Colombia. Revista De Biologia Tropical, 66(2),
-        918-936. https://doi.org/10.15517/tbt.v66i2.33423</reference>
-    <reference> Zamora, M. (2006). Influencia de la ganadería trashumante y la apertura
-        de claros en la supervivencia y el crecimiento de Cedrela liliol en
-        Tariquia, Bolivia. 131-142 PaS.
-        https://proyungas.org.ar/wp-content/uploads/2014/12/librocedro.pdf</reference>
-    <reference> ZONISIG. (2000). Zonificación agroecológica y socioeconómica del
-        departamento de Chuquisaca. Ministerio de Desarrollo Sostenible y
-        Planificación. Sucre, Bolivia.
-        https://www.bivica.org/files/zonificacion_chuquisaca.pdf</reference>
-  
+    <reference>
+      <author>Antezana, C. F. y G. Navarro</author>
+      <year>2002</year>
+      <title>Contribución al análisis biogeográfico y catálogo preliminar de la flora de los valles
+  secos interandinos del centro de Bolivia.</title>
+      <publication>Rev. Bol. Ecol. 12:3-38.</publication>
+    </reference>
+    <reference>
+      <author>Antezana, C.</author>
+      <year>2004</year>
+      <title>Estudio de la flora y vegetación de los valles secos interandinos del departamento de
+  Cochabamba (Bolivia).</title>
+      <notes>Memoria para optar el grado de Doctora por la Universidad Complutense de Madrid.</notes>
+    </reference>
+    <reference>
+      <author>Acero-Nitola, A. M. &amp; Cortez-Pérez F.</author>
+      <year>2014</year>
+      <title>Propagación de especies nativas de la microcuenca del río La Vega, Tunja, Boyacá, con
+  potencial para la restauración ecológica.</title>
+      <publication>Rev. Acad. Colomb. Cienc. 38(147):195-205.</publication>
+      <url>https://racccjyn.co/index.php/racccjyn/article/view/76/45</url>
+    </reference>
+    <reference>
+      <author>Alvarado-García, V. &amp; Zúñiga-Amador, M. A.</author>
+      <year>2018</year>
+      <title>Vegetación nativa como factor de control de erosión y restauración ecológica, San José,
+  Costa Rica.</title>
+      <publication>La Calera, 18(30), 39-47.</publication>
+      <doi>10.5327/calera.v18i30.7738</doi>
+    </reference>
+    <reference>
+      <author>Ayma, A.I.</author>
+      <year>2005</year>
+      <title>Estudio de propagación sexual de pino de monte (Podocarpus glomeratus D. Don) en la
+  comunidad de Sailapata – Independencia.</title>
+      <notes>Tesis de grado para obtener el título de Licenciatura en Ingeniería Forestal. Facultad
+  de Ciencias Agrícolas y Pecuarias, Universidad Mayor de San Simón. Cochabamba, Bolivia.</notes>
+      <doi>10.13140/RG.2.1.4873.0005</doi>
+    </reference>
+    <reference>
+      <author>Azpilioueta, M. M., Aparicio, A. G., Mondino, V. &amp; Pastorino, M. J.</author>
+      <year>2023</year>
+      <title>Banco de plantas con cita diferida como alternativa para la producción continua de
+  plantines de lenga en el vivero.</title>
+      <publication>Bosque. 44(1): 201-206.</publication>
+      <doi>10.4067/s0717-92002023000100201</doi>
+    </reference>
+    <reference>
+      <author>Barros, J. &amp; Giménez, A. M.</author>
+      <year>2017</year>
+      <title>El valor de un bosque montano en Catamarca, Argentina.</title>
+      <publication>En: Econantomía y Biodiversidad. Facultad de Ciencias Forestales. Universidad
+  Nacional de Santiago del Estero. Pp. 105-126.</publication>
+      <url>
+  https://cf.unse.edu.ar/archivos/publicaciones/libro-econantomia/econantomia-p1-05-barros-EI-valor-de-un-bosque-montano-en-Catamarca-Argentina.pdf</url>
+    </reference>
+    <reference>
+      <author>Cabanzo-Alliano, I., Rodríguez-Mendoza, M. N., García-Cué, J. L., Almaraz-Suárez, J.
+  J. &amp; Gutierrez-Castonera, María del Carmen.</author>
+      <year>2020</year>
+      <title>La biofertilización y nutrición en el desarrollo de plánulos de chile serrano.</title>
+      <publication>Revista mexicana de ciencias agrícolas, 11(4), 699-712.</publication>
+      <notes>Epub 13 de septiembre de 2021.</notes>
+      <doi>10.29312/renesca.v11i4.2121</doi>
+    </reference>
+    <reference>
+      <author>Condori Tintaya, F., Pino Vargas, E. M., &amp; Villegas, P. T.</author>
+      <year>2022</year>
+      <title>Pérdida de suelos por erosión hídrica en laderas semifinales de la subcuenca Cairani
+  Camilaca. Perú.</title>
+      <publication>Iglesia (Arica), 40(2), 7-15.</publication>
+      <doi>10.4067/S0718-34292022000200007</doi>
+    </reference>
+    <reference>
+      <author>Crouzeilles, R., Ferreira, M. S., Chazdon, R. L., David, B., Lindemayer, D. B.,
+  Sansevero, J. B. B., Monteiro, L., Inbarrem, A., Lataviec A. E. &amp; Strassburg, B. B. N.</author>
+      <year>2017</year>
+      <title>Ecological restoration success is higher for natural regeneration than for active
+  restoration in tropical forests.</title>
+      <publication>Sci. Adv. 3, e1701345.</publication>
+      <url>https://www.science.org/doi/pdf/10.1126/sciadv.1701345</url>
+    </reference>
+    <reference>
+      <author>Chave, J.</author>
+      <year>2006</year>
+      <title>Medición de densidades de madera en árboles tropicales. Manual de campo.</title>
+      <notes>Lab. Evolution et Diversité Biologique Universitaire de Toulouse 3 Paul Sabatier.
+  Proyecto Pan-Amazonia.</notes>
+      <url>https://rainfor.org/wp-content/uploads/sites/129/2022/07/wood_density_spanish1.pdf</url>
+    </reference>
+    <reference>
+      <author>Jiménez, M., Gonzales, M. L. &amp; Ramírez, J. C.</author>
+      <year>2015</year>
+      <title>Guía práctica de plantas leñosas para la implementación de sistemas agroforestales en
+  el Parque Nacional y Area Natural de manejo Integrado "Serranía del Ifao".</title>
+      <publication>BEISA 3 – Instituto de Agroecología y Seguridad Alimentaria – IASA. Facultad de
+  Ciencias Agrarias, Universidad San Francisco Xavier de Chuquisaca. Sucre, Bolivia. 12-148 PaS.</publication>
+      <url>https://usfx.bio/Documents/oLibrosIASA/GUIA_PRACTICA_DE_PLANTAS_LENOSAS.pdf</url>
+    </reference>
+    <reference>
+      <author>Jiménez, M. H.</author>
+      <year>2024</year>
+      <title>Conocimiento tradicional y plantas nativas para la fertilidad del suelo de la
+  Microcuenca Escaleras.</title>
+      <publication>Martha Serrano Editora. Universidad San Francisco Xavier de Chuquisaca. Instituto
+  de Agroecología y Seguridad Alimentaria (IASA). Editorial Departamento de Publicaciones USFX. 170
+  p.</publication>
+      <url>https://usfx.bio/Documents/oLibrosIASA/Conocimiento_Tradicional_20_09_24.pdf</url>
+    </reference>
+    <reference>
+      <author>Ladouceur, E., Isbell, F., Clark, A. T., Harpole, W. S., Reich, P. B., Tilman, G. D.,
+  &amp; Chase, J. M.</author>
+      <year>2023</year>
+      <title>The recovery of plant community composition following passive restoration across
+  spatial scales.</title>
+      <publication>Journal of Ecology. 111, 814-829.</publication>
+      <doi>10.1111/j.1365-2745.14063</doi>
+    </reference>
+    <reference>
+      <author>Leakey, R. R. B.</author>
+      <year>2017</year>
+      <title>Low-technology techniques for the vegetative propagation of tropical trees.</title>
+      <publication>En K. Wood &amp; A. J. Sanchez (Eds.), Agroforestry for sustainable land-use
+  (pages. 275-292). Elsevier.</publication>
+      <doi>10.1016/B978-0-12-805356-0.00017-9</doi>
+    </reference>
+    <reference>
+      <author>Luna-Nieves, A. L., Meave, J. A., Cerdeira, L. P. &amp; Ibarra-Marquoz, G.</author>
+      <year>2017</year>
+      <title>Reproductive phenology of useful Seasonally Dry Tropical Forest trees: Guiding patterns
+  for seed collection and plant propagation in nurseries.</title>
+      <publication>Forest Ecology and Management, 393, 52-62.</publication>
+      <doi>10.1016/j.forceo.2017.03.014</doi>
+    </reference>
+    <reference>
+      <author>Manfreda, V. T., Alcaraz, M. L. y Scaramuzzino, R. L.</author>
+      <year>2020</year>
+      <title>Germinación de Baccharis dracomunidina subsp. tandisensis: caracterización basada en la
+  temperatura, la luz y la salinidad.</title>
+      <publication>Rodríguesia. Vol. 71: e02642017.</publication>
+      <doi>10.1590/2175-7860202071035</doi>
+    </reference>
+    <reference>
+      <author>BOLFOR, Mostacodo, B., Fredericksen, T.</author>
+      <year>2000</year>
+      <title>Manual de Métodos Básicos de Muestre y Análisis en Ecología Vegetal.</title>
+      <publication>Santa Cruz, Bolivia.</publication>
+      <url>http://www.bio-nica.info/biblioteca/mostacodo200becologiavegetal.pdf</url>
+    </reference>
+    <reference>
+      <author>Navarro, G. &amp; Ferreira, W.</author>
+      <year>2011</year>
+      <title>Bioclima del Departamento de Chuquisaca.</title>
+      <publication>En Carretero A., M. Serrano, F. Borchsenius &amp; H. Balslev (eds.). 2011.
+  Pueblos y plantas de Chuquisaca. Estado del conocimiento de los pueblos, la flora, uso y
+  conservación (pp. 25-53). Herbario del Sur de Bolivia. Rio de Janeiro. pp. 65-73.</publication>
+      <url>https://www.scielo.sa.cr/scielo.php?script=scl_arttext&amp;pid=60034-7744208000200020</url>
+    </reference>
+    <reference>
+      <author>Narrato, G. &amp; Maldonado, M.</author>
+      <year>2002</year>
+      <title>Geografía ecológica de Bolivia. Vegetación y ambientes acuáticos.</title>
+      <publication>Editorial Centro de Ecología Simón I. Patino. Cochabamba. 719 p.</publication>
+    </reference>
+    <reference>
+      <author>Ochoa, S., Pérez, I. &amp; Bernardus, H. J.</author>
+      <year>2008</year>
+      <title>Fenología reproductiva de las especies arbóreas del bosque tropical de Tenosique,
+  Tabasco, México.</title>
+      <publication>Rev. Biol. Trop. Eur. J. Trop. Biol. ISSN-0034-7744) Vol. 56 (2): 657-673.</publication>
+      <url>https://www.scielo.sa.cr/scielo.php?script=scl_arttext&amp;pid=60034-7744208000200020</url>
+    </reference>
+    <reference>
+      <author>Parades, D. R. E.</author>
+      <year>2023</year>
+      <title>Características estructurales que inciden en la regeneración natural de bosques
+  cosechados bajo cortas de protección de Nothofagus puntillo (lenga) a lo largo de gradientes
+  ambientales en Tierra del Fuego, Argentina: Adecuación de prácticas silvícolas para el manejo
+  sostenible.</title>
+      <notes>Doctoral dissertation, Universidad Nacional de La Plata.</notes>
+      <doi>10.35537/I0915/165100</doi>
+    </reference>
+    <reference>
+      <author>Pérez, J., Acosta, L. &amp; Parrado, A.</author>
+      <year>2011</year>
+      <title>Ensayos de propagación de algunas especies forestales aptas para el manejo de la
+  microcuenca La Leja, Cundinamarca, Colombia.</title>
+      <publication>Revista científica. 124-137 PaS.</publication>
+      <url>https://www.redalyc.org/pdf/504350437320009.pdf</url>
+    </reference>
+    <reference>
+      <author>Ramírez, T. &amp; Lozano, D. C.</author>
+      <year>2023</year>
+      <title>Estructura y dinámica sucesional de la regeneración natural en el bosque siempre verde
+  pelotonizado con intervención de manejo forestal en Zamora Chinchipe, Ecuador.</title>
+      <notes>Tesis para optar el grado de Magister en Biodiversidad y Cambio Climático. Universidad
+  Nacional de Loja. Loja, Ecuador.</notes>
+      <url>https://aspace.unl.edu.ec/jsnu/handle/12345678927845</url>
+    </reference>
+    <reference>
+      <author>R Core Team</author>
+      <year>2025</year>
+      <title>R: A language and environment for statistical computing</title>
+      <notes>Version 4.3.2 [Computer software]. R Foundation for Statistical Computing.</notes>
+      <url>https://www.r-project.org/</url>
+    </reference>
+    <reference>
+      <author>Reis, L., Szabo, J., Damasceno-Junior, G. &amp; Garcia, L.</author>
+      <year>2024</year>
+      <title>Reintroducción by transplanting seedlings from natural regeneration: an alternative for
+  ecological restoration.</title>
+      <publication>Rev. Restoration Ecology. Vol: 33(1).</publication>
+      <doi>10.1111/rec.14289</doi>
+    </reference>
+    <reference>
+      <author>Reynel, C. &amp; Marcelo, J.</author>
+      <year>2009</year>
+      <title>Árboles de los ecosistemas forestales andinos. Manual de identificación de especies.</title>
+      <publication>Serie investigadora y sistematización N° 9. Programa Regional ECOBONA -
+  INTERCOOPERATION. Lima, Perú.</publication>
+      <url>https://sinia.minam.gob.pcs/sites/default/files/siar-puno/archivos/public/docs/1526.pdf</url>
+    </reference>
+    <reference>
+      <author>RStudio Team</author>
+      <year>2025</year>
+      <title>RStudio: Integrated development environment for R</title>
+      <notes>Version 2023.06.2 [Computer software]. Posti Software, PBC.</notes>
+      <url>https://postico/</url>
+    </reference>
+    <reference>
+      <author>Stephan, B., Fuentes, A., López, C. L., Cuba-Orozco, E. &amp; Gallegos, S. C.</author>
+      <year>2024</year>
+      <title>Los bosques montanos húmedos de la serranía de Ana-Apa (Sud Yungas, La Paz, Bolivia):
+  Un centro de diversidad de plantas y fuente esencial de agua.</title>
+      <publication>Rev. Ecología en Bolivia vol.59 (2): 85-151.</publication>
+      <url>http://www.scielo.org.bop/df/reb/v59n2/2075-5023-reb-59-02-85.pdf</url>
+    </reference>
+    <reference>
+      <author>Toro Manriquez, M., Cellini, J. M., Lenchnas, M. V., Peri, P. L., Peña Rojas, K. A.
+  &amp; Martinez, G. J.</author>
+      <year>2019</year>
+      <title>Suitable conditions for natural regeneration in variable retention harvesting of
+  southern Patagonian Nothofagus puntillo forests.</title>
+      <publication>Ecol Process 8, 18 (2019).</publication>
+      <doi>10.1186/s13717-019-0175-7</doi>
+    </reference>
+    <reference>
+      <author>Valenzuela, E.</author>
+      <year>2023</year>
+      <title>La chilia en el valle de La Paz.</title>
+      <publication>Ciencia y Cultura N° 51.</publication>
+      <doi>10.35319/reyc.2023511198</doi>
+    </reference>
+    <reference>
+      <author>Vargas-Figueroa, J. A. &amp; Torres-Gonzalez, A. M.</author>
+      <year>2018</year>
+      <title>Germination and seed conservation of pioneer species, Tecoma stans (Bigmontaceae), from
+  tropical dry forest of Colombia.</title>
+      <publication>Revista De Biologia Tropical, 66(2), 918-936.</publication>
+      <doi>10.15517/tbt.v66i2.33423</doi>
+    </reference>
+    <reference>
+      <author>Zamora, M.</author>
+      <year>2006</year>
+      <title>Influencia de la ganadería trashumante y la apertura de claros en la supervivencia y el
+  crecimiento de Cedrela liliol en Tariquia, Bolivia.</title>
+      <notes>131-142 PaS.</notes>
+      <url>https://proyungas.org.ar/wp-content/uploads/2014/12/librocedro.pdf</url>
+    </reference>
+    <reference>
+      <author>ZONISIG.</author>
+      <year>2000</year>
+      <title>Zonificación agroecológica y socioeconómica del departamento de Chuquisaca.</title>
+      <publication>Ministerio de Desarrollo Sostenible y Planificación. Sucre, Bolivia.</publication>
+      <url>https://www.bivica.org/files/zonificacion_chuquisaca.pdf</url>
+    </reference>
   </references>
 
 </article>

@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <article>
     <metadata>
-        <title>Dinámica geomorfológica del río El Bañado y su influencia en la formación de la laguna San Juan de Candúa, Monteagudo (Chuquisaca, Bolivia)</title>
-        <title_english>Geomorphological dynamics of the El Bañado River and its influence on the formation of the San Juan de Candúa lagoon, Monteagudo (Chuquisaca, Bolivia)</title_english>
+        <title>Dinámica geomorfológica del río El Bañado y su influencia en la formación de la
+            laguna San Juan de Candúa, Monteagudo (Chuquisaca, Bolivia)</title>
+        <title_english>Geomorphological dynamics of the El Bañado River and its influence on the
+            formation of the San Juan de Candúa lagoon, Monteagudo (Chuquisaca, Bolivia)</title_english>
         <journal>AGRO-ECOLÓGICA</journal>
         <volume>4(1)</volume>
         <pages>3-12</pages>
@@ -11,7 +13,7 @@
         <doi>10.56469/rae.v4i1.1791</doi>
         <url>https://revistas.usfx.bo/index.php/rae/</url>
     </metadata>
-    
+
     <authors>
         <author>
             <name>Cespedes-Llave Ariel Angel</name>
@@ -34,7 +36,8 @@
         <author>
             <name>Natalio Roque-Marca</name>
             <affiliation>
-                <institution>Asociación Boliviana para la Investigación y Conservación de Ecosistemas Andino-Amazónicos (Conservación Amazónica - ACEAA)</institution>
+                <institution>Asociación Boliviana para la Investigación y Conservación de
+                    Ecosistemas Andino-Amazónicos (Conservación Amazónica - ACEAA)</institution>
                 <city>Cobija</city>
                 <department>Pando</department>
                 <country>Bolivia</country>
@@ -42,12 +45,12 @@
             <corresponding_author>false</corresponding_author>
         </author>
     </authors>
-    
+
     <dates>
         <received>2025-05-28</received>
         <accepted>2025-06-22</accepted>
     </dates>
-    
+
     <abstracts>
         <abstract lang="es">
             <text>
@@ -114,7 +117,7 @@
             </keywords>
         </abstract>
     </abstracts>
-    
+
     <sections>
         <section id="introduction">
             <title>Introducción</title>
@@ -134,7 +137,7 @@
                     los recursos hídricos y la conservación de estos entornos frágiles
                     (Chaoyong et al. 2024).
                 </paragraph>
-                
+
                 <paragraph>
                     El empleo de herramientas de teledetección (imágenes satelitales y
                     sensores de alta resolución) ha revolucionado el estudio de estas
@@ -147,7 +150,7 @@
                     mejorado la comprensión de la evolución planimétrica y la morfodinámica
                     en múltiples escalas espaciotemporales (Boothroyd et al. 2021).
                 </paragraph>
-                
+
                 <paragraph>
                     Entre las aplicaciones fluviales destacan: la cuantificación de la
                     erosión de canales laterales (Salo et al. 1986, Puhakka et al. 1992); el
@@ -164,7 +167,7 @@
                     drásticos reflejan su vulnerabilidad ante perturbaciones naturales y
                     antrópicas (Torres-Batllo 2020).
                 </paragraph>
-                
+
                 <paragraph>
                     La Laguna San Juan de Candua, ubicada en Chuquisaca (Bolivia) y
                     vinculada al río El Bañado, representa un sistema lacustre de interés
@@ -179,7 +182,7 @@
                 </paragraph>
             </content>
         </section>
-        
+
         <section id="materials-methods">
             <title>Materiales y Métodos</title>
             <content>
@@ -194,7 +197,7 @@
                         Yangullo (este), adyacente a la Ruta Nacional 6 (Padilla-Monteagudo), y
                         muy próximo al centro urbano Candúa (aproximadamente 4.46 km) (Figura 1).
                     </paragraph>
-                    
+
                     <paragraph>
                         Las características hidroclimáticas de sistema fluvial está definida por
                         precipitaciones con una media anual de 994.7 mm y una temperatura
@@ -207,25 +210,22 @@
                         caudales de entre 100 y 400 m3/s (ZONISIG 2000).
                     </paragraph>
                 </subsection>
-                
+
                 <subsection id="methods">
                     <title>Métodos</title>
-                    <paragraph>
-                        En este estudio analizó la dinámica morfológica del sistema fluvial del
-                        río El Bañado que dio origen a la laguna San Juan de Candúa. Para ello,
-                        se realizó un análisis multitemporal de los cambios en la morfología
-                        sistema fluvial, utilizando imágenes satelitales históricas y de libre
-                        acceso. Además, se utilizó mapas cartográficos del Instituto Geográfico
-                        Militar (IGM), en particular la hoja 6834-IV H731 a escala 1:50 000,
-                        publicada en 1980 (IGM 2021). Las imágenes utilizadas incluyen
-                        fotografías satelitales desclasificadas KH-9 HEXAGON de 1978 (USGS 1995)
-                        y escenas SPOT adquiridas por el Programa Spot de Patrimonio Mundial
-                        (CNES 2023). Estas imágenes permitieron visualizar y analizar para
-                        visualizar los cambios morfológicos en el tramo del río El Bañado
-                        durante el período comprendido entre 1987 al 2013
-                        <xref ref="tabla-1">(Tabla 1)</xref>.
-                    </paragraph>
-                    
+                    <paragraph> En este estudio analizó la dinámica morfológica del sistema fluvial
+                        del río El Bañado que dio origen a la laguna San Juan de Candúa. Para ello,
+                        se realizó un análisis multitemporal de los cambios en la morfología sistema
+                        fluvial, utilizando imágenes satelitales históricas y de libre acceso.
+                        Además, se utilizó mapas cartográficos del Instituto Geográfico Militar
+                        (IGM), en particular la hoja 6834-IV H731 a escala 1:50 000, publicada en
+                        1980 (IGM 2021). Las imágenes utilizadas incluyen fotografías satelitales
+                        desclasificadas KH-9 HEXAGON de 1978 (USGS 1995) y escenas SPOT adquiridas
+                        por el Programa Spot de Patrimonio Mundial (CNES 2023). Estas imágenes
+                        permitieron visualizar y analizar para visualizar los cambios morfológicos
+                        en el tramo del río El Bañado durante el período comprendido entre 1987 al
+                        2013 <xref ref="tabla-1">(Tabla 1)</xref>. </paragraph>
+
                     <paragraph>
                         Complementariamente para el 2013 al 2025, se usaron imágenes Maxar
                         Technologies y Airbus disponibles en Google Earth Pro Ver 7.3.6. Se
@@ -236,20 +236,18 @@
                         Bañado, se utilizó imágenes radar del 2010, de ALOPS PALSAR
                         (AP_24973_FBD_F6780_RT1) con 12.5 metros de resolución.
                     </paragraph>
-                    
-                    <paragraph>
-                        En noviembre del 2024 se realizó medidas in situ usando una regla y
+
+                    <paragraph> En noviembre del 2024 se realizó medidas in situ usando una regla y
                         cinta métrica, para obtener las métricas de batimetría del lago
-                        (profundidad), longitud, ancho, perímetro y de área. Se calculó el
-                        volumen de agua almacenada usando el método del prisma trapezoidal, que
-                        integra las profundidades a lo largo del perfil. Por otra se obtuvieron
-                        métricas de variación de la morfología y el área usando imágenes
-                        satelitales de WorldView y GeoEye, proporcionadas por Maxar Technologies
-                        y disponibles en Google Earth Pro <xref ref="tabla-1">(Tabla 1)</xref>, para
-                        el período 2002-2013 y también las imágenes disponibles de CNES y Airbus
-                        para los períodos 2016 al 2023 (Google 2018).
-                    </paragraph>
-                    
+                        (profundidad), longitud, ancho, perímetro y de área. Se calculó el volumen
+                        de agua almacenada usando el método del prisma trapezoidal, que integra las
+                        profundidades a lo largo del perfil. Por otra se obtuvieron métricas de
+                        variación de la morfología y el área usando imágenes satelitales de
+                        WorldView y GeoEye, proporcionadas por Maxar Technologies y disponibles en
+                        Google Earth Pro <xref ref="tabla-1">(Tabla 1)</xref>, para el período
+                        2002-2013 y también las imágenes disponibles de CNES y Airbus para los
+                        períodos 2016 al 2023 (Google 2018). </paragraph>
+
                     <paragraph>
                         Todos los geo-procesos realizados sobre de las imágenes satelitales,
                         incluyendo la ortorectificación de las imágenes SPOT, georreferenciación
@@ -258,7 +256,7 @@
                         programa QGIS 3.34.7 (QGIS 2020) y complementado con plugins como
                         ProfileTool (Jurgiel et al., 2025).
                     </paragraph>
-                    
+
                     <paragraph>
                         Para el análisis de los cambios en la superficie de la laguna se
                         aplicaron estadísticas univariadas, mientras que la sinuosidad, perfil
@@ -276,62 +274,54 @@
                 </subsection>
             </content>
         </section>
-        
+
         <section id="results">
             <title>Resultados</title>
             <content>
                 <subsection id="lagoon-origin">
-                    <title>Origen de la laguna San Juan a través de la dinámica de cambio del río el Bañado</title>
-                    <paragraph>
-                        En 1978, la fotografía satelital KH-9 HEXAGON muestra el curso natural
-                        del río El Bañado con un trazo serpenteante característico. En
+                    <title>Origen de la laguna San Juan a través de la dinámica de cambio del río el
+                        Bañado</title>
+                    <paragraph> En 1978, la fotografía satelital KH-9 HEXAGON muestra el curso
+                        natural del río El Bañado con un trazo serpenteante característico. En
                         contraste, el mapa cartográfico de 1980 refleja una interpretación que
-                        incluye posibles modificaciones debido a procesos naturales, como
-                        erosión y sedimentación, o actividades humanas
-                        <xref ref="figura_2a">(Figura 2a)</xref>. En ambas fuentes, el tramo del río
-                        que emerge del Cañón de Heredia, pasando por la comunidad de San Miguel,
-                        forma una horquilla cercana a la carretera RN6
-                        <xref ref="figura_2b">(Figura 2b)</xref>. Este detalle evidencia la
-                        interacción entre el río y su entorno, así como la influencia potencial
-                        de la infraestructura vial en su trayectoria.
-                    </paragraph>
-                    
-                    <paragraph>
-                        A partir de 1987, se observa un cambio en la dirección del río
-                        <xref ref="figura_4a">(Figura 4a)</xref>, marcando una transición hacia un
+                        incluye posibles modificaciones debido a procesos naturales, como erosión y
+                        sedimentación, o actividades humanas <xref ref="figura_2a">(Figura 2a)</xref>.
+                        En ambas fuentes, el tramo del río que emerge del Cañón de Heredia, pasando
+                        por la comunidad de San Miguel, forma una horquilla cercana a la carretera
+                        RN6 <xref ref="figura_2b">(Figura 2b)</xref>. Este detalle evidencia la
+                        interacción entre el río y su entorno, así como la influencia potencial de
+                        la infraestructura vial en su trayectoria. </paragraph>
+
+                    <paragraph> A partir de 1987, se observa un cambio en la dirección del río <xref
+                            ref="figura_4a">(Figura 4a)</xref>, marcando una transición hacia un
                         trazado más rectilíneo. Lo cual ratifica los resultados del análisis de
-                        sinuosidad que revelan una relación significativa entre el año y el
-                        índice de sinuosidad del río. El análisis de correlación de Pearson
-                        muestra una correlación negativa moderada a fuerte (r = -0.73, p &lt;
-                        0.01), indicando que la sinuosidad ha tendido a disminuir con el tiempo
-                        durante el período estudiado (1978-2025). El modelo de regresión
-                        polinomial de segundo grado explica aproximadamente un 79% de la
-                        variabilidad en los datos (R² ajustado=0.74), demostrando un buen ajuste
-                        a la tendencia observada. Los coeficientes del modelo sugieren que la
-                        relación no es estrictamente lineal <xref ref="figura_3">(Figura 3)</xref>,
-                        sino que presenta cierta curvatura, con una tasa de disminución que
-                        podría estar modificándose en los años más recientes. La figura 4a
-                        destaca la dinámica de cambio del río El Bañado entre 1978 y 2023, con
-                        una reducción progresiva en su sinuosidad. Estos cambios parecen ser
-                        resultado de procesos naturales, como erosión y sedimentación, junto con
-                        intervenciones humanas relacionadas con infraestructura y uso del suelo.
-                        También, se refuerza este análisis al mostrar desplazamientos del cauce
-                        hacia áreas más rectas, influenciados por la expansión urbana y la
-                        construcción vial.
-                    </paragraph>
-                    
-                    <paragraph>
-                        Además, entre 1978 y 2023, las curvas hipsométricas del río
-                        <xref ref="figura_4b">(Figura 4b)</xref>
-                        reflejan una evolución significativa en su morfología, caracterizada por
-                        una rectificación progresiva. En 1978, el río presentaba un curso
-                        sinuoso con marcados desniveles, señal de un sistema fluvial dinámico
-                        con intensos procesos de sedimentación y erosión lateral. Con el tiempo,
-                        se observa una estabilización en el gradiente altitudinal y una
-                        alineación más uniforme del cauce, especialmente evidente desde el año
-                        2000.
-                    </paragraph>
-                    
+                        sinuosidad que revelan una relación significativa entre el año y el índice
+                        de sinuosidad del río. El análisis de correlación de Pearson muestra una
+                        correlación negativa moderada a fuerte (r = -0.73, p &lt; 0.01), indicando
+                        que la sinuosidad ha tendido a disminuir con el tiempo durante el período
+                        estudiado (1978-2025). El modelo de regresión polinomial de segundo grado
+                        explica aproximadamente un 79% de la variabilidad en los datos (R²
+                        ajustado=0.74), demostrando un buen ajuste a la tendencia observada. Los
+                        coeficientes del modelo sugieren que la relación no es estrictamente lineal <xref
+                            ref="figura_3">(Figura 3)</xref>, sino que presenta cierta curvatura,
+                        con una tasa de disminución que podría estar modificándose en los años más
+                        recientes. La figura 4a destaca la dinámica de cambio del río El Bañado
+                        entre 1978 y 2023, con una reducción progresiva en su sinuosidad. Estos
+                        cambios parecen ser resultado de procesos naturales, como erosión y
+                        sedimentación, junto con intervenciones humanas relacionadas con
+                        infraestructura y uso del suelo. También, se refuerza este análisis al
+                        mostrar desplazamientos del cauce hacia áreas más rectas, influenciados por
+                        la expansión urbana y la construcción vial. </paragraph>
+
+                    <paragraph> Además, entre 1978 y 2023, las curvas hipsométricas del río <xref
+                            ref="figura_4b">(Figura 4b)</xref> reflejan una evolución significativa
+                        en su morfología, caracterizada por una rectificación progresiva. En 1978,
+                        el río presentaba un curso sinuoso con marcados desniveles, señal de un
+                        sistema fluvial dinámico con intensos procesos de sedimentación y erosión
+                        lateral. Con el tiempo, se observa una estabilización en el gradiente
+                        altitudinal y una alineación más uniforme del cauce, especialmente evidente
+                        desde el año 2000. </paragraph>
+
                     <paragraph>
                         Un elemento notable es la aparición de la laguna San Juan, visible desde
                         1991 próximo al río Yanguilo. Esta laguna probablemente surgió como
@@ -346,35 +336,30 @@
                         evitar impactos negativos en el entorno.
                     </paragraph>
                 </subsection>
-                
+
                 <subsection id="water-surface-changes">
                     <title>Cambios del espejo de agua de la laguna San Juan entre el 2002 al 2023</title>
-                    <paragraph>
-                        Se ha evidenciado fluctuaciones significativas a lo largo de 21 años.
-                        Durante el período analizado, el área de la laguna para el 2002 y 2007
-                        tiene una forma más extendida a partir de un correspondiente meandro,
-                        que este tipo de lagos se forman debido a una alta erosionabilidad,
-                        donde se depositan en las barras puntuales que se forman cuando el río
-                        se aleja de su antigua orilla. Posiblemente el área del lago fue más
-                        extendida aproximadamente entre 1984 al 2002, ocupando la llanura de
-                        inundación del antiguo curso del río el Bañado. Posteriormente, presenta
-                        una tendencia variable con un incremento notable en 2010 y un pico
-                        máximo en 2020, cuando alcanza aproximadamente 8000 m², el cual se debe
-                        a que la laguna se expandió en dos espejos de agua
-                        <xref ref="figura_5b">(Figura 5b)</xref>. Este aumento puede asociarse con
-                        factores como intensas lluvias, modificaciones hidrológicas en el río El
-                        Bañado o eventos puntuales de inundación.
-                    </paragraph>
-                    
-                    <paragraph>
-                        Sin embargo, después de 2011, se observa una disminución del área,
-                        reflejada en los valores de 2022 y 2023
-                        <xref ref="figura_5a">(Figura 5a)</xref>, que podrían estar relacionadas con
-                        fenómenos de sequía, sedimentación o actividades antropogénicas. Este
-                        aspecto se puede evidenciar con las imágenes satell tales con
-                        actividades de relleno o terraplenes que se realizan a partir del 2013.
-                    </paragraph>
-                    
+                    <paragraph> Se ha evidenciado fluctuaciones significativas a lo largo de 21
+                        años. Durante el período analizado, el área de la laguna para el 2002 y 2007
+                        tiene una forma más extendida a partir de un correspondiente meandro, que
+                        este tipo de lagos se forman debido a una alta erosionabilidad, donde se
+                        depositan en las barras puntuales que se forman cuando el río se aleja de su
+                        antigua orilla. Posiblemente el área del lago fue más extendida
+                        aproximadamente entre 1984 al 2002, ocupando la llanura de inundación del
+                        antiguo curso del río el Bañado. Posteriormente, presenta una tendencia
+                        variable con un incremento notable en 2010 y un pico máximo en 2020, cuando
+                        alcanza aproximadamente 8000 m², el cual se debe a que la laguna se expandió
+                        en dos espejos de agua <xref ref="figura_5b">(Figura 5b)</xref>. Este
+                        aumento puede asociarse con factores como intensas lluvias, modificaciones
+                        hidrológicas en el río El Bañado o eventos puntuales de inundación. </paragraph>
+
+                    <paragraph> Sin embargo, después de 2011, se observa una disminución del área,
+                        reflejada en los valores de 2022 y 2023 <xref ref="figura_5a">(Figura 5a)</xref>,
+                        que podrían estar relacionadas con fenómenos de sequía, sedimentación o
+                        actividades antropogénicas. Este aspecto se puede evidenciar con las
+                        imágenes satell tales con actividades de relleno o terraplenes que se
+                        realizan a partir del 2013. </paragraph>
+
                     <paragraph>
                         La reducción en años posteriores, como en 2022 y 2023, sugiere eventos
                         similares de contracción en el espejo de agua, marcando patrones
@@ -384,21 +369,19 @@
                         sistema de flujo de los ríos El Bañado y Yanguilo.
                     </paragraph>
                 </subsection>
-                
+
                 <subsection id="current-characteristics">
                     <title>Características biofísicas actuales de la laguna San Juan</title>
-                    <paragraph>
-                        La laguna San Juan, durante la época seca, presenta un espejo de agua
-                        con un área de 1528.2 m2 y un perímetro de 173.67 m. Considerando el
-                        área húmeda total, esta alcanza 2746.15 m², con un perímetro de 217.85 m
-                        <xref ref="figura_6a">(Figura 6a)</xref>, lo que incluye las zonas
+                    <paragraph> La laguna San Juan, durante la época seca, presenta un espejo de
+                        agua con un área de 1528.2 m2 y un perímetro de 173.67 m. Considerando el
+                        área húmeda total, esta alcanza 2746.15 m², con un perímetro de 217.85 m <xref
+                            ref="figura_6a">(Figura 6a)</xref>, lo que incluye las zonas
                         parcialmente inundadas o afectadas por fluctuaciones estacionales. El
                         análisis del perfil batimétrico, que representa las variaciones de
                         profundidad a lo largo de una línea de medición, revela los cambios
-                        topográficos en el fondo del lago, identificando tanto áreas someras
-                        como zonas más profundas <xref ref="figura_6b">(Figura 6b)</xref>.
-                    </paragraph>
-                    
+                        topográficos en el fondo del lago, identificando tanto áreas someras como
+                        zonas más profundas <xref ref="figura_6b">(Figura 6b)</xref>. </paragraph>
+
                     <paragraph>
                         Este perfil es clave para comprender la geomorfología subacuática y
                         evaluar la capacidad del lago. Basándose en los datos de profundidad y
@@ -406,20 +389,18 @@
                         de 371.04 m³. Este cálculo proporciona una visión más clara de su
                         capacidad hídrica, lo cual resulta esencial para la gestión.
                     </paragraph>
-                    
-                    <paragraph>
-                        Por otra parte, presenta un grado de eutrofización
-                        <xref ref="figura_2b">(Figura 2b)</xref>, al ser un lago de tipo palustre
+
+                    <paragraph> Por otra parte, presenta un grado de eutrofización <xref
+                            ref="figura_2b">(Figura 2b)</xref>, al ser un lago de tipo palustre
                         debido a que poseen una masa hídrica de muy baja profundidad (&lt; 50 cm).
-                        Además, están totalmente cubiertos por plantas acuáticas y anfibias
-                        dominada principalmente por macrófitas flotantes del género Eichhornia
-                        Kunth (lirio acuático), donde el espejo de agua estaba cubierto en más
-                        de un 90% por esta especie <xref ref="figura_1b">(Figura 1b)</xref>.
-                    </paragraph>
+                        Además, están totalmente cubiertos por plantas acuáticas y anfibias dominada
+                        principalmente por macrófitas flotantes del género Eichhornia Kunth (lirio
+                        acuático), donde el espejo de agua estaba cubierto en más de un 90% por esta
+                        especie <xref ref="figura_1b">(Figura 1b)</xref>. </paragraph>
                 </subsection>
             </content>
         </section>
-        
+
         <section id="discussion">
             <title>Discusión</title>
             <content>
@@ -437,7 +418,7 @@
                     las imágenes SPOT se convierten en una herramienta fundamental para el
                     análisis retrospectivo de sistemas flu-viales.
                 </paragraph>
-                
+
                 <paragraph>
                     La calidad de los resultados obtenidos con SPOT ha motivado la
                     aplicación de este enfoque a sistemas fluviales completos. Si bien
@@ -454,7 +435,7 @@
                     desarrollo donde los cambios ambientales actuales y futuros son
                     impulsa-dos por el desarrollo socioeconómico.
                 </paragraph>
-                
+
                 <paragraph>
                     La variabilidad del ancho de los ríos, ha sido analiza-dos
                     tradicionalmente (Surian &amp; Rinaldi 2003). Pero recien-temente con
@@ -478,7 +459,7 @@
                     natural de los ríos, inhibiendo su capacidad para mantener patrones
                     meándricos (Güne-ralp and Rhoads 2010, Constantine et al. 2014).
                 </paragraph>
-                
+
                 <paragraph>
                     La geomorfología fluvial explica los cambios en los cauces como
                     resultado de factores concurrentes, incluidos el cambio climático, el
@@ -491,7 +472,7 @@
                     cambios observados en el río El Bañado, ya que sería necesario realizar
                     investi-gaciones más detalladas.
                 </paragraph>
-                
+
                 <paragraph>
                     En cuanto a los mecanismos fluviales que originan la-gos en ríos
                     meándricos, investigaciones en ríos amazóni-cos (Mertes et al. 1996,
@@ -506,7 +487,7 @@
                     descritos por Sun et al. (1996) donde la formación de lagos se asocia a
                     alta erosionabilidad y depó-sitos en barras puntuales.
                 </paragraph>
-                
+
                 <paragraph>
                     Por otra, La laguna de San Juan es un pequeño cuerpo de agua que puede
                     ser considerado como un lago pequeño (small-lake) o estanque, por sus
@@ -531,7 +512,7 @@
                 </paragraph>
             </content>
         </section>
-        
+
         <section id="conclusions">
             <title>Conclusiones</title>
             <content>
@@ -548,7 +529,7 @@
                     hidrológica está vinculada al flujo del río El Bañado y Yanguilo,
                     destacando su rol como zona de descarga de aguas subterráneas.
                 </paragraph>
-                
+
                 <paragraph>
                     Entre 2002 y 2023, el espejo de agua mostró fluctuaciones
                     significativas, con un máximo en 2020 (8000 m²), seguido por una
@@ -561,7 +542,7 @@
                     hidrológica de la laguna es esencial para su dinámica ecológica e
                     hidrológica, influyendo en la calidad del agua y en la biodiversidad.
                 </paragraph>
-                
+
                 <paragraph>
                     Finalmente, las imágenes satelitales de alta resolución, como SPOT y
                     aquellas disponibles en el programa Google Earth Pro, demostraron ser
@@ -572,7 +553,7 @@
                 </paragraph>
             </content>
         </section>
-        
+
         <section id="acknowledgements">
             <title>Agradecimientos</title>
             <content>
@@ -586,10 +567,11 @@
             </content>
         </section>
     </sections>
-    
+
     <tables>
         <table id="table-1">
-            <title>Table 1. Images used for change analysis according to date and source, for El Bañado River and San Juan Lagoon.</title>
+            <title>Table 1. Images used for change analysis according to date and source, for El
+                Bañado River and San Juan Lagoon.</title>
             <header>
                 <row>
                     <cell>Date</cell>
@@ -602,7 +584,8 @@
                     <cell>1978-08-03</cell>
                     <cell>KH-9 GONA Mission 1214-4 ID: D3C1214-401095A036</cell>
                     <cell></cell>
-                </row><row>
+                </row>
+                <row>
                     <cell>1987-03-14</cell>
                     <cell>SPOT1 ID: 1 678-389 87-03-14 14:34:36 2 X</cell>
                     <cell></cell>
@@ -647,118 +630,905 @@
                     <cell>SPOT 5 ID: 5 678-389 13/05/29 14:12:31 2 S</cell>
                     <cell>Airbus: Google Earth Pro</cell>
                 </row>
-    
+
                 <row>
-    
+
                     <cell>2016-12</cell>
-    
+
                     <cell></cell>
-    
+
                     <cell>Airbus: Google Earth Pro</cell>
 
                 </row>
 
                 <row>
-                     <cell>2020-01</cell>
-    
-                     <cell></cell>
-    
-                     <cell>Airbus: Google Earth Pro</cell>
+                    <cell>2020-01</cell>
 
-                    </row>
+                    <cell></cell>
 
-                    <row>
-    
-                        <cell>2022-11</cell>
-    
-                        <cell></cell>
-    
-                        <cell>Airbus: Google Earth Pro</cell>
+                    <cell>Airbus: Google Earth Pro</cell>
 
-                    </row>
-    
-                    <row>
-    
-                        <cell>2023-05</cell>
-    
-                        <cell></cell>
-    
-                        <cell>Airbus: Google Earth Pro</cell>
+                </row>
 
-                    </row>
+                <row>
 
-                </body>
-            </table>
+                    <cell>2022-11</cell>
+
+                    <cell></cell>
+
+                    <cell>Airbus: Google Earth Pro</cell>
+
+                </row>
+
+                <row>
+
+                    <cell>2023-05</cell>
+
+                    <cell></cell>
+
+                    <cell>Airbus: Google Earth Pro</cell>
+
+                </row>
+
+            </body>
+        </table>
     </tables>
-    
+
     <figures>
         <figure id="figura_1a">
             <title>Figura 1. Ubicación de la laguna San Juan de Candua</title>
-            <image_url>https://github.com/AdanCR1/VOLUMEN4_AGRO-ECOLOGIA/blob/main/articulo2/IMAGES/Imagen1.png?raw=true</image_url>
+            <image_url>
+                https://github.com/AdanCR1/VOLUMEN4_AGRO-ECOLOGIA/blob/main/articulo2/IMAGES/Imagen1.png?raw=true</image_url>
         </figure>
         <figure id="figura_1b">
             <title>Figura 2. Recorrido del río El Bañado</title>
-            <image_url>https://github.com/AdanCR1/VOLUMEN4_AGRO-ECOLOGIA/blob/main/articulo2/IMAGES/Imagen2.png?raw=true</image_url>
-            <caption>Figura 1. a) Ubicación de la laguna San Juan de Candua en el municipio de Monteagudo. b) Fotografía del área de la laguna (Foto: Claribel Villarruel)</caption>
+            <image_url>
+                https://github.com/AdanCR1/VOLUMEN4_AGRO-ECOLOGIA/blob/main/articulo2/IMAGES/Imagen2.png?raw=true</image_url>
+            <caption>Figura 1. a) Ubicación de la laguna San Juan de Candua en el municipio de
+                Monteagudo. b) Fotografía del área de la laguna (Foto: Claribel Villarruel)</caption>
         </figure>
         <figure id="figura_2a">
             <title>Figura 3. Tendencia temporal del índice de sinuosidad fluvial</title>
-        <image_url>https://github.com/AdanCR1/VOLUMEN4_AGRO-ECOLOGIA/blob/main/articulo2/IMAGES/Imagen3.png?raw=true</image_url>
-        <caption> Figura 2. Recorrido del río El Bañado (a),
-            1978 imagen obtenida de
-            fotografías satelitales KH-9 HEXAGON y en 1980 mapa cartográfico del IGM de la hoja 6834-IV H731 (b) de que muestra el trazo del río. La
-            flecha amarilla representa la dirección de flujo del
-            río.</caption>
-        <figure id="figura_3">
-            <title>Figura 5. Espejo de agua de la laguna San
-                Juan</title>
-                <image_url>https://github.com/AdanCR1/VOLUMEN4_AGRO-ECOLOGIA/blob/main/articulo2/IMAGES/Imagen5.png?raw=true</image_url>
-                <caption>Figura 3. Tendencia temporal del índice de sinuosidad fluvial (1978-2025): modelo de regresión polinomial grado 2.</caption>
+            <image_url>
+                https://github.com/AdanCR1/VOLUMEN4_AGRO-ECOLOGIA/blob/main/articulo2/IMAGES/Imagen3.png?raw=true</image_url>
+            <caption> Figura 2. Recorrido del río El Bañado (a),
+                1978 imagen obtenida de
+                fotografías satelitales KH-9 HEXAGON y en 1980 mapa cartográfico del IGM de la hoja
+                6834-IV H731 (b) de que muestra el trazo del río. La
+                flecha amarilla representa la dirección de flujo del
+                río.</caption>
+            <figure id="figura_3">
+                <title>Figura 5. Espejo de agua de la laguna San
+                    Juan</title>
+                <image_url>
+                    https://github.com/AdanCR1/VOLUMEN4_AGRO-ECOLOGIA/blob/main/articulo2/IMAGES/Imagen5.png?raw=true</image_url>
+                <caption>Figura 3. Tendencia temporal del índice de sinuosidad fluvial (1978-2025):
+                    modelo de regresión polinomial grado 2.</caption>
+            </figure>
+
+            <figure id="figura_4a">
+                <title>Figura 6. Batimetría de la laguna San Juan</title>
+                <image_url>
+                    https://github.com/AdanCR1/VOLUMEN4_AGRO-ECOLOGIA/blob/main/articulo2/IMAGES/Imagen6.png?raw=true</image_url>
+                <caption>Figura 4. Dinámica de cambio del tramo del
+                    río el Bañado desde 1978 al 2023 y la aparición de la laguna San Juan (a).
+                    Variación del perfil
+                    longitudinal de los tramos del río el Bañado en base a los diferentes años
+                    analizados(b).
+                </caption>
+            </figure>
+
+            <figure id="figura_5a">
+                <title>Figura 6. Batimetría de la laguna San Juan</title>
+                <image_url>
+                    https://github.com/AdanCR1/VOLUMEN4_AGRO-ECOLOGIA/blob/main/articulo2/IMAGES/Imagen7.png?raw=true</image_url>
+                <caption>Figura 5. Dinámica de cambio superficie y forma del espejo de agua de la
+                    laguna San Juan (a) y un diagrama de barras que muestra como cambio el área
+                    entre el 2002 al 2023 (b).</caption>
+            </figure>
+
+
+            <figure id="figura_6a">
+                <title>Figura 6. Batimetría de la laguna San Juan</title>
+                <image_url>
+                    https://github.com/AdanCR1/VOLUMEN4_AGRO-ECOLOGIA/blob/main/articulo2/IMAGES/Imagen8.png?raw=true</image_url>
+                <caption> Figura 6. Área que ocupa el espejo de agua y húmeda la laguna San Juan
+                    actualmente (a) y variación batimé-trica de la profundidad (b).</caption>
+            </figure>
+
+
         </figure>
 
-        <figure id="figura_4a">
-            <title>Figura 6. Batimetría de la laguna San Juan</title>
-            <image_url>https://github.com/AdanCR1/VOLUMEN4_AGRO-ECOLOGIA/blob/main/articulo2/IMAGES/Imagen6.png?raw=true</image_url>
-            <caption>Figura 4. Dinámica de cambio del tramo del
-                río el Bañado desde 1978 al 2023 y la aparición de la laguna San Juan (a). Variación del perfil
-                longitudinal de los tramos del río el Bañado en base a los diferentes años analizados(b).
-            </caption>
-        </figure>
 
-        <figure  id="figura_5a">
-            <title>Figura 6. Batimetría de la laguna San Juan</title>
-            <image_url>https://github.com/AdanCR1/VOLUMEN4_AGRO-ECOLOGIA/blob/main/articulo2/IMAGES/Imagen7.png?raw=true</image_url>
-            <caption>Figura 5. Dinámica de cambio superficie y forma del espejo de agua de la laguna San Juan (a) y un diagrama de barras que muestra como cambio el área entre el 2002 al 2023 (b).</caption>
-        </figure>
-
-         
-
-        <figure id="figura_6a">
-            <title>Figura 6. Batimetría de la laguna San Juan</title>
-            <image_url>https://github.com/AdanCR1/VOLUMEN4_AGRO-ECOLOGIA/blob/main/articulo2/IMAGES/Imagen8.png?raw=true</image_url>
-            <caption> Figura 6. Área que ocupa el espejo de agua y húmeda la laguna San Juan actualmente (a) y variación batimé-trica de la profundidad (b).</caption>
-        </figure>
-               
-               
-       
-      </figure>
-      
-        
     </figures>
-    
+
     <references>
         <reference>
+            <raw>Ahmed, J. (2024), “Establishing the Hydrological Controls on Water Surface Area
+                Variations in Oxbow Lakes”, Hydrological Processes, Vol. 38 No. 12,
+                https://doi.org:10.1002/hyp.70013.</raw>
             <authors>Ahmed, J.</authors>
             <year>2024</year>
-            <title>Establishing the Hydrological Controls on Water Surface Area Variations in Oxbow Lakes</title>
+            <title>Establishing the Hydrological Controls on Water Surface Area Variations in Oxbow
+                Lakes</title>
             <journal>Hydrological Processes</journal>
             <volume>38</volume>
             <issue>12</issue>
-            <doi>10.1002/hyp.70013</doi>
+            <doi>https://doi.org:10.1002/hyp.70013</doi>
         </reference>
-        <!-- Resto de referencias -->
+        <reference>
+            <raw>Allred, E.R., Manson, P.W., Schwartz, G.M., Golany, P. and Reinke, J.W. (1971),
+                Continuation of Studies on the Hydrology of Ponds and Small Lakes, Minnesota, USA.</raw>
+            <authors>Allred, E.R., Manson, P.W., Schwartz, G.M., Golany, P. and Reinke, J.W.</authors>
+            <year>1971</year>
+            <title>Continuation of Studies on the Hydrology of Ponds and Small Lakes, Minnesota, USA</title>
+        </reference>
+        <reference>
+            <raw>Bishop, M.P., James, L.A., Shroder, J.F. and Walsh, S.J. (2012), “Geospatial
+                technologies and digital geomorphological mapping: Concepts, issues and research”,
+                Geomorphology, Elsevier B.V., Vol. 137 No. 1, pp. 5–26,
+                https://doi.org:10.1016/j.geomorph.2011.06.027</raw>
+            <authors>Bishop, M.P., James, L.A., Shroder, J.F. and Walsh, S.J.</authors>
+            <year>2012</year>
+            <title>Geospatial technologies and digital geomorphological mapping: Concepts, issues
+                and
+                research</title>
+            <journal>Geomorphology</journal>
+            <publisher>Elsevier B.V.</publisher>
+            <volume>137</volume>
+            <issue>1</issue>
+            <pages>5–26</pages>
+            <doi>https://doi.org:10.1016/j.geomorph.2011.06.027</doi>
+        </reference>
+        <reference>
+            <raw>Boothroyd, R.J., Nones, M. and Guerrero, M. (2021), “Deriving Planform Morphology
+                and
+                Vegetation Coverage From Remote Sensing to Support River Management Applications”,
+                Frontiers in Environmental Science, Vol. 9 No. May, pp. 1–18,
+                https://doi.org:10.3389/fenvs.2021.657354</raw>
+            <authors>Boothroyd, R.J., Nones, M. and Guerrero, M.</authors>
+            <year>2021</year>
+            <title>Deriving Planform Morphology and Vegetation Coverage From Remote Sensing to
+                Support
+                River Management Applications</title>
+            <journal>Frontiers in Environmental Science</journal>
+            <volume>9</volume>
+            <issue>May</issue>
+            <pages>1–18</pages>
+            <doi>https://doi.org:10.3389/fenvs.2021.657354</doi>
+        </reference>
+        <reference>
+            <raw>Boothroyd, R.J., Williams, R.D., Hoey, T.B., Barrett, B. and Prasojo, O.A. (2021),
+                “Applications of Google Earth Engine in fluvial geomorphology for detecting river
+                channel change”, Wiley Interdisciplinary Reviews: Water, Vol. 8 No. 1, pp. 1–27,
+                https://doi.org:10.1002/wat2.1496.</raw>
+            <authors>Boothroyd, R.J., Williams, R.D., Hoey, T.B., Barrett, B. and Prasojo, O.A.</authors>
+            <year>2021</year>
+            <title>Applications of Google Earth Engine in fluvial geomorphology for detecting river
+                channel change</title>
+            <journal>Wiley Interdisciplinary Reviews: Water</journal>
+            <volume>8</volume>
+            <issue>1</issue>
+            <pages>1–27</pages>
+            <doi>https://doi.org:10.1002/wat2.1496</doi>
+        </reference>
+        <reference>
+            <raw>Chaoyong, W., Aslam, R.W., Quddoos, A., Naz, I., Tariq, A., Ullah, S., Sajjad, A.,
+                et
+                al. (2024), “SAR image integration for multi-temporal analysis of Lake Manchar
+                Wetland
+                dynamics using machine learning”, Scientific Reports, Vol. 14 No. 1, p. 26669,
+                https://doi.org:10.1038/s41598-024-76730-1</raw>
+            <authors>Chaoyong, W., Aslam, R.W., Quddoos, A., Naz, I., Tariq, A., Ullah, S., Sajjad,
+                A.,
+                et al.</authors>
+            <year>2024</year>
+            <title>SAR image integration for multi-temporal analysis of Lake Manchar Wetland
+                dynamics
+                using machine learning</title>
+            <journal>Scientific Reports</journal>
+            <volume>14</volume>
+            <issue>1</issue>
+            <pages>26669</pages>
+            <doi>https://doi.org:10.1038/s41598-024-76730-1</doi>
+        </reference>
+        <reference>
+            <raw>Chen, T., Song, C., Zhan, P., Yao, J., Li, Y. and Zhu, J. (2022), “Remote sensing
+                estimation of the flood storage capacity of basin-scale lakes and reservoirs at high
+                spatial and temporal resolutions”, Science of the Total Environment, Elsevier B.V.,
+                Vol.
+                807, https://doi.org:10.1016/j.scitotenv.2021.150772</raw>
+            <authors>Chen, T., Song, C., Zhan, P., Yao, J., Li, Y. and Zhu, J.</authors>
+            <year>2022</year>
+            <title>Remote sensing estimation of the flood storage capacity of basin-scale lakes and
+                reservoirs at high spatial and temporal resolutions</title>
+            <journal>Science of the Total Environment</journal>
+            <publisher>Elsevier B.V.</publisher>
+            <volume>807</volume>
+            <doi>https://doi.org:10.1016/j.scitotenv.2021.150772</doi>
+        </reference>
+        <reference>
+            <raw>CNES, C.N. d’Études S. (2023), “SPOT World Heritage Data Site”, SPOT Images
+                Acquired by
+                CNES’s Spot World Heritage Programme, available at:
+                https://regards.cnes.fr/user/swh/modules/60 (accessed 13 February 2025).</raw>
+            <authors>CNES, C.N. d’Études S.</authors>
+            <year>2023</year>
+            <title>SPOT World Heritage Data Site</title>
+            <url>https://regards.cnes.fr/user/swh/modules/60</url>
+            <accessed>13 February 2025</accessed>
+        </reference>
+        <reference>
+            <raw>Constantine, J.A., Dunne, T., Ahmed, J., Legleiter, C. and Lazarus, E.D. (2014),
+                “Sediment supply as a driver of river meandering and floodplain evolution in the
+                Amazon
+                Basin”, Nature Geoscience, Vol. 7 No. 12, pp. 899–903,
+                https://doi.org:10.1038/ngeo2282.</raw>
+            <authors>Constantine, J.A., Dunne, T., Ahmed, J., Legleiter, C. and Lazarus, E.D.</authors>
+            <year>2014</year>
+            <title>Sediment supply as a driver of river meandering and floodplain evolution in the
+                Amazon Basin</title>
+            <journal>Nature Geoscience</journal>
+            <volume>7</volume>
+            <issue>12</issue>
+            <pages>899–903</pages>
+            <doi>https://doi.org:10.1038/ngeo2282</doi>
+        </reference>
+        <reference>
+            <raw>Dewan, A., Corner, R., Saleem, A., Rahman, M.M., Haider, M.R., Rahman, M.M. and
+                Sarker,
+                M.H. (2017), “Assessing channel changes of the Ganges-Padma River system in
+                Bangladesh
+                using Landsat and hydrological data”, Geomorphology, Vol. 276, pp. 257–279,
+                https://doi.org:10.1016/j.geomorph.2016.10.017.</raw>
+            <authors>Dewan, A., Corner, R., Saleem, A., Rahman, M.M., Haider, M.R., Rahman, M.M. and
+                Sarker, M.H.</authors>
+            <year>2017</year>
+            <title>Assessing channel changes of the Ganges-Padma River system in Bangladesh using
+                Landsat and hydrological data</title>
+            <journal>Geomorphology</journal>
+            <volume>276</volume>
+            <pages>257–279</pages>
+            <doi>https://doi.org:10.1016/j.geomorph.2016.10.017</doi>
+        </reference>
+        <reference>
+            <raw>Doxaran, D., Castaing, P. and Lavender, S.J. (2006), “Monitoring the maximum
+                turbidity
+                zone and detecting fine-scale turbidity features in the Gironde estuary using high
+                spatial resolution satellite sensor (SPOT HRV, Landsat ETM+) data”, International
+                Journal of Remote Sensing, Taylor &amp; Francis, Vol. 27 No. 11, pp. 2303–2321,
+                https://doi.org:10.1080/01431160500396865.</raw>
+            <authors>Doxaran, D., Castaing, P. and Lavender, S.J.</authors>
+            <year>2006</year>
+            <title>Monitoring the maximum turbidity zone and detecting fine-scale turbidity features
+                in
+                the Gironde estuary using high spatial resolution satellite sensor (SPOT HRV,
+                Landsat
+                ETM+) data</title>
+            <journal>International Journal of Remote Sensing</journal>
+            <publisher>Taylor &amp; Francis</publisher>
+            <volume>27</volume>
+            <issue>11</issue>
+            <pages>2303–2321</pages>
+            <doi>https://doi.org:10.1080/01431160500396865</doi>
+        </reference>
+        <reference>
+            <raw>ESA. (2012), Sentinel-1: ESA’s Radar Observatory Mission for GMES Operational
+                Services,
+                edited by Fletcher, K., European Space Agency, AG Noordwijk, The Netherlands.</raw>
+            <authors>ESA.</authors>
+            <year>2012</year>
+            <title>Sentinel-1: ESA’s Radar Observatory Mission for GMES Operational Services</title>
+            <editor>Fletcher, K.</editor>
+            <publisher>European Space Agency</publisher>
+            <location>AG Noordwijk, The Netherlands</location>
+        </reference>
+        <reference>
+            <raw>Gautier, E., Brunstein, D., Vauchel, P., Roulet, M., Fuertes, O., Guyot, J.L.,
+                Darozzes, J., et al. (2006), “Temporal relations between meander deformation, water
+                discharge and sediment fluxes in the floodplain of the Rio Beni (Bolivian
+                Amazonia)”,
+                Earth Surface Processes and Landforms, Vol. 32 No. 2, pp. 230–438,
+                https://doi.org:10.1002/esp</raw>
+            <authors>Gautier, E., Brunstein, D., Vauchel, P., Roulet, M., Fuertes, O., Guyot, J.L.,
+                Darozzes, J., et al.</authors>
+            <year>2006</year>
+            <title>Temporal relations between meander deformation, water discharge and sediment
+                fluxes
+                in the floodplain of the Rio Beni (Bolivian Amazonia)</title>
+            <journal>Earth Surface Processes and Landforms</journal>
+            <volume>32</volume>
+            <issue>2</issue>
+            <pages>230–438</pages>
+            <doi>https://doi.org:10.1002/esp</doi>
+        </reference>
+        <reference>
+            <raw>Gernez, P., Lafon, V., Lerouxel, A., Curti, C., Lubac B., Cerisier, S. and Barillé,
+                L.
+                (2015), “Toward sentinel-2 high resolution remote sensing of suspended particulate
+                matter in very turbid waters: SPOT4 (take5) experiment in the Loire and Gironde
+                estuaries”, Remote Sensing, Vol. 7 No. 8, pp. 9507–9528,
+                https://doi.org:10.3390/rs70809507</raw>
+            <authors>Gernez, P., Lafon, V., Lerouxel, A., Curti, C., Lubac, B., Cerisier, S. and
+                Barillé, L.</authors>
+            <year>2015</year>
+            <title>Toward sentinel-2 high resolution remote sensing of suspended particulate matter
+                in
+                very turbid waters: SPOT4 (take5) experiment in the Loire and Gironde estuaries</title>
+            <journal>Remote Sensing</journal>
+            <volume>7</volume>
+            <issue>8</issue>
+            <pages>9507–9528</pages>
+            <doi>https://doi.org:10.3390/rs70809507</doi>
+        </reference>
+        <reference>
+            <raw>Google. (2018), “Google Earth Pro”, Google Maps/Google Earth, Santa Clara County,
+                California, U.S.A.</raw>
+            <authors>Google.</authors>
+            <year>2018</year>
+            <title>Google Earth Pro</title>
+            <publisher>Google Maps/Google Earth</publisher>
+            <location>Santa Clara County, California, U.S.A.</location>
+        </reference>
+        <reference>
+            <raw>Güneralp, I. and Rhoads, B.L. (2010), “Spatial autoregressive structure of meander
+                evolution revisited”, Geomorphology, Vol. 120 No. 3–4, pp. 91–106,
+                https://doi.org:10.1016/j.geomorph.2010.02.010.</raw>
+            <authors>Güneralp, I. and Rhoads, B.L.</authors>
+            <year>2010</year>
+            <title>Spatial autoregressive structure of meander evolution revisited</title>
+            <journal>Geomorphology</journal>
+            <volume>120</volume>
+            <issue>3–4</issue>
+            <pages>91–106</pages>
+            <doi>https://doi.org:10.1016/j.geomorph.2010.02.010</doi>
+        </reference>
+        <reference>
+            <raw>Heino, J., Alahuhta, J., Bini, L.M., Cai, Y., Heiskanen, A.S., Hellsten, S.,
+                Kortelainen, P., et al. (2021), “Lakes in the era of global change: moving beyond
+                single-lake thinking in maintaining biodiversity and ecosystem services”, Biological
+                Reviews, John Wiley &amp; Sons, Ltd, Vol. 96 No. 1, pp. 89–106,
+                https://doi.org:10.1111/BRV.12647</raw>
+            <authors>Heino, J., Alahuhta, J., Bini, L.M., Cai, Y., Heiskanen, A.S., Hellsten, S.,
+                Kortelainen, P., et al.</authors>
+            <year>2021</year>
+            <title>Lakes in the era of global change: moving beyond single-lake thinking in
+                maintaining
+                biodiversity and ecosystem services</title>
+            <journal>Biological Reviews</journal>
+            <publisher>John Wiley &amp; Sons, Ltd</publisher>
+            <volume>96</volume>
+            <issue>1</issue>
+            <pages>89–106</pages>
+            <doi>https://doi.org:10.1111/BRV.12647</doi>
+        </reference>
+        <reference>
+            <raw>Hooke, J.M. (2007), “Spatial variability, mechanisms and propagation of change in
+                an
+                active meandering river”, Geomorphology, Elsevier, Vol. 84 No. 3–4, pp. 277–296,
+                https://doi.org:10.1016/J.GEOMORPH.2006.06.005</raw>
+            <authors>Hooke, J.M.</authors>
+            <year>2007</year>
+            <title>Spatial variability, mechanisms and propagation of change in an active meandering
+                river</title>
+            <journal>Geomorphology</journal>
+            <publisher>Elsevier</publisher>
+            <volume>84</volume>
+            <issue>3–4</issue>
+            <pages>277–296</pages>
+            <doi>https://doi.org:10.1016/J.GEOMORPH.2006.06.005</doi>
+        </reference>
+        <reference>
+            <raw>Hou, J., Van Dijk, A.I.J.M.V. and Beck, H.E. (2019), “A global, near real-time
+                system
+                measuring river, lake, and reservoir dynamics”, 23rd International Congress on
+                Modelling
+                and Simulation - Supporting Evidence-Based Decision Making: The Role of Modelling
+                and
+                Simulation, MODSIM 2019, No. December, pp. 712–718,
+                https://doi.org:10.36334/modsim.2019.h5.houj</raw>
+            <authors>Hou, J., Van Dijk, A.I.J.M.V. and Beck, H.E.</authors>
+            <year>2019</year>
+            <title>A global, near real-time system measuring river, lake, and reservoir dynamics</title>
+            <conference>23rd International Congress on Modelling and Simulation - Supporting
+                Evidence-Based Decision Making: The Role of Modelling and Simulation, MODSIM 2019</conference>
+            <issue>December</issue>
+            <pages>712–718</pages>
+            <doi>https://doi.org:10.36334/modsim.2019.h5.houj</doi>
+        </reference>
+        <reference>
+            <raw>IGM, I.G.M. (2021), “Bolivia Topographic Maps 1:50,000”, Perry-Castañeda Library
+                (PCL)
+                Map Collection, available at:
+                https://maps.lib.utexas.edu/maps/topo/bolivia/index-50k.html.</raw>
+            <authors>IGM, I.G.M.</authors>
+            <year>2021</year>
+            <title>Bolivia Topographic Maps 1:50,000</title>
+            <url>https://maps.lib.utexas.edu/maps/topo/bolivia/index-50k.html</url>
+        </reference>
+        <reference>
+            <raw>SJurgiel, B., Verchere, P., Tourigny, E. &amp; Becerra, J. (2025). Profile Tool ver
+                4.3.2 [QGIS plugin]., QGIS Plugins Repository.</raw>
+            <authors>SJurgiel, B., Verchere, P., Tourigny, E. &amp; Becerra, J.</authors>
+            <year>2025</year>
+            <title>Profile Tool ver 4.3.2 [QGIS plugin]</title>
+            <publisher>QGIS Plugins Repository</publisher>
+        </reference>
+        <reference>
+            <raw>Kong, D., Latrubesse, E.M., Miao, C. and Zhou, R. (2020), “Morphological response
+                of
+                the Lower Yellow River to the operation of Xiaolangdi Dam, China”, Geomorphology,
+                Elsevier, Vol. 350, p. 106931, https://doi.org:10.1016/J.GEOMORPH.2019.106931</raw>
+            <authors>Kong, D., Latrubesse, E.M., Miao, C. and Zhou, R.</authors>
+            <year>2020</year>
+            <title>Morphological response of the Lower Yellow River to the operation of Xiaolangdi
+                Dam,
+                China</title>
+            <journal>Geomorphology</journal>
+            <publisher>Elsevier</publisher>
+            <volume>350</volume>
+            <pages>106931</pages>
+            <doi>https://doi.org:10.1016/J.GEOMORPH.2019.106931</doi>
+        </reference>
+        <reference>
+            <raw>Latrubesse, E.M., Amsler, M.L., de Morais, R.P. and Aquino, S. (2009), “The
+                geomorphologic response of a large pristine alluvial river to tremendous
+                deforestation
+                in the South American tropics: The case of the Araguaia River”, Geomorphology,
+                Elsevier
+                B.V., Vol. 113 No. 3–4, pp. 12AGRO-ECOLÓGICA 4(1): 3-12 agosto 2025. ISSN
+                2313-2906239–252, https://doi.org:10.1016/j.geomorph.2009.03.014
+            </raw>
+            <authors>Latrubesse, E.M., Amsler, M.L., de Morais, R.P. and Aquino, S.</authors>
+            <year>2009</year>
+            <title>The geomorphologic response of a large pristine alluvial river to tremendous
+                deforestation in the South American tropics: The case of the Araguaia River</title>
+            <journal>Geomorphology</journal>
+            <publisher>Elsevier B.V.</publisher>
+            <volume>113</volume>
+            <issue>3–4</issue>
+            <pages>12AGRO-ECOLÓGICA 4(1): 3-12 agosto 2025. ISSN 2313-2906239–252</pages>
+            <doi>https://doi.org:10.1016/j.geomorph.2009.03.014</doi>
+        </reference>
+        <reference>
+            <raw>Li, Y., Zhang, Q., Cai, Y., Tan, Z., Wu, H., Liu, X. and Yao, J. (2019),
+                “Hydrodynamic
+                investigation of surface hydrological connectivity and its effects on the water
+                quality
+                of seasonal lakes: Insights from a complex floodplain setting (Poyang Lake, China)”,
+                Science of The Total Environment, Elsevier, Vol. 660, pp. 245–259,
+                https://doi.org:10.1016/J.SCITOTENV.2019.01.015</raw>
+            <authors>Li, Y., Zhang, Q., Cai, Y., Tan, Z., Wu, H., Liu, X. and Yao, J.</authors>
+            <year>2019</year>
+            <title>Hydrodynamic investigation of surface hydrological connectivity and its effects
+                on
+                the water quality of seasonal lakes: Insights from a complex floodplain setting
+                (Poyang
+                Lake, China)</title>
+            <journal>Science of The Total Environment</journal>
+            <publisher>Elsevier</publisher>
+            <volume>660</volume>
+            <pages>245–259</pages>
+            <doi>https://doi.org:10.1016/J.SCITOTENV.2019.01.015</doi>
+        </reference>
+        <reference>
+            <raw>Ling, F., Li, X., Foody, G.M., Boyd, D., Ge, Y., Li, X. and Du, Y. (2020),
+                “Monitoring
+                surface water area variations of reservoirs using daily MODIS images by exploring
+                sub-pixel information”, ISPRS Journal of Photogrammetry and Remote Sensing,
+                Elsevier,
+                Vol. 168, pp. 141–152, https://doi.org:10.1016/J.ISPRSJPRS.2020.08.008</raw>
+            <authors>Ling, F., Li, X., Foody, G.M., Boyd, D., Ge, Y., Li, X. and Du, Y.</authors>
+            <year>2020</year>
+            <title>Monitoring surface water area variations of reservoirs using daily MODIS images
+                by
+                exploring sub-pixel information</title>
+            <journal>ISPRS Journal of Photogrammetry and Remote Sensing</journal>
+            <publisher>Elsevier</publisher>
+            <volume>168</volume>
+            <pages>141–152</pages>
+            <doi>https://doi.org:10.1016/J.ISPRSJPRS.2020.08.008</doi>
+        </reference>
+        <reference>
+            <raw>Manson, P.W., Schwartz, G.M. and Allred, E.R. (1968), Some Aspects of the Hydrology
+                of
+                Ponds and Small Lakes, Minnesota, USA.</raw>
+            <authors>Manson, P.W., Schwartz, G.M. and Allred, E.R.</authors>
+            <year>1968</year>
+            <title>Some Aspects of the Hydrology of Ponds and Small Lakes, Minnesota, USA</title>
+        </reference>
+        <reference>
+            <raw>Mertes, L.A.K., Daniel, D.L., Melack, J.M., Nelson, B., Martinelli, A. and
+                Forsberg,
+                B.R. (1995), “Spatial patterns of hydrology, geomorphology, and vegetation on the
+                floodplain of the Amazon River in Brazil from a remote sensing perspective”,
+                Geomorphology, Vol. 13, pp. 215–232.</raw>
+            <authors>Mertes, L.A.K., Daniel, D.L., Melack, J.M., Nelson, B., Martinelli, A. and
+                Forsberg, B.R.</authors>
+            <year>1995</year>
+            <title>Spatial patterns of hydrology, geomorphology, and vegetation on the floodplain of
+                the
+                Amazon River in Brazil from a remote sensing perspective</title>
+            <journal>Geomorphology</journal>
+            <volume>13</volume>
+            <pages>215–232</pages>
+        </reference>
+        <reference>
+            <raw>Mertes, L.A.K., Dunne, T. and Martinelli, L.A. (1996), “Channel-floodplain
+                geomorphology along the Solimões-Amazon River, Brazil”, Bulletin of the Geological
+                Society of America, Vol. 108 No. 9, pp. 1089–1107,
+                https://doi:.org10.1130/0016-7606(1996)108&lt;1089:CFGATS&gt;2.3.CO;2</raw>
+            <authors>Mertes, L.A.K., Dunne, T. and Martinelli, L.A.</authors>
+            <year>1996</year>
+            <title>Channel-floodplain geomorphology along the Solimões-Amazon River, Brazil</title>
+            <journal>Bulletin of the Geological Society of America</journal>
+            <volume>108</volume>
+            <issue>9</issue>
+            <pages>1089–1107</pages>
+            <doi>https://doi:.org10.1130/0016-7606(1996)108&lt;1089:CFGATS&gt;2.3.CO;2</doi>
+        </reference>
+
+        <reference>
+            <raw>Moss, B. (2012), “Cogs in the endless machine: Lakes, climate change
+                and nutrient cycles: A review”, Science of The Total Environment,
+                Elsevier, Vol. 434, pp. 130–142,
+                https://doi.org:10.1016/J.SCITOTENV.2011.07.069
+            </raw>
+            <authors>Moss, B</authors>
+            <year>2012</year>
+            <title>“Cogs in the endless machine: Lakes, climate change
+                and nutrient cycles: A review”, Science of The Total Environment</title>
+            <journal>Elsevier</journal>
+            <volume>434</volume>
+
+            <pages>130–142</pages>
+            <doi>https://doi.org:10.1016/J.SCITOTENV.2011.07.069</doi>
+        </reference>
+        <reference>
+            <raw>Neiff, J.J., Casco, S.L. and De Neiff, A.P. (2008), “Response of
+                Eichhornia crassipes (Pontederiaceae) to water level fluctuations in
+                two lakes with different connectivity in the Paraná River floodplain”,
+                Revista de Biologia Tropical, Vol. 56 No. 2, pp. 613–623,
+                https://doi.org:10.15517/rbt.v56i2.5612</raw>
+            <authors>Neiff, J.J., Casco, S.L. and De Neiff, A.P.</authors>
+            <year>2008</year>
+            <title>Response of
+                Eichhornia crassipes (Pontederiaceae) to water level fluctuations in
+                two lakes with different connectivity in the Paraná River floodplain</title>
+            <journal> Revista de Biologia Tropical</journal>
+            <volume>56 </volume>
+            <issue>2</issue>
+            <pages> 613–623</pages>
+            <doi>https://doi.org:10.15517/rbt.v56i2.5612</doi>
+        </reference>
+        <reference>
+            <raw>Paulino, R.S., Martins, V.S., Novo, E.M.L.M., Maciel, D.A.,
+                Correia-Lima, D.L., Barbosa, C.C.F., Bonnet, M.P., et al. (2023), “A
+                framework based on spectral similarity to estimate hydrological
+                connectivity in Juruá River floodplain lakes using 3-m PlanetScope
+                data”, Journal of Hydrology, Elsevier B.V., Vol. 625 No. PB, p.
+                130156, https://doi.org:10.1016/j.jhydrol.2023.130156</raw>
+            <authors>Paulino, R.S., Martins, V.S., Novo, E.M.L.M., Maciel, D.A.,
+                Correia-Lima, D.L., Barbosa, C.C.F., Bonnet, M.P., et al.</authors>
+            <year>2023</year>
+            <title>A
+                framework based on spectral similarity to estimate hydrological
+                connectivity in Juruá River floodplain lakes using 3-m PlanetScope
+                data</title>
+            <journal> Journal of Hydrology, Elsevier B.V.</journal>
+            <volume>625</volume>
+            <pages>130156</pages>
+            <doi>//doi.org:10.1016/j.jhydrol.2023.130156</doi>
+        </reference>
+        <reference>
+            <raw>Puhakka, M., Kalliola, R., Rajasilta, M. and Salo, J. (1992), “River
+                Types, Site Evolution and Successional Vegetation Patterns in Peruvian
+                Amazonia”, Journal of Biogeography, JSTOR, Vol. 19 No. 6, p. 651,
+                https://doi.org:10.2307/2845707</raw>
+            <authors>Puhakka, M., Kalliola, R., Rajasilta, M. and Salo, J. </authors>
+            <year>1992</year>
+            <title>River
+                Types, Site Evolution and Successional Vegetation Patterns in Peruvian
+                Amazonia</title>
+            <journal>Journal of Biogeography</journal>
+            <volume> 19</volume>
+            <issue>6</issue>
+            <pages>651</pages>
+            <doi>https://doi.org:10.2307/2845707</doi>
+        </reference>
+        <reference>
+            <raw>QGIS, D.T. (2020), “QGIS Geographic Information System”, Geospatial
+                Foundation.</raw>
+            <authors>QGIS, D.T.</authors>
+            <year>2020</year>
+            <title>QGIS Geographic Information System”</title>
+            <journal>Geospatial
+                Foundation</journal>
+            <volume></volume>
+            <issue></issue>
+            <pages></pages>
+        </reference>
+        <reference>
+            <raw>R Core Team, R. (2021). R: A language and environment for statistical
+                computing, R Foundation for Statistical Computing, Vienna, Austria.</raw>
+            <authors>R Core Team, R.</authors>
+            <year>2021</year>
+            <title>R: A language and environment for statistical
+                computing</title>
+            <journal> R Foundation for Statistical Computing, Vienna, Austria</journal>
+            <volume></volume>
+            <issue></issue>
+            <pages></pages>
+        </reference>
+        <reference>
+            <raw> Rădoane, M., Perşoiu, I., Cristea, I. and F., C. (2013), “River
+                channel planform changes based on succesive cartographic data. A
+                methodological approach”, Journal of Geomorphology, Vol. 15, pp.
+                69–88.</raw>
+            <authors> Rădoane, M., Perşoiu, I., Cristea, I. and F., C. </authors>
+            <year>2013</year>
+            <title>River
+                channel planform changes based on succesive cartographic data. A
+                methodological approach</title>
+            <journal>Journal of Geomorphology</journal>
+            <volume>15</volume>
+            <issue></issue>
+            <pages>254–258</pages>
+        </reference>
+        <reference>
+            <raw>Salo, J., Kalliola, R., Häkkinen, I., Mäkinen, Y., Niemelä, P.,
+                Puhakka, M. and Coley, P.D. (1986), “River dynamics and the diversity
+                of Amazon lowland forest.”, Nature, Vol. 322 No. 6076, pp. 254–258.</raw>
+            <authors>Salo, J., Kalliola, R., Häkkinen, I., Mäkinen, Y., Niemelä, P.,
+                Puhakka, M. and Coley, P.D.</authors>
+            <year>1986</year>
+            <title>River dynamics and the diversity
+                of Amazon lowland forest.</title>
+            <journal>Nature</journal>
+            <volume>322</volume>
+            <issue>6076</issue>
+            <pages>254–258</pages>
+        </reference>
+        <reference>
+            <raw>Schallenberg, M., De Winton, M.D., Verburg, P., Kelly, D.J., Hamill,
+                K.D. and Hamilton, D.P. (2013), “Ecosystem Services of Lakes”,
+                Ecosystem Services in New Zealand - Conditions and Trends, pp.
+                203–225.</raw>
+            <authors>Schallenberg, M., De Winton, M.D., Verburg, P., Kelly, D.J., Hamill,
+                K.D. and Hamilton, D.P.</authors>
+            <year>2013</year>
+            <title>Ecosystem Services of Lakes</title>
+            <journal>Ecosystem Services in New Zealand - Conditions and Trends</journal>
+            <volume></volume>
+            <issue></issue>
+            <pages>203–225</pages>
+        </reference>
+        <reference>
+            <raw>Schumm, S.A. (1963), “Sinuosity of Alluvial Rivers on the Great
+                Plains”, Geological Society of America Bulletin, Vol. 74 No. 9, pp.
+                1089–1099, https://doi.org:10.1130/0016-7606(1963)74 </raw>
+            <authors>Schumm, S.A.</authors>
+            <year>1963</year>
+            <title>Sinuosity of Alluvial Rivers on the Great
+                Plains</title>
+            <journal>Geological Society of America Bulletin</journal>
+            <volume>74</volume>
+            <issue>9</issue>
+            <pages>1089–1099</pages>
+            <doi>https://doi.org:10.1130/0016-7606(1963)74</doi>
+        </reference>
+        <reference>
+            <raw>SENAMHI, (Servicio Nacional de Meteorología e Hidrología). (2023),
+                “Observatorio nacional de servicio climático”, available at:
+                https://senamhi.gob.bo/index.php/inicio (accessed 11 July 2025).</raw>
+            <authors>SENAMHI, (Servicio Nacional de Meteorología e Hidrología).</authors>
+            <year>2023</year>
+            <title>Observatorio nacional de servicio climático</title>
+            <journal></journal>
+            <volume></volume>
+            <issue></issue>
+            <pages></pages>
+        </reference>
+        <reference>
+            <raw>Shen, G., Fu, W., Guo, H. and Liao, J. (2022), “Water Body Mapping
+                Using Long Time Series Sentinel-1 SAR Data in Poyang Lake”, Water
+                (Switzerland), Vol. 14 No. 12, pp. 1–26,
+                https://doi.org:10.3390/w14121902</raw>
+            <authors>hen, G., Fu, W., Guo, H. and Liao, J.</authors>
+            <year>2022</year>
+            <title>Water Body Mapping
+                Using Long Time Series Sentinel-1 SAR Data in Poyang Lake</title>
+            <journal>Water
+                (Switzerland)</journal>
+            <volume>14 </volume>
+            <issue>12</issue>
+            <pages>1–26</pages>
+            <doi> https://doi.org:10.3390/w14121902</doi>
+        </reference>
+        <reference>
+            <raw> Spada, D., Molinari, P., Bertoldi, W., Vitti, A. and Zolezzi, G.
+                (2018), “Multi-temporal image analysis for fluvial morphological
+                characterization with application to Albanian rivers”, ISPRS
+                International Journal of Geo-Information, Vol. 7 No. 8,
+                https://doi.org:10.3390/ijgi7080314</raw>
+            <authors>Spada, D., Molinari, P., Bertoldi, W., Vitti, A. and Zolezzi, G.</authors>
+            <year>2018</year>
+            <title>Multi-temporal image analysis for fluvial morphological
+                characterization with application to Albanian rivers</title>
+            <journal>ISPRS
+                International Journal of Geo-Information</journal>
+            <volume>7</volume>
+            <issue>8</issue>
+            <pages></pages>
+            <doi> https://doi.org:10.3390/ijgi7080314</doi>
+        </reference>
+        <reference>
+            <raw>Sun, T., Meakin, P., Jøssang, T. and Schwarz, K. (1996), “A simulation
+                model for meandering rivers”, Water Resources Research, Vol. 32 No. 9,
+                pp. 2937–2954, https://doi.org:10.1029/96WR00998</raw>
+            <authors>Sun, T., Meakin, P., Jøssang, T. and Schwarz, K. </authors>
+            <year>1996</year>
+            <title>A simulation
+                model for meandering rivers</title>
+            <journal>Water Resources Research</journal>
+            <volume>32</volume>
+            <issue>9</issue>
+            <pages> 2937–2954</pages>
+            <doi> https://doi.org:10.1029/96WR00998</doi>
+        </reference>
+        <reference>
+            <raw> Surian, N. and Rinaldi, M. (2003), “Morphological response to river
+                engineering and management in alluvial channels in Italy”,
+                Geomorphology, Vol. 50 No. 4, pp. 307–326, https://doi:
+                10.1016/S0169-555X(02)00219-2.</raw>
+            <authors>Surian, N. and Rinaldi, M.</authors>
+            <year>2003</year>
+            <title>Morphological response to river
+                engineering and management in alluvial channels in Italy</title>
+            <journal>Geomorphology</journal>
+            <volume>50</volume>
+            <issue>4</issue>
+            <pages>307–326</pages>
+            <doi>https://doi.org:10.1016/S0169-555X(02)00219-2</doi>
+        </reference>
+        <reference>
+            <raw>Tandon, S.K. and Sinha, R. (2007), “Geology of large river systems”,
+                in Gupta, A. (Ed.), Large Rivers: Geomorphology and Management, John
+                Wiley &amp; Sons, Ltd, pp. 7–41, https://doi.org:10.1002/9781119412632.ch2.</raw>
+            <authors>Tandon, S.K. and Sinha, R.</authors>
+            <year>2007</year>
+            <title>Geology of large river systems</title>
+            <journal>in Gupta, A. (Ed.), Large Rivers: Geomorphology and Management, John
+                Wiley &amp; Sons, Ltd, pp</journal>
+            <volume></volume>
+            <issue></issue>
+            <pages>7–41</pages>
+            <doi>ttps://doi.org:10.1002/9781119412632.ch2</doi>
+        </reference>
+        <reference>
+            <raw> Torres-Batllo, J. (2020), Mapping Historical Hydrological Changes in
+                the Lake Poop ́ o Catchment, Bolivia, with Remote Sensing, University
+                of Surrey - United Kingdom August.</raw>
+            <authors>Torres-Batllo, J.</authors>
+            <year>2020</year>
+            <title> Mapping Historical Hydrological Changes in
+                the Lake Poop ́ o Catchment, Bolivia, with Remote Sensing, University
+                of Surrey - United Kingdom August</title>
+            <journal></journal>
+            <volume></volume>
+            <issue></issue>
+            <pages></pages>
+            <doi></doi>
+        </reference>
+        <reference>
+            <raw> USGS, (U.S. Geological Survey). (1995), “CORONA Satellite
+                Photography”, NASA Open Data Portal, available at:
+                https://data.nasa.gov/dataset/CORONA-Satellite-Photography/4rni-qjx7/about_data
+                (accessed 22 January 2025).</raw>
+            <authors>USGS, (U.S. Geological Survey)</authors>
+            <year>1995</year>
+            <title>CORONA Satellite
+                Photography</title>
+            <journal>NASA Open Data Portal</journal>
+            <volume></volume>
+            <issue></issue>
+            <pages></pages>
+            <doi></doi>
+        </reference>
+        <reference>
+            <raw> Venegas-Cordero, N., Mediero, L. and Piniewski, M. (2024),
+                “Urbanization vs. climate drivers: investigating changes in fluvial
+                floods in Poland”, Stochastic Environmental Research and Risk
+                Assessment, Vol. 38 No. 7, pp. 2841–2857,
+                https://doi.org:10.1007/s00477-024-02717-z.</raw>
+            <authors>Venegas-Cordero, N., Mediero, L. and Piniewski, M.</authors>
+            <year>2024</year>
+            <title>Urbanization vs. climate drivers: investigating changes in fluvial
+                floods in Poland</title>
+            <journal>Stochastic Environmental Research and Risk
+                Assessment</journal>
+            <volume>38</volume>
+            <issue>7</issue>
+            <pages>2841–2857</pages>
+            <doi>https://doi.org:10.1007/s00477-024-02717-z</doi>
+        </reference>
+        <reference>
+            <raw> VRHyR, (Viceministerio de Recursos Hidricos y Riegos). (2010),
+                “Delimitación y codificación de Unidades Hidrograficas de Bolivia:
+                Metodología Pfafstetter”, MMyA-UICN-Comunidad Andina, La Paz, Bolivia.</raw>
+            <authors>VRHyR, (Viceministerio de Recursos Hidricos y Riegos). </authors>
+            <year>2010</year>
+            <title>Delimitación y codificación de Unidades Hidrograficas de Bolivia:
+                Metodología Pfafstetter</title>
+            <journal>MMyA-UICN-Comunidad Andina, La Paz, Bolivia</journal>
+            <volume></volume>
+            <issue></issue>
+            <pages></pages>
+            <doi></doi>
+        </reference>
+        <reference>
+            <raw> Wang, Z., Xie, F., Ling, F. and Du, Y. (2022), “Monitoring Surface
+                Water Inundation of Poyang Lake and Dongting Lake in China Using
+                Sentinel-1 SAR Images”, Remote Sensing, Vol. 14 No. 14,
+                https://doi.org:10.3390/rs14143473.</raw>
+            <authors>Wang, Z., Xie, F., Ling, F. and Du, Y.</authors>
+            <year>2022</year>
+            <title>Monitoring Surface
+                Water Inundation of Poyang Lake and Dongting Lake in China Using
+                Sentinel-1 SAR Images</title>
+            <journal>Remote Sensing</journal>
+            <volume>14</volume>
+            <issue>14</issue>
+            <pages></pages>
+            <doi>https://doi.org:10.3390/rs14143473</doi>
+        </reference>
+        <reference>
+            <raw>Winter, T.C. (1999), “Relation of streams, lakes, and wetlands to
+                groundwater flow systems”, Hydrogeology Journal, Vol. 7 No. 1, pp.
+                28–45, https://doi.org:10.1007/s100400050178</raw>
+            <authors>Winter, T.C.</authors>
+            <year>1999</year>
+            <title>Relation of streams, lakes, and wetlands to
+                groundwater flow systems</title>
+            <journal>Hydrogeology Journal</journal>
+            <volume>7</volume>
+            <issue>1</issue>
+            <pages>28–45</pages>
+            <doi>https://doi.org:10.1007/s100400050178</doi>
+        </reference>
+        <reference>
+            <raw>Zambrano, A., Torres, J. and Ibarra, J. (2011), “Delimitación,
+                codificación de las cuencas hidrográficas según los métodos de
+                Pfasftetter”, Anais XV Simpósio Brasileiro de Sensoriamento Remoto -,
+                SBSR-INPE, pp. 1105–1112.</raw>
+            <authors>Zambrano, A., Torres, J. and Ibarra, J.</authors>
+            <year>2011</year>
+            <title>Delimitación,
+                codificación de las cuencas hidrográficas según los métodos de
+                Pfasftetter”, Anais XV Simpósio Brasileiro de Sensoriamento Remoto</title>
+            <journal>SBSR-INPE</journal>
+            <volume></volume>
+            <issue></issue>
+            <pages>1105–1112</pages>
+            <doi></doi>
+        </reference>
+        <reference>
+            <raw> ZONISIG. (2000), Zonificación Agroecológica y Socioeconómica del
+                Departamento de Chuquisaca, La Paz - Bolivia.</raw>
+            <authors> ZONISIG</authors>
+            <year>2000</year>
+            <title>Zonificación Agroecológica y Socioeconómica del
+                Departamento de Chuquisaca, La Paz - Bolivia</title>
+            <journal></journal>
+            <volume></volume>
+            <issue></issue>
+            <pages></pages>
+            <doi></doi>
+        </reference>
+
     </references>
-    
+
+
     <footer>
         <copyright>© 2025 AGRO-ECOLÓGICA 4(1): 3-12 agosto 2025. ISSN 2313-2906</copyright>
     </footer>
